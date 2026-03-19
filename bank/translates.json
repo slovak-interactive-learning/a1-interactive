@@ -1,0 +1,4985 @@
+[
+  {
+    "theme": "weather forecast",
+    "sentences": [
+      {
+        "en": "I am eating a sandwich and watching the forecast.",
+        "sk": "Jem sendvič a pozerám predpoveď.",
+        "altSk": [
+          "Jem sendvič a sledujem predpoveď.",
+          "Jem sendvič a pozerám predpoveď počasia.",
+          "Jem sendvič a sledujem predpoveď počasia.",
+          "Zjem sendvič a pozriem predpoveď.",
+          "Jem sendvič a dívam sa na predpoveď.",
+          "Jem sendvič a dívam sa na predpoveď počasia."
+        ],
+        "hint": "jesť is irregular: jem, ješ, je, jeme, jete, jedia",
+        "focus": "present irregular (jesť)"
+      },
+      {
+        "en": "Tomorrow we are going to the beach.",
+        "sk": "Zajtra ideme na pláž.",
+        "altSk": [
+          "Zajtra ideme na more.",
+          "Zajtra ideme k moru.",
+          "Zajtra sa ideme kúpať."
+        ],
+        "hint": "na + accusative for direction; pláž → na pláž",
+        "focus": "accusative after na"
+      },
+      {
+        "en": "He works as a meteorologist at the radio.",
+        "sk": "Pracuje ako meteorológ v rádiu.",
+        "altSk": [
+          "Je meteorológ v rádiu.",
+          "Pracuje ako meteorológ v rozhlase.",
+          "Je meteorológ v rozhlase.",
+          "Pracuje ako meteorológ na rádiu.",
+          "Je meteorológ na rádiu."
+        ],
+        "hint": "profession after ako does not need a case change here; instrumental used with byť: je meteorológom",
+        "focus": "instrumental (profession)"
+      },
+      {
+        "en": "It is raining today, but tomorrow the sun will shine.",
+        "sk": "Dnes prší, ale zajtra bude svietiť slnko.",
+        "altSk": [
+          "Dnes prší, ale slnko bude svietiť zajtra.",
+          "Dnes prší, ale zajtra bude slnko svietiť.",
+          "Dnes prší, ale zajtra bude pekne.",
+          "Dnes prší, ale zajtra vysvietí slnko.",
+          "Dnes prší, ale zajtra zasvieti slnko.",
+          "Dnes prší, ale zajtra bude slniečko.",
+          "Dnes prší, ale zajtra bude slnečno."
+        ],
+        "hint": "slnko bude svietiť = subject at end for emphasis; word order is flexible in Slovak",
+        "focus": "word order emphasis"
+      }
+    ]
+  },
+  {
+    "theme": "weather forecast",
+    "sentences": [
+      {
+        "en": "Tomorrow the weather will be cold.",
+        "sk": "Zajtra bude počasie studené.",
+        "altSk": [
+          "Zajtra bude studené počasie.",
+          "Zajtra bude zima.",
+          "Zajtra bude chladno.",
+          "Zajtra bude chladné počasie."
+        ],
+        "hint": "Use 'bude' for future tense of byť",
+        "focus": "byť conjugation (bude - future)"
+      },
+      {
+        "en": "The Slovak forecast says rain this week.",
+        "sk": "Slovenská predpoveď hovorí o daždi tento týždeň.",
+        "altSk": [
+          "Slovenská predpoveď hlási dážď tento týždeň.",
+          "Slovenská predpoveď predpovedá dážď tento týždeň.",
+          "Podľa slovenskej predpovede bude tento týždeň pršať.",
+          "Slovenská predpoveď počasia hovorí o daždi tento týždeň.",
+          "Podľa predpovede počasia bude tento týždeň pršať.",
+          "Slovenská predpoveď uvádza dážď na tento týždeň."
+        ],
+        "hint": "Slovenský/á/é - nationality adjective agreeing with feminine noun predpoveď",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Peter's forecast was completely wrong yesterday.",
+        "sk": "Petrova predpoveď bola včera úplne zlá.",
+        "altSk": [
+          "Petrova predpoveď bola úplne zlá včera.",
+          "Petrova predpoveď bola včera úplne nesprávna.",
+          "Petrova predpoveď bola včera úplne chybná.",
+          "Peter sa včera úplne zmýlil vo svojej predpovedi.",
+          "Včera sa Petrova predpoveď úplne minula s pravdou.",
+          "Petrova predpoveď bola včera celkom zlá.",
+          "Petrova predpoveď bola včera celkom nesprávna.",
+          "Petrova predpoveď včera úplne zlyhala.",
+          "Peter sa včera vo svojej predpovedi úplne mýlil."
+        ],
+        "hint": "Use Petrov- + -a to agree with feminine noun predpoveď",
+        "focus": "possessive from name (-ov)"
+      },
+      {
+        "en": "Where is the storm coming from today?",
+        "sk": "Odkiaľ prichádza búrka dnes?",
+        "altSk": [
+          "Odkiaľ dnes prichádza búrka?",
+          "Odkiaľ dnes prichádza tá búrka?",
+          "Odkiaľ ide dnes búrka?",
+          "Odkiaľ sa dnes blíži búrka?",
+          "Odkiaľ prichádza dnes búrka?",
+          "Odkiaľ prichádza tá búrka dnes?",
+          "Odkiaľ dnes ide búrka?",
+          "Odkiaľ dnes ide tá búrka?"
+        ],
+        "hint": "Use odkiaľ for 'where from', verb prichádza (3rd sg present)",
+        "focus": "question (odkiaľ)"
+      }
+    ]
+  },
+  {
+    "theme": "health and illness",
+    "sentences": [
+      {
+        "en": "She was sitting at the doctor's.",
+        "sk": "Sedela pri doktorovi.",
+        "altSk": [
+          "Sedela pri lekárovi.",
+          "Ona sedela pri doktorovi.",
+          "Sedela u doktora.",
+          "Sedela u lekára.",
+          "Ona sedela pri lekárovi.",
+          "Ona sedela u doktora.",
+          "Ona sedela u lekára."
+        ],
+        "hint": "pri + locative (masc. noun: doktor → doktorovi)",
+        "focus": "locative (pri + place)"
+      },
+      {
+        "en": "The appointment is at nine o'clock in the morning.",
+        "sk": "Vyšetrenie je o deviatej hodine ráno.",
+        "altSk": [
+          "Stretnutie je o deviatej ráno.",
+          "Kontrola je o deviatej hodine dopoludnia.",
+          "Vyšetrenie je o deviatej ráno.",
+          "Termín je o deviatej hodine ráno.",
+          "Termín je o deviatej ráno.",
+          "Vyšetrenie je o deviatej hodine dopoludnia.",
+          "Stretnutie je o deviatej hodine ráno.",
+          "Kontrola je o deviatej ráno.",
+          "Stretnutie je o deviatej hodine dopoludnia.",
+          "Kontrola je o deviatej hodine ráno.",
+          "Termín je o deviatej hodine dopoludnia."
+        ],
+        "hint": "ordinal number in locative after 'o': deviata → deviatej",
+        "focus": "ordinal number + time"
+      },
+      {
+        "en": "We met at the pharmacy yesterday.",
+        "sk": "Včera sme sa stretli v lekárni.",
+        "altSk": [
+          "Stretli sme sa včera v lekárni.",
+          "Včera sme sa stretli pri lekárni.",
+          "Včera sme sa stretli pred lekárňou.",
+          "Stretli sme sa v lekárni včera."
+        ],
+        "hint": "reflexive verb stretnúť sa, past tense plural: stretli sme sa",
+        "focus": "reflexive (stretnúť sa)"
+      },
+      {
+        "en": "She couldn't go to the hospital last week.",
+        "sk": "Minulý týždeň nemohla ísť do nemocnice.",
+        "altSk": [
+          "Nemohla ísť do nemocnice minulý týždeň.",
+          "Ona minulý týždeň nemohla ísť do nemocnice.",
+          "Minulý týždeň nemohla prísť do nemocnice.",
+          "Nemohla prísť do nemocnice minulý týždeň.",
+          "Ona nemohla ísť do nemocnice minulý týždeň.",
+          "Ona minulý týždeň nemohla prísť do nemocnice.",
+          "Ona nemohla prísť do nemocnice minulý týždeň."
+        ],
+        "hint": "past tense of môcť (fem.): nemohla + infinitive ísť",
+        "focus": "past modal (nemohla)"
+      }
+    ]
+  },
+  {
+    "theme": "comparing two things",
+    "sentences": [
+      {
+        "en": "I want to compare these two cars.",
+        "sk": "Chcem porovnať tieto dve autá.",
+        "altSk": [
+          "Chcem tieto dve autá porovnať.",
+          "Chcem porovnať tieto dve vozidlá.",
+          "Chcem tieto dve vozidlá porovnať."
+        ],
+        "hint": "chcieť takes infinitive; 'porovnať' is perfective",
+        "focus": "modal chcieť + infinitive"
+      },
+      {
+        "en": "He is comparing the new phone with the old one.",
+        "sk": "Porovnáva novú tú starú.",
+        "altSk": [
+          "On porovnáva nový telefón so starým.",
+          "Porovnáva nový telefón so starým.",
+          "On porovnáva novú tú starú.",
+          "Porovnáva nový telefón so starým telefónom.",
+          "On porovnáva nový telefón so starým telefónom."
+        ],
+        "hint": "accusative feminine ending -ú for adjectives like 'novú'",
+        "focus": "accusative feminine -u"
+      },
+      {
+        "en": "Did he finally compare the two prices?",
+        "sk": "Porovnal nakoniec tie dve ceny?",
+        "altSk": [
+          "Nakoniec porovnal tie dve ceny?",
+          "Porovnal tie dve ceny nakoniec?",
+          "Nakoniec ich porovnal, tie dve ceny?",
+          "Porovnal napokon tie dve ceny?",
+          "Napokon porovnal tie dve ceny?",
+          "Porovnal nakoniec obe ceny?",
+          "Nakoniec porovnal obe ceny?",
+          "Porovnal napokon obe ceny?",
+          "Napokon porovnal obe ceny?"
+        ],
+        "hint": "'porovnávať' (impf) → 'porovnať' (pf) shows completed action in past",
+        "focus": "aspect pair impf→pf"
+      },
+      {
+        "en": "Both shops are cheaper than the market.",
+        "sk": "Oba obchody sú lacnejšie ako trh.",
+        "altSk": [
+          "Obidva obchody sú lacnejšie ako trh.",
+          "Oba obchody sú lacnejšie než trh.",
+          "Obidva obchody sú lacnejšie než trh."
+        ],
+        "hint": "'oba/obidva' + nominative plural noun and adjective agreement",
+        "focus": "nominative plural"
+      }
+    ]
+  },
+  {
+    "theme": "at the cinema",
+    "sentences": [
+      {
+        "en": "I work as a cashier at the cinema.",
+        "sk": "V kine pracujem ako pokladníčka.",
+        "altSk": [
+          "Pracujem v kine ako pokladníčka.",
+          "V kine pracujem ako pokladník.",
+          "Pracujem v kine ako pokladník."
+        ],
+        "hint": "Use 'ako' + profession in nominative (no case change after 'ako' with byť/pracovať)",
+        "focus": "profession"
+      },
+      {
+        "en": "How much does a ticket cost here?",
+        "sk": "Koľko tu stojí lístok?",
+        "altSk": [
+          "Koľko stojí tu lístok?",
+          "Koľko stojí lístok tu?",
+          "Koľko tu stojí vstupenka?",
+          "Koľko stojí tu vstupenka?",
+          "Koľko tu stojí cestovný lístok?",
+          "Koľko tu stojí lísток?",
+          "Kolko stoji tu listok?",
+          "Koľko stojí vstupenka tu?",
+          "Koľko stojí cestovný lístok tu?",
+          "Za koľko je tu lístok?",
+          "Koľko je tu lístok?",
+          "Koľko to tu stojí za lístok?"
+        ],
+        "hint": "stáť (to cost): ja stojím, ty stojíš, on/ona stojí — irregular present tense",
+        "focus": "present (stáť→stojím)"
+      },
+      {
+        "en": "I need two tickets, please.",
+        "sk": "Potrebujem dva lístky, prosím.",
+        "altSk": [
+          "Chcem dva lístky, prosím.",
+          "Dajte mi dva lístky, prosím.",
+          "Potreboval by som dva lístky, prosím.",
+          "Chcel by som dva lístky, prosím.",
+          "Prosím si dva lístky.",
+          "Dva lístky, prosím."
+        ],
+        "hint": "2–4 + nominative/accusative plural: dva lístky (nom/acc pl); 5+ would need genitive plural: päť lístkov",
+        "focus": "numeral 2-4 + nom pl vs 5+ gen pl"
+      },
+      {
+        "en": "Where are the doors to the hall?",
+        "sk": "Kde sú dvere do sály?",
+        "altSk": [
+          "Kde sú dvere do kinosály?",
+          "Kde sú dvere do haly?",
+          "Kde sú dvere do siene?",
+          "Kde sú dvere do auly?"
+        ],
+        "hint": "'dvere' (door) is pluralia tantum — always plural, use plural verb 'sú'",
+        "focus": "pluralia tantum"
+      }
+    ]
+  },
+  {
+    "theme": "university schedule",
+    "sentences": [
+      {
+        "en": "We will meet at the library.",
+        "sk": "Stretneme sa pri knižnici.",
+        "altSk": [
+          "Stretneme sa v knižnici.",
+          "Stretneme sa pred knižnicou.",
+          "Uvidíme sa pri knižnici.",
+          "Uvidíme sa v knižnici.",
+          "Uvidíme sa pred knižnicou."
+        ],
+        "hint": "Use 'stretnúť sa' (reflexive) + pri + locative",
+        "focus": "reflexive verb (stretnúť sa)"
+      },
+      {
+        "en": "The lecture starts at nine o'clock.",
+        "sk": "Prednáška začína o deviatej hodine.",
+        "altSk": [
+          "Prednáška začína o deviatej.",
+          "Prednáška začína o deviatej ráno.",
+          "Prednáška sa začína o deviatej hodine.",
+          "Prednáška sa začína o deviatej.",
+          "Prednáška sa začína o deviatej ráno."
+        ],
+        "hint": "Ordinal number in locative after 'o' for time expressions",
+        "focus": "ordinal number + time"
+      },
+      {
+        "en": "She could not come to the seminar yesterday.",
+        "sk": "Včera nemohla prísť na seminár.",
+        "altSk": [
+          "Nemohla včera prísť na seminár.",
+          "Ona včera nemohla prísť na seminár.",
+          "Včera sa nemohla zúčastniť seminára.",
+          "Nemohla sa včera zúčastniť seminára.",
+          "Ona nemohla včera prísť na seminár.",
+          "Včera sa nemohla zúčastniť na seminári.",
+          "Ona včera nemohla prísť na ten seminár.",
+          "Včera nemohla prísť na ten seminár."
+        ],
+        "hint": "Past tense of 'môcť' → mohla, negated as nemohla",
+        "focus": "past modal (nemohla)"
+      },
+      {
+        "en": "We study in the room next to the dean's office.",
+        "sk": "Učíme sa v miestnosti pri dekanáte.",
+        "altSk": [
+          "Študujeme v miestnosti pri dekanáte.",
+          "Učíme sa v izbe pri dekanáte.",
+          "Študujeme v izbe pri dekanáte.",
+          "Učíme sa v miestnosti vedľa dekanátu.",
+          "Študujeme v miestnosti vedľa dekanátu.",
+          "Učíme sa v izbe vedľa dekanátu.",
+          "Študujeme v izbe vedľa dekanátu."
+        ],
+        "hint": "Use 'pri' + locative form of 'dekanát' → dekanáte",
+        "focus": "locative (pri + place)"
+      }
+    ]
+  },
+  {
+    "theme": "introducing yourself and your nationality",
+    "sentences": [
+      {
+        "en": "Tell me something about yourself.",
+        "sk": "Povedz mi niečo o sebe.",
+        "altSk": [
+          "Povedzte mi niečo o sebe.",
+          "Povedz mi niečo o svojej osobe.",
+          "Povedzte mi niečo o svojej osobe."
+        ],
+        "hint": "Use 'o' + locative case; 'seba' → 'sebe' in locative",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "I studied Slovak for two years.",
+        "sk": "Študoval som slovenčinu dva roky.",
+        "altSk": [
+          "Učil som sa slovenčinu dva roky.",
+          "Študovala som slovenčinu dva roky.",
+          "Učila som sa slovenčinu dva roky.",
+          "Dva roky som študoval slovenčinu.",
+          "Dva roky som sa učil slovenčinu.",
+          "Dva roky som študovala slovenčinu.",
+          "Dva roky som sa učila slovenčinu."
+        ],
+        "hint": "Past tense: studovať → študoval + som; 'dva roky' stays accusative with motion-like verbs",
+        "focus": "past tense (regular)"
+      },
+      {
+        "en": "I know five words in Slovak.",
+        "sk": "Poznám päť slov po slovensky.",
+        "altSk": [
+          "Viem päť slovenských slov.",
+          "Poznám päť slovenských slov.",
+          "Viem päť slov po slovensky."
+        ],
+        "hint": "Numbers 5+ require genitive plural; 'slovo' → 'slov' in genitive plural",
+        "focus": "numeral + genitive plural"
+      },
+      {
+        "en": "My name is not Slovak, it is English.",
+        "sk": "Moje meno nie je slovenské, je anglické.",
+        "altSk": [
+          "Moje meno nie je po slovensky, je po anglicky.",
+          "Volám sa nie po slovensky, je to anglické meno.",
+          "Moje meno nie je slovenské, je anglické meno.",
+          "Moje meno nie je slovenského pôvodu, je anglického pôvodu."
+        ],
+        "hint": "'môj' agrees with neuter noun 'meno' → 'moje'; use double negation if needed",
+        "focus": "possessive adjective (môj/tvoj)"
+      }
+    ]
+  },
+  {
+    "theme": "asking for help",
+    "sentences": [
+      {
+        "en": "Do you know where the hospital is?",
+        "sk": "Vieš, kde je nemocnica?",
+        "altSk": [
+          "Viete, kde je nemocnica?",
+          "Vieš, kde sa nachádza nemocnica?",
+          "Viete, kde sa nachádza nemocnica?"
+        ],
+        "hint": "vedieť: viem, vieš, vie... (irregular present)",
+        "focus": "present (vedieť)"
+      },
+      {
+        "en": "Can you sit between us and help?",
+        "sk": "Môžeš sedieť medzi nami a pomôcť?",
+        "altSk": [
+          "Môžete sedieť medzi nami a pomôcť?",
+          "Môžeš si sadnúť medzi nás a pomôcť?",
+          "Môžete si sadnúť medzi nás a pomôcť?",
+          "Môžeš sa posadiť medzi nás a pomôcť?",
+          "Môžete sa posadiť medzi nás a pomôcť?"
+        ],
+        "hint": "medzi + instrumental plural: nami (my → nami)",
+        "focus": "instrumental (medzi)"
+      },
+      {
+        "en": "He did not eat today, can you help him?",
+        "sk": "Dnes nejedol, môžeš mu pomôcť?",
+        "altSk": [
+          "Dnes nič nejedol, môžeš mu pomôcť?",
+          "Dnes nejedol, vieš mu pomôcť?",
+          "Dnes nič nejedol, vieš mu pomôcť?",
+          "On dnes nejedol, môžeš mu pomôcť?",
+          "On dnes nejedol, vieš mu pomôcť?"
+        ],
+        "hint": "jesť → jedol (irregular past), double negation: nič nejedol",
+        "focus": "past (jesť→jedol)"
+      },
+      {
+        "en": "Can you help me on Monday the fifth of May?",
+        "sk": "Môžeš mi pomôcť v pondelok piateho mája?",
+        "altSk": [
+          "Môžete mi pomôcť v pondelok piateho mája?",
+          "Môžeš mi pomôcť v pondelok 5. mája?",
+          "Môžete mi pomôcť v pondelok 5. mája?"
+        ],
+        "hint": "day: v pondelok; date in genitive: piateho mája",
+        "focus": "date/day expression"
+      }
+    ]
+  },
+  {
+    "theme": "travel plans",
+    "sentences": [
+      {
+        "en": "We went to Vienna by train last year.",
+        "sk": "Minulý rok sme išli do Viedne vlakom.",
+        "altSk": [
+          "Minulý rok sme cestovali do Viedne vlakom.",
+          "Vlani sme išli do Viedne vlakom.",
+          "Vlani sme cestovali do Viedne vlakom.",
+          "Minulý rok sme šli do Viedne vlakom.",
+          "Vlani sme šli do Viedne vlakom."
+        ],
+        "hint": "'went' uses the irregular past of ísť → išiel/išli; use 'sme išli' for we",
+        "focus": "past tense (irregular: ísť → išli)"
+      },
+      {
+        "en": "We must book the hotel before Friday.",
+        "sk": "Musíme zarezervovať hotel pred piatkom.",
+        "altSk": [
+          "Musíme si zarezervovať hotel pred piatkom.",
+          "Musíme rezervovať hotel pred piatkom.",
+          "Musíme si rezervovať hotel pred piatkom.",
+          "Musíme hotel zarezervovať pred piatkom.",
+          "Musíme si hotel zarezervovať pred piatkom."
+        ],
+        "hint": "musieť is a modal: musím, musíš, musí, musíme... followed by infinitive",
+        "focus": "modal verb (musieť)"
+      },
+      {
+        "en": "Tomorrow I will buy the train tickets.",
+        "sk": "Zajtra kúpim lístky na vlak.",
+        "altSk": [
+          "Zajtra si kúpim lístky na vlak.",
+          "Zajtra kúpim cestovné lístky na vlak.",
+          "Zajtra si kúpim cestovné lístky na vlak.",
+          "Zajtra kúpim vlakom lístky.",
+          "Zajtra si zadovážim lístky na vlak.",
+          "Zajtra si zadovážim cestovné lístky na vlak."
+        ],
+        "hint": "use the perfective present of kúpiť (kúpim) to express a completed future action",
+        "focus": "future perfective"
+      },
+      {
+        "en": "I have never been anywhere without a map.",
+        "sk": "Nikdy som nikde nebol bez mapy.",
+        "altSk": [
+          "Nikdy som nebola nikde bez mapy.",
+          "Nikdy som nešiel nikam bez mapy.",
+          "Nikdy som nešla nikam bez mapy.",
+          "Nikdy som nebol nikam bez mapy.",
+          "Nikdy som nikde nebola bez mapy."
+        ],
+        "hint": "Slovak requires double (even triple) negation: nikdy + nikde + nebol all in the same sentence",
+        "focus": "double negation"
+      }
+    ]
+  },
+  {
+    "theme": "talking about a dormitory room",
+    "sentences": [
+      {
+        "en": "This room is small but clean.",
+        "sk": "Táto izba je malá, ale čistá.",
+        "altSk": [
+          "Táto izba je malá, no čistá.",
+          "Táto miestnosť je malá, ale čistá.",
+          "Táto miestnosť je malá, no čistá.",
+          "Táto izba je síce malá, ale čistá.",
+          "Táto miestnosť je síce malá, ale čistá."
+        ],
+        "hint": "Use 'táto' for feminine 'izba'; adjective pair malý/čistý",
+        "focus": "adjective opposites"
+      },
+      {
+        "en": "Whose bed is this here?",
+        "sk": "Čia je táto posteľ tu?",
+        "altSk": [
+          "Čia posteľ je táto?",
+          "Čia je tu táto posteľ?",
+          "Čia je toto posteľ tu?",
+          "Čia posteľ je tu táto?",
+          "Čia posteľ tu je?",
+          "Čia je táto posteľ?"
+        ],
+        "hint": "Use 'čia' (feminine form of čí) for feminine noun 'posteľ'",
+        "focus": "čí/aký/ktorý question"
+      },
+      {
+        "en": "That wardrobe is really old and ugly.",
+        "sk": "Tá skriňa je naozaj stará a škaredá.",
+        "altSk": [
+          "Tamtá skriňa je naozaj stará a škaredá.",
+          "Tá skriňa je ozaj stará a škaredá.",
+          "Tamtá skriňa je ozaj stará a škaredá.",
+          "Tá skriňa je naozaj stará a ošklivá.",
+          "Tá skriňa je naozaj stará a nehezká.",
+          "Tamtá skriňa je naozaj stará a ošklivá.",
+          "Tamtá skriňa je ozaj stará a ošklivá.",
+          "Tá skriňa je fakt stará a škaredá.",
+          "Tá skriňa je fakt stará a ošklivá."
+        ],
+        "hint": "Use 'tá' (feminine demonstrative) for 'skriňa'; opposite pair nový/starý",
+        "focus": "demonstrative (ten/tá/to)"
+      },
+      {
+        "en": "My desk is at the front and his bed is at the back.",
+        "sk": "Môj stôl je vpredu a jeho posteľ je vzadu.",
+        "altSk": [
+          "Môj písací stôl je vpredu a jeho posteľ vzadu.",
+          "Môj písací stôl je vpredu a jeho posteľ je vzadu."
+        ],
+        "hint": "Use 'vpredu' (at the front) and 'vzadu' (at the back) as positional adverbs",
+        "focus": "direction (vpredu/vzadu)"
+      }
+    ]
+  },
+  {
+    "theme": "asking for help",
+    "sentences": [
+      {
+        "en": "Can you tell me about the problem?",
+        "sk": "Môžeš mi povedať o probléme?",
+        "altSk": [
+          "Môžete mi povedať o probléme?",
+          "Môžeš mi porozprávať o probléme?",
+          "Môžete mi porozprávať o probléme?",
+          "Vieš mi povedať o probléme?",
+          "Viete mi povedať o probléme?",
+          "Môžeš mi niečo povedať o probléme?",
+          "Môžete mi niečo povedať o probléme?",
+          "Vieš mi porozprávať o probléme?",
+          "Viete mi porozprávať o probléme?",
+          "Vieš mi niečo povedať o probléme?",
+          "Viete mi niečo povedať o probléme?",
+          "Vieš mi niečo porozprávať o probléme?",
+          "Môžeš mi o tom probléme povedať?",
+          "Môžeš mi vysvetliť ten problém?"
+        ],
+        "hint": "'o probléme' uses locative case after preposition 'o'",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "My bag is here on the table.",
+        "sk": "Moja taška je tu na stole.",
+        "altSk": [
+          "Moja taška leží tu na stole.",
+          "Tu na stole je moja taška.",
+          "Moja taška je tu na tom stole."
+        ],
+        "hint": "'moja' agrees with feminine noun 'taška' in nominative",
+        "focus": "possessive adjective (môj/tvoj)"
+      },
+      {
+        "en": "I asked a friend for help yesterday.",
+        "sk": "Včera som požiadal kamaráta o pomoc.",
+        "altSk": [
+          "Včera som poprosil kamaráta o pomoc.",
+          "Včera som požiadala kamaráta o pomoc.",
+          "Včera som poprosila kamaráta o pomoc.",
+          "Včera som žiadal kamaráta o pomoc.",
+          "Včera som žiadala kamaráta o pomoc.",
+          "Včera som požiadal priateľa o pomoc.",
+          "Včera som poprosil priateľa o pomoc.",
+          "Včera som požiadala priateľa o pomoc.",
+          "Včera som poprosila priateľa o pomoc."
+        ],
+        "hint": "past tense: 'požiadal/a som' — auxiliary 'som' + past participle",
+        "focus": "past tense (regular)"
+      },
+      {
+        "en": "I need five minutes of your time.",
+        "sk": "Potrebujem päť minút tvojho času.",
+        "altSk": [
+          "Potrebujem päť minút vášho času."
+        ],
+        "hint": "after 'päť' (5+), use genitive plural: 'minút'; 'tvojho času' is genitive singular",
+        "focus": "numeral + genitive plural"
+      }
+    ]
+  },
+  {
+    "theme": "at the train station",
+    "sentences": [
+      {
+        "en": "It is cold today at the station.",
+        "sk": "Dnes je na stanici zima.",
+        "altSk": [
+          "Na stanici je dnes zima.",
+          "Dnes je zima na stanici.",
+          "Dnes je na stanici chladno.",
+          "Na stanici je dnes chladno.",
+          "Dnes je chladno na stanici."
+        ],
+        "hint": "Use 'zima' as a weather/feeling noun with 'je', not an adjective.",
+        "focus": "weather expression"
+      },
+      {
+        "en": "I don't see anyone on the platform.",
+        "sk": "Na nástupišti nevidím nikoho.",
+        "altSk": [
+          "Nevidím nikoho na nástupišti.",
+          "Na perón nevidím nikoho.",
+          "Nevidím nikoho na peróne."
+        ],
+        "hint": "Use double negation: 'ne-' on the verb AND 'nikoho' (accusative of nikto).",
+        "focus": "double negation (nikto/nič/nikdy)"
+      },
+      {
+        "en": "Do you know him? He missed the train.",
+        "sk": "Poznáš ho? Zmeškal vlak.",
+        "altSk": [
+          "Poznáte ho? Zmeškal vlak.",
+          "Poznáš ho? Zmeškал vlak.",
+          "Poznáš ho? Prepásal vlak.",
+          "Poznáte ho? Prepásal vlak.",
+          "Poznáš ho? Ujšiel mu vlak.",
+          "Poznáte ho? Ujšiel mu vlak.",
+          "Poznáš ho? Zmeškal ten vlak.",
+          "Poznáte ho? Zmeškal ten vlak."
+        ],
+        "hint": "'Ho' is the short accusative form of 'on'; use it after the verb.",
+        "focus": "accusative pronoun (ho/ju)"
+      },
+      {
+        "en": "I travelled to Bratislava with a friend.",
+        "sk": "Cestoval som do Bratislavy so priateľom.",
+        "altSk": [
+          "Išiel som do Bratislavy so priateľom.",
+          "Cestovala som do Bratislavy so priateľkou.",
+          "Cestoval som do Bratislavy s kamarátom.",
+          "Išiel som do Bratislavy s kamarátom.",
+          "Cestovala som do Bratislavy s kamarátkou.",
+          "Išla som do Bratislavy so priateľkou.",
+          "Išla som do Bratislavy s kamarátkou."
+        ],
+        "hint": "'So' is used before words starting with consonant clusters; 'priateľom' is instrumental singular masculine.",
+        "focus": "instrumental (so + cluster)"
+      }
+    ]
+  },
+  {
+    "theme": "hobbies and free time",
+    "sentences": [
+      {
+        "en": "She reads a red book in her free time.",
+        "sk": "Číta červenú knihu vo voľnom čase.",
+        "altSk": [
+          "Ona číta červenú knihu vo voľnom čase.",
+          "Číta červenú knihu vo svojom voľnom čase.",
+          "Ona číta červenú knihu vo svojom voľnom čase."
+        ],
+        "hint": "'red book' = červenú knihu (accusative feminine singular)",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "Can you play football with us today?",
+        "sk": "Môžeš dnes hrať futbal s nami?",
+        "altSk": [
+          "Môžeš hrať dnes futbal s nami?",
+          "Môžeš si dnes zahrať futbal s nami?",
+          "Môžeš si zahrať dnes futbal s nami?",
+          "Zahrali by sme si dnes futbal, môžeš?",
+          "Môžeš dnes s nami hrať futbal?"
+        ],
+        "hint": "môžeš = 2nd person singular of môcť; futbal stays in accusative",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "She goes for a walk through the park every day.",
+        "sk": "Každý deň ide na prechádzku cez park.",
+        "altSk": [
+          "Ide cez park na prechádzku každý deň.",
+          "Každý deň sa prechádza cez park.",
+          "Denne ide na prechádzku cez park.",
+          "Každý deň chodí na prechádzku cez park."
+        ],
+        "hint": "cez + accusative: cez park; ide = 3rd person singular of ísť (irregular)",
+        "focus": "accusative (cez/pre) + irregular ísť present"
+      },
+      {
+        "en": "Where do you go on weekends for fun?",
+        "sk": "Kam ideš cez víkend za zábavou?",
+        "altSk": [
+          "Kam chodíš cez víkend za zábavou?",
+          "Kam sa chodíš zabávať cez víkend?",
+          "Kam ideš cez víkend sa baviť?",
+          "Kde trávite víkend?"
+        ],
+        "hint": "ideš = 2nd person singular of ísť (irregular); cez víkend = through/over the weekend (accusative); za zábavou = instrumental",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "hobbies and free time",
+    "sentences": [
+      {
+        "en": "She likes to sit by the window.",
+        "sk": "Rada sedí pri okne.",
+        "altSk": [
+          "Ona rada sedí pri okne.",
+          "Rada sedáva pri okne.",
+          "Ona rada sedáva pri okne."
+        ],
+        "hint": "pri + locative: okno → okne",
+        "focus": "locative (pri + place)"
+      },
+      {
+        "en": "The first lesson starts at nine o'clock.",
+        "sk": "Prvá hodina začína o deviatej.",
+        "altSk": [
+          "Prvá hodina začína o deviatej hodine.",
+          "Prvá vyučovacia hodina začína o deviatej.",
+          "Prvá vyučovacia hodina začína o deviatej hodine."
+        ],
+        "hint": "ordinal number: prvá; time expression: o + locative (deviata → deviatej)",
+        "focus": "ordinal number + time"
+      },
+      {
+        "en": "We met at the sports centre on Saturday.",
+        "sk": "V sobotu sme sa stretli v športovom centre.",
+        "altSk": [
+          "Stretli sme sa v sobotu v športovom centre.",
+          "V sobotu sme sa stretli v športovom stredisku.",
+          "Stretli sme sa v sobotu v športovom stredisku.",
+          "V sobotu sme sa stretli v športovej hale.",
+          "Stretli sme sa v sobotu v športovej hale."
+        ],
+        "hint": "stretnúť sa is reflexive; past tense: stretli sme sa",
+        "focus": "reflexive (stretnúť sa)"
+      },
+      {
+        "en": "Yesterday she couldn't go to her dance class.",
+        "sk": "Včera nemohla ísť na hodinu tanca.",
+        "altSk": [
+          "Ona včera nemohla ísť na tanečnú hodinu.",
+          "Včera nemohla ísť na tanečnú hodinu.",
+          "Ona včera nemohla ísť na hodinu tanca.",
+          "Včera nemohla prísť na hodinu tanca.",
+          "Včera nemohla prísť na tanečnú hodinu."
+        ],
+        "hint": "past of môcť (fem.): nemohla; ísť after modal in infinitive",
+        "focus": "past modal (nemohla)"
+      }
+    ]
+  },
+  {
+    "theme": "health and illness",
+    "sentences": [
+      {
+        "en": "I see a white tablet on the table.",
+        "sk": "Vidím bielu tabletu na stole.",
+        "altSk": [
+          "Na stole vidím bielu tabletu.",
+          "Vidím na stole bielu tabletu."
+        ],
+        "hint": "biely → bielu (accusative feminine singular)",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "Can you go to the pharmacy today?",
+        "sk": "Môžeš ísť dnes do lekárne?",
+        "altSk": [
+          "Môžeš dnes ísť do lekárne?",
+          "Vieš ísť dnes do lekárne?",
+          "Vieš dnes ísť do lekárne?",
+          "Môžeš dnes zájsť do lekárne?",
+          "Môžeš zájsť dnes do lekárne?"
+        ],
+        "hint": "môcť: môžem, môžeš, môže... + infinitive",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "She cannot eat because of the pain.",
+        "sk": "Nemôže jesť pre bolesť.",
+        "altSk": [
+          "Pre bolesť nemôže jesť.",
+          "Nemôže jesť kvôli bolesti.",
+          "Kvôli bolesti nemôže jesť.",
+          "Ona nemôže jesť pre bolesť.",
+          "Ona nemôže jesť kvôli bolesti."
+        ],
+        "hint": "pre + accusative = because of; bolesť (feminine accusative = bolesť)",
+        "focus": "accusative (cez/pre)"
+      },
+      {
+        "en": "Where are you going? I am going to the doctor.",
+        "sk": "Kam ideš? Idem k doktorovi.",
+        "altSk": [
+          "Kam ideš? Idem k lekárovi.",
+          "Kam ideš? Idem na doktora.",
+          "Kam ideš? Idem na lekára."
+        ],
+        "hint": "ísť present: idem, ideš, ide, ideme, idete, idú",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "at the train station",
+    "sentences": [
+      {
+        "en": "I am looking for platform number three.",
+        "sk": "Hľadám nástupište číslo tri.",
+        "altSk": [
+          "Hľadám tretie nástupište.",
+          "Hľadám nástupište číslo 3.",
+          "Hľadám nástupište č. 3.",
+          "Hľadám tretie nástupište číslo tri.",
+          "Hľadám nástupište s číslom tri.",
+          "Hľadám nástupište s číslom 3."
+        ],
+        "hint": "hľadať sa → hľadám (no reflexive here); reflexive: orientovať sa = to find one's way",
+        "focus": "reflexive verb (sa/si)"
+      },
+      {
+        "en": "At what time does the train to Košice depart?",
+        "sk": "O koľkej odchádza vlak do Košíc?",
+        "altSk": [
+          "Kedy odchádza vlak do Košíc?",
+          "O koľkej ide vlak do Košíc?",
+          "Kedy ide vlak do Košíc?",
+          "O koľkej odchádza vlak smerom do Košíc?",
+          "O ktorej hodine odchádza vlak do Košíc?",
+          "O ktorej odchádza vlak do Košíc?",
+          "O ktorej ide vlak do Košíc?"
+        ],
+        "hint": "o koľkej = at what time; odchádza = it departs (3rd sg present)",
+        "focus": "time expression (o koľkej)"
+      },
+      {
+        "en": "Do you see the conductor over there?",
+        "sk": "Vidíš tam sprievodcu?",
+        "altSk": [
+          "Vidíte tam sprievodcu?",
+          "Vidíš tamtoho sprievodcu?",
+          "Vidíte tamtoho sprievodcu?"
+        ],
+        "hint": "sprievodca (masc animate) → accusative singular: sprievodcu (-u ending)",
+        "focus": "accusative (animate masc -a)"
+      },
+      {
+        "en": "My family traveled to Bratislava by train.",
+        "sk": "Moja rodina cestovala do Bratislavy vlakom.",
+        "altSk": [
+          "Moja rodina išla do Bratislavy vlakom.",
+          "Moja rodina cestovala vlakom do Bratislavy.",
+          "Moja rodina išla vlakom do Bratislavy."
+        ],
+        "hint": "vlakom = by train; instrumental case, no preposition needed for means of transport",
+        "focus": "instrumental (bare = tool/transport)"
+      }
+    ]
+  },
+  {
+    "theme": "describing people",
+    "sentences": [
+      {
+        "en": "She went to see her friend yesterday.",
+        "sk": "Včera išla navštíviť svoju kamarátku.",
+        "altSk": [
+          "Ona včera išla navštíviť svoju kamarátku.",
+          "Včera išla za svojou kamarátkou.",
+          "Včera išla navštíviť kamarátku.",
+          "Ona včera išla navštíviť kamarátku.",
+          "Včera navštívila svoju kamarátku.",
+          "Včera navštívila kamarátku.",
+          "Včera išla za kamarátkou.",
+          "Ona včera išla za svojou kamarátkou.",
+          "Ona včera išla za kamarátkou.",
+          "Ona včera navštívila svoju kamarátku.",
+          "Ona včera navštívila kamarátku."
+        ],
+        "hint": "ísť → išiel/išla in past tense",
+        "focus": "past tense (irregular)"
+      },
+      {
+        "en": "He must be very patient with children.",
+        "sk": "Musí byť veľmi trpezlivý s deťmi.",
+        "altSk": [
+          "On musí byť veľmi trpezlivý s deťmi."
+        ],
+        "hint": "musieť + infinitive; trpezlivý = patient",
+        "focus": "modal verb (musieť)"
+      },
+      {
+        "en": "She will become a great teacher.",
+        "sk": "Stane sa skvelou učiteľkou.",
+        "altSk": [
+          "Ona sa stane skvelou učiteľkou.",
+          "Stane sa výbornou učiteľkou.",
+          "Ona sa stane výbornou učiteľkou.",
+          "Stane sa úžasnou učiteľkou.",
+          "Ona sa stane úžasnou učiteľkou."
+        ],
+        "hint": "stať sa is perfective → use present form for future meaning; instr. case after stať sa",
+        "focus": "future perfective"
+      },
+      {
+        "en": "Nobody knows nothing bad about her.",
+        "sk": "Nikto o nej nevie nič zlé.",
+        "altSk": [
+          "Nikto nič zlé o nej nevie.",
+          "Nikto o nej nevie nič zlého."
+        ],
+        "hint": "Double negation required: nikto + nič + nevie; o nej = locative of ona",
+        "focus": "double negation"
+      }
+    ]
+  },
+  {
+    "theme": "weekend plans",
+    "sentences": [
+      {
+        "en": "We will meet at the café this weekend.",
+        "sk": "Tento víkend sa stretneme pri kaviarni.",
+        "altSk": [
+          "Stretneme sa pri kaviarni tento víkend.",
+          "Tento víkend sa stretneme v kaviarni.",
+          "Stretneme sa v kaviarni tento víkend.",
+          "Tento víkend sa uvidíme pri kaviarni.",
+          "Tento víkend sa uvidíme v kaviarni."
+        ],
+        "hint": "Use 'stretnúť sa' (reflexive) in perfective present for future meaning; 'pri' + locative for location",
+        "focus": "reflexive (stretnúť sa)"
+      },
+      {
+        "en": "The party starts at eight o'clock on Saturday.",
+        "sk": "Párty začína v sobotu o ôsmej hodine.",
+        "altSk": [
+          "V sobotu začína párty o ôsmej.",
+          "Párty začína o ôsmej hodine v sobotu.",
+          "Párty začína v sobotu o ôsmej.",
+          "V sobotu o ôsmej hodine začína párty.",
+          "Oslava začína v sobotu o ôsmej hodine.",
+          "Oslava začína v sobotu o ôsmej."
+        ],
+        "hint": "Ordinal number 'ôsma' in locative after 'o' → 'ôsmej'; 'hodine' is optional",
+        "focus": "ordinal number + time"
+      },
+      {
+        "en": "On Sunday we will relax at the lake.",
+        "sk": "V nedeľu si oddýchneme pri jazere.",
+        "altSk": [
+          "V nedeľu sa oddýchneme pri jazere.",
+          "Pri jazere si oddýchneme v nedeľu.",
+          "V nedeľu si odpočinieme pri jazere.",
+          "V nedeľu sa odpočinieme pri jazere.",
+          "V nedeľu si oddýchneme na jazere.",
+          "V nedeľu si oddýchneme pri jazierku.",
+          "V nedeľu si oddýchneme u jazera.",
+          "V nedeľu si oddýchneme pri vode.",
+          "V nedeľu si odpočinieme na jazere.",
+          "V nedeľu sa oddýchneme na jazere."
+        ],
+        "hint": "'pri' + locative: 'jazero' → 'jazere'; use locative singular for location beside a place",
+        "focus": "locative (pri + place)"
+      },
+      {
+        "en": "She could not come to the cinema on Friday.",
+        "sk": "V piatok nemohla prísť do kina.",
+        "altSk": [
+          "Nemohla prísť do kina v piatok.",
+          "V piatok ona nemohla ísť do kina.",
+          "V piatok nemohla ísť do kina.",
+          "Ona v piatok nemohla prísť do kina.",
+          "Nemohla ísť do kina v piatok."
+        ],
+        "hint": "Past tense of 'môcť': female subject → 'nemohla' (short-form past, negative); 'do kina' = genitive after 'do'",
+        "focus": "past modal (nemohla)"
+      }
+    ]
+  },
+  {
+    "theme": "describing the weather yesterday and tomorrow",
+    "sentences": [
+      {
+        "en": "What day is the weather forecast for?",
+        "sk": "Na ktorý deň je predpoveď počasia?",
+        "altSk": [
+          "Na aký deň je predpoveď počasia?"
+        ],
+        "hint": "Use 'na + accusative' for day expressions; 'ktorý' agrees with 'deň' (masc.)",
+        "focus": "date/day expression"
+      },
+      {
+        "en": "Yesterday we ate lunch outside in the sun.",
+        "sk": "Včera sme jedli obed vonku na slnku.",
+        "altSk": [
+          "Včera sme jedli obed vonku na slnku."
+        ],
+        "hint": "'jesť' in past: jedol/jedla/jedli; use auxiliary 'sme' for 'we'",
+        "focus": "past (jesť→jedol)"
+      },
+      {
+        "en": "Do you know if it will rain tomorrow?",
+        "sk": "Vieš, či zajtra bude pršať?",
+        "altSk": [
+          "Viete, či zajtra bude pršať?"
+        ],
+        "hint": "'vedieť' present: viem/vieš/vie; 'bude pršať' = future with imperfective infinitive",
+        "focus": "present (vedieť/vidieť)"
+      },
+      {
+        "en": "The temperature changed between morning and evening yesterday.",
+        "sk": "Včera sa teplota zmenila medzi ránom a večerom.",
+        "altSk": [
+          "Teplota sa včera zmenila medzi ránom a večerom.",
+          "Včera sa teplota zmenila od rána do večera.",
+          "Teplota sa včera zmenila od rána do večera."
+        ],
+        "hint": "'medzi + instrumental': ráno→ránom, večer→večerom; perfective 'zmeniť sa' for completed past",
+        "focus": "instrumental (medzi)"
+      }
+    ]
+  },
+  {
+    "theme": "at the restaurant",
+    "sentences": [
+      {
+        "en": "We talked about the menu.",
+        "sk": "Rozprávali sme sa o jedálnom lístku.",
+        "altSk": [
+          "Hovorili sme o jedálnom lístku.",
+          "Rozprávali sme sa o menu.",
+          "Hovorili sme o menu.",
+          "Diskutovali sme o jedálnom lístku.",
+          "Diskutovali sme o menu."
+        ],
+        "hint": "o + locative: jedálny lístok → jedálnom lístku",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "The waiter brought us the soup.",
+        "sk": "Čašník nám priniesol polievku.",
+        "altSk": [
+          "Čašník nám doniesol polievku.",
+          "Vrchník nám priniesol polievku.",
+          "Vrchník nám doniesol polievku."
+        ],
+        "hint": "past tense of priniesť: priniesol (irregular)",
+        "focus": "past tense (regular/irregular)"
+      },
+      {
+        "en": "I would like five glasses of water, please.",
+        "sk": "Prosím si päť pohárov vody.",
+        "altSk": [
+          "Chcel by som päť pohárov vody.",
+          "Chcela by som päť pohárov vody.",
+          "Prosím päť pohárov vody."
+        ],
+        "hint": "päť + genitive plural: pohár → pohárov",
+        "focus": "numeral + genitive plural"
+      },
+      {
+        "en": "Is this your table or my table?",
+        "sk": "Je to tvoj stôl alebo môj stôl?",
+        "altSk": [
+          "Je to tvoj stolík alebo môj stolík?"
+        ],
+        "hint": "possessives: tvoj/môj agree with masculine noun stôl",
+        "focus": "possessive adjective (môj/tvoj)"
+      }
+    ]
+  },
+  {
+    "theme": "describing the weather yesterday and tomorrow",
+    "sentences": [
+      {
+        "en": "It was raining yesterday.",
+        "sk": "Včera pršalo.",
+        "altSk": [
+          "Včera pršal dážď."
+        ],
+        "hint": "Use the impersonal verb 'pršať' — no subject needed in Slovak",
+        "focus": "reflexive verb (sa/si)"
+      },
+      {
+        "en": "The weather changed itself completely today.",
+        "sk": "Počasie sa dnes úplne zmenilo.",
+        "altSk": [
+          "Dnes sa počasie úplne zmenilo.",
+          "Počasie sa dnes celkom zmenilo.",
+          "Dnes sa počasie celkom zmenilo."
+        ],
+        "hint": "Reflexive verb 'zmeniť sa' — place 'sa' after the first stressed word",
+        "focus": "reflexive verb (sa/si)"
+      },
+      {
+        "en": "At what time does the storm arrive tomorrow?",
+        "sk": "O koľkej príde zajtra búrka?",
+        "altSk": [
+          "Zajtra o koľkej príde búrka?"
+        ],
+        "hint": "Use 'o koľkej' for asking at what time; 'príde' is perfective present used as future",
+        "focus": "time expression (o koľkej)"
+      },
+      {
+        "en": "My father drove to the mountains by car yesterday.",
+        "sk": "Môj otec včera išiel do hôr autom.",
+        "altSk": [
+          "Včera môj otec išiel autom do hôr."
+        ],
+        "hint": "'Autom' is instrumental of 'auto' — no preposition needed for means of transport; 'otca' would be accusative if he were the object, but here he is the subject",
+        "focus": "instrumental (bare = tool/transport)"
+      }
+    ]
+  },
+  {
+    "theme": "family weekend",
+    "sentences": [
+      {
+        "en": "Do you know where my parents are?",
+        "sk": "Vieš, kde sú moji rodičia?",
+        "altSk": [
+          "Viete, kde sú moji rodičia?",
+          "Vieš, kde sa nachádzajú moji rodičia?",
+          "Viete, kde sa nachádzajú moji rodičia?"
+        ],
+        "hint": "vedieť: viem, vieš, vie, vieme, viete, vedia",
+        "focus": "present tense: vedieť"
+      },
+      {
+        "en": "I see my grandma between the trees.",
+        "sk": "Vidím svoju starú mamu medzi stromami.",
+        "altSk": [
+          "Vidím babičku medzi stromami.",
+          "Vidím svoju babičku medzi stromami.",
+          "Vidím starú mamu medzi stromami."
+        ],
+        "hint": "medzi + instrumental plural: stromami",
+        "focus": "instrumental case: medzi"
+      },
+      {
+        "en": "Dad ate a big lunch on Saturday.",
+        "sk": "Otec jedol veľký obed v sobotu.",
+        "altSk": [
+          "Tatko jedol veľký obed v sobotu."
+        ],
+        "hint": "jesť → jedol (irregular past tense, masculine)",
+        "focus": "past tense: jesť→jedol"
+      },
+      {
+        "en": "Our family picnic is on the fifth of June.",
+        "sk": "Náš rodinný piknik je piateho júna.",
+        "altSk": [
+          "Máme rodinný piknik piateho júna."
+        ],
+        "hint": "date: ordinal in genitive — piaty → piateho, jún → júna",
+        "focus": "date expression: genitive ordinal"
+      }
+    ]
+  },
+  {
+    "theme": "at the bank or post office",
+    "sentences": [
+      {
+        "en": "I went to the post office yesterday.",
+        "sk": "Včera som išiel na poštu.",
+        "altSk": [
+          "Včera som išla na poštu.",
+          "Včera som bol na pošte.",
+          "Včera som bola na pošte."
+        ],
+        "hint": "išiel/išla is the irregular past tense of ísť",
+        "focus": "past tense (irregular): ísť → išiel/išla"
+      },
+      {
+        "en": "You must fill in this form.",
+        "sk": "Musíš vyplniť tento formulár.",
+        "altSk": [
+          "Musíte vyplniť tento formulár.",
+          "Tento formulár musíš vyplniť.",
+          "Tento formulár musíte vyplniť."
+        ],
+        "hint": "musieť + infinitive expresses obligation",
+        "focus": "modal verb: musieť"
+      },
+      {
+        "en": "I will send the package tomorrow.",
+        "sk": "Zajtra pošlem balík.",
+        "altSk": [
+          "Zajtra ten balík pošlem."
+        ],
+        "hint": "pošlem is the perfective present of poslať, used as future",
+        "focus": "future perfective: poslať → pošlem"
+      },
+      {
+        "en": "I never have any money at the bank.",
+        "sk": "Nikdy nemám žiadne peniaze v banke.",
+        "altSk": [
+          "Ja nikdy nemám žiadne peniaze v banke."
+        ],
+        "hint": "use nikdy + nemám + žiadne — Slovak requires all negatives together",
+        "focus": "double negation: nikdy + nemám + žiadne"
+      }
+    ]
+  },
+  {
+    "theme": "at the restaurant",
+    "sentences": [
+      {
+        "en": "I am at the restaurant today.",
+        "sk": "Dnes som v reštaurácii.",
+        "altSk": [
+          "Som dnes v reštaurácii."
+        ],
+        "hint": "Use 'som' for I am; reštaurácia → locative: reštaurácii",
+        "focus": "byť conjugation (som)"
+      },
+      {
+        "en": "The Italian waiter is very friendly.",
+        "sk": "Taliansky čašník je veľmi priateľský.",
+        "altSk": [
+          "Čašník je veľmi priateľský a taliansky."
+        ],
+        "hint": "Italian (adjective) = taliansky; agrees with masculine noun čašník",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Where are you from, miss?",
+        "sk": "Odkiaľ ste, slečna?",
+        "altSk": [
+          "Odkiaľ si, slečna?",
+          "Odkiaľ pochádzate, slečna?",
+          "Odkiaľ pochádzaš, slečna?"
+        ],
+        "hint": "Use 'odkiaľ' for 'where from'; ste = formal you are, si = informal",
+        "focus": "question with odkiaľ"
+      },
+      {
+        "en": "Peter's menu is on the table.",
+        "sk": "Petrov jedálny lístok je na stole.",
+        "altSk": [
+          "Petrov lístok je na stole."
+        ],
+        "hint": "Possessive from male name Peter → Petrov; stôl → locative: stole",
+        "focus": "possessive from name (-ov)"
+      }
+    ]
+  },
+  {
+    "theme": "professions and what people do",
+    "sentences": [
+      {
+        "en": "The doctor has a white coat.",
+        "sk": "Doktor má biely plášť.",
+        "altSk": [
+          "Lekár má biely plášť.",
+          "Doktor má biely laboratorný plášť.",
+          "Lekár má biely laboratorný plášť.",
+          "Doktor má biely pracovný plášť.",
+          "Lekár má biely pracovný plášť."
+        ],
+        "hint": "biely (white) agrees with plášť (masc. inanimate accusative = nominative form)",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "Can the teacher explain this now?",
+        "sk": "Môže učiteľ toto teraz vysvetliť?",
+        "altSk": [
+          "Môže učiteľka toto teraz vysvetliť?",
+          "Môže učiteľ teraz toto vysvetliť?",
+          "Môže učiteľka teraz toto vysvetliť?",
+          "Vie učiteľ toto teraz vysvetliť?",
+          "Vie učiteľka toto teraz vysvetliť?"
+        ],
+        "hint": "môže = 3rd person singular of môcť; infinitive at end",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "She works through the night for her patients.",
+        "sk": "Pracuje cez noc pre svojich pacientov.",
+        "altSk": [
+          "Ona pracuje cez noc pre pacientov."
+        ],
+        "hint": "cez + accusative (noc), pre + accusative (pacientov)",
+        "focus": "accusative (cez/pre)"
+      },
+      {
+        "en": "Where does the chef go every morning?",
+        "sk": "Kam ide kuchár každé ráno?",
+        "altSk": [
+          "Kde ide kuchár každé ráno?"
+        ],
+        "hint": "ísť present: idem/ideš/ide/ideme/idete/idú — irregular stem",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "describing people",
+    "sentences": [
+      {
+        "en": "What do you know about my brother?",
+        "sk": "Čo vieš o mojom bratovi?",
+        "altSk": [
+          "Čo ty vieš o mojom bratovi?"
+        ],
+        "hint": "o + locative: brat → bratovi",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "She had long brown hair.",
+        "sk": "Mala dlhé hnedé vlasy.",
+        "altSk": [
+          "Ona mala dlhé hnedé vlasy.",
+          "Mala dlhé gaštanové vlasy.",
+          "Ona mala dlhé gaštanové vlasy."
+        ],
+        "hint": "past tense of mať: mala (feminine)",
+        "focus": "past tense (regular)"
+      },
+      {
+        "en": "My friend has five good colleagues.",
+        "sk": "Môj priateľ má päť dobrých kolegov.",
+        "altSk": [
+          "Môj kamarát má päť dobrých kolegov."
+        ],
+        "hint": "päť + genitive plural: dobrých kolegov",
+        "focus": "numeral + genitive plural"
+      },
+      {
+        "en": "Is your sister taller than your brother?",
+        "sk": "Je tvoja sestra vyššia ako tvoj brat?",
+        "altSk": [
+          "Tvoja sestra je vyššia ako tvoj brat?"
+        ],
+        "hint": "tvoja (fem. nom.) vs. tvoj (masc. nom.)",
+        "focus": "possessive adjective (môj/tvoj)"
+      }
+    ]
+  },
+  {
+    "theme": "telling the time and making appointments",
+    "sentences": [
+      {
+        "en": "The meeting is at three o'clock.",
+        "sk": "Stretnutie je o tretej.",
+        "altSk": [
+          "Porada je o tretej hodine.",
+          "Stretnutie je o tretej hodine.",
+          "Porada je o tretej."
+        ],
+        "hint": "Use 'je' for singular subject; time after 'o' takes locative",
+        "focus": "byť conjugation (je)"
+      },
+      {
+        "en": "Is the doctor Slovak or Hungarian?",
+        "sk": "Je lekár Slovák alebo Maďar?",
+        "altSk": [
+          "Je ten lekár Slovák alebo Maďar?",
+          "Je doktor Slovák alebo Maďar?",
+          "Je ten doktor Slovák alebo Maďar?"
+        ],
+        "hint": "Nationality as noun/adjective; 'je' for yes/no question with rising intonation",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Where is Marta's appointment today?",
+        "sk": "Kde je Martino stretnutie dnes?",
+        "altSk": [
+          "Kde je dnes Martino stretnutie?",
+          "Kde má dnes Marta stretnutie?",
+          "Kde má Marta dnes stretnutie?"
+        ],
+        "hint": "Female name Marta → possessive 'Martino' (neuter noun); word order flexible",
+        "focus": "possessive from name (-in)"
+      },
+      {
+        "en": "Where are you calling from for the appointment?",
+        "sk": "Odkiaľ voláte kvôli termínu?",
+        "altSk": [
+          "Odkiaľ telefonujete ohľadom termínu?",
+          "Odkiaľ voláte ohľadom termínu?",
+          "Odkiaľ telefonujete kvôli termínu?",
+          "Odkiaľ volajte kvôli stretnutiu?",
+          "Odkiaľ voláte kvôli stretnutiu?",
+          "Odkiaľ telefonujete ohľadom stretnutia?"
+        ],
+        "hint": "'Odkiaľ' = from where; use formal 'voláte' (vy-form); 'termín' in genitive after 'kvôli'",
+        "focus": "question (odkiaľ)"
+      }
+    ]
+  },
+  {
+    "theme": "university schedule",
+    "sentences": [
+      {
+        "en": "We talked about the timetable.",
+        "sk": "Hovorili sme o rozvrhu.",
+        "altSk": [
+          "Rozprávali sme sa o rozvrhu."
+        ],
+        "hint": "Use 'o' with locative case: rozvrh → rozvrhu",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "Yesterday I studied for my exam.",
+        "sk": "Včera som sa učil na skúšku.",
+        "altSk": [
+          "Včera som študoval na skúšku."
+        ],
+        "hint": "Past tense: učiť sa → učil som sa (masc.) / učila som sa (fem.)",
+        "focus": "past tense (regular)"
+      },
+      {
+        "en": "I have five lectures this week.",
+        "sk": "Tento týždeň mám päť prednášok.",
+        "altSk": [
+          "Mám päť prednášok tento týždeň."
+        ],
+        "hint": "After 5+, use genitive plural: prednáška → prednášok",
+        "focus": "numeral + genitive plural"
+      },
+      {
+        "en": "My schedule on Monday is very busy.",
+        "sk": "Môj rozvrh v pondelok je veľmi nabitý.",
+        "altSk": [
+          "Môj pondelkový rozvrh je veľmi nabitý.",
+          "V pondelok mám veľmi nabitý rozvrh.",
+          "Môj rozvrh v pondelok je veľmi zaneprázdnený.",
+          "V pondelok je môj rozvrh veľmi nabitý."
+        ],
+        "hint": "Possessive adjective môj agrees with masculine noun: môj rozvrh",
+        "focus": "possessive adjective (môj/tvoj)"
+      }
+    ]
+  },
+  {
+    "theme": "phone conversation",
+    "sentences": [
+      {
+        "en": "I want to call my friend.",
+        "sk": "Chcem zavolať môjmu priateľovi.",
+        "altSk": [
+          "Chcem zavolať kamarátovi.",
+          "Chcem zavolať svojmu priateľovi."
+        ],
+        "hint": "chcieť is irregular: chcem, chceš, chce...",
+        "focus": "present tense (irregular verb)"
+      },
+      {
+        "en": "Can you hear me well?",
+        "sk": "Počuješ ma dobre?",
+        "altSk": [
+          "Dobre ma počuješ?"
+        ],
+        "hint": "'me' is the direct object — use accusative: mňa/ma",
+        "focus": "accusative (direct object)"
+      },
+      {
+        "en": "I am talking with my mother on the phone.",
+        "sk": "Telefonujem s mamou.",
+        "altSk": [
+          "Rozprávam sa s mamou po telefóne.",
+          "Hovorím s mamou po telefóne.",
+          "Telefonujem s mamičkou.",
+          "Hovorím s mamou na telefóne.",
+          "Rozprávam sa s mamičkou po telefóne."
+        ],
+        "hint": "'with' uses instrumental case: s + mamou",
+        "focus": "instrumental (s + noun)"
+      },
+      {
+        "en": "She is not at home right now.",
+        "sk": "Teraz nie je doma.",
+        "altSk": [
+          "Ona teraz nie je doma.",
+          "Práve teraz nie je doma.",
+          "Práve nie je doma.",
+          "Ona práve nie je doma.",
+          "Momentálne nie je doma.",
+          "Ona momentálne nie je doma.",
+          "V tejto chvíli nie je doma."
+        ],
+        "hint": "'at home' = doma (locative idea); byť is irregular: je/nie je",
+        "focus": "locative (v/na + place)"
+      }
+    ]
+  },
+  {
+    "theme": "asking for help",
+    "sentences": [
+      {
+        "en": "Could you help me, please?",
+        "sk": "Môžeš mi pomôcť, prosím?",
+        "altSk": [
+          "Mohli by ste mi pomôcť, prosím?",
+          "Môžete mi pomôcť, prosím?"
+        ],
+        "hint": "môcť is irregular: môžem, môžeš, môže...",
+        "focus": "modal verb (môcť)"
+      },
+      {
+        "en": "He didn't bring any help.",
+        "sk": "Nepriniesol nijakú pomoc.",
+        "altSk": [
+          "Nepriniesol žiadnu pomoc."
+        ],
+        "hint": "Double negation: ne- on verb + nijaký/žiadny before noun",
+        "focus": "double negation"
+      },
+      {
+        "en": "She carried the heavy bag to the car.",
+        "sk": "Niesla ťažkú tašku k autu.",
+        "altSk": [
+          "Odniesla ťažkú tašku k autu.",
+          "Niesla ťažkú tašku do auta.",
+          "Odniesla ťažkú tašku do auta.",
+          "Niesla ťažkú tašku k vozidlu.",
+          "Odniesla ťažkú tašku k vozidlu."
+        ],
+        "hint": "niesť → niesol/niesla (irregular past tense)",
+        "focus": "past tense (irregular: niesť)"
+      },
+      {
+        "en": "I will ask for help tomorrow morning.",
+        "sk": "Zajtra ráno požiadam o pomoc.",
+        "altSk": [
+          "Zajtra ráno poprosím o pomoc.",
+          "Zajtra ráno si požiadam o pomoc.",
+          "Zajtra ráno si poprosím o pomoc."
+        ],
+        "hint": "Use perfective present (požiadam/poprosím) for future meaning",
+        "focus": "future perfective"
+      }
+    ]
+  },
+  {
+    "theme": "talking about a dormitory room",
+    "sentences": [
+      {
+        "en": "My desk is next to the window.",
+        "sk": "Môj písací stôl je pri okne.",
+        "altSk": [
+          "Môj stôl je pri okne.",
+          "Môj písací stôl stojí pri okne.",
+          "Môj stôl stojí pri okne."
+        ],
+        "hint": "pri + locative: okno → okne",
+        "focus": "locative (pri + place)"
+      },
+      {
+        "en": "We meet in the dormitory at seven.",
+        "sk": "Stretneme sa na internáte o siedmej.",
+        "altSk": [
+          "Stretávame sa na internáte o siedmej.",
+          "Stretneme sa v internáte o siedmej.",
+          "Stretávame sa v internáte o siedmej."
+        ],
+        "hint": "reflexive verb stretnúť sa; o + locative for time: sedem → siedmej",
+        "focus": "reflexive (stretnúť sa)"
+      },
+      {
+        "en": "My roommate woke up for the first time at eight.",
+        "sk": "Môj spolubývajúci sa zobudil prvýkrát o ôsmej.",
+        "altSk": [
+          "Môj spolubývajúci vstal prvýkrát o ôsmej."
+        ],
+        "hint": "ordinal number in time expression: ôsma → o ôsmej",
+        "focus": "ordinal number + time"
+      },
+      {
+        "en": "She could not find her key in the room.",
+        "sk": "Nemohla nájsť svoj kľúč v izbe.",
+        "altSk": [
+          "Nemohla nájsť kľúč vo svojej izbe."
+        ],
+        "hint": "past tense of môcť (feminine): mohla → nemohla + infinitive",
+        "focus": "past modal (nemohla)"
+      }
+    ]
+  },
+  {
+    "theme": "hobbies and free time",
+    "sentences": [
+      {
+        "en": "I want to read a book today.",
+        "sk": "Dnes chcem čítať knihu.",
+        "altSk": [
+          "Chcem dnes čítať knihu.",
+          "Dnes si chcem prečítať knihu.",
+          "Chcem si dnes prečítať knihu."
+        ],
+        "hint": "chcieť is irregular: chcem, chceš, chce... Use infinitive after it.",
+        "focus": "modal chcieť + infinitive"
+      },
+      {
+        "en": "He is reading a magazine in the evening.",
+        "sk": "Večer číta časopis.",
+        "altSk": [
+          "On večer číta časopis."
+        ],
+        "hint": "časopis is masculine inanimate accusative (same as nominative). But magazines/books as objects: feminine nouns like 'kniha' → 'knihu'.",
+        "focus": "accusative (feminine -u)"
+      },
+      {
+        "en": "She finally finished the book yesterday.",
+        "sk": "Včera konečne dočítala knihu.",
+        "altSk": [
+          "Ona včera konečne dočítala knihu.",
+          "Včera konečne dokončila knihu.",
+          "Ona včera konečne dokončila knihu."
+        ],
+        "hint": "dočítať (pf) = to finish reading. Use perfective past for a completed action.",
+        "focus": "aspect pair (impf→pf)"
+      },
+      {
+        "en": "My friends are creative and funny people.",
+        "sk": "Moji priatelia sú kreatívni a zábavní ľudia.",
+        "altSk": [
+          "Moji kamaráti sú kreatívni a zábavní ľudia."
+        ],
+        "hint": "priatelia is the nominative plural of priateľ. Adjectives in nom. pl. masculine animate end in -í.",
+        "focus": "nominative plural"
+      }
+    ]
+  },
+  {
+    "theme": "what colour clothes to buy",
+    "sentences": [
+      {
+        "en": "It is cold today, so buy a warm jacket.",
+        "sk": "Dnes je zima, tak kúp teplú bundu.",
+        "altSk": [
+          "Dnes je chladno, tak kúp si teplú bundu.",
+          "Dnes je zima, tak si kúp teplú bundu.",
+          "Dnes je chladno, tak kúp teplú bundu.",
+          "Dnes je zima, tak si kúp teplú bundu.",
+          "Dnes je zima, preto kúp teplú bundu.",
+          "Dnes je zima, preto si kúp teplú bundu.",
+          "Dnes je chladno, preto kúp si teplú bundu.",
+          "Dnes je chladno, preto si kúp teplú bundu.",
+          "Dnes je zima, preto kúp si teplú bundu.",
+          "Dnes je chladno, preto kúp teplú bundu."
+        ],
+        "hint": "'je zima' is a weather expression using a noun, not an adjective",
+        "focus": "weather expression"
+      },
+      {
+        "en": "I never buy anything black.",
+        "sk": "Nikdy nekupujem nič čierne.",
+        "altSk": [
+          "Ja nikdy nekupujem nič čierne."
+        ],
+        "hint": "Slovak requires double negation: nikdy + ne- + nič",
+        "focus": "double negation (nikdy/nič)"
+      },
+      {
+        "en": "Do you see that red dress? Buy it!",
+        "sk": "Vidíš tú červenú šatu? Kúp ju!",
+        "altSk": [
+          "Vidíš tú červenú šatu? Kúp ju si!"
+        ],
+        "hint": "'it' referring to feminine noun šata becomes 'ju' in accusative",
+        "focus": "accusative pronoun (ju)"
+      },
+      {
+        "en": "I will go shopping with my sister in a grey coat.",
+        "sk": "Pôjdem nakupovať so sestrou v sivom kabáte.",
+        "altSk": [
+          "Pôjdem nakupovať so svojou sestrou v sivom kabáte.",
+          "Idem nakupovať so sestrou v sivom kabáte.",
+          "Idem nakupovať so svojou sestrou v sivom kabáte.",
+          "Pôjdem na nákupy so sestrou v sivom kabáte.",
+          "Pôjdem na nákupy so svojou sestrou v sivom kabáte.",
+          "Idem na nákupy so sestrou v sivom kabáte.",
+          "Idem na nákupy so svojou sestrou v sivom kabáte."
+        ],
+        "hint": "'so' is used before consonant clusters; sestra → sestrou in instrumental",
+        "focus": "instrumental (so + consonant cluster)"
+      }
+    ]
+  },
+  {
+    "theme": "health and illness",
+    "sentences": [
+      {
+        "en": "I am sick today.",
+        "sk": "Dnes som chorý.",
+        "altSk": [
+          "Som dnes chorý.",
+          "Dnes som chorá.",
+          "Som dnes chorá."
+        ],
+        "hint": "Use 'som' for I am; chorý (m) / chorá (f)",
+        "focus": "byť conjugation (som)"
+      },
+      {
+        "en": "The Polish doctor works in this hospital.",
+        "sk": "Poľský doktor pracuje v tejto nemocnici.",
+        "altSk": [
+          "Poľský lekár pracuje v tejto nemocnici.",
+          "Poľský doktor pracuje v tomto nemocničnom zariadení.",
+          "Poľský lekár pracuje v tomto nemocničnom zariadení."
+        ],
+        "hint": "Poľský = Polish (nationality adjective, masculine nominative)",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Where is Peter's medicine?",
+        "sk": "Kde je Petrova medicína?",
+        "altSk": [
+          "Kde je Petrov liek?",
+          "Kde je Petrovo lieky?",
+          "Kde sú Petrove lieky?",
+          "Kde je Petrov medikament?",
+          "Kde sú Petrove medikamenty?"
+        ],
+        "hint": "Petrova = Peter's (possessive adjective from name Peter, -ov + feminine -a agreement)",
+        "focus": "possessive from name (-ov/-in)"
+      },
+      {
+        "en": "Where is the doctor from?",
+        "sk": "Odkiaľ je ten doktor?",
+        "altSk": [
+          "Odkiaľ je lekár?",
+          "Odkiaľ pochádza ten doktor?",
+          "Odkiaľ pochádza lekár?",
+          "Odkiaľ je doktor?"
+        ],
+        "hint": "Use 'odkiaľ' for 'where from'; je = third person singular of byť",
+        "focus": "question (odkiaľ)"
+      }
+    ]
+  },
+  {
+    "theme": "at the workplace",
+    "sentences": [
+      {
+        "en": "The meeting starts at half past nine.",
+        "sk": "Porada začína o pol desiatej.",
+        "altSk": [
+          "Stretnutie začína o pol desiatej."
+        ],
+        "hint": "pol + next hour in genitive: pol desiatej = half past nine",
+        "focus": "time: pol"
+      },
+      {
+        "en": "The workday ends at quarter to five.",
+        "sk": "Pracovný deň sa končí o trištvrte na päť.",
+        "altSk": [
+          "Pracovný deň sa skončí o trištvrte na päť."
+        ],
+        "hint": "trištvrte na + accusative numeral = quarter to; končiť sa is reflexive",
+        "focus": "reflexive: končiť sa + time: trištvrte"
+      },
+      {
+        "en": "Have you already spoken with the boss?",
+        "sk": "Už si hovoril so šéfom?",
+        "altSk": [
+          "Už ste hovorili so šéfom?",
+          "Už si sa rozprával so šéfom?",
+          "Už ste sa rozprávali so šéfom?",
+          "Už si hovoril s šéfom?",
+          "Už si sa porozprával so šéfom?",
+          "Už ste sa porozprávali so šéfom?"
+        ],
+        "hint": "už + past tense for completed action; use hovoril/hovorila depending on speaker gender",
+        "focus": "už + past positive"
+      },
+      {
+        "en": "We haven't talked about the project yet.",
+        "sk": "Ešte sme nehovorili o projekte.",
+        "altSk": [
+          "Ešte sme sa nerozprávali o projekte.",
+          "O projekte sme ešte nehovorili.",
+          "O projekte sme sa ešte nerozprávali."
+        ],
+        "hint": "ešte + ne- + past = not yet; o projekte is locative (o + locative case)",
+        "focus": "ešte ne- + past negative; locative: po/o + noun"
+      }
+    ]
+  },
+  {
+    "theme": "giving directions",
+    "sentences": [
+      {
+        "en": "He went straight ahead and then turned left.",
+        "sk": "Išiel rovno a potom odbočil doľava.",
+        "altSk": [
+          "Šiel rovno a potom zahočil doľava.",
+          "Šiel rovno a potom odbočil doľava.",
+          "Išiel rovno a potom zahočil doľava.",
+          "Išiel priamo a potom odbočil doľava.",
+          "Šiel priamo a potom odbočil doľava.",
+          "Išiel priamo a potom zahočil doľava.",
+          "Šiel priamo a potom zahočil doľava."
+        ],
+        "hint": "Past tense of ísť is išiel (masculine)",
+        "focus": "past (ísť→išiel)"
+      },
+      {
+        "en": "I will walk with you to the bus stop.",
+        "sk": "Pôjdem s tebou na autobusovú zastávku.",
+        "altSk": [
+          "Budem ísť s tebou na autobusovú zastávku.",
+          "Zájdem s tebou na autobusovú zastávku.",
+          "Odprevádzam ťa na autobusovú zastávku.",
+          "Sprevádzam ťa na autobusovú zastávku."
+        ],
+        "hint": "Future movement: pôjdem (perfective) or budem ísť",
+        "focus": "future (budem + inf)"
+      },
+      {
+        "en": "The pharmacy is behind the old church.",
+        "sk": "Lekáreň je za starým kostolom.",
+        "altSk": [
+          "Lekáreň sa nachádza za starým kostolom."
+        ],
+        "hint": "Za + instrumental case: starý kostol → za starým kostolom",
+        "focus": "instrumental (nad/pod/pred/za)"
+      },
+      {
+        "en": "Do you know anything about it? It is near the square.",
+        "sk": "Vieš o ňom niečo? Je blízko námestia.",
+        "altSk": [
+          "Počul si o ňom? Je neďaleko námestia."
+        ],
+        "hint": "O ňom = about it/him, locative pronoun referring to a masculine noun (kostol, park etc.)",
+        "focus": "locative (pronoun o ňom/nej)"
+      }
+    ]
+  },
+  {
+    "theme": "describing the weather yesterday and tomorrow",
+    "sentences": [
+      {
+        "en": "I am eating soup because it is cold outside.",
+        "sk": "Jem polievku, lebo vonku je zima.",
+        "altSk": [
+          "Jem polievku, pretože vonku je zima."
+        ],
+        "hint": "jesť is irregular: jem, ješ, je, jeme, jete, jedia",
+        "focus": "present irregular (jesť)"
+      },
+      {
+        "en": "Tomorrow we are going to the mountains.",
+        "sk": "Zajtra ideme do hôr.",
+        "altSk": [
+          "Zajtra ideme do hôr."
+        ],
+        "hint": "do + genitive plural: hora → hôr",
+        "focus": "accusative/genitive after do"
+      },
+      {
+        "en": "Yesterday it was really cold, and today it is raining.",
+        "sk": "Včera bolo naozaj chladno a dnes prší.",
+        "altSk": [
+          "Včera bolo veľmi chladno a dnes prší.",
+          "Včera bolo naozaj zima a dnes prší.",
+          "Včera bolo veľmi zima a dnes prší."
+        ],
+        "hint": "past tense of byť: bolo (neuter); prší is present imperfective",
+        "focus": "past tense + present tense contrast"
+      },
+      {
+        "en": "It is cold today — tomorrow the sun will shine.",
+        "sk": "Dnes je zima — zajtra bude svietiť slnko.",
+        "altSk": [
+          "Dnes je zima — slnko bude svietiť zajtra.",
+          "Dnes je zima, ale zajtra bude svietiť slnko."
+        ],
+        "hint": "Place slnko after the verb to add emphasis; future: bude + infinitive",
+        "focus": "word order emphasis"
+      }
+    ]
+  },
+  {
+    "theme": "ordering food and drink at a restaurant",
+    "sentences": [
+      {
+        "en": "I want a mineral water, please.",
+        "sk": "Chcem minerálnu vodu, prosím.",
+        "altSk": [
+          "Chcel by som minerálnu vodu, prosím.",
+          "Chcela by som minerálnu vodu, prosím.",
+          "Dajte mi minerálnu vodu, prosím.",
+          "Minerálnu vodu, prosím."
+        ],
+        "hint": "chcieť is irregular: chcem, chceš, chce... Use accusative after chcieť.",
+        "focus": "modal chcieť + infinitive / direct desire"
+      },
+      {
+        "en": "She is ordering a soup.",
+        "sk": "Objednáva si polievku.",
+        "altSk": [
+          "Ona si objednáva polievku."
+        ],
+        "hint": "polievka (fem.) → accusative singular = polievku (-a → -u)",
+        "focus": "accusative feminine -u"
+      },
+      {
+        "en": "The menus are on the table.",
+        "sk": "Jedálne lístky sú na stole.",
+        "altSk": [
+          "Lístky sú na stole.",
+          "Jedálničky sú na stole.",
+          "Menu sú na stole."
+        ],
+        "hint": "jedálny lístok (masc. inanim.) → nominative plural = jedálne lístky",
+        "focus": "nominative plural"
+      },
+      {
+        "en": "The waiter finally brought our pizzas.",
+        "sk": "Čašník konečne doniesol naše pizze.",
+        "altSk": [
+          "Čašník konečne priniesol naše pizze."
+        ],
+        "hint": "niesť → doniesť (perfective); doniesol = past tense masc. sg. The prefix do-/pri- makes it perfective, showing the action was completed.",
+        "focus": "aspect pair imperfective→perfective (niesť→doniesť)"
+      }
+    ]
+  },
+  {
+    "theme": "describing my apartment",
+    "sentences": [
+      {
+        "en": "I have a blue sofa in the living room.",
+        "sk": "Mám modrú pohovku v obývacej izbe.",
+        "altSk": [
+          "V obývacej izbe mám modrú pohovku.",
+          "Mám modrú sedačku v obývacej izbe.",
+          "V obývacej izbe mám modrú sedačku."
+        ],
+        "hint": "blue (modrý) must agree with pohovka (fem.) in accusative: modrú pohovku",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "Can I see the whole apartment?",
+        "sk": "Môžem vidieť celý byt?",
+        "altSk": [
+          "Môžem si pozrieť celý byt?",
+          "Môžem sa pozrieť na celý byt?",
+          "Môžem vidieť celý apartmán?",
+          "Môžem si pozrieť celý apartmán?",
+          "Môžem sa pozrieť na celý apartmán?",
+          "Smiem vidieť celý byt?",
+          "Smiem si pozrieť celý byt?",
+          "Smiem vidieť celý apartmán?",
+          "Smiem si pozrieť celý apartmán?"
+        ],
+        "hint": "môcť (can): ja môžem — use infinitive vidieť after modal",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "I bought new curtains for the bedroom.",
+        "sk": "Kúpil som nové záclony pre spálňu.",
+        "altSk": [
+          "Kúpila som nové záclony pre spálňu.",
+          "Kúpil som nové záclony do spálne.",
+          "Kúpila som nové záclony do spálne.",
+          "Kúpil som nové závesy pre spálňu.",
+          "Kúpil som nové závesy do spálne.",
+          "Kúpila som nové závesy pre spálňu.",
+          "Kúpila som nové závesy do spálne."
+        ],
+        "hint": "pre + accusative expresses purpose/intended recipient; pre spálňu",
+        "focus": "accusative (pre)"
+      },
+      {
+        "en": "We go through the kitchen to the balcony.",
+        "sk": "Ideme cez kuchyňu na balkón.",
+        "altSk": [
+          "Prechádzame cez kuchyňu na balkón.",
+          "Ideme cez kuchyňu na terasu."
+        ],
+        "hint": "ísť present irregular: ja idem, my ideme; cez + accusative = through",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "meeting a friend",
+    "sentences": [
+      {
+        "en": "The film already started.",
+        "sk": "Film už začal.",
+        "altSk": [
+          "Film už začal sa.",
+          "Ten film už začal."
+        ],
+        "hint": "Use 'už' with past tense for 'already'",
+        "focus": "už + past positive"
+      },
+      {
+        "en": "Have you already met my friend Peter?",
+        "sk": "Už si spoznal môjho priateľa Petra?",
+        "altSk": [
+          "Už ste spoznali môjho priateľa Petra?"
+        ],
+        "hint": "'už' + past tense in a question; 'priateľa' and 'Petra' are accusative",
+        "focus": "už + past positive (question)"
+      },
+      {
+        "en": "Our meeting starts at half past three.",
+        "sk": "Naše stretnutie začína sa o pol štvrtej.",
+        "altSk": [
+          "Naše stretnutie sa začína o pol štvrtej."
+        ],
+        "hint": "'začínať sa' is reflexive; 'pol štvrtej' means half past three (lit. half of four)",
+        "focus": "reflexive začínať sa + time pol/štvrť"
+      },
+      {
+        "en": "I haven't walked around the old town yet.",
+        "sk": "Ešte som nechodil po starom meste.",
+        "altSk": [
+          "Ešte som nechodila po starom meste.",
+          "Ešte som sa neprechádzal po starom meste."
+        ],
+        "hint": "'ešte ne-' for not yet; 'po starom meste' uses locative case after 'po'",
+        "focus": "ešte ne- + past negative + locative po + noun"
+      }
+    ]
+  },
+  {
+    "theme": "describing furniture and rooms in a flat",
+    "sentences": [
+      {
+        "en": "She puts the lamp on the table.",
+        "sk": "Dáva lampu na stôl.",
+        "altSk": [
+          "Ona dáva lampu na stôl."
+        ],
+        "hint": "'lampu' and 'stôl' are accusative after 'na' (direction)",
+        "focus": "accusative after na/do"
+      },
+      {
+        "en": "My brother works as a carpenter and makes furniture.",
+        "sk": "Môj brat pracuje ako stolár a vyrába nábytok.",
+        "altSk": [
+          "Brat pracuje ako stolár a robí nábytok.",
+          "Môj brat pracuje ako stolár a robí nábytok.",
+          "Brat pracuje ako stolár a vyrába nábytok."
+        ],
+        "hint": "professions after 'ako' use nominative in Slovak",
+        "focus": "instrumental (profession)"
+      },
+      {
+        "en": "What do you eat in the kitchen every morning?",
+        "sk": "Čo ješ v kuchyni každé ráno?",
+        "altSk": [
+          "Čo každé ráno ješ v kuchyni?",
+          "Čo jedáš v kuchyni každé ráno?",
+          "Čo každé ráno jedáš v kuchyni?",
+          "Čo ješ každé ráno v kuchyni?",
+          "Čo jedáš každé ráno v kuchyni?"
+        ],
+        "hint": "'jesť' is irregular: jem, ješ, je, jeme, jete, jedia",
+        "focus": "present irregular (jesť/piť)"
+      },
+      {
+        "en": "This big wardrobe we bought only yesterday.",
+        "sk": "Túto veľkú skriňu sme kúpili až včera.",
+        "altSk": [
+          "Až včera sme kúpili túto veľkú skriňu."
+        ],
+        "hint": "moving 'túto veľkú skriňu' to the front adds emphasis; 'až' stresses 'only just'",
+        "focus": "word order emphasis"
+      }
+    ]
+  },
+  {
+    "theme": "giving directions",
+    "sentences": [
+      {
+        "en": "The pharmacist stands at the corner.",
+        "sk": "Lekárnik stojí na rohu.",
+        "altSk": [
+          "Lekárnik stojí na rohу.",
+          "Lekárnik stojí na nároží."
+        ],
+        "hint": "stáť is irregular: stojím, stojíš, stojí",
+        "focus": "present tense – stáť→stojí"
+      },
+      {
+        "en": "The bus stop is three stops away.",
+        "sk": "Zastávka je tri zastávky odtiaľ.",
+        "altSk": [
+          "Sú tri zastávky odtiaľto.",
+          "Zastávka je tri zastávky odtiaľto.",
+          "Je to tri zastávky odtiaľ.",
+          "Je to tri zastávky odtiaľto."
+        ],
+        "hint": "2-4 + nominative plural: dve/tri/štyri zastávky",
+        "focus": "numeral 2-4 + nom pl"
+      },
+      {
+        "en": "Go straight and you will see the stairs.",
+        "sk": "Choďte rovno a uvidíte schody.",
+        "altSk": [
+          "Idi rovno a uvidíš schody.",
+          "Choď rovno a uvidíš schody.",
+          "Choďte priamo a uvidíte schody.",
+          "Choď priamo a uvidíš schody.",
+          "Idi priamo a uvidíš schody."
+        ],
+        "hint": "schody is pluralia tantum – always plural, no singular form",
+        "focus": "pluralia tantum – schody"
+      },
+      {
+        "en": "Ask the nurse, she works near the entrance.",
+        "sk": "Spýtajte sa sestričky, ona pracuje blízko vchodu.",
+        "altSk": [
+          "Opýtajte sa sestry, pracuje blízko vchodu.",
+          "Spýtajte sa sestry, pracuje blízko vchodu.",
+          "Opýtajte sa sestričky, ona pracuje blízko vchodu.",
+          "Spýtajte sa sestričky, pracuje blízko vchodu.",
+          "Opýtajte sa sestry, ona pracuje blízko vchodu."
+        ],
+        "hint": "sestričky/sestry – profession in genitive after spýtať sa; vchod→vchodu (locative after blízko)",
+        "focus": "profession + genitive"
+      }
+    ]
+  },
+  {
+    "theme": "phone conversation",
+    "sentences": [
+      {
+        "en": "I am at home right now.",
+        "sk": "Som teraz doma.",
+        "altSk": [
+          "Teraz som doma."
+        ],
+        "hint": "Use 'som' for 'I am'; 'doma' means at home",
+        "focus": "byť conjugation (som/si/je)"
+      },
+      {
+        "en": "She is Slovak and speaks very well.",
+        "sk": "Je Slovenka a hovorí veľmi dobre.",
+        "altSk": [
+          "Ona je Slovenka a hovorí veľmi dobre."
+        ],
+        "hint": "Nationality adjective used as noun: Slovenka (female); no article needed",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Marta's phone number is not here.",
+        "sk": "Martino telefónne číslo tu nie je.",
+        "altSk": [
+          "Číslo Marty tu nie je."
+        ],
+        "hint": "Possessive from female name: Marta → Martino; neuter adjective agrees with 'číslo'",
+        "focus": "possessive from name (-ov/-in)"
+      },
+      {
+        "en": "Where are you calling from right now?",
+        "sk": "Odkiaľ teraz voláš?",
+        "altSk": [
+          "Odkiaľ práve voláš?",
+          "Odkiaľ voláš teraz?"
+        ],
+        "hint": "Use 'odkiaľ' for 'from where'; 'voláš' is 2nd person singular of 'volať'",
+        "focus": "question (odkiaľ/kde)"
+      }
+    ]
+  },
+  {
+    "theme": "describing the weather yesterday and tomorrow",
+    "sentences": [
+      {
+        "en": "We talked about the weather yesterday.",
+        "sk": "Včera sme hovorili o počasí.",
+        "altSk": [
+          "Hovorili sme včera o počasí.",
+          "Včera sme sa rozprávali o počasí.",
+          "Rozprávali sme sa včera o počasí."
+        ],
+        "hint": "'o počasí' uses locative case (o + locative); počasie → počasí",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "Yesterday it rained a lot in the morning.",
+        "sk": "Včera ráno veľa pršalo.",
+        "altSk": [
+          "Včera dopoludnia veľa pršalo."
+        ],
+        "hint": "'pršalo' is past tense of 'pršať' (neuter sg); regular past tense formation",
+        "focus": "past tense (regular)"
+      },
+      {
+        "en": "Tomorrow there will be five degrees of frost.",
+        "sk": "Zajtra bude päť stupňov mrazu.",
+        "altSk": [
+          "Zajtra bude päť stupňov zimno.",
+          "Zajtra bude mínus päť stupňov.",
+          "Zajtra bude päť stupňov pod nulou."
+        ],
+        "hint": "'päť' (5) requires genitive plural: stupeň → stupňov; mráz → mrazu (gen sg)",
+        "focus": "numeral + genitive plural"
+      },
+      {
+        "en": "My city is cold but your village is warm.",
+        "sk": "Moje mesto je studené, ale tvoja dedina je teplá.",
+        "altSk": [
+          "Moje mesto je chladné, ale tvoja dedina je teplá.",
+          "Moje mesto je studené, ale vaša dedina je teplá.",
+          "Moje mesto je chladné, ale vaša dedina je teplá."
+        ],
+        "hint": "'moje' agrees with neuter 'mesto'; 'tvoja' agrees with feminine 'dedina'",
+        "focus": "possessive adjective (môj/tvoj)"
+      }
+    ]
+  },
+  {
+    "theme": "at the cinema",
+    "sentences": [
+      {
+        "en": "I want to see a new film.",
+        "sk": "Chcem vidieť nový film.",
+        "altSk": [
+          "Chcem pozrieť nový film.",
+          "Chcem si pozrieť nový film."
+        ],
+        "hint": "chcieť is irregular: chcem, chceš, chce...",
+        "focus": "modal chcieť + infinitive"
+      },
+      {
+        "en": "She bought a ticket at the cinema.",
+        "sk": "Kúpila lístok v kine.",
+        "altSk": [
+          "Ona kúpila lístok v kine."
+        ],
+        "hint": "feminine noun lístok? No — kúpiť is perfective, direct object 'ticket' (masc inanimate acc = nom)",
+        "focus": "aspect pair (impf→pf): kupovať → kúpiť"
+      },
+      {
+        "en": "I don't know that actress.",
+        "sk": "Nepoznám tú herečku.",
+        "altSk": [
+          "Ja nepoznám tú herečku."
+        ],
+        "hint": "feminine noun herečka → accusative singular ends in -u",
+        "focus": "accusative (feminine -u)"
+      },
+      {
+        "en": "The new films are really interesting.",
+        "sk": "Nové filmy sú naozaj zaujímavé.",
+        "altSk": [
+          "Tie nové filmy sú naozaj zaujímavé.",
+          "Nové filmy sú skutočne zaujímavé.",
+          "Tie nové filmy sú skutočne zaujímavé."
+        ],
+        "hint": "masculine inanimate noun plural: filmy; adjective plural: nové",
+        "focus": "nominative plural"
+      }
+    ]
+  },
+  {
+    "theme": "introducing yourself and your nationality",
+    "sentences": [
+      {
+        "en": "This woman is young, not old.",
+        "sk": "Táto žena je mladá, nie stará.",
+        "altSk": [
+          "Tá žena je mladá, nie stará."
+        ],
+        "hint": "Use 'táto' for 'this' with feminine nouns; young = mladá, old = stará",
+        "focus": "demonstrative (ten/tá/to) + adjective opposites"
+      },
+      {
+        "en": "My name is short, not long.",
+        "sk": "Moje meno je krátke, nie dlhé.",
+        "altSk": [
+          "Moje meno nie je dlhé, je krátke.",
+          "Mám krátke meno, nie dlhé."
+        ],
+        "hint": "Use neuter adjective endings: krátke/dlhé for 'meno'",
+        "focus": "adjective opposites"
+      },
+      {
+        "en": "What nationality are you?",
+        "sk": "Akej národnosti si?",
+        "altSk": [
+          "Akú národnosť máš?",
+          "Aký si národnosti?",
+          "Akej si národnosti?",
+          "Akej národnosti ste?"
+        ],
+        "hint": "'Aký' asks about quality/type; národnosť is feminine",
+        "focus": "čí/aký/ktorý question"
+      },
+      {
+        "en": "My friend sits at the front, I sit at the back.",
+        "sk": "Môj priateľ sedí vpredu, ja sedím vzadu.",
+        "altSk": [
+          "Môj kamarát sedí vpredu, ja sedím vzadu.",
+          "Môj priateľ sedí vpredu, ja sedím dozadu.",
+          "Môj kamarát sedí vpredu, ja sedím dozadu.",
+          "Môj priateľ sedí vpredu, ja sedím v zadnej časti.",
+          "Môj kamarát sedí vpredu, ja sedím v zadnej časti."
+        ],
+        "hint": "vpredu = at the front, vzadu = at the back; these are fixed adverbs of place",
+        "focus": "direction (vpredu/vzadu)"
+      }
+    ]
+  },
+  {
+    "theme": "describing people",
+    "sentences": [
+      {
+        "en": "This woman is tall and slim.",
+        "sk": "Táto žena je vysoká a štíhla.",
+        "altSk": [
+          "Táto pani je vysoká a štíhla."
+        ],
+        "hint": "Use 'táto' for feminine demonstrative + feminine adjective endings -á",
+        "focus": "demonstrative (ten/tá/to)"
+      },
+      {
+        "en": "My brother is short, not tall.",
+        "sk": "Môj brat je nízky, nie vysoký.",
+        "altSk": [
+          "Môj brat je malý, nie vysoký.",
+          "Môj brat je nízky, nie veľký.",
+          "Môj brat je malý, nie veľký."
+        ],
+        "hint": "Use adjective opposites: vysoký ↔ nízky/malý",
+        "focus": "adjective opposites"
+      },
+      {
+        "en": "Who is that girl standing in front?",
+        "sk": "Kto je tá dievčina, ktorá stojí vpredu?",
+        "altSk": [
+          "Kto je tá dievčina vpredu?"
+        ],
+        "hint": "'vpredu' = in front/at the front; 'vzadu' = at the back",
+        "focus": "direction (vpredu/vzadu)"
+      },
+      {
+        "en": "What is that young man like?",
+        "sk": "Aký je ten mladý muž?",
+        "altSk": [
+          "Aký je tamten mladý muž?"
+        ],
+        "hint": "Use 'aký' to ask about qualities/appearance; 'ktorý' picks from a group; 'čí' asks about possession",
+        "focus": "čí/aký/ktorý question"
+      }
+    ]
+  },
+  {
+    "theme": "at the cinema",
+    "sentences": [
+      {
+        "en": "We are at the cinema today.",
+        "sk": "Dnes sme v kine.",
+        "altSk": [
+          "Sme dnes v kine."
+        ],
+        "hint": "'kino' in locative after 'v' becomes 'kine'",
+        "focus": "locative (v + place)"
+      },
+      {
+        "en": "I want to see a new film.",
+        "sk": "Chcem vidieť nový film.",
+        "altSk": [
+          "Ja chcem vidieť nový film.",
+          "Chcem si pozrieť nový film.",
+          "Ja chcem si pozrieť nový film."
+        ],
+        "hint": "'chcieť' is irregular: chcem, chceš, chce...",
+        "focus": "present tense (irregular verb)"
+      },
+      {
+        "en": "She is buying popcorn and cola.",
+        "sk": "Kupuje popcorn a kolu.",
+        "altSk": [
+          "Ona kupuje popcorn a kolu."
+        ],
+        "hint": "'kola' in accusative becomes 'kolu' (feminine -a noun)",
+        "focus": "accusative (direct object)"
+      },
+      {
+        "en": "He is going to the cinema with a friend.",
+        "sk": "Ide do kina s kamarátom.",
+        "altSk": [
+          "On ide do kina s kamarátom."
+        ],
+        "hint": "'s' + instrumental: 'kamarát' becomes 'kamarátom'",
+        "focus": "instrumental (s + noun)"
+      }
+    ]
+  },
+  {
+    "theme": "weekend plans",
+    "sentences": [
+      {
+        "en": "I want to go to the cinema this weekend.",
+        "sk": "Tento víkend chcem ísť do kina.",
+        "altSk": [
+          "Chcem ísť do kina tento víkend.",
+          "Tento víkend chcem ísť do filmu.",
+          "Chcem ísť do filmu tento víkend.",
+          "Tento víkend sa chcem ísť pozrieť do kina.",
+          "Tento víkend by som chcel ísť do kina."
+        ],
+        "hint": "chcieť is irregular: chcem, chceš, chce...",
+        "focus": "present tense (irregular verb)"
+      },
+      {
+        "en": "We are watching a good film on Saturday.",
+        "sk": "V sobotu pozeráme dobrý film.",
+        "altSk": [
+          "Pozeráme dobrý film v sobotu."
+        ],
+        "hint": "dobrý film – masculine animate accusative with adjective",
+        "focus": "accusative (direct object)"
+      },
+      {
+        "en": "I am going to the park with my friend.",
+        "sk": "Idem do parku s kamarátom.",
+        "altSk": [
+          "S kamarátom idem do parku."
+        ],
+        "hint": "s + instrumental: kamarát → kamarátom",
+        "focus": "instrumental (s + noun)"
+      },
+      {
+        "en": "On Sunday we are staying at home.",
+        "sk": "V nedeľu zostávame doma.",
+        "altSk": [
+          "Zostávame doma v nedeľu.",
+          "V nedeľu ostávame doma.",
+          "Ostávame doma v nedeľu.",
+          "V nedeľu sme doma."
+        ],
+        "hint": "doma is a fixed locative adverb meaning 'at home'",
+        "focus": "locative (v/na + place)"
+      }
+    ]
+  },
+  {
+    "theme": "describing people",
+    "sentences": [
+      {
+        "en": "She is tall and very friendly.",
+        "sk": "Je vysoká a veľmi priateľská.",
+        "altSk": [
+          "Ona je vysoká a veľmi priateľská."
+        ],
+        "hint": "Use 'je' for she/he/it; adjectives agree with feminine noun",
+        "focus": "byť conjugation (je)"
+      },
+      {
+        "en": "My new neighbour is Polish.",
+        "sk": "Môj nový sused je Poliak.",
+        "altSk": [
+          "Môj nový sused je poľský."
+        ],
+        "hint": "Nationality as noun (Poliak) or adjective (poľský); sused is masculine",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Where is Peter's sister from?",
+        "sk": "Odkiaľ je Petrova sestra?",
+        "altSk": [
+          "Odkiaľ pochádza Petrova sestra?"
+        ],
+        "hint": "Possessive from male name: Peter → Petro-v-a (feminine agreement with sestra)",
+        "focus": "possessive from name (-ov)"
+      },
+      {
+        "en": "Where does Katka's brother live now?",
+        "sk": "Kde teraz býva Katkin brat?",
+        "altSk": [
+          "Kde Katkin brat teraz býva?"
+        ],
+        "hint": "Possessive from female name: Katka → Katk-in (+ brat = masculine, no ending); word order flexible",
+        "focus": "possessive from name (-in) + question (kde)"
+      }
+    ]
+  },
+  {
+    "theme": "asking for help",
+    "sentences": [
+      {
+        "en": "This form is long, not short.",
+        "sk": "Tento formulár je dlhý, nie krátky.",
+        "altSk": [
+          "Tento formulár je dlhý, nie krátky."
+        ],
+        "hint": "Use 'dlhý' (long) and 'krátky' (short) as opposites; 'formulár' is masculine.",
+        "focus": "adjective opposites"
+      },
+      {
+        "en": "Whose bag is this here?",
+        "sk": "Čia je táto taška tu?",
+        "altSk": [
+          "Čia taška je táto?",
+          "Čia je tu táto taška?",
+          "Čia je táto taška?",
+          "Čia taška to je tu?",
+          "Čia taška tu je?"
+        ],
+        "hint": "Use 'čí/čia/čie' to ask about possession; 'taška' is feminine.",
+        "focus": "čí/aký/ktorý question"
+      },
+      {
+        "en": "Can you help me with that form?",
+        "sk": "Môžeš mi pomôcť s tým formulárom?",
+        "altSk": [
+          "Môžete mi pomôcť s tým formulárom?",
+          "Vieš mi pomôcť s tým formulárom?",
+          "Viete mi pomôcť s tým formulárom?",
+          "Môžeš mi pomôcť s týmto formulárom?",
+          "Môžete mi pomôcť s týmto formulárom?",
+          "Vieš mi pomôcť s týmto formulárom?",
+          "Viete mi pomôcť s týmto formulárom?"
+        ],
+        "hint": "Use 'tým' (instrumental sg. of 'ten') for 'that'; 'formulár' takes instrumental after 's'.",
+        "focus": "demonstrative (ten/tá/to)"
+      },
+      {
+        "en": "Please sit at the front, not at the back.",
+        "sk": "Prosím, sadnite si vpredu, nie vzadu.",
+        "altSk": [
+          "Prosím, sadni si vpredu, nie vzadu.",
+          "Prosím, sadnite si dopredu, nie dozadu.",
+          "Prosím, sadni si dopredu, nie dozadu.",
+          "Sadnite si prosím vpredu, nie vzadu.",
+          "Sadni si prosím vpredu, nie vzadu."
+        ],
+        "hint": "'Vpredu' means at the front and 'vzadu' means at the back; use perfective 'sadnúť si' for the action.",
+        "focus": "direction (vpredu/vzadu)"
+      }
+    ]
+  },
+  {
+    "theme": "asking for help",
+    "sentences": [
+      {
+        "en": "Can you help me, please?",
+        "sk": "Môžeš mi pomôcť, prosím?",
+        "altSk": [
+          "Môžete mi pomôcť, prosím?",
+          "Môžeš mi, prosím, pomôcť?",
+          "Mohol by si mi pomôcť, prosím?",
+          "Mohli by ste mi pomôcť, prosím?",
+          "Pomôžeš mi, prosím?",
+          "Pomôžete mi, prosím?",
+          "Môžeš mi pomôcť, prosím ťa?",
+          "Mohol by si mi pomôcť?",
+          "Mohla by si mi pomôcť, prosím?",
+          "Vedel by si mi pomôcť, prosím?",
+          "Vedeli by ste mi pomôcť, prosím?",
+          "Pomohol by si mi, prosím?",
+          "Pomohli by ste mi, prosím?"
+        ],
+        "hint": "pomôcť is the infinitive of 'to help'; use môžeš for informal or môžete for formal",
+        "focus": "reflexive verb (sa/si)"
+      },
+      {
+        "en": "At what time does the office open?",
+        "sk": "O koľkej sa otvára kancelária?",
+        "altSk": [
+          "O koľkej otvára kancelária?",
+          "Kedy sa otvára kancelária?",
+          "Kedy otvára kancelária?",
+          "O koľkej má kancelária otvorené?"
+        ],
+        "hint": "o koľkej = at what time; sa otvára = opens (reflexive)",
+        "focus": "time expression (o koľkej)"
+      },
+      {
+        "en": "I need to call a doctor.",
+        "sk": "Potrebujem zavolať doktora.",
+        "altSk": [
+          "Musím zavolať doktora.",
+          "Potrebujem doktora zavolať.",
+          "Potrebujem zavolať lekára.",
+          "Musím zavolať lekára.",
+          "Potrebujem lekára zavolať."
+        ],
+        "hint": "doktor is animate masculine, so accusative singular adds -a: doktor → doktora",
+        "focus": "accusative (animate masc -a)"
+      },
+      {
+        "en": "He went to the hospital by bus.",
+        "sk": "Išiel do nemocnice autobusom.",
+        "altSk": [
+          "On išiel do nemocnice autobusom.",
+          "Šiel do nemocnice autobusom.",
+          "On šiel do nemocnice autobusom."
+        ],
+        "hint": "autobus → autobusom (instrumental singular, no preposition needed for transport)",
+        "focus": "instrumental (bare = tool/transport)"
+      }
+    ]
+  },
+  {
+    "theme": "at the workplace",
+    "sentences": [
+      {
+        "en": "I see a red folder on the desk.",
+        "sk": "Vidím červený šanón na stole.",
+        "altSk": [
+          "Na stole vidím červený šanón.",
+          "Vidím červené dosky na stole.",
+          "Na stole vidím červené dosky.",
+          "Vidím červený zakladač na stole.",
+          "Na stole vidím červený zakladač."
+        ],
+        "hint": "červený is masculine accusative singular",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "Can you come to the meeting today?",
+        "sk": "Môžeš prísť na stretnutie dnes?",
+        "altSk": [
+          "Môžeš dnes prísť na stretnutie?"
+        ],
+        "hint": "môžeš is the ty-form of môcť",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "I am going through the office to the kitchen.",
+        "sk": "Idem cez kanceláriu do kuchyne.",
+        "altSk": [
+          "Prechádzam cez kanceláriu do kuchyne."
+        ],
+        "hint": "cez takes the accusative case",
+        "focus": "accusative (cez/pre)"
+      },
+      {
+        "en": "Where are you going now, to the boss?",
+        "sk": "Kam ideš teraz, k šéfovi?",
+        "altSk": [
+          "Kam teraz ideš, k šéfovi?",
+          "Kam ideš teraz, za šéfom?",
+          "Kam teraz ideš, za šéfom?"
+        ],
+        "hint": "ísť is irregular: idem, ideš, ide, ideme, idete, idú",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "describing people",
+    "sentences": [
+      {
+        "en": "She has brown eyes.",
+        "sk": "Má hnedé oči.",
+        "altSk": [
+          "Ona má hnedé oči."
+        ],
+        "hint": "hnedé oči – adjective + noun in accusative plural",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "Can you see that tall man?",
+        "sk": "Môžeš vidieť toho vysokého muža?",
+        "altSk": [
+          "Vidíš toho vysokého muža?"
+        ],
+        "hint": "môžeš + infinitive; vysokého muža – accusative masculine animate",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "I bought a jacket for my sister.",
+        "sk": "Kúpil som bundu pre sestru.",
+        "altSk": [
+          "Kúpila som bundu pre sestru."
+        ],
+        "hint": "pre + accusative; bundu – accusative feminine",
+        "focus": "accusative (cez/pre)"
+      },
+      {
+        "en": "Where does he go every morning?",
+        "sk": "Kde chodí každé ráno?",
+        "altSk": [
+          "Kam chodí každé ráno?",
+          "Kde každé ráno chodí?",
+          "Kam každé ráno chodí?"
+        ],
+        "hint": "ísť present irregular: idem, ideš, ide, ideme, idete, idú",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "weather forecast",
+    "sentences": [
+      {
+        "en": "We talked about the weather forecast.",
+        "sk": "Hovorili sme o predpovedi počasia.",
+        "altSk": [
+          "Rozprávali sme sa o predpovedi počasia."
+        ],
+        "hint": "Use 'o' + locative case for the topic",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "Yesterday it rained heavily all day.",
+        "sk": "Včera celý deň silno pršalo.",
+        "altSk": [
+          "Včera pršalo silno celý deň."
+        ],
+        "hint": "Past tense of 'pršať' is 'pršalo' (neuter)",
+        "focus": "past tense (regular)"
+      },
+      {
+        "en": "The forecast shows five days of snow.",
+        "sk": "Predpoveď ukazuje päť dní snehu.",
+        "altSk": [
+          "Predpoveď hovorí o piatich dňoch snehu.",
+          "Predpoveď predpovedá päť dní snehu.",
+          "Podľa predpovede bude päť dní snehu.",
+          "Predpoveď počasia ukazuje päť dní snehu.",
+          "Predpoveď ukazuje päťdňové sneženie."
+        ],
+        "hint": "'päť' takes genitive plural: 'dní'",
+        "focus": "numeral + genitive plural"
+      },
+      {
+        "en": "Did you check my weather app this morning?",
+        "sk": "Pozrel si sa ráno na moju aplikáciu počasia?",
+        "altSk": [
+          "Pozrela si sa ráno na moju aplikáciu počasia?"
+        ],
+        "hint": "'môj' agrees with feminine noun: 'moju aplikáciu' (accusative)",
+        "focus": "possessive adjective (môj/tvoj)"
+      }
+    ]
+  },
+  {
+    "theme": "giving directions",
+    "sentences": [
+      {
+        "en": "Where is the train station?",
+        "sk": "Kde je železničná stanica?",
+        "altSk": [
+          "Kde sa nachádza železničná stanica?",
+          "Kde je stanica?"
+        ],
+        "hint": "Use 'kde' for location questions; 'je' is 3rd person singular of byť",
+        "focus": "byť conjugation (je)"
+      },
+      {
+        "en": "I am not from this city.",
+        "sk": "Nie som z tohto mesta.",
+        "altSk": [
+          "Ja nie som z tohto mesta."
+        ],
+        "hint": "Negate byť with 'nie som'; use genitive 'tohto mesta' after 'z'",
+        "focus": "byť conjugation (som) + negation"
+      },
+      {
+        "en": "The German tourist is looking for the museum.",
+        "sk": "Nemecký turista hľadá múzeum.",
+        "altSk": [
+          "Ten nemecký turista hľadá múzeum."
+        ],
+        "hint": "Nationality adjective 'nemecký' agrees with masculine noun 'turista' in nominative",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Where are you from? Marta's house is near the square.",
+        "sk": "Odkiaľ si? Martin dom je blízko námestia.",
+        "altSk": [
+          "Odkiaľ si ty? Dom Marty je blízko námestia."
+        ],
+        "hint": "Use 'odkiaľ' for origin; possessive from female name Marta → Martin (+ nom. 'dom'); 'námestia' is genitive after 'blízko'",
+        "focus": "question (odkiaľ) + possessive from name (-in)"
+      }
+    ]
+  },
+  {
+    "theme": "shopping for groceries",
+    "sentences": [
+      {
+        "en": "I always enjoy myself at the market.",
+        "sk": "Na trhu sa vždy bavím.",
+        "altSk": [
+          "Vždy sa bavím na trhu.",
+          "Na trhu sa bavím vždy.",
+          "Na trhu sa mi vždy páči.",
+          "Vždy sa dobre bavím na trhu.",
+          "Na trhu sa vždy dobre bavím."
+        ],
+        "hint": "reflexive verb 'baviť sa' – the particle 'sa' stays close to the verb",
+        "focus": "reflexive verb (sa/si)"
+      },
+      {
+        "en": "At what time does the supermarket open?",
+        "sk": "O koľkej otvára supermarket?",
+        "altSk": [
+          "O koľkej sa otvára supermarket?",
+          "Supermarket otvára o koľkej?"
+        ],
+        "hint": "use 'o koľkej' for asking at what time something happens",
+        "focus": "time expression (o koľkej)"
+      },
+      {
+        "en": "Do you know the butcher here?",
+        "sk": "Poznáš tu mäsiara?",
+        "altSk": [
+          "Poznáš mäsiara tu?",
+          "Poznáte tu mäsiara?",
+          "Poznáte mäsiara tu?"
+        ],
+        "hint": "animate masculine noun in accusative: mäsiar → mäsiara (add -a)",
+        "focus": "accusative (animate masc -a)"
+      },
+      {
+        "en": "My dad always goes to the market by bike.",
+        "sk": "Môj otec chodí na trh vždy bicyklom.",
+        "altSk": [
+          "Môj otec vždy chodí na trh bicyklom.",
+          "Otec chodí na trh bicyklom."
+        ],
+        "hint": "means of transport uses instrumental case without a preposition: bicykel → bicyklom",
+        "focus": "instrumental (bare = tool/transport)"
+      }
+    ]
+  },
+  {
+    "theme": "describing my apartment",
+    "sentences": [
+      {
+        "en": "My apartment is small but cozy.",
+        "sk": "Môj byt je malý, ale útulný.",
+        "altSk": [
+          "Môj byt je malý, no útulný.",
+          "Môj apartmán je malý, ale útulný.",
+          "Môj apartmán je malý, no útulný."
+        ],
+        "hint": "Use 'je' for third person singular of byť",
+        "focus": "byť conjugation (je)"
+      },
+      {
+        "en": "I have a big Slovak kitchen.",
+        "sk": "Mám veľkú slovenskú kuchyňu.",
+        "altSk": [
+          "Mám veľkú slovensko kuchyňu."
+        ],
+        "hint": "Nationality adjective 'slovenský' must agree with feminine accusative noun 'kuchyňu'",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "This is Peter's room.",
+        "sk": "Toto je Petrova izba.",
+        "altSk": [
+          "Toto je izba Petra."
+        ],
+        "hint": "Form possessive adjective from male name: Peter → Petrov, then agree with feminine noun 'izba'",
+        "focus": "possessive from name (-ov)"
+      },
+      {
+        "en": "Where is your apartment exactly?",
+        "sk": "Kde presne je tvoj byt?",
+        "altSk": [
+          "Kde sa nachádza tvoj byt?"
+        ],
+        "hint": "Use 'kde' to ask about location; word order places question word first",
+        "focus": "question (kde)"
+      }
+    ]
+  },
+  {
+    "theme": "giving directions",
+    "sentences": [
+      {
+        "en": "The bus stop is located here on the right.",
+        "sk": "Zastávka autobusu sa nachádza tu napravo.",
+        "altSk": [
+          "Zastávka sa nachádza tu na pravej strane.",
+          "Zastávka autobusu je tu napravo.",
+          "Zastávka autobusu sa nachádza tu na pravej strane.",
+          "Autobusová zastávka sa nachádza tu napravo.",
+          "Autobusová zastávka je tu napravo.",
+          "Zastávka autobusu je tu na pravej strane.",
+          "Autobusová zastávka je tu na pravej strane.",
+          "Autobusová zastávka sa nachádza tu na pravej strane."
+        ],
+        "hint": "'nachádza sa' is a reflexive verb meaning 'is located'",
+        "focus": "reflexive verb (sa)"
+      },
+      {
+        "en": "At what time does the last tram leave?",
+        "sk": "O koľkej odchádza posledná električka?",
+        "altSk": [
+          "O koľkej ide posledná električka?",
+          "O koľkej odjazdí posledná električka?",
+          "Kedy odchádza posledná električka?",
+          "Kedy ide posledná električka?"
+        ],
+        "hint": "use 'o koľkej' for asking at what time",
+        "focus": "time expression (o koľkej)"
+      },
+      {
+        "en": "Ask the policeman, he knows the way.",
+        "sk": "Opýtaj sa policajta, on pozná cestu.",
+        "altSk": [
+          "Spýtaj sa policajta, on vie, kde to je.",
+          "Spýtaj sa policajta, on pozná cestu.",
+          "Opýtaj sa policajta, on vie, kde to je.",
+          "Opýtaj sa policajta, on to vie.",
+          "Spýtaj sa policajta, on to vie."
+        ],
+        "hint": "'policajt' is animate masculine, accusative singular ends in -a",
+        "focus": "accusative (animate masc -a)"
+      },
+      {
+        "en": "You can get to the centre by tram.",
+        "sk": "Do centra sa dostanete elektrickou.",
+        "altSk": [
+          "Do centra môžete ísť elektrickou."
+        ],
+        "hint": "use instrumental without a preposition to express means of transport",
+        "focus": "instrumental (bare = transport)"
+      }
+    ]
+  },
+  {
+    "theme": "a typical Monday",
+    "sentences": [
+      {
+        "en": "This Monday is long and tiring.",
+        "sk": "Tento pondelok je dlhý a unavujúci.",
+        "altSk": [
+          "Tento pondelok je dlhý a vyčerpávajúci.",
+          "Tento pondelok je dlhý a únavný."
+        ],
+        "hint": "Use 'tento' for masculine noun 'pondelok'",
+        "focus": "demonstrative (ten/tá/to)"
+      },
+      {
+        "en": "Monday is busy, not calm.",
+        "sk": "Pondelok je rušný, nie pokojný.",
+        "altSk": [
+          "Pondelok je uponáhľaný, nie pokojný."
+        ],
+        "hint": "Pair opposite adjectives: rušný ↔ pokojný",
+        "focus": "adjective opposites"
+      },
+      {
+        "en": "Whose bag is in front and whose is at the back?",
+        "sk": "Čia taška je vpredu a čia je vzadu?",
+        "altSk": [
+          "Čia je taška vpredu a čia vzadu?"
+        ],
+        "hint": "Use 'vpredu' (in front) and 'vzadu' (at the back) for location",
+        "focus": "direction (vpredu/vzadu)"
+      },
+      {
+        "en": "Which Monday meeting do you like the least?",
+        "sk": "Ktoré pondelkové stretnutie máš najmenej rád?",
+        "altSk": [
+          "Ktoré stretnutie v pondelok máš najmenej rada?",
+          "Ktoré pondelkové stretnutie máš najmenej rada?",
+          "Ktoré stretnutie v pondelok máš najmenej rád?",
+          "Ktoré pondelkové stretnutie sa ti páči najmenej?",
+          "Ktoré stretnutie v pondelok sa ti páči najmenej?"
+        ],
+        "hint": "Use 'ktorý' agreeing with neuter noun 'stretnutie'",
+        "focus": "čí/aký/ktorý question"
+      }
+    ]
+  },
+  {
+    "theme": "health and illness",
+    "sentences": [
+      {
+        "en": "The pharmacy closes at half past two.",
+        "sk": "Lekáreň sa zatvára o pol tretej.",
+        "altSk": [
+          "Lekáreň sa zatvára o pol tri."
+        ],
+        "hint": "Use 'pol' + next hour in genitive; pol tretej = half past two",
+        "focus": "time: pol"
+      },
+      {
+        "en": "The flu season starts in November.",
+        "sk": "Chrípková sezóna sa začína v novembri.",
+        "altSk": [
+          "Sezóna chrípky sa začína v novembri.",
+          "Chrípkové obdobie sa začína v novembri.",
+          "Sezóna chrípky začína v novembri.",
+          "Chrípková sezóna začína v novembri."
+        ],
+        "hint": "Use 'začínať sa' for reflexive 'to start/begin'; November → novembri (locative)",
+        "focus": "reflexive: začínať sa"
+      },
+      {
+        "en": "Have you already been to the doctor?",
+        "sk": "Bol si už u doktora?",
+        "altSk": [
+          "Bola si už u doktora?",
+          "Bol si už u lekára?",
+          "Bola si už u lekára?",
+          "Už si bol u doktora?",
+          "Už si bola u doktora?",
+          "Už si bol u lekára?",
+          "Už si bola u lekára?"
+        ],
+        "hint": "Use 'už' with past tense for 'already'; remember gender agreement on 'bol/bola'",
+        "focus": "už + past positive"
+      },
+      {
+        "en": "I have not taken the medicine yet after the operation.",
+        "sk": "Ešte som si nevzal liek po operácii.",
+        "altSk": [
+          "Ešte som si nevzala liek po operácii.",
+          "Ešte som si nevzal lieky po operácii.",
+          "Ešte som si nevzala lieky po operácii."
+        ],
+        "hint": "Use 'ešte' + negation for 'not yet'; 'po operácii' uses locative (po + locative noun)",
+        "focus": "ešte ne- + past negative; locative: po + noun"
+      }
+    ]
+  },
+  {
+    "theme": "morning routine",
+    "sentences": [
+      {
+        "en": "He went to the bathroom in the morning.",
+        "sk": "Ráno išiel do kúpeľne.",
+        "altSk": [
+          "On išiel ráno do kúpeľne.",
+          "Išiel ráno do kúpeľne.",
+          "Ráno išiel na toaletu.",
+          "Ráno išiel na záchod.",
+          "On išiel ráno na toaletu.",
+          "On išiel ráno na záchod."
+        ],
+        "hint": "ísť in past tense: išiel (masc.), išla (fem.)",
+        "focus": "past (ísť→išiel)"
+      },
+      {
+        "en": "I will brush my teeth before breakfast.",
+        "sk": "Budem si čistiť zuby pred raňajkami.",
+        "altSk": [
+          "Pred raňajkami si budem čistiť zuby.",
+          "Vyčistím si zuby pred raňajkami.",
+          "Pred raňajkami si vyčistím zuby."
+        ],
+        "hint": "future = budem + infinitive; pred + instrumental",
+        "focus": "future (budem + inf)"
+      },
+      {
+        "en": "My towel is hanging above the sink.",
+        "sk": "Môj uterák visí nad umývadlom.",
+        "altSk": [
+          "Uterák visí nad umývadlom.",
+          "Môj uterák visí nad drezom."
+        ],
+        "hint": "nad + instrumental: umývadlo → umývadlom",
+        "focus": "instrumental (nad/pod/pred/za)"
+      },
+      {
+        "en": "Do you think about him every morning?",
+        "sk": "Myslíš na neho každé ráno?",
+        "altSk": [
+          "Myslíš každé ráno na neho?"
+        ],
+        "hint": "myslieť na + accusative here, but 'o ňom' = about him (locative): Hovoríš o ňom?",
+        "focus": "locative (pronoun o ňom/nej)"
+      }
+    ]
+  },
+  {
+    "theme": "at the bank or post office",
+    "sentences": [
+      {
+        "en": "I am talking about my account.",
+        "sk": "Hovorím o svojom účte.",
+        "altSk": [
+          "Rozprávam o svojom účte."
+        ],
+        "hint": "Use 'o' + locative case for the topic; účet → účte",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "I sent the package yesterday.",
+        "sk": "Včera som poslal balík.",
+        "altSk": [
+          "Balík som včera poslal.",
+          "Poslal som včera balík."
+        ],
+        "hint": "Past tense: poslať → poslal + som (auxiliary)",
+        "focus": "past tense (regular)"
+      },
+      {
+        "en": "I need five stamps, please.",
+        "sk": "Potrebujem päť známok, prosím.",
+        "altSk": [
+          "Prosím si päť známok.",
+          "Päť známok, prosím."
+        ],
+        "hint": "Numbers 5+ take genitive plural: známka → známok",
+        "focus": "numeral + genitive plural"
+      },
+      {
+        "en": "Is my package at the post office?",
+        "sk": "Je môj balík na pošte?",
+        "altSk": [
+          "Je na pošte môj balík?",
+          "Je môj balíček na pošte?",
+          "Je na pošte môj balíček?"
+        ],
+        "hint": "môj agrees with masculine noun balík; pošta → na pošte (locative)",
+        "focus": "possessive adjective (môj/tvoj)"
+      }
+    ]
+  },
+  {
+    "theme": "ordering food and drink at a restaurant",
+    "sentences": [
+      {
+        "en": "I would like a coffee and a water.",
+        "sk": "Chcem kávu a vodu.",
+        "altSk": [
+          "Dám si kávu a vodu.",
+          "Prosím si kávu a vodu."
+        ],
+        "hint": "'káva' and 'voda' change to accusative after chcieť/dať si: káva→kávu, voda→vodu",
+        "focus": "accusative after transitive verbs"
+      },
+      {
+        "en": "Do you eat meat or are you a vegetarian?",
+        "sk": "Jete mäso alebo ste vegetarián?",
+        "altSk": [
+          "Ješ mäso alebo si vegetarián?"
+        ],
+        "hint": "'jesť' is irregular: ja jem, ty ješ, on/ona je, my jeme, vy jete, oni jedia",
+        "focus": "present irregular verb jesť"
+      },
+      {
+        "en": "We are going to the restaurant for dinner.",
+        "sk": "Ideme do reštaurácie na večeru.",
+        "altSk": [
+          "Ideme na večeru do reštaurácie.",
+          "Ideme do reštaurácie večerať."
+        ],
+        "hint": "'do reštaurácie' uses genitive after do; 'na večeru' uses accusative after na for purpose",
+        "focus": "accusative after na / genitive after do"
+      },
+      {
+        "en": "Today the chef is recommending the grilled fish.",
+        "sk": "Dnes šéfkuchár odporúča grilovanú rybu.",
+        "altSk": [
+          "Šéfkuchár dnes odporúča grilovanú rybu.",
+          "Dnes šéfkuchár odporúča grilovú rybu.",
+          "Dnes nám šéfkuchár odporúča grilovanú rybu.",
+          "Šéfkuchár dnes odporúča grilovú rybu."
+        ],
+        "hint": "Place 'dnes' at the start for emphasis; 'grilovanú rybu' is accusative feminine; word order shifts to highlight the time expression",
+        "focus": "word order emphasis with time expression"
+      }
+    ]
+  },
+  {
+    "theme": "describing furniture and rooms in a flat",
+    "sentences": [
+      {
+        "en": "The lamp is above the table.",
+        "sk": "Lampa je nad stolom.",
+        "altSk": [
+          "Nad stolom je lampa."
+        ],
+        "hint": "nad + instrumental: stôl → stolom",
+        "focus": "instrumental (nad)"
+      },
+      {
+        "en": "We went to the new apartment yesterday.",
+        "sk": "Včera sme išli do nového bytu.",
+        "altSk": [
+          "Išli sme včera do nového bytu.",
+          "Včera sme išli do nového apartmánu.",
+          "Išli sme včera do nového apartmánu.",
+          "Včera sme šli do nového bytu.",
+          "Včera sme šli do nového apartmánu.",
+          "Šli sme včera do nového bytu.",
+          "Šli sme včera do nového apartmánu."
+        ],
+        "hint": "ísť → išiel/išli in past tense",
+        "focus": "past (ísť→išiel)"
+      },
+      {
+        "en": "What do you know about it? It is a big room.",
+        "sk": "Čo o ňom vieš? Je to veľká izba.",
+        "altSk": [
+          "Čo vieš o ňom? To je veľká izba.",
+          "Čo o ňom vieš? To je veľká izba.",
+          "Čo vieš o ňom? Je to veľká izba."
+        ],
+        "hint": "o ňom = about it (locative pronoun, referring to room - izba is feminine so nej, but here referring to byt which is masculine)",
+        "focus": "locative (pronoun o ňom/nej)"
+      },
+      {
+        "en": "I will buy a new sofa for the living room.",
+        "sk": "Kúpim novú pohovku do obývacej izby.",
+        "altSk": [
+          "Budem kupovať novú pohovku do obývacej izby.",
+          "Kúpim nový gauč do obývacej izby.",
+          "Budem kupovať nový gauč do obývacej izby.",
+          "Kúpim novú sedačku do obývacej izby.",
+          "Budem kupovať novú sedačku do obývacej izby."
+        ],
+        "hint": "kúpim = perfective present = future; or budem kupovať with imperfective",
+        "focus": "future (budem + inf)"
+      }
+    ]
+  },
+  {
+    "theme": "introducing yourself and your nationality",
+    "sentences": [
+      {
+        "en": "I have a red passport.",
+        "sk": "Mám červený pas.",
+        "altSk": [
+          "Ja mám červený pas."
+        ],
+        "hint": "červený modifies pas (masc. inanim. acc. sg. = nom. form); mať + accusative",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "Can you introduce yourself, please?",
+        "sk": "Môžeš sa predstaviť, prosím?",
+        "altSk": [
+          "Môžete sa predstaviť, prosím?",
+          "Vedel by si sa predstaviť, prosím?",
+          "Vedeli by ste sa predstaviť, prosím?",
+          "Mohol by si sa predstaviť, prosím?",
+          "Mohli by ste sa predstaviť, prosím?"
+        ],
+        "hint": "môcť: môžem/môžeš/môže; reflexive predstaviť sa",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "I moved to Slovakia for work.",
+        "sk": "Presťahoval som sa na Slovensko pre prácu.",
+        "altSk": [
+          "Prišiel som na Slovensko pre prácu.",
+          "Presťahoval som sa na Slovensko kvôli práci.",
+          "Prišiel som na Slovensko kvôli práci.",
+          "Presťahovala som sa na Slovensko pre prácu.",
+          "Presťahovala som sa na Slovensko kvôli práci.",
+          "Prišla som na Slovensko pre prácu.",
+          "Prišla som na Slovensko kvôli práci.",
+          "Presťahoval som sa na Slovensko za prácou.",
+          "Presťahovala som sa na Slovensko za prácou.",
+          "Prišiel som na Slovensko za prácou.",
+          "Prišla som na Slovensko za prácou."
+        ],
+        "hint": "pre + accusative (práca → prácu); expresses purpose/reason",
+        "focus": "accusative (cez/pre)"
+      },
+      {
+        "en": "Where are you going now?",
+        "sk": "Kam ideš teraz?",
+        "altSk": [
+          "Kam teraz ideš?"
+        ],
+        "hint": "ísť is irregular: idem/ideš/ide/ideme/idete/idú; kam asks direction",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "weather forecast",
+    "sentences": [
+      {
+        "en": "The weather is changing quickly today.",
+        "sk": "Počasie sa dnes rýchlo mení.",
+        "altSk": [
+          "Dnes sa počasie rýchlo mení.",
+          "Počasie sa dnes rýchlo premieňa.",
+          "Dnes sa počasie rýchlo premieňa.",
+          "Počasie sa dnes náhle mení."
+        ],
+        "hint": "reflexive verb meniť sa uses 'sa' after the verb phrase",
+        "focus": "reflexive verb (sa)"
+      },
+      {
+        "en": "At what time does the forecast start?",
+        "sk": "O koľkej začína predpoveď počasia?",
+        "altSk": [
+          "O koľkej sa začína predpoveď?"
+        ],
+        "hint": "o koľkej = at what time, triggers locative on hodina but here standalone",
+        "focus": "time expression (o koľkej)"
+      },
+      {
+        "en": "I see the meteorologist on television every evening.",
+        "sk": "Každý večer vidím meteorológa v televízii.",
+        "altSk": [
+          "Vidím meteorológa každý večer v televízii."
+        ],
+        "hint": "animate masculine noun meteorológ takes -a ending in accusative",
+        "focus": "accusative (animate masc -a)"
+      },
+      {
+        "en": "They travel to the mountains by car to check the snow.",
+        "sk": "Cestujú do hôr autom, aby skontrolovali sneh.",
+        "altSk": [
+          "Idú do hôr autom pozrieť sa na sneh.",
+          "Cestujú do hôr autom pozrieť sa na sneh.",
+          "Idú do hôr autom, aby skontrolovali sneh.",
+          "Cestujú do hôr autom, aby sa pozreli na sneh.",
+          "Idú do hôr autom, aby sa pozreli na sneh."
+        ],
+        "hint": "autom = by car, instrumental case used without preposition for means of transport",
+        "focus": "instrumental (bare = transport)"
+      }
+    ]
+  },
+  {
+    "theme": "a typical Monday",
+    "sentences": [
+      {
+        "en": "I am tired on Monday morning.",
+        "sk": "V pondelok ráno som unavený.",
+        "altSk": [
+          "V pondelok ráno som unavená.",
+          "Som unavený v pondelok ráno.",
+          "Som unavená v pondelok ráno."
+        ],
+        "hint": "Use 'som' for first person singular of byť; adjective agrees with speaker's gender",
+        "focus": "byť conjugation (som/si/je)"
+      },
+      {
+        "en": "My colleague Peter is Slovak.",
+        "sk": "Môj kolega Peter je Slovák.",
+        "altSk": [
+          "Môj kolega Peter je slovenský."
+        ],
+        "hint": "Nationality as a noun (Slovák) or adjective (slovenský); both are correct",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Where is Martin's office today?",
+        "sk": "Kde je Martinova kancelária dnes?",
+        "altSk": [
+          "Kde je dnes Martinova kancelária?"
+        ],
+        "hint": "Form the possessive from a male name: Martin + -ova (agreeing with feminine noun kancelária)",
+        "focus": "possessive from name (-ov/-in)"
+      },
+      {
+        "en": "Where are you coming from so early on Monday?",
+        "sk": "Odkiaľ prichádzaš tak skoro v pondelok?",
+        "altSk": [
+          "Odkiaľ ideš tak skoro v pondelok?",
+          "Odkiaľ sa vraciaš tak skoro v pondelok?",
+          "Odkiaľ chodíš tak skoro v pondelok?"
+        ],
+        "hint": "Use 'odkiaľ' for 'from where'; present tense of prichádzať or ísť",
+        "focus": "question (odkiaľ/kde)"
+      }
+    ]
+  },
+  {
+    "theme": "travel plans",
+    "sentences": [
+      {
+        "en": "I will travel to Rome next week.",
+        "sk": "Budúci týždeň budem cestovať do Ríma.",
+        "altSk": [
+          "Budem cestovať do Ríma budúci týždeň."
+        ],
+        "hint": "Use 'budem + infinitive' for future tense.",
+        "focus": "future (budem + inf)"
+      },
+      {
+        "en": "We talked about her travel plans yesterday.",
+        "sk": "Včera sme hovorili o jej cestovných plánoch.",
+        "altSk": [
+          "Hovorili sme o nej včera."
+        ],
+        "hint": "Use 'o nej' (locative of 'ona') when referring to her plans.",
+        "focus": "locative (pronoun o ňom/nej)"
+      },
+      {
+        "en": "The hotel is right behind the train station.",
+        "sk": "Hotel je hneď za železničnou stanicou.",
+        "altSk": [
+          "Hotel sa nachádza za železničnou stanicou.",
+          "Hotel je hneď za vlakovою stanicou.",
+          "Hotel sa nachádza hneď za železničnou stanicou.",
+          "Hotel sa nachádza hneď za vlakovою stanicou."
+        ],
+        "hint": "Use 'za' with the instrumental case for 'behind'.",
+        "focus": "instrumental (nad/pod/pred/za)"
+      },
+      {
+        "en": "Where did Peter go on his last holiday?",
+        "sk": "Kam išiel Peter na poslednej dovolenke?",
+        "altSk": [
+          "Kde bol Peter na svojej poslednej dovolenke?",
+          "Kam šiel Peter na svojej poslednej dovolenke?",
+          "Kde bol Peter na poslednej dovolenke?",
+          "Kam Peter išiel na poslednej dovolenke?",
+          "Kam Peter šiel na poslednej dovolenke?"
+        ],
+        "hint": "Use 'išiel' — the irregular past tense of 'ísť' for a male subject.",
+        "focus": "past (ísť→išiel)"
+      }
+    ]
+  },
+  {
+    "theme": "meeting a friend",
+    "sentences": [
+      {
+        "en": "We are going to a café to meet.",
+        "sk": "Ideme do kaviarne na stretnutie.",
+        "altSk": [
+          "Ideme do kaviarne stretnúť sa.",
+          "Ideme do kaviarne, aby sme sa stretli."
+        ],
+        "hint": "'do' + genitive for destination (kaviareň → kaviarne)",
+        "focus": "accusative after na/do"
+      },
+      {
+        "en": "My friend works as a teacher.",
+        "sk": "Môj priateľ pracuje ako učiteľ.",
+        "altSk": [
+          "Môj kamarát je učiteľom.",
+          "Môj priateľ je učiteľom.",
+          "Môj kamarát pracuje ako učiteľ."
+        ],
+        "hint": "Use instrumental with 'byť' for profession: učiteľ → učiteľom",
+        "focus": "instrumental (profession)"
+      },
+      {
+        "en": "What are you eating and drinking here?",
+        "sk": "Čo tu ješ a piješ?",
+        "altSk": [
+          "Čo tu jete a pijete?"
+        ],
+        "hint": "Irregular present: jesť → ješ, piť → piješ (2nd person singular)",
+        "focus": "present irregular (jesť/piť)"
+      },
+      {
+        "en": "I have been waiting for you for a long time!",
+        "sk": "Ja na teba čakám už dlho!",
+        "altSk": [
+          "Na teba čakám už veľmi dlho!"
+        ],
+        "hint": "Place 'ja' or 'na teba' at the front to add emphasis; Slovak uses present tense for ongoing actions",
+        "focus": "word order emphasis"
+      }
+    ]
+  },
+  {
+    "theme": "introducing yourself and your nationality",
+    "sentences": [
+      {
+        "en": "I will introduce myself to you tomorrow.",
+        "sk": "Zajtra sa ti predstavím.",
+        "altSk": [
+          "Zajtra sa vám predstavím.",
+          "Ja sa ti zajtra predstavím."
+        ],
+        "hint": "Use perfective present of 'predstaviť sa' for future meaning, or 'budem sa predstavovať'",
+        "focus": "future (budem + inf / perfective present)"
+      },
+      {
+        "en": "Do you know something about her nationality?",
+        "sk": "Vieš niečo o jej národnosti?",
+        "altSk": [
+          "Viete niečo o jej národnosti?",
+          "Vieš niečo o jej pôvode?",
+          "Viete niečo o jej pôvode?"
+        ],
+        "hint": "'about her' = 'o nej' (locative pronoun), but here 'jej' modifies the noun",
+        "focus": "locative (pronoun o ňom/nej)"
+      },
+      {
+        "en": "She is standing right in front of the map of Slovakia.",
+        "sk": "Stojí priamo pred mapou Slovenska.",
+        "altSk": [
+          "Ona stojí pred mapou Slovenska.",
+          "Stojí hneď pred mapou Slovenska.",
+          "Ona stojí priamo pred mapou Slovenska.",
+          "Ona stojí hneď pred mapou Slovenska."
+        ],
+        "hint": "'in front of' = 'pred' + instrumental case of 'mapa' → 'mapou'",
+        "focus": "instrumental (nad/pod/pred/za)"
+      },
+      {
+        "en": "Where did you go after you introduced yourself?",
+        "sk": "Kam si išiel po tom, ako si sa predstavil?",
+        "altSk": [
+          "Kam si išla po tom, ako si sa predstavila?",
+          "Kam ste išli potom, čo ste sa predstavili?"
+        ],
+        "hint": "Irregular past of 'ísť': išiel (masc.) / išla (fem.); remember gender agreement",
+        "focus": "past (ísť→išiel)"
+      }
+    ]
+  },
+  {
+    "theme": "celebrating a birthday",
+    "sentences": [
+      {
+        "en": "Do you know when her birthday is?",
+        "sk": "Vieš, kedy má narodeniny?",
+        "altSk": [
+          "Viete, kedy má narodeniny?"
+        ],
+        "hint": "vedieť takes no object here; use 2nd person sg 'vieš'",
+        "focus": "present tense – vedieť"
+      },
+      {
+        "en": "His birthday is on the fifth of May.",
+        "sk": "Jeho narodeniny sú piateho mája.",
+        "altSk": [
+          "Má narodeniny piateho mája."
+        ],
+        "hint": "dates use genitive: piaty → piateho, máj → mája",
+        "focus": "date expression – genitive ordinal"
+      },
+      {
+        "en": "He ate the whole birthday cake himself.",
+        "sk": "Zjedol celú narodeninovú tortu sám.",
+        "altSk": [
+          "On zjedol celú tortu sám.",
+          "Zjedol celú narodeninovú tortu celý sám.",
+          "On zjedol celú narodeninovú tortu sám.",
+          "Sám zjedol celú narodeninovú tortu.",
+          "Sám zjedol celú tortu."
+        ],
+        "hint": "jesť → zjedol (perfective past, masculine); celú = accusative feminine",
+        "focus": "past tense – jesť→jedol (perfective)"
+      },
+      {
+        "en": "I see many candles among the flowers on the table.",
+        "sk": "Vidím veľa sviečok medzi kvetmi na stole.",
+        "altSk": [
+          "Vidím sviečky medzi kvetmi na stole."
+        ],
+        "hint": "medzi + instrumental plural: kvety → kvetmi; vidieť uses present stem vidím",
+        "focus": "present tense – vidieť + instrumental – medzi"
+      }
+    ]
+  },
+  {
+    "theme": "travel plans",
+    "sentences": [
+      {
+        "en": "The ticket costs twenty euros.",
+        "sk": "Lístok stojí dvadsať eur.",
+        "altSk": [
+          "Cestovný lístok stojí dvadsať eur.",
+          "Lístok stojí dvadsať €.",
+          "Vstupenka stojí dvadsať eur.",
+          "Lístok stojí 20 eur.",
+          "Cestovný lístok stojí dvadsať €.",
+          "Vstupenka stojí dvadsať €.",
+          "Lístek stojí dvadsať eur."
+        ],
+        "hint": "stáť uses stojí in 3rd person singular present",
+        "focus": "present tense: stáť→stojí"
+      },
+      {
+        "en": "I am a pilot and I travel often.",
+        "sk": "Som pilot a cestujem často.",
+        "altSk": [
+          "Ja som pilot a cestujem často.",
+          "Som pilot a často cestujem.",
+          "Ja som pilot a často cestujem."
+        ],
+        "hint": "professions after byť use nominative, no article needed",
+        "focus": "profession: nominative after byť"
+      },
+      {
+        "en": "We need trousers for the trip.",
+        "sk": "Potrebujeme nohavice na výlet.",
+        "altSk": [
+          "Na výlet potrebujeme nohavice.",
+          "Potrebujeme nohavice na cestu.",
+          "Na cestu potrebujeme nohavice."
+        ],
+        "hint": "nohavice is pluralia tantum — always plural, no singular form",
+        "focus": "pluralia tantum: nohavice"
+      },
+      {
+        "en": "Three friends are buying tickets today.",
+        "sk": "Traja priatelia kupujú lístky dnes.",
+        "altSk": [
+          "Dnes traja priatelia kupujú lístky.",
+          "Traja priatelia dnes kupujú lístky.",
+          "Dnes kupujú traja priatelia lístky.",
+          "Traja kamaráti kupujú lístky dnes.",
+          "Traja kamaráti dnes kupujú lístky.",
+          "Dnes traja kamaráti kupujú lístky."
+        ],
+        "hint": "2–4 + nominative plural (traja priatelia), not genitive singular",
+        "focus": "numeral 2-4 + nominative plural"
+      }
+    ]
+  },
+  {
+    "theme": "university schedule",
+    "sentences": [
+      {
+        "en": "The students are sitting in the lecture hall.",
+        "sk": "Študenti sedia v prednáškovej sále.",
+        "altSk": [
+          "Študenti sedia v aule.",
+          "Študenti sedia v posluchárni."
+        ],
+        "hint": "nominative plural: študenti (masc animate -i)",
+        "focus": "nominative plural"
+      },
+      {
+        "en": "I want to change my schedule this semester.",
+        "sk": "Chcem zmeniť môj rozvrh tento semester.",
+        "altSk": [
+          "Chcem zmeniť svoj rozvrh tento semester.",
+          "Chcem zmeniť môj rozvrh v tomto semestri.",
+          "Chcem zmeniť svoj rozvrh v tomto semestri."
+        ],
+        "hint": "chcieť + infinitive; zmeniť is perfective",
+        "focus": "modal chcieť + infinitive"
+      },
+      {
+        "en": "Do you have a mathematics lecture today?",
+        "sk": "Máš dnes prednášku z matematiky?",
+        "altSk": [
+          "Máš dnes matematickú prednášku?",
+          "Máte dnes prednášku z matematiky?",
+          "Máte dnes matematickú prednášku?"
+        ],
+        "hint": "prednášku = accusative feminine singular (-a → -u)",
+        "focus": "accusative feminine -u"
+      },
+      {
+        "en": "She was writing notes and then she wrote everything down.",
+        "sk": "Písala si poznámky a potom si všetko zapísala.",
+        "altSk": [
+          "Písala poznámky a potom zapísala všetko."
+        ],
+        "hint": "písať (impf, ongoing) → zapísať (pf, completed action); reflexive si optional with písať",
+        "focus": "aspect pair impf→pf"
+      }
+    ]
+  },
+  {
+    "theme": "summer holidays",
+    "sentences": [
+      {
+        "en": "The summer holidays are starting tomorrow.",
+        "sk": "Letné prázdniny sa začínajú zajtra.",
+        "altSk": [
+          "Zajtra sa začínajú letné prázdniny."
+        ],
+        "hint": "Use 'začínať sa' (to begin) – reflexive verb with 'sa'. Present tense.",
+        "focus": "reflexive verb: začínať sa"
+      },
+      {
+        "en": "It is half past ten in the morning.",
+        "sk": "Je pol jedenástej dopoludnia.",
+        "altSk": [],
+        "hint": "'Half past ten' = pol jedenástej (half of eleven). Add 'dopoludnia' for AM.",
+        "focus": "time expression: pol + ordinal genitive"
+      },
+      {
+        "en": "Have you already bought a ticket for the trip?",
+        "sk": "Už si kúpil lístok na výlet?",
+        "altSk": [
+          "Už ste si kúpili lístok na výlet?"
+        ],
+        "hint": "'Už' + past tense for 'already done'. Use perfective 'kúpiť' → 'kúpil'.",
+        "focus": "už + past positive"
+      },
+      {
+        "en": "We have not swum in the sea yet.",
+        "sk": "Ešte sme neplávali v mori.",
+        "altSk": [
+          "Ešte sme sa nekúpali v mori.",
+          "Ešte sme neplavali v mori.",
+          "Ešte sme v mori neplávali.",
+          "My sme ešte neplávali v mori.",
+          "Ešte sme v mori neplavali.",
+          "My sme ešte neplavali v mori.",
+          "Ešte sme sa v mori nekúpali."
+        ],
+        "hint": "'Ešte ne-' + past for 'not yet'. 'More' → locative 'mori'. Double negation applies.",
+        "focus": "ešte ne- + past negative / locative po + noun"
+      }
+    ]
+  },
+  {
+    "theme": "describing my apartment",
+    "sentences": [
+      {
+        "en": "My apartment costs four hundred euros.",
+        "sk": "Môj byt stojí štyri sto eur.",
+        "altSk": [
+          "Môj byt stojí štyri sto EUR."
+        ],
+        "hint": "stáť (to cost) conjugates as stojím, stojíš, stojí — use stojí for on/ona/ono",
+        "focus": "present tense: stáť→stojí"
+      },
+      {
+        "en": "I am an architect and I work from home.",
+        "sk": "Som architekt a pracujem z domu.",
+        "altSk": [
+          "Som architektka a pracujem z domu."
+        ],
+        "hint": "In Slovak, professions after 'som' do NOT need an article; use nominative sg",
+        "focus": "profession after byť (no article)"
+      },
+      {
+        "en": "My apartment has three large rooms.",
+        "sk": "Môj byt má tri veľké izby.",
+        "altSk": [
+          "V mojom byte sú tri veľké izby.",
+          "Môj byt má tri priestranné izby."
+        ],
+        "hint": "2-4 + nominative plural (izby, not izieb); adjective agrees: veľké (nom pl)",
+        "focus": "numeral 2-4 + nominative plural"
+      },
+      {
+        "en": "I don't have scissors anywhere in the apartment.",
+        "sk": "Nemám nikde v byte nožnice.",
+        "altSk": [
+          "V byte nemám nožnice nikde."
+        ],
+        "hint": "nožnice is pluralia tantum — it only exists in plural form; use double negation: nemám + nikde",
+        "focus": "pluralia tantum + double negation"
+      }
+    ]
+  },
+  {
+    "theme": "describing the weather yesterday and tomorrow",
+    "sentences": [
+      {
+        "en": "The clouds covered the sun yesterday.",
+        "sk": "Oblaky zakryli slnko včera.",
+        "altSk": [
+          "Včera oblaky zakryli slnko.",
+          "Oblaky včera zakryli slnko.",
+          "Včera oblaky zahalili slnko.",
+          "Oblaky zahalili slnko včera.",
+          "Oblaky zakryli včera slnko.",
+          "Mraky zakryli slnko včera.",
+          "Mraky včera zakryli slnko.",
+          "Včera mraky zakryli slnko.",
+          "Mraky zahalili slnko včera.",
+          "Včera mraky zahalili slnko."
+        ],
+        "hint": "Use zakryť (perfective) to show a completed action in the past.",
+        "focus": "aspect pair (impf→pf): zakrývať → zakryť"
+      },
+      {
+        "en": "I want a warm day tomorrow.",
+        "sk": "Chcem zajtra teplý deň.",
+        "altSk": [
+          "Zajtra chcem teplý deň.",
+          "Chcem, aby zajtra bol teplý deň."
+        ],
+        "hint": "chcieť is followed by a noun (accusative) here, not an infinitive — but the modal form of chcieť is still practised.",
+        "focus": "modal chcieť + infinitive / accusative context"
+      },
+      {
+        "en": "Did you see the big storm yesterday?",
+        "sk": "Videl si včera veľkú búrku?",
+        "altSk": [
+          "Videla si včera veľkú búrku?"
+        ],
+        "hint": "búrka is a feminine noun; use the accusative ending -u on both the adjective (veľkú) and the noun (búrku).",
+        "focus": "accusative (feminine -u): veľká búrka → veľkú búrku"
+      },
+      {
+        "en": "The days will be long and sunny tomorrow.",
+        "sk": "Dni budú dlhé a slnečné zajtra.",
+        "altSk": [
+          "Zajtra budú dni dlhé a slnečné.",
+          "Zajtra dni budú dlhé a slnečné."
+        ],
+        "hint": "Dni is the nominative plural of deň (irregular); adjectives also take plural endings: dlhé, slnečné.",
+        "focus": "nominative plural: deň → dni, dlhý → dlhé, slnečný → slnečné"
+      }
+    ]
+  },
+  {
+    "theme": "at the cinema",
+    "sentences": [
+      {
+        "en": "I am enjoying myself at the cinema.",
+        "sk": "Bavím sa v kine.",
+        "altSk": [
+          "Teším sa v kine.",
+          "Dobre sa bavím v kine."
+        ],
+        "hint": "Reflexive verbs use 'sa' after the verb",
+        "focus": "reflexive verb (sa/si)"
+      },
+      {
+        "en": "At what time does the film start?",
+        "sk": "O koľkej začína film?",
+        "altSk": [
+          "O koľkej sa začína film?",
+          "O ktorej hodine začína film?",
+          "O ktorej hodine sa začína film?",
+          "O koľkej hodine začína film?",
+          "O koľkej hodine sa začína film?"
+        ],
+        "hint": "Use 'o koľkej' for asking at what time",
+        "focus": "time expression (o koľkej)"
+      },
+      {
+        "en": "Do you know the main actor in this film?",
+        "sk": "Poznáš hlavného herca v tomto filme?",
+        "altSk": [
+          "Poznáte hlavného herca v tomto filme?",
+          "Poznáš hlavného herca tohto filmu?",
+          "Poznáte hlavného herca tohto filmu?",
+          "Vieš, kto je hlavný herec v tomto filme?",
+          "Viete, kto je hlavný herec v tomto filme?",
+          "Poznáš hlavného herca z tohto filmu?",
+          "Poznáte hlavného herca z tohto filmu?"
+        ],
+        "hint": "Animate masculine nouns take -a ending in accusative",
+        "focus": "accusative (animate masc -a)"
+      },
+      {
+        "en": "We went to the cinema by tram yesterday.",
+        "sk": "Včera sme išli do kina električkou.",
+        "altSk": [
+          "Šli sme včera do kina električkou.",
+          "Včera sme šli do kina električkou."
+        ],
+        "hint": "Use instrumental case (no preposition) for means of transport",
+        "focus": "instrumental (bare = tool/transport)"
+      }
+    ]
+  },
+  {
+    "theme": "morning routine",
+    "sentences": [
+      {
+        "en": "Where is my toothbrush?",
+        "sk": "Kde je moja zubná kefka?",
+        "altSk": [
+          "Kde je moja kefka na zuby?"
+        ],
+        "hint": "môj/moja agrees with feminine noun zubná kefka",
+        "focus": "possessive adjective (môj/tvoj)"
+      },
+      {
+        "en": "We talked about our morning routine.",
+        "sk": "Rozprávali sme sa o rannej rutine.",
+        "altSk": [
+          "Hovorili sme o rannej rutine.",
+          "Rozprávali sme sa o našej rannej rutine.",
+          "Hovorili sme o našej rannej rutine."
+        ],
+        "hint": "o + locative: ranná rutina → rannej rutine",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "She drank two cups of coffee this morning.",
+        "sk": "Dnes ráno vypila dve šálky kávy.",
+        "altSk": [
+          "Dnes ráno ona vypila dve šálky kávy."
+        ],
+        "hint": "past tense feminine: vypila (perfective); šálky is genitive plural after dve",
+        "focus": "past tense (regular)"
+      },
+      {
+        "en": "I need five more minutes every morning.",
+        "sk": "Každé ráno potrebujem päť minút navyše.",
+        "altSk": [
+          "Každé ráno potrebujem ešte päť minút."
+        ],
+        "hint": "päť + genitive plural: minuta → minút",
+        "focus": "numeral + genitive plural"
+      }
+    ]
+  },
+  {
+    "theme": "telling the time and making appointments",
+    "sentences": [
+      {
+        "en": "We will meet at the café.",
+        "sk": "Stretneme sa pri kaviarni.",
+        "altSk": [
+          "Stretneme sa pri kafetérii."
+        ],
+        "hint": "Use 'pri' with locative case for 'at/by a place'. Kaviareň → pri kaviarni.",
+        "focus": "locative (pri + place)"
+      },
+      {
+        "en": "The appointment is at three o'clock.",
+        "sk": "Stretnutie je o tretej hodine.",
+        "altSk": [
+          "Termín je o tretej.",
+          "Stretnutie je o tretej.",
+          "Termín je o tretej hodine.",
+          "Schôdzka je o tretej.",
+          "Schôdzka je o tretej hodine."
+        ],
+        "hint": "Use ordinal number in locative with 'o' for clock times. Tri → tretej.",
+        "focus": "ordinal number + time"
+      },
+      {
+        "en": "Shall we meet on Friday morning?",
+        "sk": "Stretneme sa v piatok ráno?",
+        "altSk": [
+          "Môžeme sa stretnúť v piatok ráno?",
+          "Stretneme sa v piatok doobeda?",
+          "Môžeme sa stretnúť v piatok doobeda?",
+          "Dáme si stretnutie v piatok ráno?",
+          "Čo tak sa stretnúť v piatok ráno?"
+        ],
+        "hint": "'Stretnúť sa' is a reflexive verb — include 'sa'. Use perfective 'stretneme sa' for a future one-time meeting.",
+        "focus": "reflexive (stretnúť sa)"
+      },
+      {
+        "en": "She could not come to the meeting yesterday.",
+        "sk": "Včera nemohla prísť na stretnutie.",
+        "altSk": [
+          "Ona včera nemohla prísť na stretnutie."
+        ],
+        "hint": "Past tense of 'môcť' for a female subject: mohla → nemohla. Add 'ne-' for negation.",
+        "focus": "past modal (nemohla)"
+      }
+    ]
+  },
+  {
+    "theme": "meeting a friend",
+    "sentences": [
+      {
+        "en": "We are meeting at the café today.",
+        "sk": "Dnes sa stretávame v kaviarni.",
+        "altSk": [
+          "Dnes sa stretneme v kaviarni."
+        ],
+        "hint": "reflexive verb 'stretávať sa' needs 'sa'; café is locative: kaviarni",
+        "focus": "reflexive verb (sa)"
+      },
+      {
+        "en": "At what time are we meeting tomorrow?",
+        "sk": "O koľkej sa zajtra stretneme?",
+        "altSk": [
+          "Zajtra sa stretneme o koľkej?",
+          "O koľkej sa zajtra stretávame?",
+          "O koľkej sa stretneme zajtra?",
+          "Kedy sa zajtra stretneme?"
+        ],
+        "hint": "'o koľkej' = at what time; use perfective 'stretnúť sa' for one-off event",
+        "focus": "time expression (o koľkej)"
+      },
+      {
+        "en": "I see my good friend Peter there.",
+        "sk": "Vidím tam svojho dobrého priateľa Petra.",
+        "altSk": [
+          "Tam vidím svojho dobrého priateľa Petra.",
+          "Vidím tam môjho dobrého priateľa Petra.",
+          "Tam vidím môjho dobrého priateľa Petra."
+        ],
+        "hint": "animate masculine accusative: priateľ→priateľa, Peter→Petra, dobrý→dobrého",
+        "focus": "accusative (animate masc -a)"
+      },
+      {
+        "en": "My friend came to the party by car.",
+        "sk": "Môj priateľ prišiel na párty autom.",
+        "altSk": [
+          "Priateľ prišiel na párty autom."
+        ],
+        "hint": "instrument/transport uses bare instrumental, no preposition: auto→autom",
+        "focus": "instrumental (bare = transport)"
+      }
+    ]
+  },
+  {
+    "theme": "cooking dinner",
+    "sentences": [
+      {
+        "en": "I will cook dinner at home today.",
+        "sk": "Dnes budem variť večeru doma.",
+        "altSk": [
+          "Budem dnes variť večeru doma.",
+          "Dnes budem doma variť večeru.",
+          "Dnes uvarím večeru doma.",
+          "Dnes budem variť doma večeru.",
+          "Dnes budem večeru variť doma.",
+          "Dnes uvarím doma večeru.",
+          "Dnes pripravím večeru doma.",
+          "Dnes budem pripravovať večeru doma."
+        ],
+        "hint": "Use 'budem' + infinitive for future tense.",
+        "focus": "future (budem + inf)"
+      },
+      {
+        "en": "The pot is standing under the shelf.",
+        "sk": "Hrniec stojí pod poličkou.",
+        "altSk": [
+          "Pod poličkou stojí hrniec."
+        ],
+        "hint": "'Pod' triggers the instrumental case — 'polička' becomes 'poličkou'.",
+        "focus": "instrumental (pod)"
+      },
+      {
+        "en": "We talked about dinner for a long time.",
+        "sk": "Dlho sme sa rozprávali o večeri.",
+        "altSk": [
+          "Rozprávali sme sa dlho o večeri.",
+          "Dlho sme sa bavili o večeri.",
+          "Bavili sme sa dlho o večeri."
+        ],
+        "hint": "'O' + locative — 'večera' becomes 'večeri'.",
+        "focus": "locative (o + noun)"
+      },
+      {
+        "en": "Did Peter go to the shop for the ingredients?",
+        "sk": "Išiel Peter do obchodu pre suroviny?",
+        "altSk": [
+          "Šiel Peter do obchodu pre suroviny?",
+          "Išiel Peter do obchodu po suroviny?",
+          "Šiel Peter do obchodu po suroviny?",
+          "Išiel Peter do predajne pre suroviny?",
+          "Šiel Peter do predajne pre suroviny?",
+          "Išiel Peter do predajne po suroviny?",
+          "Šiel Peter do predajne po suroviny?"
+        ],
+        "hint": "Irregular past of 'ísť' — masculine singular is 'išiel' (or 'šiel').",
+        "focus": "past (ísť→išiel)"
+      }
+    ]
+  },
+  {
+    "theme": "talking about dates and weekdays",
+    "sentences": [
+      {
+        "en": "What day is today?",
+        "sk": "Ktorý deň je dnes?",
+        "altSk": [
+          "Aký deň je dnes?"
+        ],
+        "hint": "Use 'ktorý' for 'which' with days",
+        "focus": "nominative singular - asking about the day"
+      },
+      {
+        "en": "I want to know today's date.",
+        "sk": "Chcem vedieť dnešný dátum.",
+        "altSk": [
+          "Chcem poznať dnešný dátum."
+        ],
+        "hint": "chcieť takes infinitive; 'dnešný' is a possessive adjective",
+        "focus": "modal chcieť + infinitive"
+      },
+      {
+        "en": "On Monday I will write an email.",
+        "sk": "V pondelok napíšem email.",
+        "altSk": [
+          "V pondelok napíšem správu.",
+          "V pondelok napíšem e-mail.",
+          "V pondelok napíšem elektronickú správu."
+        ],
+        "hint": "Use perfective 'napísať' for a completed future action; present form of perfective = future",
+        "focus": "aspect pair imperfective→perfective (písať→napísať)"
+      },
+      {
+        "en": "What dates are free this week?",
+        "sk": "Ktoré dátumy sú voľné tento týždeň?",
+        "altSk": [
+          "Aké dátumy sú voľné tento týždeň?"
+        ],
+        "hint": "'dátumy' is nominative plural masculine inanimate; adjective 'voľné' agrees in plural",
+        "focus": "nominative plural (masculine inanimate noun + adjective agreement)"
+      }
+    ]
+  },
+  {
+    "theme": "giving directions",
+    "sentences": [
+      {
+        "en": "He went straight and then turned left.",
+        "sk": "Išiel rovno a potom odbočil doľava.",
+        "altSk": [
+          "Šiel rovno a potom zabočil doľava.",
+          "Išiel priamo a potom odbočil doľava.",
+          "Šiel priamo a potom odbočil doľava.",
+          "Išiel rovno a potom zabočil doľava.",
+          "Šiel rovno a potom odbočil doľava.",
+          "Išiel priamo a potom zabočil doľava.",
+          "Šiel priamo a potom zabočil doľava."
+        ],
+        "hint": "ísť → išiel (irregular past tense masculine)",
+        "focus": "past tense (irregular)"
+      },
+      {
+        "en": "You must turn right at the crossroads.",
+        "sk": "Na križovatke musíš odbočiť doprava.",
+        "altSk": [
+          "Musíš na križovatke zabočiť doprava."
+        ],
+        "hint": "musieť: musím, musíš, musí... + infinitive",
+        "focus": "modal verb (musieť)"
+      },
+      {
+        "en": "I will explain the way to you.",
+        "sk": "Vysvetlím ti cestu.",
+        "altSk": [
+          "Opíšem ti cestu.",
+          "Vysvetlím vám cestu.",
+          "Opíšem vám cestu.",
+          "Ukážem ti cestu.",
+          "Ukážem vám cestu.",
+          "Popíšem ti cestu.",
+          "Popíšem vám cestu."
+        ],
+        "hint": "vysvetlím = perfective present acting as future",
+        "focus": "future perfective"
+      },
+      {
+        "en": "Nobody told me anything about the stop.",
+        "sk": "Nikto mi nič nepovedal o zastávke.",
+        "altSk": [
+          "Nikto mi nič nehovoril o zastávke.",
+          "Nikto mi nič nepovedal o tej zastávke.",
+          "Nikto mi nič nehovoril o tej zastávke.",
+          "Nik mi nič nepovedal o zastávke.",
+          "Nik mi nič nehovoril o zastávke."
+        ],
+        "hint": "nikto + nič + negative verb — double negation is required in Slovak",
+        "focus": "double negation"
+      }
+    ]
+  },
+  {
+    "theme": "describing my apartment",
+    "sentences": [
+      {
+        "en": "The lecture already ended.",
+        "sk": "Prednáška sa už skončila.",
+        "altSk": [
+          "Už sa skončila prednáška.",
+          "Prednáška už skončila."
+        ],
+        "hint": "Use 'už' with past tense of 'končiť sa' (perfective: skončiť sa → skončila sa)",
+        "focus": "už + past positive"
+      },
+      {
+        "en": "The film has not started yet.",
+        "sk": "Film sa ešte nezačal.",
+        "altSk": [
+          "Ešte sa nezačal film.",
+          "Film ešte nezačal.",
+          "Ešte nezačal film."
+        ],
+        "hint": "Use 'ešte' + negation with past tense of 'začať sa' → nezačal sa",
+        "focus": "ešte ne- + past negative"
+      },
+      {
+        "en": "It is half past eight in the morning.",
+        "sk": "Je pol deviatej ráno.",
+        "altSk": [
+          "Ráno je pol deviatej."
+        ],
+        "hint": "In Slovak 'half past eight' = 'pol deviatej' (half of the ninth hour)",
+        "focus": "time expression with pol"
+      },
+      {
+        "en": "There are pictures hanging all around the apartment.",
+        "sk": "Po byte visí veľa obrazov.",
+        "altSk": [
+          "Obrazy visí po celom byte.",
+          "Po celom byte visí veľa obrazov."
+        ],
+        "hint": "Use 'po' + locative of 'byt' → byte, meaning 'around/throughout the apartment'",
+        "focus": "locative with po + noun"
+      }
+    ]
+  },
+  {
+    "theme": "family weekend",
+    "sentences": [
+      {
+        "en": "My sister is at home today.",
+        "sk": "Moja sestra je dnes doma.",
+        "altSk": [
+          "Sestra je dnes doma."
+        ],
+        "hint": "Use 'je' for third person singular of byť",
+        "focus": "byť conjugation (je)"
+      },
+      {
+        "en": "Their grandmother is a Slovak woman.",
+        "sk": "Ich stará mama je Slovenka.",
+        "altSk": [
+          "Ich babička je Slovenka."
+        ],
+        "hint": "Nationality adjective used as noun: Slovenka (Slovak woman)",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Where is Peter's car this weekend?",
+        "sk": "Kde je Petrovo auto tento víkend?",
+        "altSk": [
+          "Kde je tento víkend Petrovo auto?"
+        ],
+        "hint": "Possessive from male name Peter → Petrov/Petrovo (neuter noun auto)",
+        "focus": "possessive from name (-ov)"
+      },
+      {
+        "en": "Where are you from? I am not from Bratislava.",
+        "sk": "Odkiaľ si? Nie som z Bratislavy.",
+        "altSk": [
+          "Odkiaľ pochádzaš? Nie som z Bratislavy.",
+          "Odkiaľ si? Nepochádzam z Bratislavy.",
+          "Odkiaľ pochádzaš? Nepochádzam z Bratislavy."
+        ],
+        "hint": "Use 'odkiaľ' for 'where from'; negate byť with 'nie som'; z + genitive",
+        "focus": "question (odkiaľ) + byť negation"
+      }
+    ]
+  },
+  {
+    "theme": "phone conversation",
+    "sentences": [
+      {
+        "en": "She wants to call her friend.",
+        "sk": "Chce zavolať svojej kamarátke.",
+        "altSk": [
+          "Ona chce zavolať svojej priateľke.",
+          "Chce zatelefonovať svojej kamarátke."
+        ],
+        "hint": "chcieť + infinitive; zavolať is perfective",
+        "focus": "modal chcieť + infinitive"
+      },
+      {
+        "en": "I hear a woman on the phone.",
+        "sk": "Počujem ženu na telefóne.",
+        "altSk": [
+          "Počujem ženu v telefóne.",
+          "Na telefóne počujem ženu.",
+          "Počujem ženu cez telefón."
+        ],
+        "hint": "žena → ženu in accusative (feminine -u ending)",
+        "focus": "accusative feminine -u"
+      },
+      {
+        "en": "He finally answered the call.",
+        "sk": "Konečne zdvihol telefón.",
+        "altSk": [
+          "Konečne prijal hovor.",
+          "On konečne zdvihol telefón."
+        ],
+        "hint": "zdvihnúť (pf) vs. zdvíhať (impf); completed action",
+        "focus": "aspect pair impf→pf"
+      },
+      {
+        "en": "My friends are always on their phones.",
+        "sk": "Moji priatelia sú stále pri telefónoch.",
+        "altSk": [
+          "Moji kamaráti sú neustále pri telefónoch.",
+          "Moje priateľky sú stále pri telefónoch.",
+          "Moji priatelia sú neustále pri telefónoch.",
+          "Moji priatelia sú stále na telefónoch.",
+          "Moji kamaráti sú stále pri telefónoch.",
+          "Moji priatelia neustále hľadia do telefónov.",
+          "Moji priatelia sú stále zahľadení do telefónov."
+        ],
+        "hint": "priateľ → priatelia (masc. animate nominative plural)",
+        "focus": "nominative plural"
+      }
+    ]
+  },
+  {
+    "theme": "telling the time and making appointments",
+    "sentences": [
+      {
+        "en": "Do you know when the meeting is?",
+        "sk": "Vieš, kedy je stretnutie?",
+        "altSk": [
+          "Viete, kedy je stretnutie?",
+          "Vieš, kedy je schôdza?",
+          "Viete, kedy je schôdza?",
+          "Vieš, kedy bude stretnutie?",
+          "Viete, kedy bude stretnutie?",
+          "Vieš, kedy bude schôdza?",
+          "Viete, kedy bude schôdza?"
+        ],
+        "hint": "vedieť is irregular: viem, vieš, vie, vieme, viete, vedia",
+        "focus": "present (vedieť)"
+      },
+      {
+        "en": "I ate lunch between twelve and one.",
+        "sk": "Jedol som obed medzi dvanástou a jednou.",
+        "altSk": [
+          "Obedoval som medzi dvanástou a jednou.",
+          "Jedla som obed medzi dvanástou a jednou."
+        ],
+        "hint": "jesť→jedol/jedla in past; medzi takes instrumental: dvanástou, jednou",
+        "focus": "past (jesť→jedol)"
+      },
+      {
+        "en": "The appointment is between Monday and Wednesday.",
+        "sk": "Termín je medzi pondelkom a stredou.",
+        "altSk": [
+          "Stretnutie je medzi pondelkom a stredou."
+        ],
+        "hint": "medzi + instrumental: pondelkom, stredou (feminine instr. -ou)",
+        "focus": "instrumental (medzi)"
+      },
+      {
+        "en": "The meeting is on the fifth of March at two.",
+        "sk": "Stretnutie je piateho marca o druhej.",
+        "altSk": [
+          "Mám stretnutie piateho marca o druhej.",
+          "Stretnutie je 5. marca o druhej.",
+          "Schôdza je piateho marca o druhej.",
+          "Schôdza je 5. marca o druhej."
+        ],
+        "hint": "date in genitive: piateho marca; time with o + locative: o druhej",
+        "focus": "date/day expression"
+      }
+    ]
+  },
+  {
+    "theme": "cooking dinner",
+    "sentences": [
+      {
+        "en": "I am eating soup for dinner.",
+        "sk": "Jem polievku na večeru.",
+        "altSk": [
+          "Na večeru jem polievku.",
+          "Na večer jem polievku.",
+          "Večeriam polievku."
+        ],
+        "hint": "jesť is irregular: jem, ješ, je, jeme, jete, jedia",
+        "focus": "present tense (irregular verb)"
+      },
+      {
+        "en": "She is cooking chicken and vegetables.",
+        "sk": "Varí kurča a zeleninu.",
+        "altSk": [
+          "Ona varí kurča a zeleninu.",
+          "Varí kura a zeleninu.",
+          "Ona varí kura a zeleninu.",
+          "Pripravuje kurča a zeleninu.",
+          "Pripravuje kura a zeleninu.",
+          "Ona pripravuje kurča a zeleninu.",
+          "Ona pripravuje kura a zeleninu."
+        ],
+        "hint": "kurča and zeleninu are in accusative as direct objects",
+        "focus": "accusative (direct object)"
+      },
+      {
+        "en": "He is cooking dinner with his sister.",
+        "sk": "Varí večeru so sestrou.",
+        "altSk": [
+          "On varí večeru so svojou sestrou."
+        ],
+        "hint": "s/so + instrumental: sestra → sestrou",
+        "focus": "instrumental (s + noun)"
+      },
+      {
+        "en": "We are standing in the kitchen and cooking pasta.",
+        "sk": "Stojíme v kuchyni a varíme cestoviny.",
+        "altSk": [
+          "V kuchyni stojíme a varíme cestoviny.",
+          "Stojíme v kuchyni a pripravujeme cestoviny."
+        ],
+        "hint": "v + locative: kuchyňa → kuchyni; stáť is irregular: stojím, stojíš...",
+        "focus": "locative (v/na + place)"
+      }
+    ]
+  },
+  {
+    "theme": "weekend plans",
+    "sentences": [
+      {
+        "en": "I want to buy a red dress.",
+        "sk": "Chcem si kúpiť červené šaty.",
+        "altSk": [
+          "Chcem kúpiť červené šaty."
+        ],
+        "hint": "červené šaty = red dress, accusative plural neuter",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "Can you come to the party on Saturday?",
+        "sk": "Môžeš prísť na párty v sobotu?",
+        "altSk": [
+          "Môžeš prísť na párty v sobotu?"
+        ],
+        "hint": "môžeš = can you (2nd sg), prísť = to come",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "We are going through the park this weekend.",
+        "sk": "Cez víkend ideme cez park.",
+        "altSk": [
+          "Ideme cez park tento víkend.",
+          "Tento víkend ideme cez park.",
+          "Cez víkend prechádzame cez park.",
+          "Tento víkend prechádzame cez park."
+        ],
+        "hint": "cez + accusative = through/across; cez víkend = over the weekend",
+        "focus": "accusative (cez/pre)"
+      },
+      {
+        "en": "Where are you going on Sunday morning?",
+        "sk": "Kam ideš v nedeľu ráno?",
+        "altSk": [
+          "Kam ideš v nedeľu dopoludnia?",
+          "Kam pôjdeš v nedeľu ráno?",
+          "Kam pôjdeš v nedeľu dopoludnia?"
+        ],
+        "hint": "ideš = you go (irregular ísť, 2nd sg present); kam = where to",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "asking for help",
+    "sentences": [
+      {
+        "en": "Can you help me, please?",
+        "sk": "Môžeš mi pomôcť, prosím?",
+        "altSk": [
+          "Môžete mi pomôcť, prosím?"
+        ],
+        "hint": "môcť = can/may; 2nd person sg: môžeš",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "I am looking for a red bag.",
+        "sk": "Hľadám červenú tašku.",
+        "altSk": [
+          "Hľadám červenú kabelku.",
+          "Hľadám červenú brašňu."
+        ],
+        "hint": "červený → červenú (fem. accusative); taška → tašku",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "I need this form for my friend.",
+        "sk": "Potrebujem tento formulár pre môjho priateľa.",
+        "altSk": [
+          "Potrebujem tento formulár pre kamaráta."
+        ],
+        "hint": "pre + accusative; priateľ → priateľa (masc. animate accusative)",
+        "focus": "accusative (pre)"
+      },
+      {
+        "en": "Where do you go for help?",
+        "sk": "Kde ideš pre pomoc?",
+        "altSk": [
+          "Kam ideš po pomoc?",
+          "Kde hľadáš pomoc?",
+          "Na koho sa obrátiš o pomoc?",
+          "Ku komu ideš pre pomoc?"
+        ],
+        "hint": "ísť irregular: idem, ideš, ide, ideme, idete, idú; cez/pre + accusative",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "telling the time and making appointments",
+    "sentences": [
+      {
+        "en": "I want to make an appointment for tomorrow.",
+        "sk": "Chcem si dohodnúť stretnutie na zajtra.",
+        "altSk": [
+          "Chcem si dojednať stretnutie na zajtra."
+        ],
+        "hint": "chcieť + reflexive infinitive; 'stretnutie' is neuter accusative",
+        "focus": "modal chcieť + infinitive"
+      },
+      {
+        "en": "He is waiting for a free minute.",
+        "sk": "Čaká na voľnú minútu.",
+        "altSk": [
+          "On čaká na voľnú minútu.",
+          "Čaká na voľnú chvíľu.",
+          "On čaká na voľnú chvíľu."
+        ],
+        "hint": "feminine noun 'minúta' takes -u ending in accusative singular; adjective 'voľný' agrees: voľnú",
+        "focus": "accusative feminine -u"
+      },
+      {
+        "en": "The doctors are already in the waiting room.",
+        "sk": "Lekári sú už v čakárni.",
+        "altSk": [
+          "Doktori sú už v čakárni."
+        ],
+        "hint": "masculine animate nominative plural: lekár → lekári; doktor → doktori",
+        "focus": "nominative plural"
+      },
+      {
+        "en": "She finally wrote down the appointment time.",
+        "sk": "Konečne si zapísala čas stretnutia.",
+        "altSk": [
+          "Ona si konečne zapísala čas stretnutia.",
+          "Konečne si poznačila čas stretnutia.",
+          "Ona si konečne poznačila čas stretnutia.",
+          "Konečne si zapísala čas schôdzky.",
+          "Ona si konečne zapísala čas schôdzky.",
+          "Konečne si poznačila čas schôdzky."
+        ],
+        "hint": "perfective verb 'zapísať si' (pf.) vs imperfective 'zapisovať si'; completed action in past uses perfective",
+        "focus": "aspect pair (impf→pf)"
+      }
+    ]
+  },
+  {
+    "theme": "at the bank or post office",
+    "sentences": [
+      {
+        "en": "I want to send this package.",
+        "sk": "Chcem poslať tento balík.",
+        "altSk": [
+          "Chcem odoslať tento balík.",
+          "Chcem poslať tento balíček."
+        ],
+        "hint": "chcieť is irregular: chcem, chceš, chce...",
+        "focus": "present tense (irregular verb)"
+      },
+      {
+        "en": "Please fill in this form.",
+        "sk": "Prosím, vyplňte tento formulár.",
+        "altSk": [
+          "Vyplňte, prosím, tento formulár."
+        ],
+        "hint": "formulár is masculine, accusative singular = formulár (no change)",
+        "focus": "accusative (direct object)"
+      },
+      {
+        "en": "I am going to the bank with my friend.",
+        "sk": "Idem do banky s priateľom.",
+        "altSk": [
+          "Idem do banky s kamarátom.",
+          "Idem do banky s priateľkou.",
+          "Idem do banky s kamarátkou."
+        ],
+        "hint": "s + instrumental: priateľ → priateľom",
+        "focus": "instrumental (s + noun)"
+      },
+      {
+        "en": "You can exchange money at the post office.",
+        "sk": "Môžete si vymeniť peniaze na pošte.",
+        "altSk": [
+          "Môžeš si vymeniť peniaze na pošte.",
+          "Môžete si zameniť peniaze na pošte.",
+          "Môžeš si zameniť peniaze na pošte.",
+          "Peniaze si môžete vymeniť na pošte.",
+          "Peniaze si môžeš vymeniť na pošte."
+        ],
+        "hint": "na pošte = locative of pošta (feminine); pošta → pošte",
+        "focus": "locative (v/na + place)"
+      }
+    ]
+  },
+  {
+    "theme": "describing furniture and rooms in a flat",
+    "sentences": [
+      {
+        "en": "I want to buy a new sofa.",
+        "sk": "Chcem kúpiť novú pohovku.",
+        "altSk": [
+          "Chcem si kúpiť novú pohovku."
+        ],
+        "hint": "chcieť + infinitive; 'pohovka' is feminine, accusative ending -u",
+        "focus": "modal chcieť + infinitive"
+      },
+      {
+        "en": "We are putting the table into the kitchen.",
+        "sk": "Dávame stôl do kuchyne.",
+        "altSk": [
+          "Kladieme stôl do kuchyne."
+        ],
+        "hint": "'stôl' is masculine inanimate, accusative same as nominative; imperfective aspect (ongoing action)",
+        "focus": "aspect pair (impf→pf)"
+      },
+      {
+        "en": "She cleaned the whole room.",
+        "sk": "Upratala celú izbu.",
+        "altSk": [
+          "Ona upratala celú izbu.",
+          "Vyupratovala celú izbu.",
+          "Ona vyupratovala celú izbu.",
+          "Upratala celú miestnosť.",
+          "Ona upratala celú miestnosť."
+        ],
+        "hint": "perfective verb 'upratať' in past tense; 'izba' is feminine, accusative ending -u",
+        "focus": "accusative (feminine -u)"
+      },
+      {
+        "en": "The chairs and tables are new here.",
+        "sk": "Stoličky a stoly sú tu nové.",
+        "altSk": [
+          "Tu sú stoličky a stoly nové."
+        ],
+        "hint": "'stoličky' (f. pl.) and 'stoly' (m. inanimate pl.) in nominative plural; adjective 'nové' agrees in plural",
+        "focus": "nominative plural"
+      }
+    ]
+  },
+  {
+    "theme": "weather forecast",
+    "sentences": [
+      {
+        "en": "I see grey clouds today.",
+        "sk": "Dnes vidím sivé oblaky.",
+        "altSk": [
+          "Vidím dnes sivé oblaky."
+        ],
+        "hint": "sivé oblaky – adjective + noun in accusative plural",
+        "focus": "colour + accusative noun"
+      },
+      {
+        "en": "We can't go outside because of the rain.",
+        "sk": "Nemôžeme ísť von pre dážď.",
+        "altSk": [
+          "Pre dážď nemôžeme ísť von.",
+          "Nemôžeme ísť von kvôli dažďu.",
+          "Kvôli dažďu nemôžeme ísť von.",
+          "Nemôžeme vyjsť von kvôli dažďu.",
+          "Nemôžeme ísť von, lebo prší.",
+          "Pre dážď nemôžeme vyjsť von.",
+          "Kvôli dažďu nemôžeme vyjsť von.",
+          "Nemôžeme vyjsť von pre dážď.",
+          "Nemôžeme ísť von, pretože prší."
+        ],
+        "hint": "nemôžeme = we cannot (modal môcť, negated)",
+        "focus": "modal môcť"
+      },
+      {
+        "en": "They are staying home because of the storm.",
+        "sk": "Zostávajú doma pre búrku.",
+        "altSk": [
+          "Pre búrku zostávajú doma.",
+          "Zostávajú doma kvôli búrke.",
+          "Kvôli búrke zostávajú doma.",
+          "Sú doma kvôli búrke.",
+          "Sú doma pre búrku."
+        ],
+        "hint": "pre búrku – pre + accusative expressing reason",
+        "focus": "accusative (cez/pre)"
+      },
+      {
+        "en": "Where are you going in this bad weather?",
+        "sk": "Kam ideš v tomto zlom počasí?",
+        "altSk": [
+          "Kam idete v tomto zlom počasí?",
+          "Kam ideš za takého zlého počasia?",
+          "Kam idete za takého zlého počasia?",
+          "Kam ideš v takom zlom počasí?",
+          "Kam idete v takom zlom počasí?"
+        ],
+        "hint": "ideš = you go/are going – irregular ísť present tense",
+        "focus": "irregular ísť present"
+      }
+    ]
+  },
+  {
+    "theme": "talking about a dormitory room",
+    "sentences": [
+      {
+        "en": "I am a student and I live in a dormitory.",
+        "sk": "Som študent a bývam na internáte.",
+        "altSk": [
+          "Som študentka a bývam na internáte."
+        ],
+        "hint": "Use 'som' for 'I am' and locative after 'na' for location",
+        "focus": "profession / byť present tense"
+      },
+      {
+        "en": "There are three beds in our room.",
+        "sk": "V našej izbe sú tri postele.",
+        "altSk": [
+          "Naša izba má tri postele.",
+          "V našej izbe sa nachádzajú tri postele."
+        ],
+        "hint": "2-4 take nominative plural (postele), not genitive plural",
+        "focus": "numeral 2-4 + nominative plural"
+      },
+      {
+        "en": "How much does a place in a dormitory cost?",
+        "sk": "Koľko stojí miesto na internáte?",
+        "altSk": [
+          "Koľko stojí izba na internáte?",
+          "Koľko stojí posteľ na internáte?",
+          "Koľko stojí ubytovanie na internáte?",
+          "Koľko stojí miesto v internáte?",
+          "Koľko stojí izba v internáte?",
+          "Koľko stojí posteľ v internáte?",
+          "Koľko stojí ubytovanie v internáte?"
+        ],
+        "hint": "stáť meaning 'to cost' conjugates as stojím/stojí (irregular present stem)",
+        "focus": "present tense stáť → stojí"
+      },
+      {
+        "en": "I don't have any scissors, can I borrow yours?",
+        "sk": "Nemám nožnice, môžem si požičať tvoje?",
+        "altSk": [
+          "Nemám nožnice, môžem si zobrať tvoje?"
+        ],
+        "hint": "Nožnice is pluralia tantum — it has no singular form in Slovak",
+        "focus": "pluralia tantum (nožnice)"
+      }
+    ]
+  },
+  {
+    "theme": "talking about dates and weekdays",
+    "sentences": [
+      {
+        "en": "What is the weather like on Friday?",
+        "sk": "Aké je počasie v piatok?",
+        "altSk": [
+          "Aké bude počasie v piatok?"
+        ],
+        "hint": "Use 'aké' for weather questions; 'v piatok' = on Friday (accusative)",
+        "focus": "weather expression"
+      },
+      {
+        "en": "I never forget his birthday date.",
+        "sk": "Nikdy nezabudnem jeho dátum narodenín.",
+        "altSk": [
+          "Nikdy na jeho dátum narodenín nezabudnem.",
+          "Nikdy nezabudnem na jeho dátum narodenín.",
+          "Nikdy nezabudnem na jeho narodeniny.",
+          "Nikdy nezabudnem jeho narodeniny."
+        ],
+        "hint": "Double negation: 'nikdy' + 'ne-' prefix on verb",
+        "focus": "double negation (nikdy + ne-)"
+      },
+      {
+        "en": "Do you know that meeting? I already moved it.",
+        "sk": "Poznáš tú schôdzku? Už som ju presunul.",
+        "altSk": [
+          "Vieš o tej schôdzke? Už som ju presunul."
+        ],
+        "hint": "'ju' replaces feminine noun 'schôdzku' (accusative pronoun)",
+        "focus": "accusative pronoun (ju)"
+      },
+      {
+        "en": "On Tuesday I went to the cinema with a friend.",
+        "sk": "V utorok som išiel do kina so kamarátom.",
+        "altSk": [
+          "V utorok som šiel do kina so priateľom.",
+          "V utorok som išiel do kina s kamarátom.",
+          "V utorok som šiel do kina s kamarátom.",
+          "V utorok som išla do kina so kamarátom.",
+          "V utorok som išla do kina s kamarátom.",
+          "V utorok som šla do kina so kamarátom.",
+          "V utorok som šla do kina s kamarátom.",
+          "V utorok som išiel do kina so priateľom.",
+          "V utorok som išiel do kina s priateľom.",
+          "V utorok som šiel do kina s priateľom."
+        ],
+        "hint": "'so' used before consonant cluster in 'kamarátom'; past tense 'ísť→išiel'",
+        "focus": "instrumental (so + consonant cluster)"
+      }
+    ]
+  },
+  {
+    "theme": "describing people",
+    "sentences": [
+      {
+        "en": "She knows that man very well.",
+        "sk": "Ona toho muža veľmi dobre pozná.",
+        "altSk": [
+          "Tá žena toho muža veľmi dobre pozná.",
+          "Pozná toho muža veľmi dobre.",
+          "Toho muža veľmi dobre pozná.",
+          "Ona toho muža dobre pozná.",
+          "Toho muža veľmi dobre pozná ona.",
+          "Ona veľmi dobre pozná toho muža.",
+          "Veľmi dobre pozná toho muža."
+        ],
+        "hint": "Use 'poznať' (to know a person), present tense conjugation: pozná",
+        "focus": "present (vedieť/vidieť) – poznať for knowing people"
+      },
+      {
+        "en": "I can see a tall woman over there.",
+        "sk": "Tam vidím vysokú ženu.",
+        "altSk": [
+          "Vidím tam vysokú ženu.",
+          "Tam vidím tú vysokú ženu."
+        ],
+        "hint": "'vidieť' conjugates: vidím/vidíš/vidí; 'vysokú ženu' is accusative singular feminine",
+        "focus": "present (vidieť) + accusative"
+      },
+      {
+        "en": "He ate lunch between those two tall men.",
+        "sk": "On jedol obed medzi tými dvoma vysokými mužmi.",
+        "altSk": [
+          "Jedol obed medzi dvoma vysokými mužmi.",
+          "On jedol obed medzi tými dvomi vysokými mužmi.",
+          "Jedol obed medzi dvomi vysokými mužmi.",
+          "On obedoval medzi tými dvoma vysokými mužmi.",
+          "Obedoval medzi tými dvoma vysokými mužmi.",
+          "On obedoval medzi dvoma vysokými mužmi.",
+          "Obedoval medzi dvoma vysokými mužmi."
+        ],
+        "hint": "'jesť→jedol' (past tense irregular); 'medzi' takes instrumental: 'tými dvoma vysokými mužmi'",
+        "focus": "past (jesť→jedol) + instrumental (medzi)"
+      },
+      {
+        "en": "My sister was born on the fifth of March.",
+        "sk": "Moja sestra sa narodila piateho marca.",
+        "altSk": [
+          "Sestra sa narodila 5. marca.",
+          "Narodila sa piateho marca.",
+          "Moja sestra sa narodila 5. marca."
+        ],
+        "hint": "Dates use genitive: 'piateho marca' (5th of March); 'narodiť sa' is reflexive, past tense feminine: narodila sa",
+        "focus": "date/day expression + reflexive past tense"
+      }
+    ]
+  },
+  {
+    "theme": "comparing two things",
+    "sentences": [
+      {
+        "en": "What do you think about this film?",
+        "sk": "Čo si myslíš o tomto filme?",
+        "altSk": [
+          "Čo si myslíte o tomto filme?",
+          "Aký máš názor na tento film?",
+          "Aký máte názor na tento film?"
+        ],
+        "hint": "o + locative: film → filme",
+        "focus": "locative (o + topic)"
+      },
+      {
+        "en": "My sister liked the red dress more.",
+        "sk": "Moja sestra mala radšej červené šaty.",
+        "altSk": [
+          "Mojej sestre sa viac páčili červené šaty."
+        ],
+        "hint": "past tense of mať: mala; radšej = more/preferably",
+        "focus": "past tense (regular)"
+      },
+      {
+        "en": "This shop has five kinds of cheese.",
+        "sk": "Tento obchod má päť druhov syra.",
+        "altSk": [
+          "V tomto obchode je päť druhov syra."
+        ],
+        "hint": "päť + genitive plural: druh → druhov, syr → syra",
+        "focus": "numeral + genitive plural"
+      },
+      {
+        "en": "Is your car faster than my car?",
+        "sk": "Je tvoje auto rýchlejšie ako moje auto?",
+        "altSk": [
+          "Je tvoj automobil rýchlejší ako môj automobil?",
+          "Je tvoje auto rýchlejšie ako moje?",
+          "Je tvoj automobil rýchlejší ako môj?",
+          "Je tvoje auto rýchlejšie než moje auto?",
+          "Je tvoje auto rýchlejšie než moje?",
+          "Je tvoj automobil rýchlejší než môj automobil?",
+          "Je tvoj automobil rýchlejší než môj?"
+        ],
+        "hint": "tvoje/moje agree with auto (neuter); rýchlejší/rýchlejšie = faster",
+        "focus": "possessive adjective (môj/tvoj)"
+      }
+    ]
+  },
+  {
+    "theme": "at the bank or post office",
+    "sentences": [
+      {
+        "en": "I am at the post office.",
+        "sk": "Som na pošte.",
+        "altSk": [
+          "Ja som na pošte."
+        ],
+        "hint": "Use 'som' for I am; 'pošta' takes locative: pošte",
+        "focus": "byť conjugation (som/si/je)"
+      },
+      {
+        "en": "The American clerk works at the bank.",
+        "sk": "Americký úradník pracuje v banke.",
+        "altSk": [
+          "Americký zamestnanec pracuje v banke.",
+          "Americký bankový úradník pracuje v banke."
+        ],
+        "hint": "Nationality adjective 'americký' agrees with masculine noun 'úradník'",
+        "focus": "nationality adjective"
+      },
+      {
+        "en": "Where is Peter's account number?",
+        "sk": "Kde je Petrovo číslo účtu?",
+        "altSk": [
+          "Kde je číslo Petrovho účtu?",
+          "Kde je číslo konta Petra?",
+          "Kde je Petrovo číslo konta?",
+          "Kde je číslo Petrovho konta?"
+        ],
+        "hint": "Possessive from male name Peter → Petrov; 'číslo' is neuter so Petrovo",
+        "focus": "possessive from name (-ov/-in)"
+      },
+      {
+        "en": "Where are you from and why are you here at the bank?",
+        "sk": "Odkiaľ si a prečo si tu v banke?",
+        "altSk": [
+          "Odkiaľ ste a prečo ste tu v banke?"
+        ],
+        "hint": "'Odkiaľ' asks about origin; 'kde' asks location; use 'si' for informal or 'ste' for formal",
+        "focus": "question (odkiaľ/kde)"
+      }
+    ]
+  }
+]

@@ -475,7 +475,15 @@ Order: easy → hard. Sentences: 6-10 words each.
 Return JSON:
 {{"theme":"{theme}","sentences":[{{"en":"...","sk":"...","altSk":["..."],"hint":"grammar hint","focus":"grammar point"}}]}}
 
-Include questions, negatives, different tenses. Natural conversational style."""
+Include questions, negatives, different tenses. Natural conversational style.
+
+CRITICAL for altSk — include ALL naturally correct Slovak alternatives, not just word-order variants:
+- Different prepositions that are both correct (e.g. "do kina" vs "na film", "na pláž" vs "na more")
+- Synonym verbs (e.g. "pozerať" vs "sledovať", "hovoriť" vs "rozprávať", "prísť" vs "prísť")
+- With or without optional subject pronoun (e.g. "Idem" vs "Ja idem")
+- Different but equally valid nouns/phrases for the same concept
+- Different word orders when meaning is identical
+Aim for 2-4 entries in altSk whenever genuine alternatives exist. Only skip altSk entries if there is truly only one natural way to say it."""
 
 
 def make_gapfill_prompt(scenario, grammar_focus):
@@ -498,19 +506,22 @@ RULES:
 def make_drill_prompt(selected_stems):
     items_desc = []
     for cat, stem, context in selected_stems:
-        items_desc.append(f'  category="{cat}", stem="{stem}", context="{context}"')
+        items_desc.append(f'  category="{cat}", example_stem="{stem}", concept="{context}"')
     items_str = "\n".join(items_desc)
 
-    return f"""Generate 8 grammar drill questions using EXACTLY these stems:
+    return f"""Generate 8 grammar drill questions. For each entry below, invent a NEW stem that illustrates the SAME grammar concept — do NOT copy the example stem. Use different vocabulary, a different noun or verb, a different sentence frame.
 
 {items_str}
 
-For each, provide 4 plausible options (including the correct one), the correct answer, the full correct form, and a brief explanation (under 10 words).
+For each question:
+- Create your own stem in the format "... ___ (lemma)" where the blank tests the grammar concept. The hint in parentheses must be ONLY the base/lemma form — NEVER include the answer or a "→ answer" hint inside the parentheses
+- Provide 4 plausible options (including the correct one)
+- Give the correct answer, the full correct Slovak form, and a brief explanation (under 10 words)
 
 Return JSON:
 {{"questions":[{{"category":"...","stem":"...","context":"...","correct":"...","options":["4 opts"],"fullWord":"...","explanation":"..."}}]}}
 
-All options must be real Slovak forms. Use correct diacritics."""
+All options must be real Slovak forms. Use correct diacritics. Make each stem feel fresh and varied."""
 
 
 SCHEMAS = {
@@ -650,21 +661,34 @@ def call_api(client, prompt, exercise_type, max_retries=6):
     return None
 
 
-def load_progress(path):
-    if path.exists():
-        with open(path) as f:
-            return json.load(f)
-    return {"stories": [], "translates": [], "gapfills": [], "drills": []}
+BANK_KEYS = ["stories", "translates", "gapfills", "drills"]
 
 
-def save_bank(bank, path):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(bank, f, ensure_ascii=False, indent=2)
-    js_path = path.with_suffix(".js")
-    with open(js_path, "w", encoding="utf-8") as f:
-        f.write("const EXERCISE_BANK = ")
-        json.dump(bank, f, ensure_ascii=False)
-        f.write(";\n")
+def key_to_file(base_dir, key):
+    return base_dir / f"{key}.json"
+
+
+def load_progress(base_dir):
+    bank = {}
+    for key in BANK_KEYS:
+        path = key_to_file(base_dir, key)
+        if path.exists():
+            with open(path) as f:
+                bank[key] = json.load(f)
+        else:
+            bank[key] = []
+    return bank
+
+
+def save_bank(bank, base_dir):
+    base_dir.mkdir(parents=True, exist_ok=True)
+    for key in BANK_KEYS:
+        with open(key_to_file(base_dir, key), "w", encoding="utf-8") as f:
+            json.dump(bank[key], f, ensure_ascii=False, indent=2)
+    # Write a tiny metadata file for the home screen stats
+    meta = {key: len(bank[key]) for key in BANK_KEYS}
+    with open(base_dir / "meta.json", "w", encoding="utf-8") as f:
+        json.dump(meta, f)
 
 
 def generate_parallel(client, tasks, exercise_type, workers=5):
@@ -701,15 +725,16 @@ def main():
     parser.add_argument("--gapfills", type=int, default=0)
     parser.add_argument("--drills", type=int, default=0)
     parser.add_argument("--workers", type=int, default=5)
-    parser.add_argument("--output", type=str, default="bank.json")
+    parser.add_argument("--output", type=str, default="bank",
+                        help="Output directory (default: bank/)")
     args = parser.parse_args()
 
-    output_path = Path(args.output)
+    base_dir = Path(args.output)
     client = anthropic.Anthropic()
-    bank = load_progress(output_path)
+    bank = load_progress(base_dir)
 
     print(f"Loaded: {len(bank['stories'])}s / {len(bank['translates'])}t / "
-          f"{len(bank['gapfills'])}b / {len(bank['drills'])}d")
+          f"{len(bank['gapfills'])}g / {len(bank['drills'])}d")
 
     # ── STORIES ──
     remaining = args.stories - len(bank["stories"])
@@ -720,7 +745,7 @@ def main():
         params = all_combos[:remaining]
         prompts = [make_story_prompt(s, g, c) for s, g, c in params]
         bank["stories"].extend(generate_parallel(client, prompts, "story", args.workers))
-        save_bank(bank, output_path)
+        save_bank(bank, base_dir)
 
     # ── TRANSLATES ──
     remaining = args.translates - len(bank["translates"])
@@ -731,7 +756,7 @@ def main():
         params = all_combos[:remaining]
         prompts = [make_translate_prompt(t, g) for t, g in params]
         bank["translates"].extend(generate_parallel(client, prompts, "translate", args.workers))
-        save_bank(bank, output_path)
+        save_bank(bank, base_dir)
 
     # ── GAPFILLS ──
     remaining = args.gapfills - len(bank["gapfills"])
@@ -742,7 +767,7 @@ def main():
         params = all_combos[:remaining]
         prompts = [make_gapfill_prompt(s, g) for s, g in params]
         bank["gapfills"].extend(generate_parallel(client, prompts, "gapfill", args.workers))
-        save_bank(bank, output_path)
+        save_bank(bank, base_dir)
 
     # ── DRILLS ──
     remaining = args.drills - len(bank["drills"])
@@ -759,18 +784,15 @@ def main():
             random.shuffle(selected)
             prompts.append(make_drill_prompt(selected))
         bank["drills"].extend(generate_parallel(client, prompts, "drill", args.workers))
-        save_bank(bank, output_path)
+        save_bank(bank, base_dir)
 
     # ── SUMMARY ──
     print(f"\n{'='*50}")
-    print(f"DONE!")
+    print(f"DONE! Files in {base_dir}/")
     print(f"  Stories:    {len(bank['stories'])}")
     print(f"  Translates: {len(bank['translates'])}")
     print(f"  Gapfills:   {len(bank['gapfills'])}")
     print(f"  Drills:     {len(bank['drills'])}")
-    sz = output_path.stat().st_size / 1024
-    print(f"  File: {output_path} ({sz:.0f} KB)")
-    print(f"  JS:   {output_path.with_suffix('.js')}")
     # Variety stats
     combos = len(SCENARIOS) * len(GRAMMAR_COMBOS) * len(CHARACTER_PAIRS)
     print(f"\n  Story variety: {len(SCENARIOS)} scenarios × {len(GRAMMAR_COMBOS)} grammar combos × "
