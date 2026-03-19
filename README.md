@@ -1,6 +1,6 @@
 # Slovenčina — Daily Practice Hub
 
-A standalone webapp for practising Slovak at the A1-A2 level (Krížom Krážom curriculum).
+A standalone webapp for practising Slovak at the A1 level (Krížom Krážom curriculum).
 
 ## Quick Start (with the included seed bank)
 
