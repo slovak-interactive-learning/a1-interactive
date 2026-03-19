@@ -509,12 +509,12 @@ def make_drill_prompt(selected_stems):
         items_desc.append(f'  category="{cat}", example_stem="{stem}", concept="{context}"')
     items_str = "\n".join(items_desc)
 
-    return f"""Generate 8 grammar drill questions. For each entry below, invent a NEW stem that illustrates the SAME grammar concept — do NOT copy the example stem. Use different vocabulary, a different noun or verb, a different sentence frame.
+    return f"""Generate 8 grammar drill questions. For each entry below, invent a NEW stem that illustrates the SAME grammar concept — do NOT copy the example stem. Use different vocabulary, a different noun or verb, a different sentence frame. The example_stem is for reference only; ignore its parenthetical hints.
 
 {items_str}
 
 For each question:
-- Create your own stem in the format "... ___ (lemma)" where the blank tests the grammar concept. The hint in parentheses must be ONLY the base/lemma form — NEVER include the answer or a "→ answer" hint inside the parentheses
+- Create your own stem as a sentence or phrase with ___ marking the blank — NO parenthetical hints at all. The options and fullWord field carry all the information needed
 - Provide 4 plausible options (including the correct one)
 - Give the correct answer, the full correct Slovak form, and a brief explanation (under 10 words)
 
