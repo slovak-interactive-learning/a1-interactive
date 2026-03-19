@@ -211,8 +211,7 @@ function loadState() {
   } catch {}
 }
 function saveState() {
-  const today = new Date().toISOString().slice(0, 10);
-  localStorage.setItem('slovak-streak', JSON.stringify({ streak, lastDate: today, todayDone: [...todayDone] }));
+  localStorage.setItem('slovak-streak', JSON.stringify({ streak, lastDate, todayDone: [...todayDone] }));
   const u = {};
   for (const k of Object.keys(usedIndices)) u[k] = [...usedIndices[k]];
   localStorage.setItem('slovak-used', JSON.stringify(u));
