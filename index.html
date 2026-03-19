@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Slovenčina — Daily Practice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F5F0E8; --bg2: #EDE4D8; --card: #FFF; --border: #E8DDD0;
+    --text: #2C3E50; --muted: #8B7D6B; --accent: #B85450; --blue: #5D8AA8;
+    --green: #27AE60; --red: #E74C3C; --warn: #F39C12;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    background: linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
+    min-height: 100vh; color: var(--text);
+  }
+  .container { max-width: 480px; margin: 0 auto; padding: 20px 16px; }
+
+  /* Header */
+  .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid #E0D5C5; }
+  .header h1 { font-family: 'Playfair Display', Georgia, serif; font-size: 22px; letter-spacing: -0.5px; }
+  .header .sub { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .streak { display: flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 20px; font-size: 14px; font-weight: 600; }
+  .streak.active { background: #FFF8E8; border: 1px solid #F0DCA0; }
+  .streak.inactive { background: #F0F0F0; border: 1px solid #E0E0E0; }
+  .back-btn { background: none; border: none; color: var(--muted); font-size: 15px; cursor: pointer; font-family: inherit; padding: 4px 0; }
+
+  /* Section labels */
+  .section-label { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: 1.5px; font-weight: 600; margin-bottom: 8px; }
+
+  /* Featured card */
+  .featured { width: 100%; padding: 24px 20px; border-radius: 14px; background: linear-gradient(135deg, #2C3E50, #34495E); border: none; cursor: pointer; text-align: left; position: relative; overflow: hidden; margin-bottom: 24px; }
+  .featured .bg-icon { position: absolute; top: -20px; right: -20px; font-size: 80px; opacity: 0.08; }
+  .featured .icon { font-size: 32px; }
+  .featured h3 { color: #FFF; margin: 10px 0 4px; font-size: 20px; font-family: 'Playfair Display', Georgia, serif; }
+  .featured p { color: #A8B8C8; margin: 0; font-size: 14px; }
+  .done-badge { position: absolute; top: 16px; right: 16px; background: var(--green); color: #FFF; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+
+  /* Activity grid */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .grid-btn { padding: 18px 14px; border-radius: 12px; border: 1.5px solid var(--border); background: var(--card); cursor: pointer; text-align: left; position: relative; font-family: inherit; transition: transform 0.1s; }
+  .grid-btn:active { transform: scale(0.97); }
+  .grid-btn .icon { font-size: 24px; }
+  .grid-btn .label { margin: 8px 0 2px; font-size: 15px; font-weight: 600; color: var(--text); }
+  .grid-btn .desc { font-size: 12px; color: var(--muted); line-height: 1.3; }
+  .grid-btn .check { position: absolute; top: 10px; right: 10px; color: var(--green); font-size: 16px; }
+
+  /* Resources box */
+  .resources { margin-top: 24px; padding: 16px; background: var(--card); border-radius: 12px; border: 1.5px solid var(--border); }
+  .resources a { color: #2980B9; }
+
+  /* Story */
+  .sentence-card { padding: 14px 16px; border-radius: 10px; cursor: pointer; border: 1.5px solid var(--border); background: linear-gradient(135deg, #FFF, #FDF8F0); transition: all 0.3s; margin-bottom: 10px; }
+  .sentence-card.revealed { background: #FFF; border-color: #D4E6F1; box-shadow: 0 2px 8px rgba(44,62,80,0.08); }
+  .sentence-card .sk { font-size: 16px; font-weight: 500; line-height: 1.5; }
+  .sentence-card .en { margin-top: 8px; font-size: 14px; color: var(--blue); line-height: 1.4; animation: fadeIn 0.3s ease; }
+  .sentence-card .tap-hint { margin-top: 6px; font-size: 12px; color: #C4B8A8; }
+
+  .new-words { margin-top: 20px; padding: 14px; background: #F0F6FA; border-radius: 10px; border: 1px solid #D4E6F1; }
+
+  /* Common */
+  .question-card { padding: 20px; background: var(--card); border-radius: 12px; border: 1.5px solid var(--border); text-align: center; margin-bottom: 20px; }
+  .question-card .stem { font-size: 22px; font-weight: 600; }
+  .question-card .context { margin-top: 8px; font-size: 14px; color: var(--muted); }
+  .grammar-focus { font-size: 13px; color: var(--accent); margin-bottom: 16px; font-weight: 500; }
+  .progress { font-size: 14px; color: var(--muted); font-weight: 500; }
+
+  .btn-primary { width: 100%; padding: 14px; border: none; border-radius: 10px; color: #FFF; font-size: 16px; font-weight: 600; cursor: pointer; font-family: inherit; }
+  .btn-primary.blue { background: linear-gradient(135deg, #2980B9, #3498DB); }
+  .btn-primary.green { background: linear-gradient(135deg, #27AE60, #2ECC71); }
+  .btn-primary.dark { background: #2C3E50; }
+  .btn-primary:disabled { background: #D5D5D5; cursor: default; }
+
+  .result-card { padding: 12px; border-radius: 8px; margin-bottom: 8px; }
+  .result-card.correct { background: #F0FAF0; border: 1px solid #C3E6C3; }
+  .result-card.partial { background: #FFF8E8; border: 1px solid #F0E0B0; }
+  .result-card.wrong { background: #FFF0F0; border: 1px solid #F0C3C3; }
+
+  .big-score { text-align: center; font-size: 48px; font-weight: 700; color: var(--accent); font-family: 'Playfair Display', Georgia, serif; margin: 16px 0; }
+  h2 { font-family: 'Playfair Display', Georgia, serif; color: var(--text); }
+
+  /* Category badges */
+  .cat-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 10px; }
+
+  /* Timer */
+  .timer { width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 700; border-width: 3px; border-style: solid; }
+
+  /* Options grid */
+  .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .option-btn { padding: 16px; border-radius: 10px; font-size: 18px; font-weight: 600; cursor: pointer; font-family: inherit; transition: all 0.2s; }
+  .option-btn.neutral { background: var(--card); border: 1.5px solid var(--border); color: var(--text); }
+  .option-btn.correct { background: #F0FAF0; border: 2px solid var(--green); color: var(--green); }
+  .option-btn.wrong { background: #FFF0F0; border: 2px solid var(--red); color: var(--red); }
+  .option-btn:disabled { cursor: default; }
+
+  /* Builder */
+  .build-area { min-height: 56px; padding: 10px 12px; border-radius: 10px; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .build-area.empty { border: 1.5px dashed #D0C4B4; background: #F8F4EE; }
+  .build-area.correct { border: 1.5px dashed var(--green); background: #F0FAF0; }
+  .build-area.wrong { border: 1.5px dashed var(--red); background: #FFF0F0; }
+  .word-placed { padding: 6px 12px; border-radius: 6px; font-size: 15px; font-weight: 500; background: var(--text); color: #FFF; }
+  .word-available { padding: 8px 16px; border-radius: 8px; border: 1.5px solid #D4E6F1; background: var(--card); color: var(--text); font-size: 15px; font-weight: 500; cursor: pointer; font-family: inherit; }
+
+  /* Translate */
+  .translate-input { width: 100%; padding: 14px; font-size: 16px; border-radius: 10px; border: 1.5px solid #D4E6F1; outline: none; resize: none; font-family: inherit; }
+  .translate-input:disabled { background: #F8F8F8; }
+
+  .feedback { margin-top: 12px; padding: 14px; border-radius: 10px; }
+
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  .animate-in { animation: slideUp 0.4s ease; }
+
+  /* Bank stats */
+  .bank-stats { margin-top: 12px; padding: 12px; background: #F8F4EE; border-radius: 8px; font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="container" id="app"></div>
+
+<!-- Load the exercise bank (generated by generate_bank.py) -->
+<script src="bank.js"></script>
+
+<script>
+// ─── HELPERS ───
+const $ = sel => document.querySelector(sel);
+const h = (tag, attrs = {}, ...children) => {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === 'style' && typeof v === 'object') Object.assign(el.style, v);
+    else if (k.startsWith('on')) el.addEventListener(k.slice(2).toLowerCase(), v);
+    else if (k === 'className') el.className = v;
+    else if (k === 'disabled') { if (v) el.disabled = true; }
+    else if (k === 'innerHTML') el.innerHTML = v;
+    else el.setAttribute(k, v);
+  }
+  for (const c of children) {
+    if (typeof c === 'string') el.appendChild(document.createTextNode(c));
+    else if (c) el.appendChild(c);
+  }
+  return el;
+};
+
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function pickRandom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+function normalize(s) { return s.toLowerCase().replace(/[?.!,;:"""'']/g, '').replace(/\s+/g, ' ').trim(); }
+
+// ─── STATE ───
+let state = { screen: 'home', activityType: null, data: null };
+let streak = 0, lastDate = null, todayDone = new Set();
+let usedIndices = { stories: new Set(), translates: new Set(), gapfills: new Set(), drills: new Set() };
+
+const ACTIVITIES = {
+  story:     { icon: '📖', label: 'Micro-Story',    desc: 'Read a short story, reveal translations' },
+  translate: { icon: '✍️', label: 'Translate',       desc: 'Translate English sentences into Slovak' },
+  gapfill:   { icon: '🧩', label: 'Gap Fill',        desc: 'Complete a paragraph with missing words' },
+  cases:     { icon: '⚡', label: 'Grammar Drill',   desc: 'Cases, verb forms & pronouns — speed round' }
+};
+const ACT_ORDER = ['story', 'translate', 'gapfill', 'cases'];
+const CATEGORIES = {
+  instrumental: { label: 'Inštrumentál', color: '#8E44AD' },
+  accusative:   { label: 'Akuzatív',     color: '#2980B9' },
+  locative:     { label: 'Lokál',         color: '#1ABC9C' },
+  nom_plural:   { label: 'Nominatív pl.', color: '#27AE60' },
+  pronoun:      { label: 'Pronominá',     color: '#D35400' },
+  present:      { label: 'Prítomný čas',  color: '#16A085' },
+  past:         { label: 'Minulý čas',    color: '#C0392B' },
+  numeral:      { label: 'Číslovky',      color: '#E67E22' },
+  time:         { label: 'Čas',           color: '#3498DB' },
+  possessive:   { label: 'Privlastňovacie', color: '#9B59B6' },
+  adjective:    { label: 'Adjektíva',     color: '#E74C3C' },
+  uz_este:      { label: 'Už / Ešte',     color: '#F39C12' },
+};
+
+// ─── PERSISTENCE ───
+function loadState() {
+  try {
+    const d = JSON.parse(localStorage.getItem('slovak-streak') || '{}');
+    streak = d.streak || 0;
+    lastDate = d.lastDate || null;
+    todayDone = new Set(d.todayDone || []);
+    const today = new Date().toISOString().slice(0, 10);
+    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    if (lastDate && lastDate !== today && lastDate !== yesterday) streak = 0;
+    // Load used indices
+    const u = JSON.parse(localStorage.getItem('slovak-used') || '{}');
+    for (const k of Object.keys(usedIndices)) usedIndices[k] = new Set(u[k] || []);
+  } catch {}
+}
+function saveState() {
+  const today = new Date().toISOString().slice(0, 10);
+  localStorage.setItem('slovak-streak', JSON.stringify({ streak, lastDate: today, todayDone: [...todayDone] }));
+  const u = {};
+  for (const k of Object.keys(usedIndices)) u[k] = [...usedIndices[k]];
+  localStorage.setItem('slovak-used', JSON.stringify(u));
+}
+
+function getExercise(type) {
+  const bankKey = type === 'cases' ? 'drills' : type === 'story' ? 'stories' : type + 's';
+  const pool = EXERCISE_BANK[bankKey];
+  if (!pool || !pool.length) return null;
+
+  // Pick an unused exercise if possible, then reset
+  let unused = [];
+  for (let i = 0; i < pool.length; i++) {
+    if (!usedIndices[bankKey].has(i)) unused.push(i);
+  }
+  if (unused.length === 0) {
+    usedIndices[bankKey].clear();
+    unused = pool.map((_, i) => i);
+  }
+  const idx = unused[Math.floor(Math.random() * unused.length)];
+  usedIndices[bankKey].add(idx);
+  saveState();
+  return pool[idx];
+}
+
+function markDone(type) {
+  const today = new Date().toISOString().slice(0, 10);
+  todayDone.add(type);
+  if (lastDate !== today) streak++;
+  lastDate = today;
+  saveState();
+}
+
+function checkTranslation(userSk, correctSk, altSk) {
+  const u = normalize(userSk), c = normalize(correctSk);
+  if (u === c) return { score: 2, feedback: 'Výborne! Správna odpoveď!' };
+  for (const alt of (altSk || [])) { if (u === normalize(alt)) return { score: 2, feedback: 'Výborne! Správna odpoveď!' }; }
+  const uw = u.split(' '), cw = c.split(' ');
+  const overlap = uw.filter(w => cw.includes(w)).length / Math.max(uw.length, cw.length);
+  if (overlap >= 0.7) return { score: 1, feedback: 'Skoro! Skontrolujte pár detailov.' };
+  return { score: 0, feedback: 'Skúste znova. Pozrite sa na nápovedu.' };
+}
+
+// ─── RENDER ───
+function render() {
+  const app = $('#app');
+  app.innerHTML = '';
+  if (state.screen === 'home') renderHome(app);
+  else if (state.screen === 'activity') renderActivity(app);
+}
+
+function renderHome(app) {
+  const todayAct = ACT_ORDER[new Date().getDate() % 4];
+  const bankKey = k => k === 'cases' ? 'drills' : k === 'story' ? 'stories' : k + 's';
+
+  // Header
+  const header = h('div', { className: 'header' },
+    h('div', {},
+      h('h1', {}, 'Slovenčina'),
+      h('div', { className: 'sub' }, 'daily practice')
+    ),
+    h('div', { className: streak > 0 ? 'streak active' : 'streak inactive' },
+      h('span', {}, streak > 0 ? '🔥' : '💤'),
+      h('span', {}, String(streak))
+    )
+  );
+  app.appendChild(header);
+
+  const main = h('div', { className: 'animate-in' });
+
+  // Featured
+  main.appendChild(h('p', { className: 'section-label' }, "Today's pick"));
+  const feat = h('button', { className: 'featured', onClick: () => startActivity(todayAct) });
+  feat.appendChild(h('div', { className: 'bg-icon' }, ACTIVITIES[todayAct].icon));
+  feat.appendChild(h('span', { className: 'icon' }, ACTIVITIES[todayAct].icon));
+  feat.appendChild(h('h3', {}, ACTIVITIES[todayAct].label));
+  feat.appendChild(h('p', {}, ACTIVITIES[todayAct].desc));
+  if (todayDone.has(todayAct)) feat.appendChild(h('span', { className: 'done-badge' }, 'Done ✓'));
+  main.appendChild(feat);
+
+  // Grid
+  main.appendChild(h('p', { className: 'section-label' }, 'All activities'));
+  const grid = h('div', { className: 'grid' });
+  for (const type of ACT_ORDER) {
+    const btn = h('button', { className: 'grid-btn', onClick: () => startActivity(type) });
+    btn.appendChild(h('span', { className: 'icon' }, ACTIVITIES[type].icon));
+    btn.appendChild(h('p', { className: 'label' }, ACTIVITIES[type].label));
+    btn.appendChild(h('p', { className: 'desc' }, ACTIVITIES[type].desc));
+    if (todayDone.has(type)) btn.appendChild(h('span', { className: 'check' }, '✓'));
+    grid.appendChild(btn);
+  }
+  main.appendChild(grid);
+
+  // Bank stats
+  const stats = h('div', { className: 'bank-stats' });
+  const counts = ACT_ORDER.map(t => {
+    const k = bankKey(t);
+    return `${ACTIVITIES[t].icon} ${EXERCISE_BANK[k]?.length || 0}`;
+  });
+  stats.textContent = `Exercise bank: ${counts.join(' · ')}`;
+  main.appendChild(stats);
+
+  // Resources
+  const res = h('div', { className: 'resources' });
+  res.innerHTML = `<p style="font-size:14px;font-weight:600;color:var(--text)">📚 Want more?</p>
+    <p style="margin-top:6px;font-size:13px;color:var(--muted);line-height:1.5">
+    Try <a href="https://slovake.eu/courses/a2" target="_blank">slovake.eu</a>,
+    <a href="https://www.youtube.com/@slovencina_ako_cudzi_jazyk" target="_blank">Slovenčina ako cudzí jazyk</a> on YouTube, or the
+    <a href="https://www.slovakforu.sk" target="_blank">SlovakforU</a> podcast.</p>`;
+  main.appendChild(res);
+
+  app.appendChild(main);
+}
+
+function startActivity(type) {
+  state = { screen: 'activity', activityType: type, data: getExercise(type) };
+  render();
+}
+
+function renderActivity(app) {
+  // Header with back button
+  const header = h('div', { className: 'header' },
+    h('button', { className: 'back-btn', onClick: () => { state = { screen: 'home' }; render(); } }, '← Späť'),
+    h('div', { className: streak > 0 ? 'streak active' : 'streak inactive' },
+      h('span', {}, streak > 0 ? '🔥' : '💤'), h('span', {}, String(streak)))
+  );
+  app.appendChild(header);
+
+  const main = h('div', { className: 'animate-in' });
+  if (!state.data) {
+    main.innerHTML = '<p style="text-align:center;color:var(--red);padding:32px">No exercises in bank. Run generate_bank.py first!</p>';
+  } else if (state.activityType === 'story') renderStory(main, state.data);
+  else if (state.activityType === 'translate') renderTranslate(main, state.data);
+  else if (state.activityType === 'gapfill') renderGapfill(main, state.data);
+  else if (state.activityType === 'cases') renderDrill(main, state.data);
+  app.appendChild(main);
+}
+
+// ─── STORY ───
+function renderStory(el, data) {
+  el.innerHTML = `<h2 style="font-size:24px">${data.title}</h2>
+    <p style="color:var(--muted);font-size:14px;font-style:italic;margin:4px 0 0">${data.titleEn}</p>
+    <p class="grammar-focus" style="margin-top:12px">${data.grammarFocus}</p>`;
+  const revealed = new Set();
+  const container = h('div');
+
+  data.sentences.forEach((s, i) => {
+    const card = h('div', { className: 'sentence-card', onClick: () => {
+      revealed.add(i);
+      card.className = 'sentence-card revealed';
+      card.querySelector('.tap-hint')?.remove();
+      const enP = h('p', { className: 'en' }, s.en);
+      card.appendChild(enP);
+      if (revealed.size === data.sentences.length) showDone();
+    }});
+    card.appendChild(h('p', { className: 'sk' }, s.sk));
+    card.appendChild(h('p', { className: 'tap-hint' }, 'tap to reveal translation'));
+    container.appendChild(card);
+  });
+  el.appendChild(container);
+
+  if (data.newWords?.length) {
+    const nw = h('div', { className: 'new-words' });
+    nw.appendChild(h('p', { style: { margin: '0', fontSize: '13px', fontWeight: '600', marginBottom: '8px' } }, 'Nové slová (New words)'));
+    data.newWords.forEach(w => {
+      nw.appendChild(h('p', { style: { margin: '4px 0', fontSize: '14px' }, innerHTML: `<strong>${w.sk}</strong> — ${w.en}` }));
+    });
+    el.appendChild(nw);
+  }
+
+  const doneBtn = h('button', { className: 'btn-primary green', style: { marginTop: '24px', display: 'none' }, onClick: () => { markDone('story'); state = { screen: 'home' }; render(); } }, 'Hotovo! ✓');
+  el.appendChild(doneBtn);
+  function showDone() { doneBtn.style.display = 'block'; }
+}
+
+// ─── TRANSLATE ───
+function renderTranslate(el, data) {
+  let current = 0, results = [];
+
+  function showQuestion() {
+    el.innerHTML = '';
+    if (current >= data.sentences.length) return showResults();
+    const s = data.sentences[current];
+
+    el.appendChild(h('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' } },
+      h('h2', { style: { fontSize: '20px' } }, data.theme),
+      h('span', { className: 'progress' }, `${current + 1} / ${data.sentences.length}`)
+    ));
+
+    const card = h('div', { className: 'question-card', style: { textAlign: 'left' } });
+    card.appendChild(h('p', { style: { fontSize: '18px', fontWeight: '500', lineHeight: '1.5' } }, s.en));
+    card.appendChild(h('p', { style: { marginTop: '8px', fontSize: '13px', color: 'var(--accent)' } }, '💡 ' + s.hint));
+    el.appendChild(card);
+
+    const textarea = h('textarea', { className: 'translate-input', rows: '2', placeholder: 'Napíšte po slovensky...' });
+    textarea.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); submit(); } });
+    el.appendChild(textarea);
+
+    const submitBtn = h('button', { className: 'btn-primary blue', style: { marginTop: '10px' }, onClick: submit }, 'Skontrolovať');
+    el.appendChild(submitBtn);
+
+    setTimeout(() => textarea.focus(), 100);
+
+    function submit() {
+      if (!textarea.value.trim()) return;
+      const result = checkTranslation(textarea.value.trim(), s.sk, s.altSk);
+      results.push({ ...result, userAnswer: textarea.value.trim(), sentence: s });
+      textarea.disabled = true;
+      submitBtn.remove();
+
+      const fb = h('div', { className: `feedback result-card ${result.score === 2 ? 'correct' : result.score === 1 ? 'partial' : 'wrong'}` });
+      fb.appendChild(h('p', { style: { fontSize: '14px', lineHeight: '1.5' } },
+        (result.score === 2 ? '✅ ' : result.score === 1 ? '🟡 ' : '❌ ') + result.feedback));
+      fb.appendChild(h('p', { style: { marginTop: '8px', fontSize: '13px', color: 'var(--blue)' }, innerHTML: `Reference: <strong>${s.sk}</strong>` }));
+      fb.appendChild(h('button', { className: 'btn-primary dark', style: { marginTop: '12px' }, onClick: () => { current++; showQuestion(); } }, 'Ďalej →'));
+      el.appendChild(fb);
+    }
+  }
+
+  function showResults() {
+    const total = results.reduce((s, r) => s + r.score, 0);
+    el.innerHTML = `<h2 style="text-align:center">Výsledky</h2><div class="big-score">${total}/${data.sentences.length * 2}</div>`;
+    results.forEach(r => {
+      const card = h('div', { className: `result-card ${r.score === 2 ? 'correct' : r.score === 1 ? 'partial' : 'wrong'}` });
+      card.innerHTML = `<p style="font-size:13px;color:#666">${r.sentence.en}</p>
+        <p style="margin:4px 0;font-size:14px">You: ${r.userAnswer}</p>
+        <p style="margin:2px 0 0;font-size:13px;color:var(--blue)">→ ${r.sentence.sk}</p>`;
+      el.appendChild(card);
+    });
+    el.appendChild(h('button', { className: 'btn-primary green', style: { marginTop: '24px' },
+      onClick: () => { markDone('translate'); state = { screen: 'home' }; render(); } }, 'Hotovo! ✓'));
+  }
+
+  showQuestion();
+}
+
+// ─── GAP FILL ───
+function renderGapfill(el, data) {
+  const gaps = data.gaps || [];
+  const answers = new Array(gaps.length).fill(null);
+  let checked = false;
+
+  function buildText() {
+    // Build the paragraph with blanks
+    el.innerHTML = '';
+
+    el.appendChild(h('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' } },
+      h('h2', { style: { fontSize: '20px' } }, '🧩 Doplňte'),
+      h('span', { className: 'progress', style: { fontSize: '13px' } }, `${answers.filter(a => a !== null).length}/${gaps.length} filled`)
+    ));
+
+    // English context
+    if (data.scenarioEn) {
+      el.appendChild(h('p', { style: { fontSize: '13px', color: 'var(--muted)', fontStyle: 'italic', marginBottom: '16px' } }, data.scenarioEn));
+    }
+
+    // Build paragraph with inline blanks
+    const para = h('div', { style: {
+      padding: '20px', background: 'var(--card)', borderRadius: '12px', border: '1.5px solid var(--border)',
+      fontSize: '17px', lineHeight: '2.2', color: 'var(--text)', marginBottom: '16px'
+    }});
+
+    let textRemaining = data.text;
+    gaps.forEach((gap, i) => {
+      const pos = textRemaining.indexOf(gap.position);
+      if (pos === -1) {
+        // Fallback: just append the gap at the end
+        para.appendChild(document.createTextNode(textRemaining + ' '));
+        textRemaining = '';
+      } else {
+        // Text before the gap
+        const before = textRemaining.slice(0, pos);
+        if (before) para.appendChild(document.createTextNode(before));
+        textRemaining = textRemaining.slice(pos + gap.position.length);
+      }
+
+      // The gap selector
+      const select = h('select', {
+        style: {
+          padding: '4px 8px', borderRadius: '6px', fontSize: '16px', fontFamily: 'inherit', fontWeight: '600',
+          border: checked
+            ? (answers[i] === gap.correct ? '2px solid var(--green)' : '2px solid var(--red)')
+            : '2px solid #D4E6F1',
+          background: checked
+            ? (answers[i] === gap.correct ? '#F0FAF0' : '#FFF0F0')
+            : '#FDF8F0',
+          color: answers[i] ? 'var(--text)' : '#999',
+          cursor: checked ? 'default' : 'pointer',
+          minWidth: '120px', appearance: 'auto',
+        },
+        disabled: checked,
+        onChange: (e) => {
+          answers[i] = e.target.value || null;
+          // Update progress counter
+          const prog = el.querySelector('.progress');
+          if (prog) prog.textContent = `${answers.filter(a => a !== null).length}/${gaps.length} filled`;
+          // Show check button if all filled
+          const btn = el.querySelector('.check-btn');
+          if (btn) btn.style.display = answers.every(a => a !== null) ? 'block' : 'none';
+        }
+      });
+
+      select.appendChild(h('option', { value: '' }, '___'));
+      const shuffled = shuffleArray(gap.options);
+      shuffled.forEach(opt => {
+        const option = h('option', { value: opt }, opt);
+        if (answers[i] === opt) option.selected = true;
+        select.appendChild(option);
+      });
+
+      para.appendChild(select);
+    });
+
+    // Remaining text after last gap
+    if (textRemaining) para.appendChild(document.createTextNode(textRemaining));
+    el.appendChild(para);
+
+    if (!checked) {
+      // Hint row
+      const hintRow = h('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '16px' } });
+      gaps.forEach((gap, i) => {
+        hintRow.appendChild(h('span', { style: {
+          fontSize: '11px', padding: '2px 8px', borderRadius: '10px', background: '#F0F6FA',
+          border: '1px solid #D4E6F1', color: 'var(--blue)'
+        }}, `${i + 1}. ${gap.hint}`));
+      });
+      el.appendChild(hintRow);
+
+      const checkBtn = h('button', {
+        className: 'btn-primary blue check-btn',
+        style: { display: answers.every(a => a !== null) ? 'block' : 'none' },
+        onClick: () => { checked = true; buildText(); }
+      }, 'Skontrolovať');
+      el.appendChild(checkBtn);
+    } else {
+      // Show results
+      const correct = gaps.filter((g, i) => answers[i] === g.correct).length;
+      const score = h('div', { style: { textAlign: 'center', margin: '12px 0' } });
+      score.appendChild(h('span', { style: { fontSize: '24px', fontWeight: '700', color: 'var(--accent)', fontFamily: "'Playfair Display', Georgia, serif" } }, `${correct}/${gaps.length}`));
+      el.appendChild(score);
+
+      // Show corrections for wrong answers
+      const corrections = h('div', { style: { display: 'flex', flexDirection: 'column', gap: '6px', marginBottom: '16px' } });
+      gaps.forEach((gap, i) => {
+        const isCorrect = answers[i] === gap.correct;
+        if (!isCorrect) {
+          const row = h('div', { className: 'result-card wrong', style: { fontSize: '13px' } });
+          row.innerHTML = `<span style="color:var(--red)">❌ ${answers[i] || '(empty)'}</span> → <strong style="color:var(--green)">${gap.correct}</strong> <span style="color:var(--muted);margin-left:8px">${gap.hint}</span>`;
+          corrections.appendChild(row);
+        }
+      });
+      if (corrections.childNodes.length > 0) el.appendChild(corrections);
+
+      // Full translation
+      if (data.textEn) {
+        const trans = h('div', { style: { padding: '12px', background: '#F0F6FA', borderRadius: '8px', border: '1px solid #D4E6F1', marginBottom: '16px' } });
+        trans.appendChild(h('p', { style: { fontSize: '13px', fontWeight: '600', marginBottom: '4px' } }, 'Translation:'));
+        trans.appendChild(h('p', { style: { fontSize: '14px', color: 'var(--blue)', lineHeight: '1.5' } }, data.textEn));
+        el.appendChild(trans);
+      }
+
+      el.appendChild(h('button', { className: 'btn-primary green',
+        onClick: () => { markDone('gapfill'); state = { screen: 'home' }; render(); } }, 'Hotovo! ✓'));
+    }
+  }
+
+  buildText();
+}
+
+// ─── DRILL ───
+function renderDrill(el, data) {
+  let current = 0, results = [], timerInterval = null;
+
+  function showQuestion() {
+    el.innerHTML = '';
+    if (current >= data.questions.length) return showResults();
+    const q = data.questions[current];
+    let answered = false, timeLeft = 15;
+
+    const topRow = h('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' } });
+    topRow.appendChild(h('span', { className: 'progress' }, `${current + 1} / ${data.questions.length}`));
+    const timer = h('div', { className: 'timer', style: { borderColor: 'var(--green)', color: 'var(--green)' } }, String(timeLeft));
+    topRow.appendChild(timer);
+    el.appendChild(topRow);
+
+    const card = h('div', { className: 'question-card' });
+    if (q.category && CATEGORIES[q.category]) {
+      const cat = CATEGORIES[q.category];
+      card.appendChild(h('span', { className: 'cat-badge', style: { background: cat.color + '18', color: cat.color, border: `1px solid ${cat.color}40` } }, cat.label));
+    }
+    card.appendChild(h('p', { className: 'stem' }, q.stem));
+    card.appendChild(h('p', { className: 'context' }, q.context));
+    el.appendChild(card);
+
+    const grid = h('div', { className: 'options-grid' });
+    const optBtns = q.options.map(opt => {
+      const btn = h('button', { className: 'option-btn neutral', onClick: () => selectAnswer(opt, btn) }, opt);
+      grid.appendChild(btn);
+      return { opt, btn };
+    });
+    el.appendChild(grid);
+
+    const fbArea = h('div');
+    el.appendChild(fbArea);
+
+    // Timer
+    timerInterval = setInterval(() => {
+      timeLeft--;
+      timer.textContent = String(timeLeft);
+      if (timeLeft <= 4) { timer.style.borderColor = 'var(--red)'; timer.style.color = 'var(--red)'; }
+      else if (timeLeft <= 8) { timer.style.borderColor = 'var(--warn)'; timer.style.color = 'var(--warn)'; }
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        if (!answered) {
+          answered = true;
+          results.push({ correct: false, timeout: true, question: q });
+          showFeedback(null);
+        }
+      }
+    }, 1000);
+
+    function selectAnswer(opt, btn) {
+      if (answered) return;
+      answered = true;
+      clearInterval(timerInterval);
+      const correct = opt === q.correct;
+      results.push({ correct, chosen: opt, question: q });
+
+      optBtns.forEach(({ opt: o, btn: b }) => {
+        b.disabled = true;
+        if (o === q.correct) b.className = 'option-btn correct';
+        else if (o === opt && !correct) b.className = 'option-btn wrong';
+      });
+      showFeedback(opt);
+    }
+
+    function showFeedback(chosen) {
+      if (!chosen) fbArea.appendChild(h('p', { style: { color: 'var(--red)', fontWeight: '600', fontSize: '14px', marginTop: '12px' }, innerHTML: `⏰ Čas vypršal! → <strong>${q.fullWord}</strong>` }));
+      fbArea.appendChild(h('p', { style: { fontSize: '13px', color: 'var(--blue)', margin: '4px 0 12px' } }, q.explanation));
+      fbArea.appendChild(h('button', { className: 'btn-primary dark', onClick: () => { current++; showQuestion(); } }, 'Ďalej →'));
+    }
+  }
+
+  function showResults() {
+    clearInterval(timerInterval);
+    const correct = results.filter(r => r.correct).length;
+    el.innerHTML = `<h2 style="text-align:center">Výsledky</h2><div class="big-score">${correct}/${data.questions.length}</div>`;
+    results.forEach(r => {
+      const q = r.question;
+      const card = h('div', { className: `result-card ${r.correct ? 'correct' : 'wrong'}`, style: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '8px', fontSize: '13px' } });
+      const left = h('div', { style: { display: 'flex', alignItems: 'center', gap: '6px' } });
+      if (q.category && CATEGORIES[q.category]) {
+        const cat = CATEGORIES[q.category];
+        left.appendChild(h('span', { style: { fontSize: '10px', fontWeight: '600', padding: '1px 6px', borderRadius: '8px', background: cat.color + '18', color: cat.color, whiteSpace: 'nowrap' } }, cat.label));
+      }
+      left.appendChild(h('span', {}, q.fullWord));
+      card.appendChild(left);
+      card.appendChild(h('span', { style: { color: '#888', textAlign: 'right', fontSize: '12px' } }, q.context));
+      el.appendChild(card);
+    });
+    el.appendChild(h('button', { className: 'btn-primary green', style: { marginTop: '24px' },
+      onClick: () => { markDone('cases'); state = { screen: 'home' }; render(); } }, 'Hotovo! ✓'));
+  }
+
+  showQuestion();
+}
+
+// ─── INIT ───
+loadState();
+render();
+</script>
+</body>
+</html>
