@@ -130,6 +130,9 @@
   .filter-chip.active { background: var(--accent); border-color: var(--accent); color: #FFF; }
   .filter-clear { font-size: 12px; color: var(--accent); background: none; border: none; cursor: pointer; font-family: inherit; padding: 0; font-weight: 600; }
   .filter-active-note { font-size: 12px; color: var(--accent); font-weight: 500; margin-bottom: 6px; }
+  .pool-count { font-size: 11px; margin-top: 6px; font-weight: 600; }
+  .pool-count.filtered { color: var(--accent); }
+  .pool-count.full { color: var(--muted); }
 </style>
 </head>
 <body>
@@ -171,6 +174,7 @@ function normalize(s) { return s.toLowerCase().replace(/[?.!,;:"""'']/g, '').rep
 // Each key is loaded lazily from bank/<key>.json on first use
 const EXERCISE_BANK = {};
 const BANK_META = { stories: 0, translates: 0, gapfills: 0, drills: 0 };
+const BANK_LOADING = new Set(); // tracks in-flight fetches to avoid duplicate loads
 
 function bankKeyFor(type) {
   return type === 'cases' ? 'drills' : type === 'story' ? 'stories' : type + 's';
@@ -276,6 +280,16 @@ function saveState() {
   for (const k of Object.keys(usedIndices)) u[k] = [...usedIndices[k]];
   localStorage.setItem('slovak-used', JSON.stringify(u));
   localStorage.setItem('slovak-filters', JSON.stringify([...activeFilters]));
+}
+
+// Returns number of exercises in the bank that match active filters.
+// Returns null if the bank isn't loaded yet.
+function countFilteredPool(bankKey) {
+  const pool = EXERCISE_BANK[bankKey];
+  if (!pool) return null;
+  if (activeFilters.size === 0) return pool.length;
+  const n = pool.filter(ex => (ex.tags || []).some(t => activeFilters.has(t))).length;
+  return n > 0 ? n : pool.length; // mirror getExercise fallback
 }
 
 function getExercise(type) {
@@ -436,14 +450,43 @@ function renderHome(app) {
     ));
   }
 
+  // When filters are active, trigger background loading of unloaded banks
+  // so pool counts appear without requiring the user to start each activity first.
+  if (hasFilters) {
+    for (const type of ACT_ORDER) {
+      const key = bankKeyFor(type);
+      if (!EXERCISE_BANK[key] && !BANK_LOADING.has(key)) {
+        BANK_LOADING.add(key);
+        loadBankKey(key).then(() => { BANK_LOADING.delete(key); render(); });
+      }
+    }
+  }
+
   // Grid
   main.appendChild(h('p', { className: 'section-label' }, 'All activities'));
   const grid = h('div', { className: 'grid' });
   for (const type of ACT_ORDER) {
+    const key = bankKeyFor(type);
     const btn = h('button', { className: 'grid-btn', onClick: () => startActivity(type) });
     btn.appendChild(h('span', { className: 'icon' }, ACTIVITIES[type].icon));
     btn.appendChild(h('p', { className: 'label' }, ACTIVITIES[type].label));
     btn.appendChild(h('p', { className: 'desc' }, ACTIVITIES[type].desc));
+
+    // Pool size indicator
+    const poolN = countFilteredPool(key);
+    const total = BANK_META[key] || EXERCISE_BANK[key]?.length || 0;
+    if (hasFilters) {
+      if (poolN === null) {
+        // Bank not loaded yet — show loading indicator
+        btn.appendChild(h('p', { className: 'pool-count full' }, '… loading'));
+      } else if (poolN === total) {
+        // Filters matched nothing useful — fell back to full pool
+        btn.appendChild(h('p', { className: 'pool-count full' }, `${total} exercises (all)`));
+      } else {
+        btn.appendChild(h('p', { className: 'pool-count filtered' }, `${poolN} / ${total} matching`));
+      }
+    }
+
     if (todayDone.has(type)) btn.appendChild(h('span', { className: 'check' }, '✓'));
     grid.appendChild(btn);
   }
