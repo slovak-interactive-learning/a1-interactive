@@ -113,6 +113,19 @@
         "fullWord": "o novom filme",
         "explanation": "Lokál sg maskulínum: nový film → novom filme."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "time_date"
     ]
   },
   {
@@ -229,6 +242,18 @@
         "fullWord": "Zuzana zabudla na to",
         "explanation": "Zabudnúť, minulý čas, ženský rod: zabudla."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -345,6 +370,17 @@
         "fullWord": "Je štvrť na deväť",
         "explanation": "8:15 = štvrť na deväť in Slovak."
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "modals",
+      "numerals",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -461,6 +497,19 @@
         "fullWord": "Poháre sú na stole",
         "explanation": "Pohár: inanimate masculine plural nominative -e."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -577,6 +626,18 @@
         "fullWord": "pozeráme film",
         "explanation": "Film is inanimate masculine; accusative = nominative."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -693,6 +754,20 @@
         "fullWord": "Vieš",
         "explanation": "Vedieť, ty form: vieš."
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "locative",
+      "modals",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -809,6 +884,17 @@
         "fullWord": "išla",
         "explanation": "Ísť, fem. sg minulý čas: išla."
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -925,6 +1011,17 @@
         "fullWord": "volá sa",
         "explanation": "Third person singular: volá sa."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -1041,6 +1138,17 @@
         "fullWord": "so mnou",
         "explanation": "Instrumental of ja is mnou."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -1157,6 +1265,18 @@
         "fullWord": "ju",
         "explanation": "Direct object without preposition: ona → ju (short acc.)."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -1273,6 +1393,18 @@
         "fullWord": "začal sa",
         "explanation": "Seminár is masculine, so začal sa."
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -1389,6 +1521,19 @@
         "fullWord": "muži",
         "explanation": "Masculine animate nom plural of muž is muži."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -1505,6 +1650,20 @@
         "fullWord": "už",
         "explanation": "Už vyjadruje dokončenú akciu v minulosti."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -1621,6 +1780,18 @@
         "fullWord": "Píše perom",
         "explanation": "Instrumental sg. neuter: pero → perom."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -1737,6 +1908,18 @@
         "fullWord": "tvoje",
         "explanation": "'Auto' is neuter; possessive agrees: 'tvoje'."
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -1853,6 +2036,19 @@
         "fullWord": "Zostáva jedna minúta",
         "explanation": "Feminine numeral jedna agrees with minúta."
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -1969,6 +2165,20 @@
         "fullWord": "Knihy",
         "explanation": "Nominatív pl. ž. rodu → knihy."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "locative",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -2085,6 +2295,18 @@
         "fullWord": "sedem",
         "explanation": "Numbers 5+ govern genitive plural noun"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "uz_este"
     ]
   },
   {
@@ -2201,6 +2423,19 @@
         "fullWord": "Ešte som nejedla",
         "explanation": "'Ešte' with negation means 'not yet'."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "negation",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "uz_este"
     ]
   },
   {
@@ -2317,6 +2552,18 @@
         "fullWord": "už",
         "explanation": "Už = already; action completed by that time."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -2433,6 +2680,17 @@
         "fullWord": "ich",
         "explanation": "Akuzatív zám. oni → ich"
       }
+    ],
+    "tags": [
+      "accusative",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -2549,6 +2807,16 @@
         "fullWord": "kamarátkou",
         "explanation": "Feminine instrumental: kamarátka → kamarátkou."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "time_date"
     ]
   },
   {
@@ -2665,6 +2933,18 @@
         "fullWord": "sme išli",
         "explanation": "Ísť past tense: išiel/išla/išli, my = sme išli."
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -2781,6 +3061,19 @@
         "fullWord": "môžu",
         "explanation": "Môcť third person plural: môžu."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -2897,6 +3190,17 @@
         "fullWord": "reštaurácii",
         "explanation": "Locative sg feminine -ia nouns: -ii."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -3013,6 +3317,18 @@
         "fullWord": "Je sedem hodín",
         "explanation": "Full hour: 'Je' + cardinal number + 'hodín'."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -3129,6 +3445,18 @@
         "fullWord": "tri",
         "explanation": "Tri + akuzatív pl. (ž. rod): sestry."
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -3245,6 +3573,19 @@
         "fullWord": "za domom",
         "explanation": "Inštrumentál sg.: dom → domom"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "modals",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -3361,6 +3702,18 @@
         "fullWord": "kamarátku",
         "explanation": "Accusative singular feminine: kamarátku."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "reflexive",
+      "time_date"
     ]
   },
   {
@@ -3477,6 +3830,17 @@
         "fullWord": "trištvrte na jedenásť",
         "explanation": "10:45 = trištvrte na jedenásť (quarter to eleven)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -3593,6 +3957,18 @@
         "fullWord": "vidia",
         "explanation": "vidieť 3rd plural: oni vidia"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -3709,6 +4085,18 @@
         "fullWord": "Tie izby sú pekné",
         "explanation": "Nominative pl fem: izba → izby"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "uz_este"
     ]
   },
   {
@@ -3825,6 +4213,17 @@
         "fullWord": "prácu",
         "explanation": "Feminine accusative singular: práca → prácu."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "locative",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "time_date"
     ]
   },
   {
@@ -3941,6 +4340,17 @@
         "fullWord": "tri",
         "explanation": "Tri used with feminine nouns in accusative plural."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -4057,6 +4467,19 @@
         "fullWord": "študenti",
         "explanation": "Nominative plural masc animate: študent → študenti."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -4173,6 +4596,18 @@
         "fullWord": "kľúčom",
         "explanation": "Instrumental singular masculine: kľúč→kľúčom."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nominative",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -4289,6 +4724,21 @@
         "fullWord": "Hovorí o nich",
         "explanation": "Locative of oni after o: nich."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -4405,6 +4855,19 @@
         "fullWord": "už bola",
         "explanation": "Už = already; dokončená existencia v minulosti."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "possessive",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -4521,6 +4984,18 @@
         "fullWord": "Kúpim nové auto.",
         "explanation": "Akuzatív sg. stred.: auto ostáva auto."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -4637,6 +5112,19 @@
         "fullWord": "balkóne",
         "explanation": "Na + locative: balkón → balkóne."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -4753,6 +5241,18 @@
         "fullWord": "Je trištvrte na jedenásť",
         "explanation": "10:45 = three-quarters to eleven."
       }
+    ],
+    "tags": [
+      "accusative",
+      "locative",
+      "negation",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -4869,6 +5369,20 @@
         "fullWord": "Je pol jednej.",
         "explanation": "12:30 = pol jednej (half past twelve)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "negation",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -4985,6 +5499,17 @@
         "fullWord": "Jeho",
         "explanation": "On (he) uses possessive jeho for his."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns"
     ]
   },
   {
@@ -5101,6 +5626,18 @@
         "fullWord": "Čia je to kniha?",
         "explanation": "Fem. sg. nominatív: čia"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "possessive",
+      "pronouns"
     ]
   },
   {
@@ -5217,6 +5754,18 @@
         "fullWord": "okne",
         "explanation": "Lokál sg. neutra: okno → okne."
       }
+    ],
+    "tags": [
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -5333,6 +5882,17 @@
         "fullWord": "okná",
         "explanation": "Okno → okná in neuter nominative plural."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -5449,6 +6009,18 @@
         "fullWord": "Vidím profesora",
         "explanation": "Akuzatív sg. mask. anim.: profesor → profesora."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "modals",
+      "nom_plural",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date"
     ]
   },
   {
@@ -5565,6 +6137,19 @@
         "fullWord": "Mám dobrého kamaráta",
         "explanation": "Animate masculine accusative: -ého, -a."
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "negation",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -5681,6 +6266,19 @@
         "fullWord": "na autobus",
         "explanation": "Na + accusative; inanimate masculine stays unchanged."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nominative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -5797,6 +6395,17 @@
         "fullWord": "Jej kamarát je z Talianska",
         "explanation": "ona possessive: jej (indeclinable)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "modals",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns"
     ]
   },
   {
@@ -5913,6 +6522,19 @@
         "fullWord": "Je pol jednej",
         "explanation": "Pol + genitive: jedna → jednej."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "time_date"
     ]
   },
   {
@@ -6029,6 +6651,18 @@
         "fullWord": "Na stole sú tri poháre.",
         "explanation": "Three inanimate masculine nouns use tri."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -6145,6 +6779,18 @@
         "fullWord": "tvoje",
         "explanation": "Neuter nominative possessive: tvoje."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns"
     ]
   },
   {
@@ -6261,6 +6907,20 @@
         "fullWord": "ženy čakajú",
         "explanation": "Nominative plural of žena: ženy."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -6377,6 +7037,18 @@
         "fullWord": "Pozvem profesora",
         "explanation": "Accusative sg. masc. animate: -a ending."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -6493,6 +7165,19 @@
         "fullWord": "hovoríme",
         "explanation": "1. os. pl. prézent: hovoríme."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -6609,6 +7294,17 @@
         "fullWord": "v reštaurácii",
         "explanation": "Preposition v requires locative case."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date"
     ]
   },
   {
@@ -6725,6 +7421,18 @@
         "fullWord": "už",
         "explanation": "Už = already (completed by that time)."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -6841,6 +7549,17 @@
         "fullWord": "už",
         "explanation": "Už = already, completed state by then"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "present_tense",
+      "uz_este"
     ]
   },
   {
@@ -6957,6 +7676,18 @@
         "fullWord": "v reštaurácii",
         "explanation": "Lokál ženského rodu: reštaurácia → reštaurácii."
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -7073,6 +7804,20 @@
         "fullWord": "nich",
         "explanation": "Oni, lokatív: o nich."
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "modals",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -7189,6 +7934,18 @@
         "fullWord": "profesora",
         "explanation": "Accusative animate masculine: profesor → profesora."
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -7305,6 +8062,19 @@
         "fullWord": "kamaráti",
         "explanation": "masc. anim. nom. pl.: kamarát → kamaráti"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -7421,6 +8191,17 @@
         "fullWord": "v nemocnici",
         "explanation": "Locative of nemocnica = nemocnici"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "locative",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -7537,6 +8318,18 @@
         "fullWord": "kamarátom",
         "explanation": "S + instrumental masculine: kamarát → kamarátom."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "possessive",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -7653,6 +8446,17 @@
         "fullWord": "trištvrte na jedenásť",
         "explanation": "10:45 = trištvrte na jedenásť (three quarters to eleven)."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nominative",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -7769,6 +8573,17 @@
         "fullWord": "už mali",
         "explanation": "'už' = already, completed state by that time."
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "present_tense",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -7885,6 +8700,19 @@
         "fullWord": "Jeho",
         "explanation": "His = jeho, 3rd person masculine possessive."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -8001,6 +8829,19 @@
         "fullWord": "film",
         "explanation": "Akuzatív sg. mužský neživotný: film."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -8117,6 +8958,17 @@
         "fullWord": "profesora",
         "explanation": "Animate masc. accusative sg: -or → -ora."
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "modals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -8233,6 +9085,17 @@
         "fullWord": "s horúcim čajom",
         "explanation": "Instrumental sg. masc.: adj -ým/-im, noun -om"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "uz_este"
     ]
   },
   {
@@ -8349,6 +9212,16 @@
         "fullWord": "dve",
         "explanation": "Hodina je ženský rod: dve hodiny"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "numerals",
+      "past_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -8465,6 +9338,18 @@
         "fullWord": "už",
         "explanation": "Už = already; completed state by that time."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -8581,6 +9466,20 @@
         "fullWord": "nami",
         "explanation": "S + instrumental: my → nami."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -8697,6 +9596,19 @@
         "fullWord": "Je jedenásť hodín",
         "explanation": "Telling time: Je + number + hodín (5+)"
       }
+    ],
+    "tags": [
+      "genitive",
+      "instrumental",
+      "locative",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -8813,6 +9725,17 @@
         "fullWord": "už",
         "explanation": "Už means already with completed action."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -8929,6 +9852,19 @@
         "fullWord": "Dom je pekný a ekologický",
         "explanation": "Predicate adjectives: nom sg masc"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -9045,6 +9981,19 @@
         "fullWord": "nich",
         "explanation": "Oni locative after preposition: o nich."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -9161,6 +10110,18 @@
         "fullWord": "kamaráti",
         "explanation": "Tí + nom. plural: kamarát → kamaráti."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "modals",
+      "nom_plural",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -9277,6 +10238,17 @@
         "fullWord": "nej",
         "explanation": "Lokál zámen ona: o nej."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -9393,6 +10365,20 @@
         "fullWord": "drahý",
         "explanation": "Lacný (cheap) ↔ drahý (expensive)."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -9509,6 +10495,19 @@
         "fullWord": "pol jednej",
         "explanation": "12:30 is pol jednej in Slovak."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -9625,6 +10624,17 @@
         "fullWord": "autom",
         "explanation": "Instrumental of auto: autom (neuter -om)."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -9741,6 +10751,18 @@
         "fullWord": "po obede",
         "explanation": "Po requires locative; obed → obede."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -9857,6 +10879,19 @@
         "fullWord": "starý",
         "explanation": "Opak nový = starý (old)."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "negation",
+      "nom_plural",
+      "nominative",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -9973,6 +11008,19 @@
         "fullWord": "štvrť na deväť",
         "explanation": "8:15 = štvrť na deväť in Slovak."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -10089,6 +11137,19 @@
         "fullWord": "Jurajov dom je ten vľavo",
         "explanation": "Mužský posesív: Juraj → Jurajov."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "nom_plural",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -10205,6 +11266,20 @@
         "fullWord": "môžeš",
         "explanation": "môcť, 2. os. sg.: môžeš"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -10321,6 +11396,18 @@
         "fullWord": "okne",
         "explanation": "Locative of neuter 'okno' after 'pri' is 'okne'."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nominative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "time_date"
     ]
   },
   {
@@ -10437,6 +11524,18 @@
         "fullWord": "Ja čítal som",
         "explanation": "Past tense, 1st person sg. masculine."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -10553,6 +11652,18 @@
         "fullWord": "už",
         "explanation": "Už vyjadruje, že niečo platí od istého momentu."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "negation",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -10669,6 +11780,17 @@
         "fullWord": "Byt je veľký a moderný",
         "explanation": "Predicate adjectives agree: masculine sg."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -10785,6 +11907,18 @@
         "fullWord": "cez park",
         "explanation": "Akuzatív sg inanim: park = nominatív tvar."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -10901,6 +12035,17 @@
         "fullWord": "Čia",
         "explanation": "'Kniha' is feminine, so 'čia'."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "numerals",
+      "possessive",
+      "present_tense",
+      "pronouns",
+      "uz_este"
     ]
   },
   {
@@ -11017,6 +12162,20 @@
         "fullWord": "Modrý sveter je v skrini",
         "explanation": "Nominatív sg, mužský rod: modrý."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "present_tense",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -11133,6 +12292,17 @@
         "fullWord": "Káva je horúca a silná",
         "explanation": "Káva je feminínum, prísudok: -a."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "negation",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -11249,6 +12419,19 @@
         "fullWord": "čítal/čítala",
         "explanation": "Minulý čas: čítal (m.) / čítala (f.)."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date"
     ]
   },
   {
@@ -11365,6 +12548,17 @@
         "fullWord": "Jurajov",
         "explanation": "Possessive adjective: Juraj→Jurajov (masc nom sg)."
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns"
     ]
   },
   {
@@ -11481,6 +12675,19 @@
         "fullWord": "v centre",
         "explanation": "Neuter locative singular: centrum → centre."
       }
+    ],
+    "tags": [
+      "genitive",
+      "instrumental",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "pronouns",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -11597,6 +12804,18 @@
         "fullWord": "od ôsmej do osemdesiatpäť",
         "explanation": "Čas od-do: od + genitív hodiny, do + minúty."
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "modals",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "present_tense",
+      "time_date",
+      "uz_este"
     ]
   }
 ]

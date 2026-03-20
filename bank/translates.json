@@ -55,6 +55,12 @@
         "hint": "slnko bude svietiť = subject at end for emphasis; word order is flexible in Slovak",
         "focus": "word order emphasis"
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "present_tense",
+      "weather"
     ]
   },
   {
@@ -119,6 +125,13 @@
         "hint": "Use odkiaľ for 'where from', verb prichádza (3rd sg present)",
         "focus": "question (odkiaľ)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "future_tense",
+      "possessive",
+      "present_tense",
+      "weather"
     ]
   },
   {
@@ -185,6 +198,14 @@
         "hint": "past tense of môcť (fem.): nemohla + infinitive ísť",
         "focus": "past modal (nemohla)"
       }
+    ],
+    "tags": [
+      "health",
+      "locative",
+      "modals",
+      "numerals",
+      "past_tense",
+      "reflexive"
     ]
   },
   {
@@ -242,6 +263,13 @@
         "hint": "'oba/obidva' + nominative plural noun and adjective agreement",
         "focus": "nominative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "modals",
+      "nom_plural",
+      "nominative"
     ]
   },
   {
@@ -304,6 +332,14 @@
         "hint": "'dvere' (door) is pluralia tantum — always plural, use plural verb 'sú'",
         "focus": "pluralia tantum"
       }
+    ],
+    "tags": [
+      "accusative",
+      "free_time",
+      "genitive",
+      "nominative",
+      "numerals",
+      "present_tense"
     ]
   },
   {
@@ -366,6 +402,15 @@
         "hint": "Use 'pri' + locative form of 'dekanát' → dekanáte",
         "focus": "locative (pri + place)"
       }
+    ],
+    "tags": [
+      "locative",
+      "modals",
+      "numerals",
+      "past_tense",
+      "reflexive",
+      "time_date",
+      "university_work"
     ]
   },
   {
@@ -420,6 +465,17 @@
         "hint": "'môj' agrees with neuter noun 'meno' → 'moje'; use double negation if needed",
         "focus": "possessive adjective (môj/tvoj)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "locative",
+      "negation",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "social"
     ]
   },
   {
@@ -473,6 +529,12 @@
         "hint": "day: v pondelok; date in genitive: piateho mája",
         "focus": "date/day expression"
       }
+    ],
+    "tags": [
+      "genitive",
+      "instrumental",
+      "negation",
+      "present_tense"
     ]
   },
   {
@@ -531,6 +593,13 @@
         "hint": "Slovak requires double (even triple) negation: nikdy + nikde + nebol all in the same sentence",
         "focus": "double negation"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "modals",
+      "negation",
+      "past_tense",
+      "transport_travel"
     ]
   },
   {
@@ -590,6 +659,11 @@
         "hint": "Use 'vpredu' (at the front) and 'vzadu' (at the back) as positional adverbs",
         "focus": "direction (vpredu/vzadu)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "home_apartment",
+      "pronouns"
     ]
   },
   {
@@ -654,6 +728,16 @@
         "hint": "after 'päť' (5+), use genitive plural: 'minút'; 'tvojho času' is genitive singular",
         "focus": "numeral + genitive plural"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "locative",
+      "nominative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "time_date"
     ]
   },
   {
@@ -714,6 +798,15 @@
         "hint": "'So' is used before words starting with consonant clusters; 'priateľom' is instrumental singular masculine.",
         "focus": "instrumental (so + cluster)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "negation",
+      "pronouns",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -767,6 +860,13 @@
         "hint": "ideš = 2nd person singular of ísť (irregular); cez víkend = through/over the weekend (accusative); za zábavou = instrumental",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "free_time",
+      "instrumental",
+      "modals"
     ]
   },
   {
@@ -820,6 +920,15 @@
         "hint": "past of môcť (fem.): nemohla; ísť after modal in infinitive",
         "focus": "past modal (nemohla)"
       }
+    ],
+    "tags": [
+      "free_time",
+      "locative",
+      "modals",
+      "numerals",
+      "past_tense",
+      "reflexive",
+      "time_date"
     ]
   },
   {
@@ -872,6 +981,12 @@
         "hint": "ísť present: idem, ideš, ide, ideme, idete, idú",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "health",
+      "modals"
     ]
   },
   {
@@ -928,6 +1043,14 @@
         "hint": "vlakom = by train; instrumental case, no preposition needed for means of transport",
         "focus": "instrumental (bare = tool/transport)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "reflexive",
+      "time_date",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -984,6 +1107,14 @@
         "hint": "Double negation required: nikto + nič + nevie; o nej = locative of ona",
         "focus": "double negation"
       }
+    ],
+    "tags": [
+      "family_people",
+      "future_tense",
+      "locative",
+      "modals",
+      "negation",
+      "past_tense"
     ]
   },
   {
@@ -1047,6 +1178,16 @@
         "hint": "Past tense of 'môcť': female subject → 'nemohla' (short-form past, negative); 'do kina' = genitive after 'do'",
         "focus": "past modal (nemohla)"
       }
+    ],
+    "tags": [
+      "free_time",
+      "future_tense",
+      "genitive",
+      "locative",
+      "modals",
+      "numerals",
+      "past_tense",
+      "reflexive"
     ]
   },
   {
@@ -1090,6 +1231,13 @@
         "hint": "'medzi + instrumental': ráno→ránom, večer→večerom; perfective 'zmeniť sa' for completed past",
         "focus": "instrumental (medzi)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "future_tense",
+      "instrumental",
+      "present_tense",
+      "weather"
     ]
   },
   {
@@ -1139,6 +1287,15 @@
         "hint": "possessives: tvoj/môj agree with masculine noun stôl",
         "focus": "possessive adjective (môj/tvoj)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "food_drink",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive"
     ]
   },
   {
@@ -1182,6 +1339,14 @@
         "hint": "'Autom' is instrumental of 'auto' — no preposition needed for means of transport; 'otca' would be accusative if he were the object, but here he is the subject",
         "focus": "instrumental (bare = tool/transport)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "future_tense",
+      "instrumental",
+      "reflexive",
+      "time_date",
+      "weather"
     ]
   },
   {
@@ -1227,6 +1392,16 @@
         "hint": "date: ordinal in genitive — piaty → piateho, jún → júna",
         "focus": "date expression: genitive ordinal"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "genitive",
+      "instrumental",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "time_date"
     ]
   },
   {
@@ -1272,6 +1447,13 @@
         "hint": "use nikdy + nemám + žiadne — Slovak requires all negatives together",
         "focus": "double negation: nikdy + nemám + žiadne"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "modals",
+      "negation",
+      "past_tense",
+      "university_work"
     ]
   },
   {
@@ -1315,6 +1497,13 @@
         "hint": "Possessive from male name Peter → Petrov; stôl → locative: stole",
         "focus": "possessive from name (-ov)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "food_drink",
+      "locative",
+      "possessive",
+      "present_tense"
     ]
   },
   {
@@ -1364,6 +1553,12 @@
         "hint": "ísť present: idem/ideš/ide/ideme/idete/idú — irregular stem",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "modals",
+      "nominative"
     ]
   },
   {
@@ -1407,6 +1602,15 @@
         "hint": "tvoja (fem. nom.) vs. tvoj (masc. nom.)",
         "focus": "possessive adjective (môj/tvoj)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive"
     ]
   },
   {
@@ -1459,6 +1663,14 @@
         "hint": "'Odkiaľ' = from where; use formal 'voláte' (vy-form); 'termín' in genitive after 'kvôli'",
         "focus": "question (odkiaľ)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "health",
+      "locative",
+      "possessive",
+      "present_tense"
     ]
   },
   {
@@ -1503,6 +1715,15 @@
         "hint": "Possessive adjective môj agrees with masculine noun: môj rozvrh",
         "focus": "possessive adjective (môj/tvoj)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "university_work"
     ]
   },
   {
@@ -1555,6 +1776,14 @@
         "hint": "'at home' = doma (locative idea); byť is irregular: je/nie je",
         "focus": "locative (v/na + place)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "modals",
+      "present_tense",
+      "social"
     ]
   },
   {
@@ -1603,6 +1832,13 @@
         "hint": "Use perfective present (požiadam/poprosím) for future meaning",
         "focus": "future perfective"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "modals",
+      "negation",
+      "past_tense",
+      "present_tense"
     ]
   },
   {
@@ -1648,6 +1884,15 @@
         "hint": "past tense of môcť (feminine): mohla → nemohla + infinitive",
         "focus": "past modal (nemohla)"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "locative",
+      "modals",
+      "numerals",
+      "past_tense",
+      "reflexive",
+      "time_date"
     ]
   },
   {
@@ -1693,6 +1938,15 @@
         "hint": "priatelia is the nominative plural of priateľ. Adjectives in nom. pl. masculine animate end in -í.",
         "focus": "nominative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "free_time",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "time_date"
     ]
   },
   {
@@ -1749,6 +2003,14 @@
         "hint": "'so' is used before consonant clusters; sestra → sestrou in instrumental",
         "focus": "instrumental (so + consonant cluster)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "negation",
+      "pronouns",
+      "shopping"
     ]
   },
   {
@@ -1801,6 +2063,13 @@
         "hint": "Use 'odkiaľ' for 'where from'; je = third person singular of byť",
         "focus": "question (odkiaľ)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "health",
+      "nominative",
+      "possessive",
+      "present_tense"
     ]
   },
   {
@@ -1849,6 +2118,16 @@
         "hint": "ešte + ne- + past = not yet; o projekte is locative (o + locative case)",
         "focus": "ešte ne- + past negative; locative: po/o + noun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "reflexive",
+      "university_work",
+      "uz_este"
     ]
   },
   {
@@ -1899,6 +2178,14 @@
         "hint": "O ňom = about it/him, locative pronoun referring to a masculine noun (kostol, park etc.)",
         "focus": "locative (pronoun o ňom/nej)"
       }
+    ],
+    "tags": [
+      "directions",
+      "future_tense",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "pronouns"
     ]
   },
   {
@@ -1943,6 +2230,14 @@
         "hint": "Place slnko after the verb to add emphasis; future: bude + infinitive",
         "focus": "word order emphasis"
       }
+    ],
+    "tags": [
+      "accusative",
+      "future_tense",
+      "genitive",
+      "past_tense",
+      "present_tense",
+      "weather"
     ]
   },
   {
@@ -1989,6 +2284,14 @@
         "hint": "niesť → doniesť (perfective); doniesol = past tense masc. sg. The prefix do-/pri- makes it perfective, showing the action was completed.",
         "focus": "aspect pair imperfective→perfective (niesť→doniesť)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "food_drink",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "past_tense"
     ]
   },
   {
@@ -2047,6 +2350,13 @@
         "hint": "ísť present irregular: ja idem, my ideme; cez + accusative = through",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "home_apartment",
+      "modals",
+      "present_tense"
     ]
   },
   {
@@ -2090,6 +2400,14 @@
         "hint": "'ešte ne-' for not yet; 'po starom meste' uses locative case after 'po'",
         "focus": "ešte ne- + past negative + locative po + noun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "locative",
+      "past_tense",
+      "reflexive",
+      "social",
+      "uz_este"
     ]
   },
   {
@@ -2137,6 +2455,13 @@
         "hint": "moving 'túto veľkú skriňu' to the front adds emphasis; 'až' stresses 'only just'",
         "focus": "word order emphasis"
       }
+    ],
+    "tags": [
+      "accusative",
+      "home_apartment",
+      "instrumental",
+      "nominative",
+      "present_tense"
     ]
   },
   {
@@ -2190,6 +2515,15 @@
         "hint": "sestričky/sestry – profession in genitive after spýtať sa; vchod→vchodu (locative after blízko)",
         "focus": "profession + genitive"
       }
+    ],
+    "tags": [
+      "directions",
+      "genitive",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "present_tense"
     ]
   },
   {
@@ -2232,6 +2566,12 @@
         "hint": "Use 'odkiaľ' for 'from where'; 'voláš' is 2nd person singular of 'volať'",
         "focus": "question (odkiaľ/kde)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "possessive",
+      "present_tense",
+      "social"
     ]
   },
   {
@@ -2279,6 +2619,16 @@
         "hint": "'moje' agrees with neuter 'mesto'; 'tvoja' agrees with feminine 'dedina'",
         "focus": "possessive adjective (môj/tvoj)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "time_date",
+      "weather"
     ]
   },
   {
@@ -2323,6 +2673,14 @@
         "hint": "masculine inanimate noun plural: filmy; adjective plural: nové",
         "focus": "nominative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "free_time",
+      "modals",
+      "nom_plural",
+      "nominative"
     ]
   },
   {
@@ -2372,6 +2730,11 @@
         "hint": "vpredu = at the front, vzadu = at the back; these are fixed adverbs of place",
         "focus": "direction (vpredu/vzadu)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "pronouns",
+      "social"
     ]
   },
   {
@@ -2415,6 +2778,11 @@
         "hint": "Use 'aký' to ask about qualities/appearance; 'ktorý' picks from a group; 'čí' asks about possession",
         "focus": "čí/aký/ktorý question"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "pronouns"
     ]
   },
   {
@@ -2458,6 +2826,14 @@
         "hint": "'s' + instrumental: 'kamarát' becomes 'kamarátom'",
         "focus": "instrumental (s + noun)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "free_time",
+      "instrumental",
+      "locative",
+      "modals",
+      "present_tense"
     ]
   },
   {
@@ -2506,6 +2882,15 @@
         "hint": "doma is a fixed locative adverb meaning 'at home'",
         "focus": "locative (v/na + place)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "free_time",
+      "instrumental",
+      "locative",
+      "modals",
+      "present_tense"
     ]
   },
   {
@@ -2547,6 +2932,12 @@
         "hint": "Possessive from female name: Katka → Katk-in (+ brat = masculine, no ending); word order flexible",
         "focus": "possessive from name (-in) + question (kde)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "possessive",
+      "present_tense"
     ]
   },
   {
@@ -2602,6 +2993,11 @@
         "hint": "'Vpredu' means at the front and 'vzadu' means at the back; use perfective 'sadnúť si' for the action.",
         "focus": "direction (vpredu/vzadu)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "instrumental",
+      "pronouns"
     ]
   },
   {
@@ -2664,6 +3060,13 @@
         "hint": "autobus → autobusom (instrumental singular, no preposition needed for transport)",
         "focus": "instrumental (bare = tool/transport)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "modals",
+      "reflexive",
+      "time_date"
     ]
   },
   {
@@ -2711,6 +3114,12 @@
         "hint": "ísť is irregular: idem, ideš, ide, ideme, idete, idú",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "modals",
+      "university_work"
     ]
   },
   {
@@ -2754,6 +3163,14 @@
         "hint": "ísť present irregular: idem, ideš, ide, ideme, idete, idú",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "modals",
+      "present_tense",
+      "uz_este"
     ]
   },
   {
@@ -2799,6 +3216,16 @@
         "hint": "'môj' agrees with feminine noun: 'moju aplikáciu' (accusative)",
         "focus": "possessive adjective (môj/tvoj)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "weather"
     ]
   },
   {
@@ -2841,6 +3268,15 @@
         "hint": "Use 'odkiaľ' for origin; possessive from female name Marta → Martin (+ nom. 'dom'); 'námestia' is genitive after 'blízko'",
         "focus": "question (odkiaľ) + possessive from name (-in)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "genitive",
+      "negation",
+      "nominative",
+      "possessive",
+      "present_tense"
     ]
   },
   {
@@ -2890,6 +3326,14 @@
         "hint": "means of transport uses instrumental case without a preposition: bicykel → bicyklom",
         "focus": "instrumental (bare = tool/transport)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "food_drink",
+      "instrumental",
+      "reflexive",
+      "shopping",
+      "time_date"
     ]
   },
   {
@@ -2933,6 +3377,13 @@
         "hint": "Use 'kde' to ask about location; word order places question word first",
         "focus": "question (kde)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "home_apartment",
+      "possessive",
+      "present_tense"
     ]
   },
   {
@@ -2988,6 +3439,13 @@
         "hint": "use instrumental without a preposition to express means of transport",
         "focus": "instrumental (bare = transport)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "directions",
+      "instrumental",
+      "reflexive",
+      "time_date"
     ]
   },
   {
@@ -3034,6 +3492,10 @@
         "hint": "Use 'ktorý' agreeing with neuter noun 'stretnutie'",
         "focus": "čí/aký/ktorý question"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "pronouns"
     ]
   },
   {
@@ -3086,6 +3548,15 @@
         "hint": "Use 'ešte' + negation for 'not yet'; 'po operácii' uses locative (po + locative noun)",
         "focus": "ešte ne- + past negative; locative: po + noun"
       }
+    ],
+    "tags": [
+      "genitive",
+      "health",
+      "locative",
+      "negation",
+      "past_tense",
+      "reflexive",
+      "uz_este"
     ]
   },
   {
@@ -3135,6 +3606,15 @@
         "hint": "myslieť na + accusative here, but 'o ňom' = about him (locative): Hovoríš o ňom?",
         "focus": "locative (pronoun o ňom/nej)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "future_tense",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "pronouns"
     ]
   },
   {
@@ -3180,6 +3660,15 @@
         "hint": "môj agrees with masculine noun balík; pošta → na pošte (locative)",
         "focus": "possessive adjective (môj/tvoj)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive",
+      "university_work"
     ]
   },
   {
@@ -3226,6 +3715,14 @@
         "hint": "Place 'dnes' at the start for emphasis; 'grilovanú rybu' is accusative feminine; word order shifts to highlight the time expression",
         "focus": "word order emphasis with time expression"
       }
+    ],
+    "tags": [
+      "accusative",
+      "food_drink",
+      "genitive",
+      "modals",
+      "present_tense",
+      "time_date"
     ]
   },
   {
@@ -3279,6 +3776,15 @@
         "hint": "kúpim = perfective present = future; or budem kupovať with imperfective",
         "focus": "future (budem + inf)"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "possessive",
+      "pronouns"
     ]
   },
   {
@@ -3334,6 +3840,13 @@
         "hint": "ísť is irregular: idem/ideš/ide/ideme/idete/idú; kam asks direction",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "modals",
+      "reflexive",
+      "social"
     ]
   },
   {
@@ -3382,6 +3895,14 @@
         "hint": "autom = by car, instrumental case used without preposition for means of transport",
         "focus": "instrumental (bare = transport)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "reflexive",
+      "time_date",
+      "weather"
     ]
   },
   {
@@ -3427,6 +3948,11 @@
         "hint": "Use 'odkiaľ' for 'from where'; present tense of prichádzať or ísť",
         "focus": "question (odkiaľ/kde)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "possessive",
+      "present_tense"
     ]
   },
   {
@@ -3475,6 +4001,14 @@
         "hint": "Use 'išiel' — the irregular past tense of 'ísť' for a male subject.",
         "focus": "past (ísť→išiel)"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "pronouns",
+      "transport_travel"
     ]
   },
   {
@@ -3519,6 +4053,13 @@
         "hint": "Place 'ja' or 'na teba' at the front to add emphasis; Slovak uses present tense for ongoing actions",
         "focus": "word order emphasis"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "present_tense",
+      "social"
     ]
   },
   {
@@ -3567,6 +4108,14 @@
         "hint": "Irregular past of 'ísť': išiel (masc.) / išla (fem.); remember gender agreement",
         "focus": "past (ísť→išiel)"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "instrumental",
+      "locative",
+      "possessive",
+      "pronouns",
+      "social"
     ]
   },
   {
@@ -3612,6 +4161,17 @@
         "hint": "medzi + instrumental plural: kvety → kvetmi; vidieť uses present stem vidím",
         "focus": "present tense – vidieť + instrumental – medzi"
       }
+    ],
+    "tags": [
+      "accusative",
+      "family_people",
+      "genitive",
+      "instrumental",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "social",
+      "time_date"
     ]
   },
   {
@@ -3668,6 +4228,14 @@
         "hint": "2–4 + nominative plural (traja priatelia), not genitive singular",
         "focus": "numeral 2-4 + nominative plural"
       }
+    ],
+    "tags": [
+      "genitive",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "present_tense",
+      "transport_travel"
     ]
   },
   {
@@ -3714,6 +4282,15 @@
         "hint": "písať (impf, ongoing) → zapísať (pf, completed action); reflexive si optional with písať",
         "focus": "aspect pair impf→pf"
       }
+    ],
+    "tags": [
+      "accusative",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "possessive",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -3759,6 +4336,18 @@
         "hint": "'Ešte ne-' + past for 'not yet'. 'More' → locative 'mori'. Double negation applies.",
         "focus": "ešte ne- + past negative / locative po + noun"
       }
+    ],
+    "tags": [
+      "genitive",
+      "locative",
+      "negation",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "reflexive",
+      "time_date",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -3801,6 +4390,15 @@
         "hint": "nožnice is pluralia tantum — it only exists in plural form; use double negation: nemám + nikde",
         "focus": "pluralia tantum + double negation"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "home_apartment",
+      "negation",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "present_tense"
     ]
   },
   {
@@ -3853,6 +4451,15 @@
         "hint": "Dni is the nominative plural of deň (irregular); adjectives also take plural endings: dlhé, slnečné.",
         "focus": "nominative plural: deň → dni, dlhý → dlhé, slnečný → slnečné"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -3906,6 +4513,13 @@
         "hint": "Use instrumental case (no preposition) for means of transport",
         "focus": "instrumental (bare = tool/transport)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "free_time",
+      "instrumental",
+      "reflexive",
+      "time_date"
     ]
   },
   {
@@ -3949,6 +4563,15 @@
         "hint": "päť + genitive plural: minuta → minút",
         "focus": "numeral + genitive plural"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "daily_routine",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive"
     ]
   },
   {
@@ -3998,6 +4621,16 @@
         "hint": "Past tense of 'môcť' for a female subject: mohla → nemohla. Add 'ne-' for negation.",
         "focus": "past modal (nemohla)"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "health",
+      "locative",
+      "modals",
+      "negation",
+      "numerals",
+      "past_tense",
+      "reflexive"
     ]
   },
   {
@@ -4044,6 +4677,14 @@
         "hint": "instrument/transport uses bare instrumental, no preposition: auto→autom",
         "focus": "instrumental (bare = transport)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "reflexive",
+      "social",
+      "time_date"
     ]
   },
   {
@@ -4100,6 +4741,12 @@
         "hint": "Irregular past of 'ísť' — masculine singular is 'išiel' (or 'šiel').",
         "focus": "past (ísť→išiel)"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "future_tense",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -4143,6 +4790,15 @@
         "hint": "'dátumy' is nominative plural masculine inanimate; adjective 'voľné' agrees in plural",
         "focus": "nominative plural (masculine inanimate noun + adjective agreement)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "future_tense",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "possessive",
+      "time_date"
     ]
   },
   {
@@ -4200,6 +4856,13 @@
         "hint": "nikto + nič + negative verb — double negation is required in Slovak",
         "focus": "double negation"
       }
+    ],
+    "tags": [
+      "directions",
+      "future_tense",
+      "modals",
+      "negation",
+      "past_tense"
     ]
   },
   {
@@ -4245,6 +4908,14 @@
         "hint": "Use 'po' + locative of 'byt' → byte, meaning 'around/throughout the apartment'",
         "focus": "locative with po + noun"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "locative",
+      "negation",
+      "past_tense",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -4288,6 +4959,15 @@
         "hint": "Use 'odkiaľ' for 'where from'; negate byť with 'nie som'; z + genitive",
         "focus": "question (odkiaľ) + byť negation"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "free_time",
+      "genitive",
+      "negation",
+      "possessive",
+      "present_tense"
     ]
   },
   {
@@ -4339,6 +5019,13 @@
         "hint": "priateľ → priatelia (masc. animate nominative plural)",
         "focus": "nominative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "social"
     ]
   },
   {
@@ -4390,6 +5077,13 @@
         "hint": "date in genitive: piateho marca; time with o + locative: o druhej",
         "focus": "date/day expression"
       }
+    ],
+    "tags": [
+      "genitive",
+      "health",
+      "instrumental",
+      "locative",
+      "present_tense"
     ]
   },
   {
@@ -4440,6 +5134,13 @@
         "hint": "v + locative: kuchyňa → kuchyni; stáť is irregular: stojím, stojíš...",
         "focus": "locative (v/na + place)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "food_drink",
+      "instrumental",
+      "locative",
+      "present_tense"
     ]
   },
   {
@@ -4486,6 +5187,12 @@
         "hint": "ideš = you go (irregular ísť, 2nd sg present); kam = where to",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "free_time",
+      "modals"
     ]
   },
   {
@@ -4531,6 +5238,11 @@
         "hint": "ísť irregular: idem, ideš, ide, ideme, idete, idú; cez/pre + accusative",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "modals"
     ]
   },
   {
@@ -4579,6 +5291,15 @@
         "hint": "perfective verb 'zapísať si' (pf.) vs imperfective 'zapisovať si'; completed action in past uses perfective",
         "focus": "aspect pair (impf→pf)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "health",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "reflexive"
     ]
   },
   {
@@ -4627,6 +5348,14 @@
         "hint": "na pošte = locative of pošta (feminine); pošta → pošte",
         "focus": "locative (v/na + place)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "locative",
+      "modals",
+      "present_tense",
+      "university_work"
     ]
   },
   {
@@ -4672,6 +5401,15 @@
         "hint": "'stoličky' (f. pl.) and 'stoly' (m. inanimate pl.) in nominative plural; adjective 'nové' agrees in plural",
         "focus": "nominative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "home_apartment",
+      "modals",
+      "nom_plural",
+      "nominative",
+      "past_tense"
     ]
   },
   {
@@ -4729,6 +5467,13 @@
         "hint": "ideš = you go/are going – irregular ísť present tense",
         "focus": "irregular ísť present"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "modals",
+      "present_tense",
+      "weather"
     ]
   },
   {
@@ -4777,6 +5522,15 @@
         "hint": "Nožnice is pluralia tantum — it has no singular form in Slovak",
         "focus": "pluralia tantum (nožnice)"
       }
+    ],
+    "tags": [
+      "genitive",
+      "home_apartment",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "present_tense"
     ]
   },
   {
@@ -4830,6 +5584,13 @@
         "hint": "'so' used before consonant cluster in 'kamarátom'; past tense 'ísť→išiel'",
         "focus": "instrumental (so + consonant cluster)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "instrumental",
+      "negation",
+      "past_tense",
+      "pronouns"
     ]
   },
   {
@@ -4886,6 +5647,16 @@
         "hint": "Dates use genitive: 'piateho marca' (5th of March); 'narodiť sa' is reflexive, past tense feminine: narodila sa",
         "focus": "date/day expression + reflexive past tense"
       }
+    ],
+    "tags": [
+      "accusative",
+      "family_people",
+      "genitive",
+      "instrumental",
+      "past_tense",
+      "present_tense",
+      "reflexive",
+      "uz_este"
     ]
   },
   {
@@ -4935,6 +5706,14 @@
         "hint": "tvoje/moje agree with auto (neuter); rýchlejší/rýchlejšie = faster",
         "focus": "possessive adjective (môj/tvoj)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "locative",
+      "numerals",
+      "past_tense",
+      "possessive"
     ]
   },
   {
@@ -4980,6 +5759,13 @@
         "hint": "'Odkiaľ' asks about origin; 'kde' asks location; use 'si' for informal or 'ste' for formal",
         "focus": "question (odkiaľ/kde)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "locative",
+      "possessive",
+      "present_tense",
+      "university_work"
     ]
   }
 ]

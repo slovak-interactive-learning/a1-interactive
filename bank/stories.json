@@ -74,6 +74,16 @@
         "sk": "charitatívna akcia",
         "en": "charity event"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "home_apartment",
+      "locative",
+      "negation",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -151,6 +161,13 @@
         "sk": "ochutený",
         "en": "seasoned, flavoured"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "shopping",
+      "transport_travel"
     ]
   },
   {
@@ -228,6 +245,13 @@
         "sk": "sused",
         "en": "neighbour"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "past_tense",
+      "time_date",
+      "transport_travel",
+      "uz_este"
     ]
   },
   {
@@ -305,6 +329,19 @@
         "sk": "zápis",
         "en": "registration / enrolment"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "family_people",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "social",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -382,6 +419,16 @@
         "sk": "bubon",
         "en": "drum"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "daily_routine",
+      "free_time",
+      "health",
+      "locative",
+      "possessive",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -459,6 +506,15 @@
         "sk": "jedálny lístok",
         "en": "menu"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "past_tense",
+      "present_tense",
+      "social",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -536,6 +592,18 @@
         "sk": "tlieskať",
         "en": "to clap / to applaud"
       }
+    ],
+    "tags": [
+      "accusative",
+      "dative",
+      "free_time",
+      "health",
+      "home_apartment",
+      "modals",
+      "shopping",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -613,6 +681,14 @@
         "sk": "pokojne",
         "en": "peacefully, calmly"
       }
+    ],
+    "tags": [
+      "directions",
+      "home_apartment",
+      "locative",
+      "modals",
+      "negation",
+      "past_tense"
     ]
   },
   {
@@ -690,6 +766,13 @@
         "sk": "nabudúce",
         "en": "next time"
       }
+    ],
+    "tags": [
+      "directions",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "transport_travel"
     ]
   },
   {
@@ -767,6 +850,18 @@
         "sk": "vypredaný",
         "en": "sold out"
       }
+    ],
+    "tags": [
+      "directions",
+      "free_time",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "shopping",
+      "social",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -844,6 +939,15 @@
         "sk": "sľubujem",
         "en": "I promise"
       }
+    ],
+    "tags": [
+      "health",
+      "home_apartment",
+      "instrumental",
+      "pronouns",
+      "transport_travel",
+      "university_work",
+      "uz_este"
     ]
   },
   {
@@ -921,6 +1025,19 @@
         "sk": "voňala",
         "en": "it smelled / it was fragrant (past tense of voňať)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "daily_routine",
+      "health",
+      "home_apartment",
+      "possessive",
+      "pronouns",
+      "shopping",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -998,6 +1115,15 @@
         "sk": "výhľad",
         "en": "view, outlook"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -1075,6 +1201,15 @@
         "sk": "Nakoniec kúpim skvelú práčku a všetko bude dobré!",
         "en": "In the end I'll buy a great washing machine and everything will be fine!"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "future_tense",
+      "health",
+      "home_apartment",
+      "reflexive",
+      "shopping",
+      "social"
     ]
   },
   {
@@ -1152,6 +1287,14 @@
         "sk": "chodba",
         "en": "corridor, hallway"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "free_time",
+      "home_apartment",
+      "locative",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -1229,6 +1372,15 @@
         "sk": "schovať",
         "en": "to hide (perfective)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "free_time",
+      "home_apartment",
+      "modals",
+      "shopping",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -1306,6 +1458,17 @@
         "sk": "predavačka",
         "en": "shop assistant (female)"
       }
+    ],
+    "tags": [
+      "directions",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "shopping",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -1383,6 +1546,15 @@
         "sk": "výhľad",
         "en": "view, outlook"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "free_time",
+      "possessive",
+      "time_date",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -1460,6 +1632,15 @@
         "sk": "bezstarostný",
         "en": "carefree, worry-free"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "food_drink",
+      "free_time",
+      "possessive",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -1537,6 +1718,18 @@
         "sk": "čakáreň",
         "en": "waiting room"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "time_date",
+      "transport_travel",
+      "university_work",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -1614,6 +1807,15 @@
         "sk": "vrecúško (cukru)",
         "en": "a small sachet/packet (of sugar)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "numerals",
+      "shopping",
+      "weather"
     ]
   },
   {
@@ -1691,6 +1893,19 @@
         "sk": "formulár",
         "en": "form / paperwork"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "social",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -1768,6 +1983,18 @@
         "sk": "suvenír",
         "en": "souvenir"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "free_time",
+      "health",
+      "past_tense",
+      "shopping",
+      "time_date",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -1845,6 +2072,15 @@
         "sk": "zčervenať",
         "en": "to turn red / to blush"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "health",
+      "home_apartment",
+      "locative",
+      "pronouns",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -1922,6 +2158,15 @@
         "sk": "čuchať",
         "en": "to sniff"
       }
+    ],
+    "tags": [
+      "directions",
+      "health",
+      "home_apartment",
+      "locative",
+      "numerals",
+      "pronouns",
+      "social"
     ]
   },
   {
@@ -1999,6 +2244,18 @@
         "sk": "vybitá batéria",
         "en": "flat/dead battery"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "daily_routine",
+      "directions",
+      "family_people",
+      "home_apartment",
+      "locative",
+      "possessive",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -2076,6 +2333,13 @@
         "sk": "technik",
         "en": "technician"
       }
+    ],
+    "tags": [
+      "free_time",
+      "past_tense",
+      "reflexive",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -2153,6 +2417,16 @@
         "sk": "maslo",
         "en": "butter"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "directions",
+      "family_people",
+      "food_drink",
+      "modals",
+      "shopping",
+      "social"
     ]
   },
   {
@@ -2230,6 +2504,15 @@
         "sk": "navštíviť",
         "en": "to visit"
       }
+    ],
+    "tags": [
+      "free_time",
+      "genitive",
+      "home_apartment",
+      "numerals",
+      "shopping",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -2307,6 +2590,17 @@
         "sk": "prestávka (f.)",
         "en": "break, pause (at work/school)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -2384,6 +2678,17 @@
         "sk": "atmosféra",
         "en": "atmosphere"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "family_people",
+      "locative",
+      "modals",
+      "negation",
+      "past_tense",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -2461,6 +2766,16 @@
         "sk": "prázdny",
         "en": "empty"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "free_time",
+      "health",
+      "home_apartment",
+      "possessive",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -2538,6 +2853,17 @@
         "sk": "záložný kľúč",
         "en": "spare key"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "free_time",
+      "home_apartment",
+      "locative",
+      "negation",
+      "social",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -2615,6 +2941,14 @@
         "sk": "vankúš",
         "en": "pillow"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "transport_travel"
     ]
   },
   {
@@ -2692,6 +3026,15 @@
         "sk": "fontána (f)",
         "en": "fountain"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "food_drink",
+      "health",
+      "possessive",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -2769,6 +3112,14 @@
         "sk": "hosťka",
         "en": "(female) guest"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "food_drink",
+      "health",
+      "social"
     ]
   },
   {
@@ -2846,6 +3197,13 @@
         "sk": "dave (dav)",
         "en": "crowd"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "modals",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -2923,6 +3281,16 @@
         "sk": "nabudúce",
         "en": "next time"
       }
+    ],
+    "tags": [
+      "accusative",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "present_tense",
+      "pronouns",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -3000,6 +3368,14 @@
         "sk": "jedálny lístok",
         "en": "menu"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "instrumental",
+      "social",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -3077,6 +3453,16 @@
         "sk": "výpadok prúdu",
         "en": "power cut"
       }
+    ],
+    "tags": [
+      "free_time",
+      "home_apartment",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -3154,6 +3540,18 @@
         "sk": "stuha (f)",
         "en": "ribbon"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "free_time",
+      "health",
+      "home_apartment",
+      "locative",
+      "possessive",
+      "pronouns",
+      "social",
+      "weather"
     ]
   },
   {
@@ -3231,6 +3629,16 @@
         "sk": "rad",
         "en": "queue / line"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "home_apartment",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "time_date",
+      "university_work"
     ]
   },
   {
@@ -3308,6 +3716,12 @@
         "sk": "filter",
         "en": "filter (e.g. in a washing machine)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "possessive",
+      "university_work"
     ]
   },
   {
@@ -3385,6 +3799,16 @@
         "sk": "index (m.)",
         "en": "grade record book (university student booklet)"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "locative",
+      "time_date",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -3462,6 +3886,12 @@
         "sk": "nasledovať",
         "en": "to follow"
       }
+    ],
+    "tags": [
+      "directions",
+      "health",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -3539,6 +3969,16 @@
         "sk": "poschodie",
         "en": "floor / storey"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "family_people",
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "shopping",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -3616,6 +4056,14 @@
         "sk": "škatuľa",
         "en": "box, carton"
       }
+    ],
+    "tags": [
+      "family_people",
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -3693,6 +4141,17 @@
         "sk": "chvejúci sa",
         "en": "trembling"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "free_time",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -3770,6 +4229,17 @@
         "sk": "súhlasil",
         "en": "he agreed (past tense of súhlasiť)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "shopping",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -3847,6 +4317,17 @@
         "sk": "police (f.)",
         "en": "shelf"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "daily_routine",
+      "health",
+      "home_apartment",
+      "locative",
+      "possessive",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -3924,6 +4405,19 @@
         "sk": "pôvodný",
         "en": "original"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "family_people",
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "shopping",
+      "time_date",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -4001,6 +4495,14 @@
         "sk": "zapečatená",
         "en": "sealed"
       }
+    ],
+    "tags": [
+      "directions",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "university_work"
     ]
   },
   {
@@ -4078,6 +4580,14 @@
         "sk": "rozhádzané",
         "en": "scattered, strewn about"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "home_apartment",
+      "locative",
+      "possessive",
+      "transport_travel"
     ]
   },
   {
@@ -4155,6 +4665,13 @@
         "sk": "doklad totožnosti",
         "en": "identity document"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "daily_routine",
+      "free_time",
+      "possessive",
+      "transport_travel"
     ]
   },
   {
@@ -4232,6 +4749,14 @@
         "sk": "chodba",
         "en": "corridor / hallway"
       }
+    ],
+    "tags": [
+      "directions",
+      "genitive",
+      "health",
+      "home_apartment",
+      "numerals",
+      "present_tense"
     ]
   },
   {
@@ -4309,6 +4834,12 @@
         "sk": "odtiaľto",
         "en": "from here"
       }
+    ],
+    "tags": [
+      "directions",
+      "food_drink",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -4386,6 +4917,18 @@
         "sk": "objatie",
         "en": "hug"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "social",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -4463,6 +5006,16 @@
         "sk": "upozornenie",
         "en": "warning / notice"
       }
+    ],
+    "tags": [
+      "directions",
+      "home_apartment",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -4540,6 +5093,17 @@
         "sk": "zoznam",
         "en": "list"
       }
+    ],
+    "tags": [
+      "accusative",
+      "directions",
+      "family_people",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "modals",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -4617,6 +5181,18 @@
         "sk": "koberec",
         "en": "carpet, rug"
       }
+    ],
+    "tags": [
+      "directions",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "shopping",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -4694,6 +5270,15 @@
         "sk": "náhradné koleso (n)",
         "en": "spare wheel"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "daily_routine",
+      "home_apartment",
+      "modals",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -4771,6 +5356,16 @@
         "sk": "formulár",
         "en": "form (document to fill in)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "family_people",
+      "free_time",
+      "health",
+      "shopping",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -4848,6 +5443,17 @@
         "sk": "zablahoželať (+ dat.)",
         "en": "to congratulate, to wish well"
       }
+    ],
+    "tags": [
+      "accusative",
+      "directions",
+      "family_people",
+      "free_time",
+      "health",
+      "modals",
+      "shopping",
+      "social",
+      "time_date"
     ]
   },
   {
@@ -4925,6 +5531,17 @@
         "sk": "spolubývajúci",
         "en": "roommate / housemate"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "free_time",
+      "home_apartment",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -5002,6 +5619,16 @@
         "sk": "pásy (m pl)",
         "en": "ribbons, strips"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "family_people",
+      "health",
+      "home_apartment",
+      "numerals",
+      "shopping",
+      "transport_travel"
     ]
   },
   {
@@ -5079,6 +5706,18 @@
         "sk": "darček",
         "en": "gift / present"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "locative",
+      "pronouns",
+      "shopping",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -5156,6 +5795,14 @@
         "sk": "sebavedomý",
         "en": "confident, self-assured"
       }
+    ],
+    "tags": [
+      "accusative",
+      "directions",
+      "home_apartment",
+      "modals",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -5233,6 +5880,15 @@
         "sk": "police (polica)",
         "en": "shelf (in a library or store)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "health",
+      "past_tense",
+      "shopping",
+      "time_date",
+      "university_work",
+      "uz_este"
     ]
   },
   {
@@ -5310,6 +5966,16 @@
         "sk": "správca",
         "en": "building manager / caretaker"
       }
+    ],
+    "tags": [
+      "directions",
+      "future_tense",
+      "health",
+      "home_apartment",
+      "numerals",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -5387,6 +6053,14 @@
         "sk": "postoj (m.) — správna poloha tela",
         "en": "stance / posture"
       }
+    ],
+    "tags": [
+      "free_time",
+      "health",
+      "instrumental",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -5464,6 +6138,18 @@
         "sk": "voňať",
         "en": "to smell (nice), to be fragrant"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "health",
+      "home_apartment",
+      "possessive",
+      "pronouns",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -5541,6 +6227,14 @@
         "sk": "drobné",
         "en": "small change / coins"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "food_drink",
+      "home_apartment",
+      "modals",
+      "shopping"
     ]
   },
   {
@@ -5618,6 +6312,16 @@
         "sk": "chodba (f)",
         "en": "hallway, corridor"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -5695,6 +6399,17 @@
         "sk": "nevesta",
         "en": "bride"
       }
+    ],
+    "tags": [
+      "directions",
+      "family_people",
+      "food_drink",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -5772,6 +6487,13 @@
         "sk": "tlačidlo",
         "en": "button"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "directions",
+      "health",
+      "modals"
     ]
   },
   {
@@ -5849,6 +6571,14 @@
         "sk": "neznámy",
         "en": "unknown/unfamiliar"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "home_apartment",
+      "possessive",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -5926,6 +6656,18 @@
         "sk": "perón",
         "en": "platform (at a train station)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "modals",
+      "shopping",
+      "time_date",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -6003,6 +6745,13 @@
         "sk": "spolubývajúca",
         "en": "roommate / flatmate"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "home_apartment",
+      "social",
+      "university_work"
     ]
   },
   {
@@ -6080,6 +6829,16 @@
         "sk": "opravár (m.)",
         "en": "repairman, technician"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "daily_routine",
+      "health",
+      "modals",
+      "shopping",
+      "transport_travel",
+      "uz_este"
     ]
   },
   {
@@ -6157,6 +6916,14 @@
         "sk": "pokrčiť ramenami",
         "en": "to shrug one's shoulders"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "possessive",
+      "shopping",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -6234,6 +7001,17 @@
         "sk": "vybitá (batéria)",
         "en": "dead / flat (battery)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "home_apartment",
+      "locative",
+      "negation",
+      "social",
+      "time_date",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -6311,6 +7089,19 @@
         "sk": "guláš",
         "en": "goulash (meat stew)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "family_people",
+      "food_drink",
+      "free_time",
+      "health",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -6388,6 +7179,16 @@
         "sk": "oblečenie",
         "en": "clothing / clothes"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "health",
+      "instrumental",
+      "present_tense",
+      "pronouns",
+      "shopping",
+      "social"
     ]
   },
   {
@@ -6465,6 +7266,17 @@
         "sk": "predajňa (f)",
         "en": "shop, store"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "family_people",
+      "home_apartment",
+      "modals",
+      "shopping",
+      "social",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -6542,6 +7354,18 @@
         "sk": "batéria (f.)",
         "en": "battery"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -6619,6 +7443,14 @@
         "sk": "mračna",
         "en": "(rain) cloud"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "food_drink",
+      "home_apartment",
+      "modals",
+      "weather"
     ]
   },
   {
@@ -6696,6 +7528,16 @@
         "sk": "hodnotenie (n.)",
         "en": "evaluation, grade"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "health",
+      "home_apartment",
+      "locative",
+      "time_date",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -6773,6 +7615,19 @@
         "sk": "spomienka",
         "en": "memory / souvenir"
       }
+    ],
+    "tags": [
+      "directions",
+      "family_people",
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "social",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -6850,6 +7705,16 @@
         "sk": "spokojný",
         "en": "satisfied / content"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "future_tense",
+      "health",
+      "home_apartment",
+      "reflexive",
+      "shopping",
+      "transport_travel"
     ]
   },
   {
@@ -6927,6 +7792,15 @@
         "sk": "čašník",
         "en": "waiter"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "health",
+      "instrumental",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -7004,6 +7878,18 @@
         "sk": "sviečka",
         "en": "candle"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "health",
+      "home_apartment",
+      "possessive",
+      "pronouns",
+      "shopping",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -7081,6 +7967,16 @@
         "sk": "útulný",
         "en": "cosy, snug"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -7158,6 +8054,10 @@
         "sk": "opravár (m.)",
         "en": "repairman, technician"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "university_work"
     ]
   },
   {
@@ -7235,6 +8135,14 @@
         "sk": "posilňovňa (f.)",
         "en": "gym / fitness centre"
       }
+    ],
+    "tags": [
+      "directions",
+      "instrumental",
+      "pronouns",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -7312,6 +8220,17 @@
         "sk": "konferencia",
         "en": "conference"
       }
+    ],
+    "tags": [
+      "accusative",
+      "food_drink",
+      "free_time",
+      "home_apartment",
+      "modals",
+      "social",
+      "time_date",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -7389,6 +8308,16 @@
         "sk": "predavač",
         "en": "vendor / seller"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "health",
+      "home_apartment",
+      "modals",
+      "shopping",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -7466,6 +8395,16 @@
         "sk": "odvoz",
         "en": "pickup, transport (taking something away)"
       }
+    ],
+    "tags": [
+      "directions",
+      "free_time",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -7543,6 +8482,17 @@
         "sk": "čašník (m.)",
         "en": "waiter"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "free_time",
+      "health",
+      "locative",
+      "negation",
+      "time_date",
+      "weather"
     ]
   },
   {
@@ -7620,6 +8570,17 @@
         "sk": "zachichotať sa (pf)",
         "en": "to chuckle, to giggle"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "shopping",
+      "social",
+      "transport_travel"
     ]
   }
 ]

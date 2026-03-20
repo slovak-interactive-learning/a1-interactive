@@ -71,6 +71,11 @@
         ],
         "hint": "reflexive 'si' with veriť"
       }
+    ],
+    "tags": [
+      "dative",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -145,6 +150,11 @@
         ],
         "hint": "infinitive after môcť"
       }
+    ],
+    "tags": [
+      "modals",
+      "negation",
+      "weather"
     ]
   },
   {
@@ -219,6 +229,14 @@
         ],
         "hint": "preposition o + locative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "free_time",
+      "genitive",
+      "instrumental",
+      "locative",
+      "transport_travel"
     ]
   },
   {
@@ -293,6 +311,10 @@
         ],
         "hint": "irregular verb jesť, 1st plural"
       }
+    ],
+    "tags": [
+      "free_time",
+      "transport_travel"
     ]
   },
   {
@@ -367,6 +389,14 @@
         ],
         "hint": "accusative sg – direct object"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "dative",
+      "home_apartment",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -441,6 +471,14 @@
         ],
         "hint": "instrumental with 'pred'"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "genitive",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "time_date"
     ]
   },
   {
@@ -515,6 +553,15 @@
         ],
         "hint": "adjective agreement, nominative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "food_drink",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "social"
     ]
   },
   {
@@ -589,6 +636,13 @@
         ],
         "hint": "numeral 2 feminine accusative"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "health",
+      "numerals",
+      "social"
     ]
   },
   {
@@ -663,6 +717,11 @@
         ],
         "hint": "irregular verb jesť, 3rd pl"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "modals",
+      "reflexive"
     ]
   },
   {
@@ -737,6 +796,10 @@
         ],
         "hint": "time of day expression"
       }
+    ],
+    "tags": [
+      "locative",
+      "time_date"
     ]
   },
   {
@@ -811,6 +874,13 @@
         ],
         "hint": "instrumental singular feminine noun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "food_drink",
+      "genitive",
+      "instrumental",
+      "social"
     ]
   },
   {
@@ -885,6 +955,14 @@
         ],
         "hint": "accusative singular direct object"
       }
+    ],
+    "tags": [
+      "accusative",
+      "dative",
+      "health",
+      "instrumental",
+      "locative",
+      "social"
     ]
   },
   {
@@ -959,6 +1037,12 @@
         ],
         "hint": "time expression with past"
       }
+    ],
+    "tags": [
+      "past_tense",
+      "time_date",
+      "university_work",
+      "uz_este"
     ]
   },
   {
@@ -1033,6 +1117,14 @@
         ],
         "hint": "feminine adjective accusative singular"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "locative",
+      "nominative",
+      "weather"
     ]
   },
   {
@@ -1107,6 +1199,15 @@
         ],
         "hint": "time: o + locative ordinal"
       }
+    ],
+    "tags": [
+      "accusative",
+      "food_drink",
+      "genitive",
+      "locative",
+      "numerals",
+      "social",
+      "time_date"
     ]
   },
   {
@@ -1181,6 +1282,13 @@
         ],
         "hint": "locative singular after na"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "instrumental",
+      "locative",
+      "university_work"
     ]
   },
   {
@@ -1255,6 +1363,15 @@
         ],
         "hint": "preposition do + genitive"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "locative",
+      "numerals",
+      "shopping",
+      "social"
     ]
   },
   {
@@ -1329,6 +1446,13 @@
         ],
         "hint": "past reflexive verb masculine"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "health",
+      "past_tense",
+      "reflexive"
     ]
   },
   {
@@ -1403,6 +1527,11 @@
         ],
         "hint": "nič in accusative context"
       }
+    ],
+    "tags": [
+      "accusative",
+      "home_apartment",
+      "negation"
     ]
   },
   {
@@ -1477,6 +1606,13 @@
         ],
         "hint": "past tense, female subject"
       }
+    ],
+    "tags": [
+      "negation",
+      "past_tense",
+      "reflexive",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -1551,6 +1687,11 @@
         ],
         "hint": "location inside, locative"
       }
+    ],
+    "tags": [
+      "genitive",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -1625,6 +1766,11 @@
         ],
         "hint": "regular verb, 3rd sg present"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "modals",
+      "shopping"
     ]
   },
   {
@@ -1693,6 +1839,13 @@
         ],
         "hint": "reflexive sa, verb starať sa"
       }
+    ],
+    "tags": [
+      "health",
+      "modals",
+      "past_tense",
+      "reflexive",
+      "social"
     ]
   },
   {
@@ -1767,6 +1920,13 @@
         ],
         "hint": "double negation accusative"
       }
+    ],
+    "tags": [
+      "accusative",
+      "home_apartment",
+      "negation",
+      "past_tense",
+      "shopping"
     ]
   },
   {
@@ -1841,6 +2001,11 @@
         ],
         "hint": "3rd person singular imperfective"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "home_apartment",
+      "reflexive"
     ]
   },
   {
@@ -1915,6 +2080,13 @@
         ],
         "hint": "reflexive sa, third singular"
       }
+    ],
+    "tags": [
+      "family_people",
+      "future_tense",
+      "past_tense",
+      "reflexive",
+      "weather"
     ]
   },
   {
@@ -1989,6 +2161,15 @@
         ],
         "hint": "adjective agreement, masculine nominative"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "free_time",
+      "health",
+      "instrumental",
+      "nominative"
     ]
   },
   {
@@ -2063,6 +2244,18 @@
         ],
         "hint": "reflexive locative pronoun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "dative",
+      "food_drink",
+      "genitive",
+      "instrumental",
+      "locative",
+      "possessive",
+      "pronouns",
+      "reflexive",
+      "social"
     ]
   },
   {
@@ -2137,6 +2330,14 @@
         ],
         "hint": "instrumental plural after so"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "genitive",
+      "instrumental",
+      "locative",
+      "university_work"
     ]
   },
   {
@@ -2211,6 +2412,16 @@
         ],
         "hint": "instrumental singular, demonstrative+adjective+noun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "genitive",
+      "instrumental",
+      "locative",
+      "pronouns",
+      "weather"
     ]
   },
   {
@@ -2285,6 +2496,15 @@
         ],
         "hint": "preposition pred + instrumental"
       }
+    ],
+    "tags": [
+      "accusative",
+      "family_people",
+      "instrumental",
+      "locative",
+      "social",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -2359,6 +2579,12 @@
         ],
         "hint": "reflexive sa position"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "present_tense",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -2433,6 +2659,12 @@
         ],
         "hint": "adjective opposite, nominative masculine"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "genitive",
+      "home_apartment",
+      "nominative"
     ]
   },
   {
@@ -2507,6 +2739,18 @@
         ],
         "hint": "adjective, accusative plural neuter"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "instrumental",
+      "locative",
+      "nominative",
+      "possessive",
+      "pronouns",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -2581,6 +2825,10 @@
         ],
         "hint": "past tense, perfective verb"
       }
+    ],
+    "tags": [
+      "past_tense",
+      "reflexive"
     ]
   },
   {
@@ -2655,6 +2903,11 @@
         ],
         "hint": "irregular verb spať, 3rd sg"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -2729,6 +2982,11 @@
         ],
         "hint": "budem + infinitive future"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "future_tense",
+      "home_apartment"
     ]
   },
   {
@@ -2803,6 +3061,12 @@
         ],
         "hint": "past tense, perfective verb"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "past_tense",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -2877,6 +3141,11 @@
         ],
         "hint": "double negation: nemáme žiadne"
       }
+    ],
+    "tags": [
+      "genitive",
+      "negation",
+      "university_work"
     ]
   },
   {
@@ -2951,6 +3220,16 @@
         ],
         "hint": "pronoun accusative with preposition"
       }
+    ],
+    "tags": [
+      "accusative",
+      "dative",
+      "instrumental",
+      "locative",
+      "possessive",
+      "pronouns",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -3025,6 +3304,16 @@
         ],
         "hint": "reflexive verb present tense"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "daily_routine",
+      "genitive",
+      "instrumental",
+      "locative",
+      "present_tense",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -3099,6 +3388,12 @@
         ],
         "hint": "ešte + negative past tense"
       }
+    ],
+    "tags": [
+      "past_tense",
+      "present_tense",
+      "university_work",
+      "uz_este"
     ]
   },
   {
@@ -3173,6 +3468,15 @@
         ],
         "hint": "reflexive possessive, accusative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "possessive",
+      "pronouns",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -3247,6 +3551,10 @@
         ],
         "hint": "budem + infinitive, imperfective"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "home_apartment"
     ]
   },
   {
@@ -3321,6 +3629,11 @@
         ],
         "hint": "3rd person sg, irregular chcieť"
       }
+    ],
+    "tags": [
+      "family_people",
+      "modals",
+      "weather"
     ]
   },
   {
@@ -3395,6 +3708,14 @@
         ],
         "hint": "reflexive verb present tense"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "future_tense",
+      "health",
+      "present_tense",
+      "reflexive"
     ]
   },
   {
@@ -3469,6 +3790,11 @@
         ],
         "hint": "double negation: nikdy + ne-"
       }
+    ],
+    "tags": [
+      "free_time",
+      "negation",
+      "transport_travel"
     ]
   },
   {
@@ -3543,6 +3869,13 @@
         ],
         "hint": "accusative after na, purpose"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "home_apartment",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -3617,6 +3950,12 @@
         ],
         "hint": "reflexive sa future meaning"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "pronouns",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -3691,6 +4030,11 @@
         ],
         "hint": "locative singular, preposition o"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -3765,6 +4109,12 @@
         ],
         "hint": "present tense, 1st person plural"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "health",
+      "present_tense"
     ]
   },
   {
@@ -3839,6 +4189,15 @@
         ],
         "hint": "instrumental after 'pred'"
       }
+    ],
+    "tags": [
+      "dative",
+      "family_people",
+      "free_time",
+      "genitive",
+      "health",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -3913,6 +4272,14 @@
         ],
         "hint": "o + locative, time expression"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "genitive",
+      "instrumental",
+      "locative",
+      "social",
+      "time_date"
     ]
   },
   {
@@ -3987,6 +4354,15 @@
         ],
         "hint": "preposition: until (genitive)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "home_apartment",
+      "locative",
+      "present_tense",
+      "reflexive",
+      "time_date"
     ]
   },
   {
@@ -4061,6 +4437,12 @@
         ],
         "hint": "budem + infinitive future"
       }
+    ],
+    "tags": [
+      "family_people",
+      "future_tense",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -4135,6 +4517,12 @@
         ],
         "hint": "future time expression"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "reflexive",
+      "time_date",
+      "university_work"
     ]
   },
   {
@@ -4209,6 +4597,16 @@
         ],
         "hint": "už with nominative plural"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "health",
+      "negation",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "uz_este"
     ]
   },
   {
@@ -4283,6 +4681,11 @@
         ],
         "hint": "perfective present = future"
       }
+    ],
+    "tags": [
+      "free_time",
+      "future_tense",
+      "transport_travel"
     ]
   },
   {
@@ -4357,6 +4760,12 @@
         ],
         "hint": "reflexive past tense vrátiť sa"
       }
+    ],
+    "tags": [
+      "free_time",
+      "past_tense",
+      "reflexive",
+      "transport_travel"
     ]
   },
   {
@@ -4431,6 +4840,13 @@
         ],
         "hint": "double negation: nowhere + ne-"
       }
+    ],
+    "tags": [
+      "accusative",
+      "family_people",
+      "negation",
+      "past_tense",
+      "weather"
     ]
   },
   {
@@ -4505,6 +4921,11 @@
         ],
         "hint": "past tense irregular ísť, female"
       }
+    ],
+    "tags": [
+      "past_tense",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -4579,6 +5000,12 @@
         ],
         "hint": "adjective gender agreement, feminine"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "nominative",
+      "university_work"
     ]
   },
   {
@@ -4653,6 +5080,13 @@
         ],
         "hint": "reflexive verb, 3rd plural"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "modals",
+      "present_tense",
+      "reflexive",
+      "social"
     ]
   },
   {
@@ -4716,6 +5150,11 @@
         ],
         "hint": "tešiť sa reflexive verb"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "reflexive",
+      "shopping"
     ]
   },
   {
@@ -4790,6 +5229,13 @@
         ],
         "hint": "adverb of place outside"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "locative",
+      "weather"
     ]
   },
   {
@@ -4864,6 +5310,12 @@
         ],
         "hint": "past tense plural reflexive"
       }
+    ],
+    "tags": [
+      "family_people",
+      "past_tense",
+      "reflexive",
+      "social"
     ]
   },
   {
@@ -4938,6 +5390,13 @@
         ],
         "hint": "už + past plural"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "negation",
+      "past_tense",
+      "social",
+      "uz_este"
     ]
   },
   {
@@ -5012,6 +5471,16 @@
         ],
         "hint": "reflexive possessive instrumental masculine"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "home_apartment",
+      "instrumental",
+      "nominative",
+      "possessive",
+      "reflexive"
     ]
   },
   {
@@ -5086,6 +5555,16 @@
         ],
         "hint": "nominative plural, predicate adjective"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "food_drink",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "present_tense",
+      "social"
     ]
   },
   {
@@ -5160,6 +5639,11 @@
         ],
         "hint": "perfective past, plural"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "past_tense",
+      "social"
     ]
   },
   {
@@ -5234,6 +5718,14 @@
         ],
         "hint": "5+ numeral + genitive plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "free_time",
+      "genitive",
+      "nom_plural",
+      "nominative",
+      "numerals"
     ]
   },
   {
@@ -5308,6 +5800,13 @@
         ],
         "hint": "za + accusative, movement direction"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "home_apartment",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -5382,6 +5881,12 @@
         ],
         "hint": "perfective future tense"
       }
+    ],
+    "tags": [
+      "dative",
+      "future_tense",
+      "home_apartment",
+      "locative"
     ]
   },
   {
@@ -5456,6 +5961,15 @@
         ],
         "hint": "adjective genitive plural agreement"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "daily_routine",
+      "genitive",
+      "home_apartment",
+      "locative",
+      "nominative"
     ]
   },
   {
@@ -5530,6 +6044,16 @@
         ],
         "hint": "nominative masculine adjective+noun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "nominative",
+      "past_tense",
+      "present_tense",
+      "time_date",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -5604,6 +6128,17 @@
         ],
         "hint": "adjective agreement, masculine accusative"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "dative",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "pronouns",
+      "shopping",
+      "social"
     ]
   },
   {
@@ -5678,6 +6213,14 @@
         ],
         "hint": "accusative singular, adjective+noun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "instrumental",
+      "locative",
+      "weather"
     ]
   },
   {
@@ -5752,6 +6295,11 @@
         ],
         "hint": "perfective past feminine singular"
       }
+    ],
+    "tags": [
+      "free_time",
+      "negation",
+      "past_tense"
     ]
   },
   {
@@ -5826,6 +6374,11 @@
         ],
         "hint": "future tense budem+infinitive"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -5900,6 +6453,17 @@
         ],
         "hint": "instrumental case, noun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "dative",
+      "food_drink",
+      "instrumental",
+      "locative",
+      "possessive",
+      "pronouns",
+      "social"
     ]
   },
   {
@@ -5974,6 +6538,14 @@
         ],
         "hint": "dative pronoun, 3rd person feminine"
       }
+    ],
+    "tags": [
+      "accusative",
+      "dative",
+      "food_drink",
+      "instrumental",
+      "pronouns",
+      "transport_travel"
     ]
   },
   {
@@ -6048,6 +6620,13 @@
         ],
         "hint": "future perfective: ísť irregular"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "food_drink",
+      "future_tense",
+      "present_tense",
+      "transport_travel"
     ]
   },
   {
@@ -6122,6 +6701,14 @@
         ],
         "hint": "instrumental, feminine noun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "possessive"
     ]
   },
   {
@@ -6196,6 +6783,11 @@
         ],
         "hint": "past tense feminine with auxiliary"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "modals",
+      "past_tense"
     ]
   },
   {
@@ -6270,6 +6862,13 @@
         ],
         "hint": "half past, genitive form"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "locative",
+      "time_date",
+      "university_work"
     ]
   },
   {
@@ -6344,6 +6943,12 @@
         ],
         "hint": "negative pronoun subject form"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "negation",
+      "pronouns",
+      "transport_travel"
     ]
   },
   {
@@ -6418,6 +7023,17 @@
         ],
         "hint": "2-4 numeral: accusative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "free_time",
+      "genitive",
+      "health",
+      "nom_plural",
+      "nominative",
+      "numerals"
     ]
   },
   {
@@ -6492,6 +7108,11 @@
         ],
         "hint": "infinitive after chcieť"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "modals",
+      "present_tense"
     ]
   },
   {
@@ -6566,6 +7187,11 @@
         ],
         "hint": "time of day adverb"
       }
+    ],
+    "tags": [
+      "genitive",
+      "locative",
+      "time_date"
     ]
   },
   {
@@ -6640,6 +7266,13 @@
         ],
         "hint": "numeral 1 masculine nominative"
       }
+    ],
+    "tags": [
+      "genitive",
+      "home_apartment",
+      "nominative",
+      "numerals",
+      "shopping"
     ]
   },
   {
@@ -6714,6 +7347,15 @@
         ],
         "hint": "instrumental singular adjective+noun"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "dative",
+      "family_people",
+      "free_time",
+      "genitive",
+      "health",
+      "instrumental"
     ]
   },
   {
@@ -6788,6 +7430,14 @@
         ],
         "hint": "adjective accusative singular feminine"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "nominative",
+      "possessive",
+      "pronouns"
     ]
   },
   {
@@ -6862,6 +7512,13 @@
         ],
         "hint": "instrumental plural, with others"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "home_apartment",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -6936,6 +7593,10 @@
         ],
         "hint": "adjective opposite, feminine agreement"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "home_apartment"
     ]
   },
   {
@@ -7010,6 +7671,12 @@
         ],
         "hint": "musieť + perfective infinitive"
       }
+    ],
+    "tags": [
+      "free_time",
+      "modals",
+      "negation",
+      "past_tense"
     ]
   },
   {
@@ -7084,6 +7751,14 @@
         ],
         "hint": "instrumental singular feminine with s"
       }
+    ],
+    "tags": [
+      "accusative",
+      "family_people",
+      "genitive",
+      "instrumental",
+      "locative",
+      "social"
     ]
   },
   {
@@ -7158,6 +7833,13 @@
         ],
         "hint": "genitive after 'do'"
       }
+    ],
+    "tags": [
+      "accusative",
+      "genitive",
+      "instrumental",
+      "locative",
+      "university_work"
     ]
   },
   {
@@ -7232,6 +7914,12 @@
         ],
         "hint": "from preposition time expression"
       }
+    ],
+    "tags": [
+      "genitive",
+      "locative",
+      "time_date",
+      "weather"
     ]
   },
   {
@@ -7306,6 +7994,16 @@
         ],
         "hint": "possessive reflexive, instrumental masculine"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "genitive",
+      "home_apartment",
+      "instrumental",
+      "possessive",
+      "reflexive",
+      "shopping"
     ]
   },
   {
@@ -7380,6 +8078,11 @@
         ],
         "hint": "infinitive after modal chcieť"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "modals",
+      "university_work"
     ]
   }
 ]

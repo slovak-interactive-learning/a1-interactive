@@ -115,6 +115,21 @@
 
   /* Bank stats */
   .bank-stats { margin-top: 12px; padding: 12px; background: #F8F4EE; border-radius: 8px; font-size: 12px; color: var(--muted); }
+
+  /* Topic filter */
+  .filter-toggle { display: flex; align-items: center; gap: 8px; padding: 10px 14px; background: var(--card); border: 1.5px solid var(--border); border-radius: 10px; cursor: pointer; font-family: inherit; font-size: 13px; font-weight: 600; color: var(--text); width: 100%; text-align: left; margin-bottom: 8px; transition: border-color 0.15s; }
+  .filter-toggle.has-filters { border-color: var(--accent); background: #FDF5F4; }
+  .filter-toggle .filter-arrow { margin-left: auto; font-size: 11px; color: var(--muted); transition: transform 0.2s; }
+  .filter-toggle .filter-arrow.open { transform: rotate(180deg); }
+  .filter-badge { background: var(--accent); color: #FFF; border-radius: 10px; padding: 1px 7px; font-size: 11px; font-weight: 700; }
+  .filter-panel { background: var(--card); border: 1.5px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 16px; animation: fadeIn 0.2s ease; }
+  .filter-row-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; font-weight: 600; margin-bottom: 6px; }
+  .filter-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .filter-chip { padding: 5px 11px; border-radius: 16px; font-size: 12px; font-weight: 600; border: 1.5px solid var(--border); background: var(--bg); color: var(--text); cursor: pointer; font-family: inherit; transition: all 0.15s; }
+  .filter-chip:active { transform: scale(0.95); }
+  .filter-chip.active { background: var(--accent); border-color: var(--accent); color: #FFF; }
+  .filter-clear { font-size: 12px; color: var(--accent); background: none; border: none; cursor: pointer; font-family: inherit; padding: 0; font-weight: 600; }
+  .filter-active-note { font-size: 12px; color: var(--accent); font-weight: 500; margin-bottom: 6px; }
 </style>
 </head>
 <body>
@@ -172,6 +187,8 @@ function loadBankKey(key) {
 let state = { screen: 'home', activityType: null, data: null };
 let streak = 0, lastDate = null, todayDone = new Set();
 let usedIndices = { stories: new Set(), translates: new Set(), gapfills: new Set(), drills: new Set() };
+let activeFilters = new Set();   // topic keys currently selected
+let filterPanelOpen = false;     // UI-only, not persisted
 
 const ACTIVITIES = {
   story:     { icon: '📖', label: 'Micro-Story',    desc: 'Read a short story, reveal translations' },
@@ -180,6 +197,46 @@ const ACTIVITIES = {
   cases:     { icon: '⚡', label: 'Grammar Drill',   desc: 'Cases, verb forms & pronouns — speed round' }
 };
 const ACT_ORDER = ['story', 'translate', 'gapfill', 'cases'];
+
+// ─── TOPIC TAXONOMY ───
+const TOPICS = {
+  grammar: [
+    { key: 'nominative',    label: 'Nominatív' },
+    { key: 'accusative',    label: 'Akuzatív' },
+    { key: 'genitive',      label: 'Genitív' },
+    { key: 'dative',        label: 'Datív' },
+    { key: 'locative',      label: 'Lokál' },
+    { key: 'instrumental',  label: 'Inštrumentál' },
+    { key: 'nom_plural',    label: 'Plurál' },
+    { key: 'adjectives',    label: 'Prídavné mená' },
+    { key: 'pronouns',      label: 'Zámená' },
+    { key: 'present_tense', label: 'Prítomný čas' },
+    { key: 'past_tense',    label: 'Minulý čas' },
+    { key: 'future_tense',  label: 'Budúci čas' },
+    { key: 'modals',        label: 'Modálne slovesá' },
+    { key: 'reflexive',     label: 'Zvratné slovesá' },
+    { key: 'numerals',      label: 'Číslovky' },
+    { key: 'time_date',     label: 'Čas a dátum' },
+    { key: 'negation',      label: 'Zápor' },
+    { key: 'possessive',    label: 'Privlastňovacie' },
+    { key: 'uz_este',       label: 'Už / Ešte' },
+  ],
+  thematic: [
+    { key: 'daily_routine',    label: 'Denná rutina' },
+    { key: 'food_drink',       label: 'Jedlo a nápoje' },
+    { key: 'transport_travel', label: 'Doprava' },
+    { key: 'home_apartment',   label: 'Domov a byt' },
+    { key: 'university_work',  label: 'Škola a práca' },
+    { key: 'family_people',    label: 'Rodina' },
+    { key: 'shopping',         label: 'Nakupovanie' },
+    { key: 'weather',          label: 'Počasie' },
+    { key: 'health',           label: 'Zdravie' },
+    { key: 'free_time',        label: 'Voľný čas' },
+    { key: 'social',           label: 'Sociálne situácie' },
+    { key: 'directions',       label: 'Orientácia' },
+  ],
+};
+
 const CATEGORIES = {
   instrumental: { label: 'Inštrumentál', color: '#8E44AD' },
   accusative:   { label: 'Akuzatív',     color: '#2980B9' },
@@ -208,6 +265,9 @@ function loadState() {
     // Load used indices
     const u = JSON.parse(localStorage.getItem('slovak-used') || '{}');
     for (const k of Object.keys(usedIndices)) usedIndices[k] = new Set(u[k] || []);
+    // Load active filters
+    const f = JSON.parse(localStorage.getItem('slovak-filters') || '[]');
+    activeFilters = new Set(f);
   } catch {}
 }
 function saveState() {
@@ -215,6 +275,7 @@ function saveState() {
   const u = {};
   for (const k of Object.keys(usedIndices)) u[k] = [...usedIndices[k]];
   localStorage.setItem('slovak-used', JSON.stringify(u));
+  localStorage.setItem('slovak-filters', JSON.stringify([...activeFilters]));
 }
 
 function getExercise(type) {
@@ -222,14 +283,23 @@ function getExercise(type) {
   const pool = EXERCISE_BANK[bankKey];
   if (!pool || !pool.length) return null;
 
-  // Pick an unused exercise if possible, then reset
-  let unused = [];
-  for (let i = 0; i < pool.length; i++) {
-    if (!usedIndices[bankKey].has(i)) unused.push(i);
+  // Determine eligible indices (respecting active topic filters)
+  let eligible = pool.map((_, i) => i);
+  if (activeFilters.size > 0) {
+    const filtered = eligible.filter(i => {
+      const tags = pool[i].tags || [];
+      return tags.some(t => activeFilters.has(t));
+    });
+    if (filtered.length > 0) eligible = filtered;
+    // else fall back to full pool so the app never gets stuck
   }
+
+  // Pick an unused exercise within the eligible set, then reset
+  let unused = eligible.filter(i => !usedIndices[bankKey].has(i));
   if (unused.length === 0) {
-    usedIndices[bankKey].clear();
-    unused = pool.map((_, i) => i);
+    // Only clear the used flags for this eligible set
+    for (const i of eligible) usedIndices[bankKey].delete(i);
+    unused = eligible;
   }
   const idx = unused[Math.floor(Math.random() * unused.length)];
   usedIndices[bankKey].add(idx);
@@ -290,6 +360,81 @@ function renderHome(app) {
   feat.appendChild(h('p', {}, ACTIVITIES[todayAct].desc));
   if (todayDone.has(todayAct)) feat.appendChild(h('span', { className: 'done-badge' }, 'Done ✓'));
   main.appendChild(feat);
+
+  // Topic filter
+  main.appendChild(h('p', { className: 'section-label' }, 'Practice focus'));
+  const hasFilters = activeFilters.size > 0;
+  const toggleBtn = h('button', {
+    className: 'filter-toggle' + (hasFilters ? ' has-filters' : ''),
+    onClick: () => { filterPanelOpen = !filterPanelOpen; render(); }
+  });
+  toggleBtn.appendChild(h('span', {}, '🎯'));
+  if (hasFilters) {
+    toggleBtn.appendChild(h('span', {}, ' Filter by topic '));
+    toggleBtn.appendChild(h('span', { className: 'filter-badge' }, String(activeFilters.size)));
+  } else {
+    toggleBtn.appendChild(h('span', {}, ' Filter by topic'));
+  }
+  toggleBtn.appendChild(h('span', { className: 'filter-arrow' + (filterPanelOpen ? ' open' : '') }, '▼'));
+  main.appendChild(toggleBtn);
+
+  if (filterPanelOpen) {
+    const panel = h('div', { className: 'filter-panel' });
+
+    // Grammar row
+    panel.appendChild(h('div', { className: 'filter-row-label' }, 'Grammar'));
+    const grammarChips = h('div', { className: 'filter-chips' });
+    for (const { key, label } of TOPICS.grammar) {
+      const chip = h('button', {
+        className: 'filter-chip' + (activeFilters.has(key) ? ' active' : ''),
+        onClick: () => {
+          if (activeFilters.has(key)) activeFilters.delete(key);
+          else activeFilters.add(key);
+          saveState();
+          render();
+        }
+      }, label);
+      grammarChips.appendChild(chip);
+    }
+    panel.appendChild(grammarChips);
+
+    // Thematic row
+    panel.appendChild(h('div', { className: 'filter-row-label' }, 'Themes'));
+    const themeChips = h('div', { className: 'filter-chips' });
+    for (const { key, label } of TOPICS.thematic) {
+      const chip = h('button', {
+        className: 'filter-chip' + (activeFilters.has(key) ? ' active' : ''),
+        onClick: () => {
+          if (activeFilters.has(key)) activeFilters.delete(key);
+          else activeFilters.add(key);
+          saveState();
+          render();
+        }
+      }, label);
+      themeChips.appendChild(chip);
+    }
+    panel.appendChild(themeChips);
+
+    if (hasFilters) {
+      const clearRow = h('div', { style: { marginTop: '4px' } });
+      clearRow.appendChild(h('button', {
+        className: 'filter-clear',
+        onClick: () => { activeFilters.clear(); saveState(); render(); }
+      }, 'Clear all filters'));
+      panel.appendChild(clearRow);
+    }
+
+    main.appendChild(panel);
+  }
+
+  if (hasFilters) {
+    main.appendChild(h('div', { className: 'filter-active-note' },
+      `Showing exercises tagged with: ${[...activeFilters].map(k => {
+        const t = [...TOPICS.grammar, ...TOPICS.thematic].find(x => x.key === k);
+        return t ? t.label : k;
+      }).join(', ')}`
+    ));
+  }
 
   // Grid
   main.appendChild(h('p', { className: 'section-label' }, 'All activities'));
