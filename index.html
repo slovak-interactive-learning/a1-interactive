@@ -174,7 +174,9 @@ function normalize(s) { return s.toLowerCase().replace(/[?.!,;:"""'']/g, '').rep
 // Each key is loaded lazily from bank/<key>.json on first use
 const EXERCISE_BANK = {};
 const BANK_META = { stories: 0, translates: 0, gapfills: 0, drills: 0 };
-const BANK_LOADING = new Set(); // tracks in-flight fetches to avoid duplicate loads
+// Compact per-exercise tag index loaded from topic_stats.json.
+// Keyed by bank name (drills/stories/translates/gapfills).
+const TOPIC_TAGS_INDEX = {};
 
 function bankKeyFor(type) {
   return type === 'cases' ? 'drills' : type === 'story' ? 'stories' : type + 's';
@@ -283,13 +285,14 @@ function saveState() {
 }
 
 // Returns number of exercises in the bank that match active filters.
-// Returns null if the bank isn't loaded yet.
+// Uses the compact tag index from topic_stats.json — no full bank load needed.
+// Returns null if the index isn't loaded yet.
 function countFilteredPool(bankKey) {
-  const pool = EXERCISE_BANK[bankKey];
-  if (!pool) return null;
-  if (activeFilters.size === 0) return pool.length;
-  const n = pool.filter(ex => (ex.tags || []).some(t => activeFilters.has(t))).length;
-  return n > 0 ? n : pool.length; // mirror getExercise fallback
+  const tagIndex = TOPIC_TAGS_INDEX[bankKey];
+  if (!tagIndex) return null;
+  if (activeFilters.size === 0) return tagIndex.length;
+  const n = tagIndex.filter(tags => tags.some(t => activeFilters.has(t))).length;
+  return n > 0 ? n : tagIndex.length; // mirror getExercise fallback
 }
 
 function getExercise(type) {
@@ -448,18 +451,6 @@ function renderHome(app) {
         return t ? t.label : k;
       }).join(', ')}`
     ));
-  }
-
-  // When filters are active, trigger background loading of unloaded banks
-  // so pool counts appear without requiring the user to start each activity first.
-  if (hasFilters) {
-    for (const type of ACT_ORDER) {
-      const key = bankKeyFor(type);
-      if (!EXERCISE_BANK[key] && !BANK_LOADING.has(key)) {
-        BANK_LOADING.add(key);
-        loadBankKey(key).then(() => { BANK_LOADING.delete(key); render(); });
-      }
-    }
   }
 
   // Grid
@@ -863,10 +854,16 @@ function renderDrill(el, data) {
 
 // ─── INIT ───
 loadState();
-fetch('bank/meta.json')
-  .then(r => r.json())
-  .then(meta => { Object.assign(BANK_META, meta); render(); })
-  .catch(() => render()); // render anyway so UI isn't blank on error
+Promise.all([
+  fetch('bank/meta.json').then(r => r.json()),
+  fetch('bank/topic_stats.json').then(r => r.json()),
+]).then(([meta, stats]) => {
+  Object.assign(BANK_META, meta);
+  for (const [bank, data] of Object.entries(stats.by_bank || {})) {
+    TOPIC_TAGS_INDEX[bank] = data.exercise_tags || [];
+  }
+  render();
+}).catch(() => render()); // render anyway so UI isn't blank on error
 </script>
 </body>
 </html>

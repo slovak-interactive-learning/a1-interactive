@@ -317,11 +317,13 @@ def print_stats(name: str, exercises: list[dict]) -> None:
 
 
 def build_stats(bank_name: str, exercises: list[dict]) -> dict:
-    """Return a stats dict for a bank (tag counts + exercise count)."""
+    """Return a stats dict for a bank (tag counts + compact per-exercise tag index)."""
     tag_counts: dict[str, int] = {}
     untagged = 0
+    exercise_tags: list[list[str]] = []
     for ex in exercises:
         t = ex.get("tags", [])
+        exercise_tags.append(t)
         if not t:
             untagged += 1
         for tag in t:
@@ -330,6 +332,7 @@ def build_stats(bank_name: str, exercises: list[dict]) -> dict:
         "total": len(exercises),
         "untagged": untagged,
         "tag_counts": {tag: tag_counts.get(tag, 0) for tag in ALL_TAGS},
+        "exercise_tags": exercise_tags,  # compact index: list of tag lists
     }
 
 
