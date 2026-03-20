@@ -1,11 +1,9 @@
 {
-  "total_exercises": 399,
+  "total_exercises": 1611,
   "taxonomy": {
     "grammar": [
       "nominative",
       "accusative",
-      "genitive",
-      "dative",
       "locative",
       "instrumental",
       "nom_plural",
@@ -34,33 +32,35 @@
       "health",
       "free_time",
       "social",
-      "directions"
+      "directions",
+      "colours",
+      "clothing",
+      "professions",
+      "countries"
     ]
   },
   "by_bank": {
     "drills": {
-      "total": 100,
+      "total": 800,
       "untagged": 0,
       "tag_counts": {
-        "nominative": 67,
-        "accusative": 77,
-        "genitive": 48,
-        "dative": 0,
-        "locative": 76,
-        "instrumental": 80,
-        "nom_plural": 72,
-        "adjectives": 77,
-        "pronouns": 69,
+        "nominative": 103,
+        "accusative": 95,
+        "locative": 95,
+        "instrumental": 96,
+        "nom_plural": 88,
+        "adjectives": 96,
+        "pronouns": 71,
         "present_tense": 59,
-        "past_tense": 73,
+        "past_tense": 74,
         "future_tense": 0,
-        "modals": 18,
+        "modals": 20,
         "reflexive": 1,
-        "numerals": 77,
-        "time_date": 80,
+        "numerals": 90,
+        "time_date": 100,
         "negation": 7,
-        "possessive": 69,
-        "uz_este": 69,
+        "possessive": 78,
+        "uz_este": 87,
         "daily_routine": 0,
         "food_drink": 0,
         "transport_travel": 0,
@@ -72,1628 +72,3374 @@
         "health": 0,
         "free_time": 0,
         "social": 0,
-        "directions": 0
+        "directions": 0,
+        "colours": 0,
+        "clothing": 0,
+        "professions": 0,
+        "countries": 0
       },
       "exercise_tags": [
         [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
+          "possessive"
+        ],
+        [
           "nom_plural",
-          "nominative",
+          "nominative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "nom_plural",
           "numerals",
+          "time_date"
+        ],
+        [
           "past_tense",
-          "possessive",
           "time_date"
         ],
         [
           "adjectives",
-          "instrumental",
+          "nominative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "adjectives"
+        ],
+        [
           "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
+          "nominative"
         ],
         [
-          "accusative",
-          "instrumental",
-          "locative",
-          "modals",
-          "numerals",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "locative",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "locative",
-          "modals",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "instrumental",
-          "locative",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "pronouns",
           "time_date"
         ],
         [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
           "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "locative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
           "uz_este"
         ],
         [
           "adjectives",
-          "genitive",
+          "possessive"
+        ],
+        [
           "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "possessive",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "adjectives",
-          "instrumental",
-          "locative",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "negation",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "modals",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "locative",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "reflexive",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "locative",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "locative",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nominative",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "possessive",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "locative",
-          "negation",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "negation",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "possessive",
-          "present_tense",
           "pronouns"
         ],
         [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "instrumental"
+        ],
+        [
           "locative",
-          "nom_plural",
+          "pronouns"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "time_date"
+        ],
+        [
           "nominative",
+          "possessive"
+        ],
+        [
+          "adjectives",
+          "instrumental"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
           "numerals",
+          "time_date"
+        ],
+        [
+          "locative",
+          "possessive"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "accusative",
+          "nominative",
+          "numerals"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "present_tense"
+        ],
+        [
           "possessive",
           "pronouns"
         ],
         [
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date",
+          "locative"
+        ],
+        [
           "uz_este"
         ],
         [
-          "adjectives",
-          "instrumental",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
+          "accusative",
+          "nominative"
+        ],
+        [
           "time_date"
         ],
         [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "modals",
-          "nom_plural",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "time_date"
+          "numerals"
         ],
         [
           "accusative",
-          "instrumental",
-          "locative",
-          "negation",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
+          "modals"
         ],
         [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nominative",
-          "numerals",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
+          "locative"
         ],
         [
-          "accusative",
-          "adjectives",
           "instrumental",
-          "modals",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
           "pronouns"
         ],
         [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
+          "modals",
+          "past_tense"
+        ],
+        [
           "nom_plural",
-          "nominative",
-          "numerals",
-          "possessive",
-          "present_tense",
+          "uz_este"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
           "time_date"
         ],
         [
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nominative",
-          "numerals",
+          "accusative"
+        ],
+        [
           "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
           "time_date"
         ],
         [
-          "accusative",
-          "adjectives",
-          "instrumental",
+          "adjectives"
+        ],
+        [
           "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
+          "time_date"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "accusative",
           "possessive",
           "pronouns"
         ],
         [
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "locative",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "locative",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "present_tense",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "instrumental",
-          "locative",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "modals",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "locative",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "possessive",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nominative",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "present_tense",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "instrumental",
-          "locative",
-          "modals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "locative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "numerals",
-          "past_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "genitive",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "genitive",
-          "instrumental",
-          "locative",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "modals",
-          "nom_plural",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "possessive",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "negation",
-          "nom_plural",
-          "nominative",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "nom_plural",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nominative",
-          "numerals",
-          "possessive",
-          "pronouns",
-          "time_date"
-        ],
-        [
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "locative",
-          "negation",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "adjectives",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "numerals",
-          "possessive",
-          "present_tense",
-          "pronouns",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "past_tense",
-          "present_tense",
-          "pronouns",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "instrumental",
-          "negation",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "time_date",
-          "uz_este"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "present_tense",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "numerals",
-          "past_tense",
           "possessive",
           "pronouns"
         ],
         [
-          "genitive",
+          "present_tense"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "accusative"
+        ],
+        [
           "instrumental",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "pronouns"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "accusative",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "nominative"
+        ],
+        [
+          "accusative",
+          "pronouns"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "nom_plural",
+          "uz_este"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "nom_plural",
+          "numerals"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "accusative",
+          "nom_plural",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "present_tense",
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "locative",
+          "pronouns"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "locative",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "uz_este"
+        ],
+        [
           "locative",
           "nom_plural",
-          "nominative",
-          "numerals",
-          "past_tense",
           "possessive",
-          "pronouns",
+          "pronouns"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "nom_plural",
+          "nominative",
+          "numerals"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "negation",
+          "uz_este"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "pronouns"
+        ],
+        [
+          "accusative",
+          "nominative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "nom_plural",
+          "uz_este"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "accusative",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "accusative",
+          "pronouns"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "locative",
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "locative",
+          "time_date"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "nominative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "nom_plural",
+          "uz_este"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "locative",
+          "time_date"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "modals",
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "possessive",
+          "uz_este"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "nom_plural",
+          "uz_este"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "locative",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "present_tense",
+          "reflexive"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "adjectives",
+          "instrumental"
+        ],
+        [
+          "accusative",
+          "adjectives"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "accusative",
+          "nominative"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "adjectives",
+          "instrumental"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "locative",
+          "numerals",
+          "time_date"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "adjectives",
+          "nominative",
+          "possessive"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "modals",
+          "past_tense"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "locative",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "nom_plural",
+          "nominative",
+          "uz_este"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "accusative",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "instrumental"
+        ],
+        [
+          "nom_plural",
+          "numerals"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "possessive",
+          "uz_este"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "accusative",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative",
+          "negation",
+          "possessive"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "negation",
+          "uz_este"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "nom_plural",
+          "nominative",
+          "numerals"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "pronouns"
+        ],
+        [
+          "nom_plural",
+          "numerals"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "uz_este"
+        ],
+        [
+          "numerals",
+          "uz_este"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "locative",
+          "time_date"
+        ],
+        [
+          "present_tense",
+          "time_date"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural",
+          "nominative",
+          "numerals"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "adjectives",
+          "instrumental"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "modals",
+          "present_tense",
+          "time_date"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nominative",
+          "numerals"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "negation",
+          "uz_este"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "modals",
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "adjectives",
+          "locative"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "locative",
+          "time_date"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "nom_plural",
+          "nominative",
+          "numerals"
+        ],
+        [
+          "locative",
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "locative",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "modals",
+          "past_tense"
+        ],
+        [
+          "locative",
+          "time_date"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "locative",
+          "nom_plural",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "adjectives",
+          "nom_plural"
+        ],
+        [
+          "past_tense",
           "time_date",
           "uz_este"
         ],
         [
-          "adjectives",
-          "genitive",
+          "accusative",
+          "numerals"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
           "instrumental",
-          "modals",
+          "pronouns"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "adjectives",
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "uz_este"
+        ],
+        [
           "numerals",
+          "time_date"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
           "past_tense",
+          "time_date"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "accusative",
+          "uz_este"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural",
+          "uz_este"
+        ],
+        [
+          "instrumental",
+          "uz_este"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "modals",
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "accusative"
+        ],
+        [
           "possessive",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "locative",
+          "time_date"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "locative",
+          "pronouns"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "modals",
+          "past_tense"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "locative",
+          "pronouns"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "accusative",
+          "nominative"
+        ],
+        [
+          "locative",
+          "pronouns"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "accusative",
+          "nominative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "accusative",
+          "pronouns"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "locative",
+          "nom_plural",
+          "possessive",
+          "pronouns"
+        ],
+        [
           "present_tense",
+          "time_date"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "accusative",
+          "uz_este"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "past_tense",
           "time_date",
           "uz_este"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "pronouns"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "adjectives",
+          "instrumental"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "locative",
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "locative",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "possessive",
+          "uz_este"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "locative",
+          "pronouns"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "locative",
+          "pronouns"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "negation",
+          "uz_este"
+        ],
+        [
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "adjectives",
+          "instrumental",
+          "uz_este"
+        ],
+        [
+          "nom_plural",
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "nom_plural",
+          "present_tense"
+        ],
+        [
+          "nom_plural",
+          "numerals"
+        ],
+        [
+          "accusative",
+          "uz_este"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "possessive",
+          "uz_este"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "modals",
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "accusative",
+          "nominative",
+          "uz_este"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "nom_plural",
+          "nominative",
+          "uz_este"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "locative",
+          "pronouns"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "nominative",
+          "possessive"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "accusative",
+          "possessive",
+          "pronouns"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "present_tense",
+          "time_date"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "adjectives",
+          "uz_este"
+        ],
+        [
+          "accusative",
+          "negation"
+        ],
+        [
+          "adjectives",
+          "possessive",
+          "uz_este"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "nom_plural",
+          "nominative",
+          "numerals"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "accusative",
+          "nominative"
+        ],
+        [
+          "locative",
+          "pronouns"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "nom_plural"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "nom_plural",
+          "uz_este"
+        ],
+        [
+          "present_tense",
+          "time_date"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "adjectives",
+          "instrumental"
+        ],
+        [
+          "adjectives",
+          "nominative",
+          "uz_este"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "negation",
+          "uz_este"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "nom_plural",
+          "numerals",
+          "time_date"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "locative",
+          "nom_plural",
+          "possessive"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "numerals",
+          "time_date"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "instrumental",
+          "pronouns"
+        ],
+        [
+          "possessive"
+        ],
+        [
+          "nom_plural",
+          "nominative",
+          "uz_este"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "uz_este"
+        ],
+        [
+          "instrumental"
+        ],
+        [
+          "adjectives",
+          "possessive"
+        ],
+        [
+          "modals",
+          "present_tense"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "time_date"
         ]
       ]
     },
     "translates": {
-      "total": 100,
-      "untagged": 0,
+      "total": 608,
+      "untagged": 11,
       "tag_counts": {
-        "nominative": 20,
-        "accusative": 50,
-        "genitive": 29,
-        "dative": 0,
-        "locative": 41,
-        "instrumental": 33,
-        "nom_plural": 14,
-        "adjectives": 47,
-        "pronouns": 13,
-        "present_tense": 37,
-        "past_tense": 37,
-        "future_tense": 18,
-        "modals": 37,
-        "reflexive": 22,
-        "numerals": 25,
-        "time_date": 20,
-        "negation": 17,
-        "possessive": 25,
-        "uz_este": 8,
-        "daily_routine": 2,
-        "food_drink": 7,
-        "transport_travel": 5,
-        "home_apartment": 10,
-        "university_work": 9,
-        "family_people": 9,
-        "shopping": 2,
-        "weather": 13,
-        "health": 8,
-        "free_time": 12,
-        "social": 11,
-        "directions": 5
+        "nominative": 74,
+        "accusative": 138,
+        "locative": 81,
+        "instrumental": 39,
+        "nom_plural": 19,
+        "adjectives": 94,
+        "pronouns": 45,
+        "present_tense": 85,
+        "past_tense": 65,
+        "future_tense": 19,
+        "modals": 47,
+        "reflexive": 39,
+        "numerals": 42,
+        "time_date": 57,
+        "negation": 66,
+        "possessive": 30,
+        "uz_este": 21,
+        "daily_routine": 32,
+        "food_drink": 20,
+        "transport_travel": 64,
+        "home_apartment": 52,
+        "university_work": 92,
+        "family_people": 36,
+        "shopping": 32,
+        "weather": 64,
+        "health": 20,
+        "free_time": 60,
+        "social": 80,
+        "directions": 20,
+        "colours": 36,
+        "clothing": 28,
+        "professions": 20,
+        "countries": 64
       },
       "exercise_tags": [
         [
+          "present_tense",
+          "weather"
+        ],
+        [
           "accusative",
+          "weather"
+        ],
+        [
           "instrumental",
+          "weather"
+        ],
+        [
+          "weather"
+        ],
+        [
+          "future_tense",
           "present_tense",
           "weather"
         ],
         [
           "adjectives",
-          "future_tense",
+          "weather"
+        ],
+        [
           "possessive",
-          "present_tense",
+          "weather"
+        ],
+        [
+          "possessive",
           "weather"
         ],
         [
           "health",
+          "locative"
+        ],
+        [
+          "health",
           "locative",
-          "modals",
-          "numerals",
+          "numerals"
+        ],
+        [
+          "health",
           "past_tense",
           "reflexive"
         ],
         [
-          "accusative",
-          "adjectives",
+          "health",
           "modals",
+          "past_tense"
+        ],
+        [
+          "modals"
+        ],
+        [
+          "accusative",
+          "adjectives"
+        ],
+        [],
+        [
+          "adjectives",
           "nom_plural",
           "nominative"
         ],
         [
-          "accusative",
-          "free_time",
-          "genitive",
-          "nominative",
-          "numerals",
-          "present_tense"
+          "locative",
+          "reflexive",
+          "university_work"
         ],
         [
           "locative",
-          "modals",
           "numerals",
-          "past_tense",
-          "reflexive",
           "time_date",
           "university_work"
         ],
         [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "locative",
-          "negation",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "social"
-        ],
-        [
-          "genitive",
-          "instrumental",
-          "negation",
-          "present_tense"
-        ],
-        [
-          "future_tense",
           "modals",
-          "negation",
+          "past_tense",
+          "university_work"
+        ],
+        [
+          "locative",
+          "university_work"
+        ],
+        [
           "past_tense",
           "transport_travel"
         ],
         [
+          "modals",
+          "transport_travel"
+        ],
+        [
+          "future_tense",
+          "transport_travel"
+        ],
+        [
+          "negation",
+          "transport_travel"
+        ],
+        [
           "adjectives",
+          "home_apartment"
+        ],
+        [
+          "home_apartment"
+        ],
+        [
           "home_apartment",
           "pronouns"
         ],
         [
+          "home_apartment"
+        ],
+        [
           "adjectives",
-          "genitive",
-          "locative",
-          "nominative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "time_date"
+          "transport_travel",
+          "weather"
         ],
         [
           "accusative",
-          "adjectives",
-          "instrumental",
           "negation",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "accusative",
           "pronouns",
           "transport_travel",
           "weather"
         ],
         [
+          "instrumental",
+          "transport_travel",
+          "weather"
+        ],
+        [
           "accusative",
           "adjectives",
+          "free_time"
+        ],
+        [
+          "accusative",
           "free_time",
-          "instrumental",
           "modals"
+        ],
+        [
+          "accusative",
+          "free_time"
+        ],
+        [
+          "accusative",
+          "free_time",
+          "instrumental"
+        ],
+        [
+          "free_time",
+          "locative"
         ],
         [
           "free_time",
           "locative",
-          "modals",
           "numerals",
-          "past_tense",
-          "reflexive",
           "time_date"
+        ],
+        [
+          "free_time",
+          "past_tense",
+          "reflexive"
+        ],
+        [
+          "free_time",
+          "modals"
         ],
         [
           "accusative",
           "adjectives",
+          "health"
+        ],
+        [
           "health",
           "modals"
         ],
         [
           "accusative",
-          "instrumental",
+          "health"
+        ],
+        [
+          "health"
+        ],
+        [
           "reflexive",
+          "transport_travel",
+          "weather"
+        ],
+        [
           "time_date",
           "transport_travel",
           "weather"
         ],
         [
+          "accusative",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "instrumental",
+          "transport_travel",
+          "weather"
+        ],
+        [
           "family_people",
-          "future_tense",
-          "locative",
-          "modals",
-          "negation",
           "past_tense"
         ],
         [
-          "free_time",
-          "future_tense",
-          "genitive",
+          "family_people",
+          "modals"
+        ],
+        [
+          "family_people",
+          "future_tense"
+        ],
+        [
+          "family_people",
           "locative",
-          "modals",
-          "numerals",
-          "past_tense",
-          "reflexive"
+          "negation"
         ],
         [
           "accusative",
+          "weather"
+        ],
+        [
+          "weather"
+        ],
+        [
           "future_tense",
-          "instrumental",
           "present_tense",
           "weather"
         ],
         [
-          "adjectives",
-          "food_drink",
-          "genitive",
-          "locative",
-          "numerals",
-          "past_tense",
-          "possessive"
+          "instrumental",
+          "weather"
         ],
         [
-          "accusative",
-          "future_tense",
-          "instrumental",
           "reflexive",
+          "weather"
+        ],
+        [
+          "reflexive",
+          "weather"
+        ],
+        [
+          "future_tense",
           "time_date",
           "weather"
         ],
         [
-          "family_people",
-          "free_time",
-          "genitive",
+          "accusative",
           "instrumental",
-          "numerals",
+          "weather"
+        ],
+        [
           "past_tense",
-          "present_tense",
-          "time_date"
+          "university_work"
+        ],
+        [
+          "modals",
+          "university_work"
         ],
         [
           "future_tense",
-          "modals",
-          "negation",
-          "past_tense",
           "university_work"
         ],
         [
-          "adjectives",
+          "negation",
+          "university_work"
+        ],
+        [
           "food_drink",
           "locative",
-          "possessive",
           "present_tense"
         ],
         [
-          "accusative",
           "adjectives",
-          "modals",
-          "nominative"
+          "food_drink"
         ],
         [
-          "adjectives",
-          "family_people",
-          "genitive",
+          "food_drink"
+        ],
+        [
+          "food_drink",
           "locative",
-          "numerals",
-          "past_tense",
           "possessive"
         ],
         [
+          "accusative",
           "adjectives",
-          "genitive",
-          "health",
-          "locative",
-          "possessive",
-          "present_tense"
+          "nominative",
+          "professions"
         ],
         [
-          "adjectives",
-          "genitive",
-          "locative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "university_work"
+          "modals",
+          "professions"
         ],
         [
           "accusative",
-          "instrumental",
-          "locative",
+          "professions"
+        ],
+        [
+          "professions"
+        ],
+        [
           "modals",
           "present_tense",
           "social"
         ],
         [
+          "accusative",
+          "social"
+        ],
+        [
+          "instrumental",
+          "social"
+        ],
+        [
+          "locative",
+          "social"
+        ],
+        [
+          "modals"
+        ],
+        [
+          "negation"
+        ],
+        [
+          "past_tense"
+        ],
+        [
           "future_tense",
-          "modals",
-          "negation",
-          "past_tense",
           "present_tense"
         ],
         [
           "home_apartment",
+          "locative"
+        ],
+        [
+          "home_apartment",
           "locative",
-          "modals",
+          "reflexive"
+        ],
+        [
+          "home_apartment",
           "numerals",
-          "past_tense",
-          "reflexive",
           "time_date"
         ],
         [
-          "accusative",
-          "adjectives",
-          "free_time",
+          "home_apartment",
           "modals",
-          "nom_plural",
+          "past_tense"
+        ],
+        [
+          "free_time",
+          "modals"
+        ],
+        [
+          "accusative",
+          "free_time",
           "nominative",
           "time_date"
         ],
         [
-          "accusative",
+          "free_time"
+        ],
+        [
           "adjectives",
-          "instrumental",
+          "free_time",
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "clothing",
+          "colours",
+          "shopping"
+        ],
+        [
+          "clothing",
+          "colours",
           "negation",
+          "shopping"
+        ],
+        [
+          "accusative",
+          "clothing",
+          "colours",
           "pronouns",
           "shopping"
         ],
         [
-          "adjectives",
+          "clothing",
+          "colours",
+          "instrumental",
+          "shopping"
+        ],
+        [
           "health",
-          "nominative",
-          "possessive",
           "present_tense"
         ],
         [
-          "accusative",
-          "genitive",
-          "locative",
-          "numerals",
-          "past_tense",
-          "reflexive",
-          "university_work",
-          "uz_este"
+          "adjectives",
+          "health",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "health",
+          "possessive"
+        ],
+        [
+          "health"
         ],
         [
           "directions",
-          "future_tense",
-          "instrumental",
+          "past_tense"
+        ],
+        [
+          "directions",
+          "future_tense"
+        ],
+        [
+          "directions",
+          "instrumental"
+        ],
+        [
+          "directions",
           "locative",
-          "past_tense",
           "pronouns"
         ],
         [
           "accusative",
-          "future_tense",
-          "genitive",
-          "past_tense",
-          "present_tense",
-          "weather"
+          "food_drink",
+          "modals"
         ],
         [
           "accusative",
+          "food_drink"
+        ],
+        [
           "food_drink",
-          "modals",
           "nom_plural",
-          "nominative",
+          "nominative"
+        ],
+        [
+          "food_drink",
           "past_tense"
         ],
         [
           "accusative",
           "adjectives",
+          "home_apartment"
+        ],
+        [
           "home_apartment",
-          "modals",
-          "present_tense"
+          "modals"
         ],
         [
           "accusative",
-          "locative",
+          "home_apartment"
+        ],
+        [
+          "accusative",
+          "home_apartment",
+          "present_tense"
+        ],
+        [
           "past_tense",
-          "reflexive",
           "social",
           "uz_este"
         ],
         [
           "accusative",
+          "past_tense",
+          "social",
+          "uz_este"
+        ],
+        [
+          "reflexive",
+          "social"
+        ],
+        [
+          "locative",
+          "social",
+          "uz_este"
+        ],
+        [
+          "accusative",
+          "home_apartment"
+        ],
+        [
           "home_apartment",
           "instrumental",
-          "nominative",
+          "nominative"
+        ],
+        [
+          "home_apartment",
           "present_tense"
         ],
         [
-          "directions",
-          "genitive",
-          "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
-          "present_tense"
+          "home_apartment"
         ],
         [
-          "adjectives",
-          "possessive",
           "present_tense",
           "social"
         ],
         [
           "adjectives",
-          "genitive",
-          "locative",
-          "numerals",
-          "past_tense",
+          "social"
+        ],
+        [
+          "adjectives",
           "possessive",
-          "time_date",
-          "weather"
+          "social"
+        ],
+        [
+          "social"
+        ],
+        [
+          "free_time",
+          "modals"
+        ],
+        [
+          "free_time"
         ],
         [
           "accusative",
+          "free_time"
+        ],
+        [
           "adjectives",
           "free_time",
-          "modals",
           "nom_plural",
           "nominative"
         ],
         [
           "adjectives",
+          "countries",
           "pronouns",
+          "social"
+        ],
+        [
+          "adjectives",
+          "countries",
+          "social"
+        ],
+        [
+          "countries",
+          "social"
+        ],
+        [
+          "countries",
           "social"
         ],
         [
@@ -1702,499 +3448,2373 @@
           "pronouns"
         ],
         [
-          "accusative",
+          "adjectives",
+          "family_people"
+        ],
+        [
+          "family_people"
+        ],
+        [
+          "family_people"
+        ],
+        [
           "free_time",
-          "instrumental",
-          "locative",
+          "locative"
+        ],
+        [
+          "free_time",
+          "modals",
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "free_time"
+        ],
+        [
+          "free_time",
+          "instrumental"
+        ],
+        [
+          "free_time",
           "modals",
           "present_tense"
         ],
         [
           "accusative",
           "adjectives",
+          "free_time"
+        ],
+        [
           "free_time",
-          "instrumental",
-          "locative",
-          "modals",
-          "present_tense"
+          "instrumental"
+        ],
+        [
+          "free_time",
+          "locative"
         ],
         [
           "adjectives",
           "family_people",
-          "possessive",
           "present_tense"
         ],
         [
           "adjectives",
+          "family_people"
+        ],
+        [
+          "family_people",
+          "possessive"
+        ],
+        [
+          "family_people",
+          "possessive"
+        ],
+        [
+          "adjectives"
+        ],
+        [],
+        [
           "instrumental",
           "pronouns"
         ],
+        [],
         [
-          "accusative",
-          "instrumental",
           "modals",
+          "reflexive"
+        ],
+        [
           "reflexive",
           "time_date"
         ],
         [
+          "accusative"
+        ],
+        [
+          "instrumental"
+        ],
+        [
           "accusative",
           "adjectives",
+          "university_work"
+        ],
+        [
           "modals",
           "university_work"
         ],
         [
           "accusative",
+          "university_work"
+        ],
+        [
+          "university_work"
+        ],
+        [
+          "accusative",
           "adjectives",
+          "family_people"
+        ],
+        [
+          "accusative",
           "family_people",
           "modals",
-          "present_tense",
           "uz_este"
         ],
         [
           "accusative",
-          "adjectives",
-          "genitive",
-          "locative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "weather"
+          "family_people"
         ],
         [
-          "adjectives",
-          "directions",
-          "genitive",
-          "negation",
-          "nominative",
-          "possessive",
+          "family_people",
           "present_tense"
         ],
         [
-          "accusative",
           "food_drink",
-          "instrumental",
           "reflexive",
+          "shopping"
+        ],
+        [
+          "food_drink",
           "shopping",
           "time_date"
         ],
         [
           "accusative",
-          "adjectives",
+          "food_drink",
+          "shopping"
+        ],
+        [
+          "food_drink",
+          "instrumental",
+          "shopping"
+        ],
+        [
           "home_apartment",
-          "possessive",
           "present_tense"
         ],
         [
           "accusative",
-          "directions",
-          "instrumental",
-          "reflexive",
-          "time_date"
+          "adjectives",
+          "home_apartment"
         ],
         [
           "adjectives",
+          "home_apartment",
+          "possessive"
+        ],
+        [
+          "home_apartment"
+        ],
+        [
+          "directions",
+          "reflexive"
+        ],
+        [
+          "directions",
+          "time_date"
+        ],
+        [
+          "accusative",
+          "directions"
+        ],
+        [
+          "directions",
+          "instrumental"
+        ],
+        [
           "pronouns"
         ],
         [
-          "genitive",
-          "health",
-          "locative",
-          "negation",
-          "past_tense",
-          "reflexive",
-          "uz_este"
+          "adjectives"
+        ],
+        [],
+        [],
+        [
+          "daily_routine",
+          "past_tense"
+        ],
+        [
+          "daily_routine",
+          "future_tense",
+          "instrumental"
+        ],
+        [
+          "daily_routine",
+          "instrumental"
         ],
         [
           "accusative",
           "daily_routine",
-          "future_tense",
-          "instrumental",
           "locative",
-          "past_tense",
           "pronouns"
         ],
         [
-          "adjectives",
-          "genitive",
-          "locative",
-          "numerals",
-          "past_tense",
-          "possessive",
-          "university_work"
-        ],
-        [
-          "accusative",
-          "food_drink",
-          "genitive",
-          "modals",
-          "present_tense",
-          "time_date"
-        ],
-        [
-          "future_tense",
           "home_apartment",
-          "instrumental",
+          "instrumental"
+        ],
+        [
+          "home_apartment",
+          "past_tense"
+        ],
+        [
+          "home_apartment",
           "locative",
-          "past_tense",
           "possessive",
           "pronouns"
         ],
         [
+          "future_tense",
+          "home_apartment"
+        ],
+        [
           "accusative",
           "adjectives",
+          "countries",
+          "social"
+        ],
+        [
+          "countries",
           "modals",
           "reflexive",
           "social"
         ],
         [
           "accusative",
-          "instrumental",
-          "locative",
+          "countries",
+          "social"
+        ],
+        [
+          "countries",
+          "social"
+        ],
+        [
           "reflexive",
+          "weather"
+        ],
+        [
+          "locative",
           "time_date",
           "weather"
         ],
         [
+          "accusative",
+          "weather"
+        ],
+        [
+          "instrumental",
+          "weather"
+        ],
+        [
           "adjectives",
+          "present_tense"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "possessive"
+        ],
+        [
           "possessive",
           "present_tense"
         ],
         [
           "future_tense",
-          "instrumental",
+          "transport_travel"
+        ],
+        [
           "locative",
-          "past_tense",
           "pronouns",
           "transport_travel"
         ],
         [
-          "accusative",
-          "genitive",
           "instrumental",
-          "present_tense",
+          "transport_travel"
+        ],
+        [
+          "past_tense",
+          "transport_travel"
+        ],
+        [
+          "countries",
+          "future_tense",
           "social"
         ],
         [
-          "future_tense",
-          "instrumental",
+          "countries",
           "locative",
           "possessive",
           "pronouns",
           "social"
         ],
         [
-          "accusative",
-          "family_people",
-          "genitive",
+          "countries",
           "instrumental",
-          "numerals",
-          "past_tense",
-          "present_tense",
+          "social"
+        ],
+        [
+          "countries",
+          "social"
+        ],
+        [
+          "nom_plural",
+          "nominative",
+          "university_work"
+        ],
+        [
+          "modals",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "possessive",
+          "university_work"
+        ],
+        [
+          "reflexive",
+          "university_work"
+        ],
+        [
+          "home_apartment",
+          "present_tense"
+        ],
+        [
+          "home_apartment",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "home_apartment",
+          "nom_plural",
+          "nominative",
+          "numerals"
+        ],
+        [
+          "home_apartment",
+          "negation"
+        ],
+        [
+          "weather"
+        ],
+        [
+          "accusative",
+          "modals",
+          "uz_este",
+          "weather"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "weather"
+        ],
+        [
+          "adjectives",
+          "nom_plural",
+          "nominative",
+          "weather"
+        ],
+        [
+          "free_time",
+          "reflexive"
+        ],
+        [
+          "free_time",
+          "time_date"
+        ],
+        [
+          "accusative",
+          "free_time"
+        ],
+        [
+          "free_time",
+          "instrumental"
+        ],
+        [
+          "health",
+          "locative"
+        ],
+        [
+          "health",
+          "locative",
+          "numerals"
+        ],
+        [
+          "future_tense",
+          "health",
+          "reflexive"
+        ],
+        [
+          "health",
+          "modals",
+          "negation",
+          "past_tense"
+        ],
+        [
+          "locative",
+          "reflexive",
+          "social"
+        ],
+        [
           "social",
           "time_date"
         ],
         [
-          "genitive",
+          "accusative",
+          "social"
+        ],
+        [
+          "instrumental",
+          "social"
+        ],
+        [
+          "food_drink",
+          "future_tense"
+        ],
+        [
+          "food_drink",
+          "instrumental"
+        ],
+        [
+          "food_drink",
+          "locative"
+        ],
+        [
+          "food_drink"
+        ],
+        [
+          "nominative",
+          "possessive"
+        ],
+        [
+          "adjectives",
+          "modals",
+          "possessive"
+        ],
+        [
+          "future_tense"
+        ],
+        [
+          "adjectives",
           "nom_plural",
           "nominative",
-          "numerals",
-          "present_tense",
-          "transport_travel"
+          "time_date"
+        ],
+        [
+          "directions",
+          "past_tense"
+        ],
+        [
+          "directions",
+          "modals"
+        ],
+        [
+          "directions",
+          "future_tense"
+        ],
+        [
+          "directions",
+          "negation"
+        ],
+        [
+          "home_apartment",
+          "past_tense",
+          "uz_este"
+        ],
+        [
+          "home_apartment",
+          "negation",
+          "past_tense",
+          "uz_este"
+        ],
+        [
+          "home_apartment",
+          "time_date"
+        ],
+        [
+          "home_apartment",
+          "locative"
+        ],
+        [
+          "modals",
+          "social"
         ],
         [
           "accusative",
-          "modals",
+          "social"
+        ],
+        [
+          "social"
+        ],
+        [
           "nom_plural",
           "nominative",
-          "possessive",
-          "reflexive",
+          "social"
+        ],
+        [
+          "food_drink",
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "food_drink"
+        ],
+        [
+          "food_drink",
+          "instrumental"
+        ],
+        [
+          "food_drink",
+          "locative"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "free_time"
+        ],
+        [
+          "free_time",
+          "modals"
+        ],
+        [
+          "accusative",
+          "free_time"
+        ],
+        [
+          "free_time"
+        ],
+        [
+          "modals"
+        ],
+        [
+          "accusative",
+          "adjectives"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "accusative",
+          "health",
+          "modals",
+          "reflexive"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "health"
+        ],
+        [
+          "health",
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "health"
+        ],
+        [
+          "modals",
+          "present_tense",
           "university_work"
         ],
         [
-          "genitive",
+          "accusative",
+          "university_work"
+        ],
+        [
+          "instrumental",
+          "university_work"
+        ],
+        [
           "locative",
-          "negation",
-          "numerals",
-          "past_tense",
-          "present_tense",
-          "reflexive",
-          "time_date",
-          "uz_este",
-          "weather"
+          "university_work"
+        ],
+        [
+          "accusative",
+          "home_apartment",
+          "modals"
+        ],
+        [
+          "accusative",
+          "home_apartment",
+          "nominative"
+        ],
+        [
+          "accusative",
+          "home_apartment",
+          "past_tense"
         ],
         [
           "adjectives",
           "home_apartment",
-          "negation",
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "weather"
+        ],
+        [
+          "modals",
+          "weather"
+        ],
+        [
+          "accusative",
+          "weather"
+        ],
+        [
+          "present_tense",
+          "weather"
+        ],
+        [
+          "accusative"
+        ],
+        [
+          "negation"
+        ],
+        [
+          "accusative",
+          "pronouns"
+        ],
+        [
+          "instrumental",
+          "past_tense"
+        ],
+        [
+          "locative",
+          "present_tense",
+          "university_work"
+        ],
+        [
+          "adjectives",
+          "university_work"
+        ],
+        [
+          "possessive",
+          "university_work"
+        ],
+        [
+          "university_work"
+        ],
+        [
+          "adjectives",
+          "colours",
           "nom_plural",
           "nominative",
-          "numerals",
+          "weather"
+        ],
+        [
+          "colours",
+          "nominative",
+          "pronouns",
+          "weather"
+        ],
+        [
+          "colours",
+          "possessive",
+          "weather"
+        ],
+        [
+          "adjectives",
+          "colours",
+          "nom_plural",
+          "nominative",
+          "possessive",
+          "pronouns",
+          "weather"
+        ],
+        [
+          "adjectives",
+          "colours",
+          "university_work"
+        ],
+        [
+          "colours",
+          "nominative",
+          "possessive",
+          "pronouns",
+          "university_work"
+        ],
+        [
+          "colours",
+          "possessive",
+          "university_work"
+        ],
+        [
+          "adjectives",
+          "colours",
+          "past_tense",
+          "possessive",
+          "university_work"
+        ],
+        [
+          "adjectives",
+          "colours",
+          "pronouns",
+          "shopping",
+          "social"
+        ],
+        [
+          "accusative",
+          "colours",
+          "pronouns",
+          "shopping",
+          "social"
+        ],
+        [
+          "colours",
+          "nominative",
+          "possessive",
+          "shopping",
+          "social"
+        ],
+        [
+          "accusative",
+          "colours",
+          "past_tense",
+          "possessive",
+          "shopping",
+          "social"
+        ],
+        [
+          "adjectives",
+          "colours"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "colours"
+        ],
+        [
+          "adjectives",
+          "colours"
+        ],
+        [
+          "adjectives",
+          "colours",
+          "negation",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "colours",
+          "nom_plural",
+          "nominative",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "colours",
+          "nominative",
+          "pronouns",
+          "university_work"
+        ],
+        [
+          "colours",
+          "nominative",
+          "possessive",
+          "university_work"
+        ],
+        [
+          "colours",
+          "instrumental",
+          "possessive",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "colours",
+          "locative",
+          "nominative",
+          "weather"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "colours",
+          "modals",
+          "present_tense",
+          "weather"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "colours",
+          "present_tense",
+          "weather"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "colours",
+          "modals",
+          "negation",
+          "present_tense",
+          "weather"
+        ],
+        [
+          "adjectives",
+          "colours",
+          "countries",
+          "nominative",
+          "shopping"
+        ],
+        [
+          "colours",
+          "countries",
+          "pronouns",
+          "shopping"
+        ],
+        [
+          "colours",
+          "countries",
+          "possessive",
+          "shopping"
+        ],
+        [
+          "adjectives",
+          "colours",
+          "countries",
+          "nom_plural",
+          "nominative",
+          "shopping"
+        ],
+        [
+          "adjectives",
+          "clothing",
+          "family_people"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "family_people"
+        ],
+        [
+          "adjectives",
+          "clothing",
+          "family_people",
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "family_people",
+          "negation"
+        ],
+        [
+          "clothing",
+          "home_apartment",
+          "nominative",
+          "pronouns",
+          "reflexive"
+        ],
+        [
+          "adjectives",
+          "clothing",
+          "home_apartment"
+        ],
+        [
+          "adjectives",
+          "clothing",
+          "home_apartment"
+        ],
+        [
+          "accusative",
+          "clothing",
+          "home_apartment",
+          "pronouns"
+        ],
+        [
+          "adjectives",
+          "clothing",
+          "home_apartment"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "home_apartment"
+        ],
+        [
+          "clothing",
+          "home_apartment",
           "present_tense"
         ],
         [
           "accusative",
           "adjectives",
-          "modals",
+          "clothing",
+          "future_tense",
+          "home_apartment",
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "clothing",
+          "colours",
+          "pronouns",
+          "shopping"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "colours",
+          "shopping"
+        ],
+        [
+          "accusative",
+          "clothing",
+          "colours",
+          "pronouns",
+          "shopping"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "colours",
           "nom_plural",
           "nominative",
-          "uz_este",
+          "pronouns",
+          "shopping"
+        ],
+        [
+          "accusative",
+          "countries",
+          "nominative",
+          "pronouns",
+          "shopping",
+          "weather"
+        ],
+        [
+          "adjectives",
+          "countries",
+          "nominative",
+          "shopping",
+          "weather"
+        ],
+        [
+          "accusative",
+          "countries",
+          "present_tense",
+          "reflexive",
+          "shopping",
+          "weather"
+        ],
+        [
+          "accusative",
+          "countries",
+          "locative",
+          "present_tense",
+          "shopping",
+          "time_date",
+          "weather"
+        ],
+        [
+          "accusative",
+          "clothing",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "modals",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "reflexive",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "clothing",
+          "modals",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "countries",
+          "weather"
+        ],
+        [
+          "accusative",
+          "countries",
+          "nominative",
+          "weather"
+        ],
+        [
+          "accusative",
+          "countries",
+          "present_tense",
+          "weather"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "countries",
+          "locative",
+          "negation",
+          "time_date",
           "weather"
         ],
         [
           "accusative",
           "free_time",
-          "instrumental",
-          "reflexive",
-          "time_date"
-        ],
-        [
-          "adjectives",
-          "daily_routine",
-          "genitive",
-          "locative",
-          "numerals",
-          "past_tense",
-          "possessive"
-        ],
-        [
-          "future_tense",
-          "health",
-          "locative",
-          "modals",
-          "negation",
-          "numerals",
-          "past_tense",
-          "reflexive"
+          "nominative",
+          "transport_travel"
         ],
         [
           "accusative",
-          "instrumental",
-          "locative",
+          "adjectives",
+          "free_time",
+          "future_tense",
+          "transport_travel"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "free_time",
+          "modals",
+          "nominative",
+          "transport_travel"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "free_time",
+          "past_tense",
+          "transport_travel"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "free_time",
+          "social"
+        ],
+        [
+          "accusative",
+          "clothing",
+          "free_time",
+          "pronouns",
+          "social",
+          "uz_este"
+        ],
+        [
+          "accusative",
+          "clothing",
+          "free_time",
+          "present_tense",
           "reflexive",
+          "social"
+        ],
+        [
+          "accusative",
+          "clothing",
+          "free_time",
+          "negation",
+          "present_tense",
           "social",
           "time_date"
         ],
         [
-          "food_drink",
-          "future_tense",
+          "nominative"
+        ],
+        [
+          "negation",
+          "nominative",
+          "pronouns"
+        ],
+        [],
+        [
+          "modals",
+          "nominative"
+        ],
+        [
+          "countries",
+          "family_people",
+          "professions"
+        ],
+        [
+          "countries",
+          "family_people",
+          "professions"
+        ],
+        [
+          "countries",
+          "family_people",
+          "professions"
+        ],
+        [
+          "countries",
+          "family_people",
           "instrumental",
+          "negation",
+          "nom_plural",
+          "nominative",
+          "past_tense",
+          "professions"
+        ],
+        [
+          "nominative",
+          "professions"
+        ],
+        [
+          "adjectives",
+          "nominative",
+          "professions"
+        ],
+        [
+          "nominative",
+          "professions"
+        ],
+        [
+          "adjectives",
+          "negation",
+          "nominative",
+          "professions"
+        ],
+        [
+          "nominative",
+          "present_tense"
+        ],
+        [
+          "modals",
+          "nominative"
+        ],
+        [
+          "instrumental",
+          "negation",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "countries",
+          "family_people",
+          "instrumental",
+          "nominative",
+          "professions"
+        ],
+        [
+          "countries",
+          "family_people",
+          "present_tense",
+          "professions"
+        ],
+        [
+          "countries",
+          "family_people",
+          "locative",
+          "negation",
+          "professions"
+        ],
+        [
+          "countries",
+          "family_people",
+          "locative",
+          "past_tense",
+          "professions"
+        ],
+        [
+          "instrumental",
+          "nominative",
+          "social",
+          "university_work"
+        ],
+        [
+          "present_tense",
+          "social",
+          "university_work"
+        ],
+        [
+          "locative",
+          "social",
+          "university_work"
+        ],
+        [
+          "negation",
+          "present_tense",
+          "social",
+          "university_work"
+        ],
+        [
+          "countries",
+          "family_people",
+          "nominative",
+          "professions"
+        ],
+        [
+          "countries",
+          "family_people",
+          "present_tense",
+          "professions"
+        ],
+        [
+          "countries",
+          "family_people",
+          "negation",
+          "nominative",
+          "professions"
+        ],
+        [
+          "adjectives",
+          "countries",
+          "family_people",
+          "nominative",
+          "professions"
+        ],
+        [
+          "present_tense",
+          "university_work"
+        ],
+        [
+          "nominative",
+          "present_tense",
+          "university_work"
+        ],
+        [
+          "adjectives",
+          "nominative",
+          "university_work"
+        ],
+        [
+          "negation",
+          "nom_plural",
+          "nominative",
+          "university_work"
+        ],
+        [],
+        [],
+        [
+          "negation"
+        ],
+        [
+          "adjectives"
+        ],
+        [
+          "adjectives",
+          "countries",
+          "family_people",
+          "social"
+        ],
+        [
+          "countries",
+          "family_people",
+          "present_tense",
+          "social"
+        ],
+        [
+          "countries",
+          "family_people",
+          "locative",
+          "present_tense",
+          "social"
+        ],
+        [
+          "countries",
+          "family_people",
+          "locative",
+          "present_tense",
+          "social"
+        ],
+        [
+          "countries",
+          "pronouns",
+          "university_work"
+        ],
+        [
+          "countries",
+          "negation",
+          "university_work"
+        ],
+        [
+          "countries",
+          "locative",
+          "pronouns",
+          "university_work"
+        ],
+        [
+          "countries",
+          "locative",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "countries",
+          "past_tense",
+          "social"
+        ],
+        [
+          "countries",
+          "nominative",
+          "social"
+        ],
+        [
+          "countries",
+          "locative",
+          "present_tense",
+          "social"
+        ],
+        [
+          "countries",
+          "locative",
+          "present_tense",
+          "social"
+        ],
+        [
+          "countries",
+          "locative"
+        ],
+        [
+          "countries",
+          "negation"
+        ],
+        [
+          "countries",
+          "locative",
+          "pronouns"
+        ],
+        [
+          "countries",
+          "present_tense",
+          "pronouns"
+        ],
+        [
+          "countries",
+          "directions",
+          "pronouns"
+        ],
+        [
+          "countries",
+          "directions",
+          "negation",
+          "pronouns"
+        ],
+        [
+          "countries",
+          "directions",
           "locative"
         ],
         [
           "adjectives",
-          "future_tense",
-          "modals",
-          "nom_plural",
-          "nominative",
+          "countries",
+          "directions",
+          "locative"
+        ],
+        [
+          "countries",
+          "locative",
+          "university_work"
+        ],
+        [
+          "countries",
+          "university_work"
+        ],
+        [
+          "countries",
           "possessive",
+          "present_tense",
+          "university_work"
+        ],
+        [
+          "countries",
+          "locative",
+          "present_tense",
+          "university_work"
+        ],
+        [
+          "countries",
+          "directions",
+          "locative"
+        ],
+        [
+          "countries",
+          "directions",
+          "negation"
+        ],
+        [
+          "countries",
+          "directions",
+          "pronouns"
+        ],
+        [
+          "countries",
+          "directions",
+          "locative",
+          "pronouns"
+        ],
+        [
+          "present_tense",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "present_tense",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "reflexive",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "present_tense",
+          "reflexive",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "daily_routine",
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "daily_routine",
+          "present_tense"
+        ],
+        [
+          "daily_routine",
+          "reflexive"
+        ],
+        [
+          "accusative",
+          "daily_routine",
+          "present_tense",
+          "reflexive"
+        ],
+        [
+          "daily_routine",
+          "locative",
+          "numerals",
+          "present_tense",
           "time_date"
         ],
         [
-          "directions",
-          "future_tense",
-          "modals",
-          "negation",
-          "past_tense"
+          "daily_routine",
+          "past_tense",
+          "time_date"
         ],
         [
-          "home_apartment",
-          "locative",
-          "negation",
+          "daily_routine",
+          "reflexive"
+        ],
+        [
+          "daily_routine",
           "past_tense",
           "time_date",
           "uz_este"
         ],
         [
-          "adjectives",
-          "family_people",
-          "free_time",
-          "genitive",
+          "past_tense",
+          "reflexive",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "nominative",
+          "time_date",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "past_tense",
+          "transport_travel",
+          "university_work",
+          "uz_este"
+        ],
+        [
           "negation",
-          "possessive",
+          "past_tense",
+          "transport_travel",
+          "university_work",
+          "uz_este"
+        ],
+        [
+          "daily_routine",
+          "reflexive"
+        ],
+        [
+          "daily_routine",
+          "time_date"
+        ],
+        [
+          "accusative",
+          "daily_routine",
           "present_tense"
         ],
         [
           "accusative",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "social"
+          "daily_routine",
+          "negation",
+          "present_tense"
         ],
         [
-          "genitive",
-          "health",
-          "instrumental",
-          "locative",
+          "daily_routine",
           "present_tense"
         ],
         [
           "accusative",
-          "food_drink",
-          "instrumental",
-          "locative",
+          "daily_routine",
           "present_tense"
         ],
         [
-          "accusative",
-          "adjectives",
-          "free_time",
-          "modals"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "modals"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "health",
-          "modals",
-          "nom_plural",
-          "nominative",
+          "daily_routine",
           "reflexive"
         ],
         [
           "accusative",
-          "instrumental",
+          "daily_routine",
+          "present_tense",
+          "reflexive"
+        ],
+        [
+          "daily_routine",
           "locative",
-          "modals",
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "daily_routine",
+          "past_tense",
+          "uz_este"
+        ],
+        [
+          "accusative",
+          "daily_routine",
+          "negation",
+          "uz_este"
+        ],
+        [
+          "accusative",
+          "daily_routine",
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "daily_routine",
+          "present_tense"
+        ],
+        [
+          "daily_routine",
+          "reflexive"
+        ],
+        [
+          "daily_routine",
+          "present_tense"
+        ],
+        [
+          "daily_routine",
+          "reflexive"
+        ],
+        [
+          "social"
+        ],
+        [
+          "social"
+        ],
+        [
+          "pronouns",
+          "social"
+        ],
+        [
+          "social"
+        ],
+        [
+          "social"
+        ],
+        [
+          "social"
+        ],
+        [
+          "pronouns",
+          "social"
+        ],
+        [
+          "negation",
+          "pronouns",
+          "social"
+        ],
+        [
+          "university_work"
+        ],
+        [
+          "university_work"
+        ],
+        [
+          "university_work"
+        ],
+        [
+          "nominative",
+          "pronouns",
+          "university_work"
+        ],
+        [
+          "reflexive",
+          "social"
+        ],
+        [
+          "social"
+        ],
+        [
+          "pronouns",
+          "social"
+        ],
+        [
+          "negation",
+          "social"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "negation"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "negation",
+          "present_tense"
+        ],
+        [
+          "free_time",
           "present_tense",
           "university_work"
         ],
         [
-          "accusative",
-          "adjectives",
-          "home_apartment",
-          "modals",
-          "nom_plural",
-          "nominative",
-          "past_tense"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "modals",
+          "free_time",
           "present_tense",
-          "weather"
+          "university_work"
         ],
         [
-          "genitive",
-          "home_apartment",
+          "free_time",
+          "negation",
+          "university_work"
+        ],
+        [
+          "free_time",
+          "present_tense",
+          "university_work"
+        ],
+        [
+          "free_time",
+          "present_tense",
+          "social"
+        ],
+        [
+          "accusative",
+          "free_time",
+          "present_tense",
+          "social"
+        ],
+        [
+          "free_time",
+          "instrumental",
+          "present_tense",
+          "social"
+        ],
+        [
+          "accusative",
+          "free_time",
+          "instrumental",
+          "past_tense",
+          "social"
+        ],
+        [
           "locative",
-          "nom_plural",
-          "nominative",
-          "numerals",
+          "social"
+        ],
+        [
+          "social"
+        ],
+        [
+          "locative",
+          "social"
+        ],
+        [
+          "locative",
+          "modals",
+          "social"
+        ],
+        [
+          "accusative",
           "present_tense"
         ],
         [
           "accusative",
+          "adjectives"
+        ],
+        [
           "instrumental",
+          "past_tense"
+        ],
+        [
+          "accusative",
+          "instrumental"
+        ],
+        [
+          "home_apartment",
+          "shopping",
+          "transport_travel"
+        ],
+        [
+          "accusative",
+          "home_apartment",
+          "present_tense",
+          "shopping",
+          "transport_travel"
+        ],
+        [
+          "home_apartment",
+          "locative",
+          "shopping",
+          "transport_travel"
+        ],
+        [
+          "accusative",
+          "home_apartment",
+          "negation",
+          "present_tense",
+          "shopping",
+          "transport_travel"
+        ],
+        [
+          "home_apartment",
+          "present_tense",
+          "shopping",
+          "transport_travel"
+        ],
+        [
+          "accusative",
+          "home_apartment",
+          "shopping",
+          "transport_travel"
+        ],
+        [
+          "home_apartment",
+          "negation",
+          "shopping",
+          "transport_travel"
+        ],
+        [
+          "accusative",
+          "home_apartment",
+          "instrumental",
+          "past_tense",
+          "shopping",
+          "transport_travel"
+        ],
+        [
+          "negation",
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "accusative",
+          "numerals",
+          "past_tense"
+        ],
+        [
+          "locative",
+          "time_date"
+        ],
+        [
+          "future_tense"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "reflexive"
+        ],
+        [
+          "locative",
+          "past_tense",
+          "reflexive"
+        ],
+        [
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "present_tense",
+          "pronouns"
+        ],
+        [
+          "accusative",
           "negation",
           "past_tense",
           "pronouns"
         ],
         [
           "accusative",
-          "family_people",
-          "genitive",
-          "instrumental",
-          "past_tense",
-          "present_tense",
-          "reflexive",
-          "uz_este"
-        ],
-        [
           "adjectives",
-          "genitive",
-          "locative",
-          "numerals",
           "past_tense",
           "possessive"
         ],
         [
-          "adjectives",
+          "accusative",
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "past_tense"
+        ],
+        [
+          "accusative",
           "locative",
-          "possessive",
+          "past_tense"
+        ],
+        [
+          "accusative",
+          "negation",
+          "past_tense",
+          "possessive"
+        ],
+        [],
+        [
+          "accusative",
+          "time_date"
+        ],
+        [
+          "past_tense"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "negation"
+        ],
+        [
+          "negation",
+          "present_tense"
+        ],
+        [
+          "negation",
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "negation",
+          "past_tense"
+        ],
+        [
+          "negation",
+          "present_tense"
+        ],
+        [
+          "instrumental",
+          "negation"
+        ],
+        [
+          "negation",
+          "past_tense"
+        ],
+        [
+          "modals",
+          "negation",
+          "past_tense"
+        ],
+        [
+          "negation"
+        ],
+        [
+          "negation"
+        ],
+        [
+          "negation",
+          "past_tense"
+        ],
+        [
+          "locative",
+          "modals",
+          "negation",
+          "past_tense"
+        ],
+        [
+          "negation"
+        ],
+        [
+          "accusative",
+          "negation",
+          "nominative",
+          "present_tense"
+        ],
+        [
+          "accusative",
+          "negation",
+          "nominative",
           "present_tense",
+          "pronouns"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "modals",
+          "negation",
+          "pronouns"
+        ],
+        [
+          "negation",
+          "present_tense"
+        ],
+        [
+          "negation"
+        ],
+        [],
+        [
+          "modals",
+          "negation",
+          "past_tense"
+        ],
+        [
+          "locative",
+          "time_date",
+          "transport_travel"
+        ],
+        [
+          "time_date",
+          "transport_travel"
+        ],
+        [
+          "locative",
+          "transport_travel"
+        ],
+        [
+          "past_tense",
+          "time_date",
+          "transport_travel"
+        ],
+        [
+          "daily_routine",
+          "numerals",
           "university_work"
+        ],
+        [
+          "daily_routine",
+          "numerals",
+          "university_work"
+        ],
+        [
+          "daily_routine",
+          "numerals",
+          "university_work"
+        ],
+        [
+          "daily_routine",
+          "past_tense",
+          "university_work"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "reflexive",
+          "uz_este"
+        ],
+        [
+          "accusative",
+          "locative",
+          "numerals"
+        ],
+        [
+          "accusative",
+          "nominative",
+          "time_date",
+          "uz_este"
+        ],
+        [
+          "accusative",
+          "time_date",
+          "university_work"
+        ],
+        [
+          "negation",
+          "time_date",
+          "university_work"
+        ],
+        [
+          "nominative",
+          "numerals",
+          "possessive",
+          "university_work"
+        ],
+        [
+          "adjectives",
+          "numerals",
+          "time_date",
+          "university_work"
+        ],
+        [
+          "social",
+          "time_date"
+        ],
+        [
+          "numerals",
+          "social",
+          "time_date"
+        ],
+        [
+          "numerals",
+          "social",
+          "time_date"
+        ],
+        [
+          "numerals",
+          "social",
+          "time_date"
+        ],
+        [
+          "free_time",
+          "locative",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "free_time",
+          "locative",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "free_time",
+          "negation",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "free_time",
+          "locative",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "accusative",
+          "numerals"
+        ],
+        [
+          "nominative",
+          "present_tense"
+        ],
+        [
+          "locative"
+        ],
+        [
+          "locative"
+        ],
+        [],
+        [
+          "nominative",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "locative",
+          "negation",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "locative",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "nominative",
+          "past_tense",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "free_time",
+          "locative",
+          "numerals",
+          "time_date"
+        ],
+        [
+          "free_time",
+          "time_date"
+        ],
+        [
+          "free_time",
+          "time_date"
+        ],
+        [
+          "free_time",
+          "uz_este"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "locative",
+          "negation",
+          "numerals"
+        ],
+        [
+          "time_date"
+        ],
+        [
+          "locative",
+          "numerals",
+          "reflexive",
+          "time_date"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "adjectives",
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "time_date",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "locative",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "past_tense",
+          "transport_travel",
+          "uz_este",
+          "weather"
+        ],
+        [
+          "transport_travel",
+          "uz_este",
+          "weather"
+        ],
+        [
+          "locative",
+          "numerals",
+          "time_date",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "locative",
+          "numerals",
+          "time_date",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "accusative",
+          "numerals",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "locative",
+          "numerals",
+          "time_date",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "social",
+          "time_date"
+        ],
+        [
+          "nominative",
+          "numerals",
+          "social"
+        ],
+        [
+          "accusative",
+          "social",
+          "time_date"
+        ],
+        [
+          "nominative",
+          "numerals",
+          "social",
+          "time_date"
+        ],
+        [
+          "nominative",
+          "weather"
+        ],
+        [
+          "nominative",
+          "uz_este",
+          "weather"
+        ],
+        [
+          "locative",
+          "weather"
+        ],
+        [
+          "nominative",
+          "uz_este",
+          "weather"
+        ],
+        [
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "locative",
+          "numerals",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "locative",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "past_tense",
+          "time_date"
+        ],
+        [
+          "free_time",
+          "nominative",
+          "time_date",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "free_time",
+          "locative",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "free_time",
+          "negation",
+          "past_tense",
+          "time_date",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "free_time",
+          "past_tense",
+          "time_date",
+          "transport_travel",
+          "university_work",
+          "uz_este"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals"
+        ],
+        [
+          "numerals",
+          "past_tense"
         ]
       ]
     },
     "gapfills": {
-      "total": 100,
-      "untagged": 0,
+      "total": 95,
+      "untagged": 1,
       "tag_counts": {
-        "nominative": 15,
-        "accusative": 43,
-        "genitive": 32,
-        "dative": 11,
-        "locative": 40,
-        "instrumental": 33,
-        "nom_plural": 5,
-        "adjectives": 25,
-        "pronouns": 11,
-        "present_tense": 11,
-        "past_tense": 21,
-        "future_tense": 12,
-        "modals": 10,
-        "reflexive": 25,
-        "numerals": 6,
-        "time_date": 12,
-        "negation": 12,
-        "possessive": 9,
+        "nominative": 16,
+        "accusative": 24,
+        "locative": 19,
+        "instrumental": 8,
+        "nom_plural": 7,
+        "adjectives": 30,
+        "pronouns": 7,
+        "present_tense": 17,
+        "past_tense": 25,
+        "future_tense": 14,
+        "modals": 19,
+        "reflexive": 24,
+        "numerals": 3,
+        "time_date": 9,
+        "negation": 17,
+        "possessive": 5,
         "uz_este": 5,
-        "daily_routine": 10,
-        "food_drink": 13,
-        "transport_travel": 14,
-        "home_apartment": 25,
-        "university_work": 18,
+        "daily_routine": 9,
+        "food_drink": 8,
+        "transport_travel": 21,
+        "home_apartment": 16,
+        "university_work": 19,
         "family_people": 18,
-        "shopping": 7,
-        "weather": 13,
-        "health": 11,
-        "free_time": 16,
-        "social": 20,
-        "directions": 0
+        "shopping": 6,
+        "weather": 11,
+        "health": 8,
+        "free_time": 11,
+        "social": 13,
+        "directions": 0,
+        "colours": 4,
+        "clothing": 2,
+        "professions": 6,
+        "countries": 14
       },
       "exercise_tags": [
-        [
-          "dative",
-          "reflexive",
-          "university_work"
-        ],
         [
           "modals",
           "negation",
           "weather"
         ],
         [
-          "accusative",
-          "free_time",
-          "genitive",
-          "instrumental",
-          "locative",
-          "transport_travel"
-        ],
-        [
           "free_time",
           "transport_travel"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "dative",
-          "home_apartment",
-          "instrumental",
-          "locative"
-        ],
-        [
-          "daily_routine",
-          "genitive",
-          "home_apartment",
-          "instrumental",
-          "locative",
-          "time_date"
         ],
         [
           "accusative",
@@ -2203,13 +5823,6 @@
           "locative",
           "nom_plural",
           "nominative",
-          "social"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "health",
-          "numerals",
           "social"
         ],
         [
@@ -2222,21 +5835,7 @@
           "time_date"
         ],
         [
-          "accusative",
-          "food_drink",
-          "genitive",
-          "instrumental",
-          "social"
-        ],
-        [
-          "accusative",
-          "dative",
-          "health",
-          "instrumental",
-          "locative",
-          "social"
-        ],
-        [
+          "countries",
           "past_tense",
           "time_date",
           "university_work",
@@ -2252,28 +5851,11 @@
         ],
         [
           "accusative",
-          "food_drink",
-          "genitive",
-          "locative",
-          "numerals",
-          "social",
-          "time_date"
-        ],
-        [
-          "accusative",
           "adjectives",
+          "countries",
           "instrumental",
           "locative",
           "university_work"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "locative",
-          "numerals",
-          "shopping",
-          "social"
         ],
         [
           "family_people",
@@ -2295,11 +5877,6 @@
           "weather"
         ],
         [
-          "genitive",
-          "instrumental",
-          "locative"
-        ],
-        [
           "home_apartment",
           "modals",
           "shopping"
@@ -2308,6 +5885,7 @@
           "health",
           "modals",
           "past_tense",
+          "professions",
           "reflexive",
           "social"
         ],
@@ -2341,36 +5919,6 @@
         ],
         [
           "accusative",
-          "dative",
-          "food_drink",
-          "genitive",
-          "instrumental",
-          "locative",
-          "possessive",
-          "pronouns",
-          "reflexive",
-          "social"
-        ],
-        [
-          "accusative",
-          "daily_routine",
-          "genitive",
-          "instrumental",
-          "locative",
-          "university_work"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "family_people",
-          "genitive",
-          "instrumental",
-          "locative",
-          "pronouns",
-          "weather"
-        ],
-        [
-          "accusative",
           "family_people",
           "instrumental",
           "locative",
@@ -2383,12 +5931,6 @@
           "present_tense",
           "reflexive",
           "university_work"
-        ],
-        [
-          "adjectives",
-          "genitive",
-          "home_apartment",
-          "nominative"
         ],
         [
           "accusative",
@@ -2419,31 +5961,6 @@
         [
           "daily_routine",
           "past_tense",
-          "reflexive",
-          "university_work"
-        ],
-        [
-          "genitive",
-          "negation",
-          "university_work"
-        ],
-        [
-          "accusative",
-          "dative",
-          "instrumental",
-          "locative",
-          "possessive",
-          "pronouns",
-          "transport_travel",
-          "weather"
-        ],
-        [
-          "adjectives",
-          "daily_routine",
-          "genitive",
-          "instrumental",
-          "locative",
-          "present_tense",
           "reflexive",
           "university_work"
         ],
@@ -2485,13 +6002,6 @@
           "transport_travel"
         ],
         [
-          "accusative",
-          "genitive",
-          "home_apartment",
-          "instrumental",
-          "locative"
-        ],
-        [
           "future_tense",
           "pronouns",
           "reflexive",
@@ -2509,38 +6019,13 @@
           "present_tense"
         ],
         [
-          "dative",
-          "family_people",
-          "free_time",
-          "genitive",
-          "health",
-          "instrumental",
-          "locative"
-        ],
-        [
-          "food_drink",
-          "genitive",
-          "instrumental",
-          "locative",
-          "social",
-          "time_date"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "home_apartment",
-          "locative",
-          "present_tense",
-          "reflexive",
-          "time_date"
-        ],
-        [
           "family_people",
           "future_tense",
           "social",
           "transport_travel"
         ],
         [
+          "countries",
           "future_tense",
           "reflexive",
           "time_date",
@@ -2575,6 +6060,7 @@
           "weather"
         ],
         [
+          "countries",
           "past_tense",
           "reflexive",
           "university_work"
@@ -2582,6 +6068,7 @@
         [
           "accusative",
           "adjectives",
+          "countries",
           "nominative",
           "university_work"
         ],
@@ -2598,13 +6085,6 @@
           "shopping"
         ],
         [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "locative",
-          "weather"
-        ],
-        [
           "family_people",
           "past_tense",
           "reflexive",
@@ -2620,16 +6100,6 @@
         [
           "accusative",
           "adjectives",
-          "genitive",
-          "home_apartment",
-          "instrumental",
-          "nominative",
-          "possessive",
-          "reflexive"
-        ],
-        [
-          "accusative",
-          "adjectives",
           "food_drink",
           "locative",
           "nom_plural",
@@ -2641,36 +6111,6 @@
           "food_drink",
           "past_tense",
           "social"
-        ],
-        [
-          "accusative",
-          "free_time",
-          "genitive",
-          "nom_plural",
-          "nominative",
-          "numerals"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "home_apartment",
-          "instrumental",
-          "locative"
-        ],
-        [
-          "dative",
-          "future_tense",
-          "home_apartment",
-          "locative"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "daily_routine",
-          "genitive",
-          "home_apartment",
-          "locative",
-          "nominative"
         ],
         [
           "accusative",
@@ -2683,25 +6123,6 @@
           "weather"
         ],
         [
-          "accusative",
-          "adjectives",
-          "dative",
-          "instrumental",
-          "locative",
-          "past_tense",
-          "pronouns",
-          "shopping",
-          "social"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "genitive",
-          "instrumental",
-          "locative",
-          "weather"
-        ],
-        [
           "free_time",
           "negation",
           "past_tense"
@@ -2710,25 +6131,6 @@
           "future_tense",
           "transport_travel",
           "weather"
-        ],
-        [
-          "accusative",
-          "adjectives",
-          "dative",
-          "food_drink",
-          "instrumental",
-          "locative",
-          "possessive",
-          "pronouns",
-          "social"
-        ],
-        [
-          "accusative",
-          "dative",
-          "food_drink",
-          "instrumental",
-          "pronouns",
-          "transport_travel"
         ],
         [
           "adjectives",
@@ -2751,54 +6153,15 @@
           "past_tense"
         ],
         [
-          "accusative",
-          "genitive",
-          "locative",
-          "time_date",
-          "university_work"
-        ],
-        [
           "food_drink",
           "negation",
           "pronouns",
           "transport_travel"
         ],
         [
-          "accusative",
-          "adjectives",
-          "family_people",
-          "free_time",
-          "genitive",
-          "health",
-          "nom_plural",
-          "nominative",
-          "numerals"
-        ],
-        [
           "home_apartment",
           "modals",
           "present_tense"
-        ],
-        [
-          "genitive",
-          "locative",
-          "time_date"
-        ],
-        [
-          "genitive",
-          "home_apartment",
-          "nominative",
-          "numerals",
-          "shopping"
-        ],
-        [
-          "adjectives",
-          "dative",
-          "family_people",
-          "free_time",
-          "genitive",
-          "health",
-          "instrumental"
         ],
         [
           "accusative",
@@ -2826,78 +6189,267 @@
           "past_tense"
         ],
         [
-          "accusative",
-          "family_people",
-          "genitive",
-          "instrumental",
-          "locative",
-          "social"
-        ],
-        [
-          "accusative",
-          "genitive",
-          "instrumental",
-          "locative",
+          "future_tense",
+          "modals",
           "university_work"
         ],
         [
-          "genitive",
-          "locative",
-          "time_date",
-          "weather"
+          "adjectives",
+          "colours",
+          "home_apartment",
+          "pronouns",
+          "transport_travel"
         ],
         [
           "accusative",
           "adjectives",
-          "genitive",
-          "home_apartment",
-          "instrumental",
+          "colours",
+          "countries",
           "possessive",
-          "reflexive",
+          "pronouns",
+          "social"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "colours",
+          "modals",
           "shopping"
         ],
         [
-          "future_tense",
+          "adjectives",
+          "colours",
+          "countries",
+          "social"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "nominative"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
           "modals",
+          "present_tense",
+          "professions",
+          "shopping"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "adjectives",
+          "future_tense",
+          "nominative",
+          "present_tense"
+        ],
+        [
+          "family_people",
           "university_work"
+        ],
+        [
+          "modals",
+          "professions",
+          "reflexive",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "adjectives",
+          "future_tense",
+          "instrumental",
+          "modals",
+          "professions",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "family_people",
+          "present_tense",
+          "professions"
+        ],
+        [
+          "countries",
+          "health"
+        ],
+        [
+          "adjectives",
+          "countries",
+          "nom_plural",
+          "nominative"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "countries",
+          "locative",
+          "nom_plural",
+          "nominative",
+          "transport_travel"
+        ],
+        [
+          "adjectives",
+          "countries",
+          "locative",
+          "nom_plural",
+          "nominative",
+          "transport_travel"
+        ],
+        [
+          "countries",
+          "daily_routine",
+          "present_tense",
+          "reflexive"
+        ],
+        [
+          "adjectives",
+          "home_apartment",
+          "nominative",
+          "reflexive",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "adjectives",
+          "daily_routine",
+          "food_drink",
+          "present_tense",
+          "reflexive",
+          "weather"
+        ],
+        [
+          "countries",
+          "daily_routine",
+          "locative",
+          "time_date"
+        ],
+        [
+          "university_work"
+        ],
+        [],
+        [
+          "countries",
+          "transport_travel"
+        ],
+        [
+          "family_people",
+          "negation"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "family_people",
+          "future_tense",
+          "locative",
+          "past_tense"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "past_tense",
+          "social"
+        ],
+        [
+          "modals",
+          "past_tense",
+          "transport_travel"
+        ],
+        [
+          "modals",
+          "negation"
+        ],
+        [
+          "modals",
+          "negation",
+          "past_tense",
+          "reflexive"
+        ],
+        [
+          "modals",
+          "negation",
+          "past_tense",
+          "present_tense"
+        ],
+        [
+          "locative",
+          "negation",
+          "present_tense",
+          "university_work"
+        ],
+        [
+          "negation",
+          "numerals",
+          "present_tense",
+          "time_date",
+          "university_work"
+        ],
+        [
+          "modals",
+          "numerals",
+          "transport_travel",
+          "university_work",
+          "weather"
+        ],
+        [
+          "adjectives",
+          "health",
+          "locative",
+          "numerals",
+          "professions",
+          "time_date"
+        ],
+        [
+          "family_people",
+          "locative",
+          "shopping",
+          "time_date",
+          "transport_travel"
         ]
       ]
     },
     "stories": {
-      "total": 99,
+      "total": 108,
       "untagged": 0,
       "tag_counts": {
-        "nominative": 1,
-        "accusative": 23,
-        "genitive": 2,
-        "dative": 1,
-        "locative": 27,
-        "instrumental": 19,
-        "nom_plural": 1,
-        "adjectives": 25,
-        "pronouns": 17,
-        "present_tense": 5,
+        "nominative": 2,
+        "accusative": 26,
+        "locative": 28,
+        "instrumental": 20,
+        "nom_plural": 2,
+        "adjectives": 30,
+        "pronouns": 20,
+        "present_tense": 6,
         "past_tense": 21,
         "future_tense": 3,
         "modals": 18,
         "reflexive": 10,
-        "numerals": 14,
+        "numerals": 12,
         "time_date": 22,
-        "negation": 6,
+        "negation": 8,
         "possessive": 22,
         "uz_este": 8,
-        "daily_routine": 44,
-        "food_drink": 39,
-        "transport_travel": 73,
-        "home_apartment": 68,
-        "university_work": 33,
-        "family_people": 23,
+        "daily_routine": 46,
+        "food_drink": 41,
+        "transport_travel": 80,
+        "home_apartment": 67,
+        "university_work": 40,
+        "family_people": 26,
         "shopping": 30,
-        "weather": 42,
-        "health": 53,
-        "free_time": 31,
-        "social": 36,
-        "directions": 46
+        "weather": 44,
+        "health": 55,
+        "free_time": 30,
+        "social": 38,
+        "directions": 48,
+        "colours": 9,
+        "clothing": 10,
+        "professions": 11,
+        "countries": 22
       },
       "exercise_tags": [
         [
@@ -2911,6 +6463,7 @@
           "transport_travel"
         ],
         [
+          "countries",
           "food_drink",
           "home_apartment",
           "instrumental",
@@ -2939,6 +6492,7 @@
         ],
         [
           "adjectives",
+          "countries",
           "daily_routine",
           "free_time",
           "health",
@@ -2955,18 +6509,6 @@
           "social",
           "time_date",
           "transport_travel"
-        ],
-        [
-          "accusative",
-          "dative",
-          "free_time",
-          "health",
-          "home_apartment",
-          "modals",
-          "shopping",
-          "social",
-          "transport_travel",
-          "weather"
         ],
         [
           "directions",
@@ -2996,9 +6538,11 @@
           "university_work"
         ],
         [
+          "countries",
           "health",
           "home_apartment",
           "instrumental",
+          "professions",
           "pronouns",
           "transport_travel",
           "university_work",
@@ -3036,6 +6580,7 @@
           "social"
         ],
         [
+          "countries",
           "daily_routine",
           "free_time",
           "home_apartment",
@@ -3045,6 +6590,7 @@
         ],
         [
           "accusative",
+          "colours",
           "free_time",
           "home_apartment",
           "modals",
@@ -3053,6 +6599,7 @@
           "transport_travel"
         ],
         [
+          "clothing",
           "directions",
           "food_drink",
           "health",
@@ -3087,6 +6634,7 @@
           "health",
           "home_apartment",
           "past_tense",
+          "professions",
           "time_date",
           "transport_travel",
           "university_work",
@@ -3103,6 +6651,7 @@
           "weather"
         ],
         [
+          "countries",
           "daily_routine",
           "directions",
           "health",
@@ -3132,6 +6681,7 @@
           "health",
           "home_apartment",
           "locative",
+          "professions",
           "pronouns",
           "transport_travel",
           "university_work"
@@ -3173,15 +6723,6 @@
           "modals",
           "shopping",
           "social"
-        ],
-        [
-          "free_time",
-          "genitive",
-          "home_apartment",
-          "numerals",
-          "shopping",
-          "social",
-          "transport_travel"
         ],
         [
           "daily_routine",
@@ -3246,6 +6787,7 @@
         [
           "accusative",
           "adjectives",
+          "countries",
           "family_people",
           "food_drink",
           "health",
@@ -3254,6 +6796,7 @@
         [
           "accusative",
           "adjectives",
+          "clothing",
           "modals",
           "social",
           "transport_travel"
@@ -3277,6 +6820,7 @@
           "university_work"
         ],
         [
+          "colours",
           "free_time",
           "home_apartment",
           "locative",
@@ -3288,6 +6832,8 @@
         ],
         [
           "adjectives",
+          "colours",
+          "countries",
           "family_people",
           "free_time",
           "health",
@@ -3325,6 +6871,7 @@
           "weather"
         ],
         [
+          "countries",
           "directions",
           "health",
           "transport_travel",
@@ -3341,6 +6888,7 @@
           "weather"
         ],
         [
+          "clothing",
           "family_people",
           "food_drink",
           "home_apartment",
@@ -3412,20 +6960,14 @@
         ],
         [
           "adjectives",
+          "countries",
           "daily_routine",
           "free_time",
           "possessive",
           "transport_travel"
         ],
         [
-          "directions",
-          "genitive",
-          "health",
-          "home_apartment",
-          "numerals",
-          "present_tense"
-        ],
-        [
+          "countries",
           "directions",
           "food_drink",
           "transport_travel",
@@ -3465,6 +7007,7 @@
           "university_work"
         ],
         [
+          "colours",
           "directions",
           "food_drink",
           "health",
@@ -3486,6 +7029,7 @@
           "university_work"
         ],
         [
+          "countries",
           "daily_routine",
           "directions",
           "family_people",
@@ -3509,6 +7053,7 @@
         [
           "accusative",
           "adjectives",
+          "countries",
           "daily_routine",
           "directions",
           "food_drink",
@@ -3518,6 +7063,8 @@
           "university_work"
         ],
         [
+          "clothing",
+          "colours",
           "daily_routine",
           "directions",
           "family_people",
@@ -3632,17 +7179,20 @@
         ],
         [
           "accusative",
+          "clothing",
           "daily_routine",
           "directions",
           "health",
           "home_apartment",
           "modals",
+          "professions",
           "shopping",
           "time_date",
           "transport_travel",
           "weather"
         ],
         [
+          "countries",
           "daily_routine",
           "food_drink",
           "home_apartment",
@@ -3693,6 +7243,7 @@
         ],
         [
           "accusative",
+          "clothing",
           "daily_routine",
           "health",
           "instrumental",
@@ -3727,22 +7278,26 @@
         [
           "accusative",
           "adjectives",
+          "clothing",
           "food_drink",
           "home_apartment",
           "modals",
           "weather"
         ],
         [
+          "countries",
           "food_drink",
           "health",
           "home_apartment",
           "locative",
+          "professions",
           "time_date",
           "transport_travel",
           "university_work",
           "weather"
         ],
         [
+          "countries",
           "directions",
           "family_people",
           "food_drink",
@@ -3787,6 +7342,7 @@
           "transport_travel"
         ],
         [
+          "colours",
           "food_drink",
           "free_time",
           "health",
@@ -3797,6 +7353,7 @@
           "weather"
         ],
         [
+          "countries",
           "home_apartment",
           "university_work"
         ],
@@ -3810,6 +7367,7 @@
         ],
         [
           "accusative",
+          "countries",
           "food_drink",
           "free_time",
           "home_apartment",
@@ -3851,6 +7409,7 @@
           "weather"
         ],
         [
+          "colours",
           "food_drink",
           "free_time",
           "health",
@@ -3860,41 +7419,146 @@
           "shopping",
           "social",
           "transport_travel"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "colours",
+          "directions",
+          "pronouns",
+          "shopping",
+          "weather"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "colours",
+          "directions",
+          "pronouns",
+          "shopping",
+          "transport_travel",
+          "weather"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "daily_routine",
+          "health",
+          "modals",
+          "professions",
+          "social",
+          "university_work"
+        ],
+        [
+          "accusative",
+          "adjectives",
+          "clothing",
+          "daily_routine",
+          "present_tense",
+          "professions",
+          "social",
+          "university_work"
+        ],
+        [
+          "countries",
+          "food_drink",
+          "health",
+          "instrumental",
+          "nom_plural",
+          "nominative",
+          "professions",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "family_people",
+          "health",
+          "present_tense",
+          "professions",
+          "transport_travel",
+          "university_work",
+          "weather"
+        ],
+        [
+          "countries",
+          "directions",
+          "family_people",
+          "professions",
+          "pronouns",
+          "social",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "adjectives",
+          "countries",
+          "family_people",
+          "home_apartment",
+          "locative",
+          "professions",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "countries",
+          "negation",
+          "transport_travel",
+          "university_work"
+        ],
+        [
+          "countries",
+          "negation",
+          "transport_travel"
+        ],
+        [
+          "food_drink",
+          "health",
+          "social",
+          "transport_travel"
+        ],
+        [
+          "free_time",
+          "home_apartment",
+          "transport_travel"
         ]
       ]
     }
   },
   "aggregate_tag_counts": {
-    "nominative": 103,
-    "accusative": 193,
-    "genitive": 111,
-    "dative": 12,
-    "locative": 184,
-    "instrumental": 165,
-    "nom_plural": 92,
-    "adjectives": 174,
-    "pronouns": 110,
-    "present_tense": 112,
-    "past_tense": 152,
-    "future_tense": 33,
-    "modals": 83,
-    "reflexive": 58,
-    "numerals": 122,
-    "time_date": 134,
-    "negation": 42,
-    "possessive": 125,
-    "uz_este": 90,
-    "daily_routine": 56,
-    "food_drink": 59,
-    "transport_travel": 92,
-    "home_apartment": 103,
-    "university_work": 60,
-    "family_people": 50,
-    "shopping": 39,
-    "weather": 68,
-    "health": 72,
-    "free_time": 59,
-    "social": 67,
-    "directions": 51
+    "nominative": 195,
+    "accusative": 283,
+    "locative": 223,
+    "instrumental": 163,
+    "nom_plural": 116,
+    "adjectives": 250,
+    "pronouns": 143,
+    "present_tense": 167,
+    "past_tense": 185,
+    "future_tense": 36,
+    "modals": 104,
+    "reflexive": 74,
+    "numerals": 147,
+    "time_date": 188,
+    "negation": 98,
+    "possessive": 135,
+    "uz_este": 121,
+    "daily_routine": 87,
+    "food_drink": 69,
+    "transport_travel": 165,
+    "home_apartment": 135,
+    "university_work": 151,
+    "family_people": 80,
+    "shopping": 68,
+    "weather": 119,
+    "health": 83,
+    "free_time": 101,
+    "social": 131,
+    "directions": 68,
+    "colours": 49,
+    "clothing": 40,
+    "professions": 37,
+    "countries": 100
   }
 }

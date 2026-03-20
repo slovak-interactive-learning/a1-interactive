@@ -16,7 +16,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-BANK_DIR = Path(__file__).parent / "bank"
+BANK_DIR = Path(__file__).parent.parent / "bank"
 
 # Grammar tags that map directly to drill categories
 TAG_TO_DRILL_CATS = {
@@ -39,8 +39,6 @@ TAG_TO_DRILL_CATS = {
 TAG_KEYWORDS = {
     # Grammar
     "accusative":    ["accusative"],
-    "genitive":      ["genitive", "gen"],
-    "dative":        ["dative"],
     "locative":      ["locative"],
     "instrumental":  ["instrumental"],
     "nom_plural":    ["nominative plural", "nom_pl", "nominatív pl"],
@@ -78,10 +76,20 @@ TAG_KEYWORDS = {
                          "wedding", "concert"],
     "free_time":        ["cinema", "film", "hobby", "sport", "gym", "hiking",
                          "music", "concert"],
+    "colours":          ["colour", "color", "farba", "farby", "red", "blue", "green",
+                         "yellow", "white", "black", "colour adjective", "svetly", "tmavy"],
+    "clothing":         ["clothes", "clothing", "oblecenie", "sveter", "sukna",
+                         "tricko", "nohavice", "topanky", "kabat", "kosela",
+                         "outfit", "wearing", "dressed", "fashion"],
+    "professions":      ["profession", "job title", "lekar", "ucitel", "inzinier",
+                         "what do you do", "co robite", "works as", "career"],
+    "countries":        ["country", "nationality", "odkial", "z ktorej krajiny",
+                         "slovensko", "nemecko", "taliansko", "international",
+                         "erasmus", "foreign student"],
 }
 
 GRAMMAR_TAGS = [
-    "nominative", "accusative", "genitive", "dative", "locative", "instrumental",
+    "nominative", "accusative", "locative", "instrumental",
     "nom_plural", "adjectives", "pronouns", "present_tense", "past_tense",
     "future_tense", "modals", "reflexive", "numerals", "time_date", "negation",
     "possessive", "uz_este",
@@ -90,6 +98,7 @@ THEMATIC_TAGS = [
     "daily_routine", "food_drink", "transport_travel", "home_apartment",
     "university_work", "family_people", "shopping", "weather", "health",
     "free_time", "social", "directions",
+    "colours", "clothing", "professions", "countries",
 ]
 ALL_TAGS = GRAMMAR_TAGS + THEMATIC_TAGS
 

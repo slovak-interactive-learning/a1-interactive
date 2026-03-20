@@ -133,11 +133,17 @@
   .pool-count { font-size: 11px; margin-top: 6px; font-weight: 600; }
   .pool-count.filtered { color: var(--accent); }
   .pool-count.full { color: var(--muted); }
+  .footer { max-width: 480px; margin: 16px auto 24px; padding: 0 16px; text-align: center; font-size: 12px; color: var(--muted); }
+  .footer a { color: var(--muted); text-decoration: underline; }
 </style>
 </head>
 <body>
 
 <div class="container" id="app"></div>
+<div class="footer">
+  Developed by <a href="https://alexandrasouly.com" target="_blank">Alexandra Souly</a> &amp; Claude &nbsp;·&nbsp;
+  <a href="https://github.com/slovak-interactive-learning/a1-interactive/issues/new" target="_blank">Report an issue</a>
+</div>
 
 <script>
 // ─── HELPERS ───
@@ -207,39 +213,41 @@ const ACT_ORDER = ['story', 'translate', 'gapfill', 'cases'];
 // ─── TOPIC TAXONOMY ───
 const TOPICS = {
   grammar: [
-    { key: 'nominative',    label: 'Nominatív' },
-    { key: 'accusative',    label: 'Akuzatív' },
-    { key: 'genitive',      label: 'Genitív' },
-    { key: 'dative',        label: 'Datív' },
-    { key: 'locative',      label: 'Lokál' },
-    { key: 'instrumental',  label: 'Inštrumentál' },
-    { key: 'nom_plural',    label: 'Plurál' },
-    { key: 'adjectives',    label: 'Prídavné mená' },
-    { key: 'pronouns',      label: 'Zámená' },
-    { key: 'present_tense', label: 'Prítomný čas' },
-    { key: 'past_tense',    label: 'Minulý čas' },
-    { key: 'future_tense',  label: 'Budúci čas' },
-    { key: 'modals',        label: 'Modálne slovesá' },
-    { key: 'reflexive',     label: 'Zvratné slovesá' },
-    { key: 'numerals',      label: 'Číslovky' },
-    { key: 'time_date',     label: 'Čas a dátum' },
-    { key: 'negation',      label: 'Zápor' },
-    { key: 'possessive',    label: 'Privlastňovacie' },
+    { key: 'nominative',    label: 'Nominative' },
+    { key: 'accusative',    label: 'Accusative' },
+    { key: 'locative',      label: 'Locative' },
+    { key: 'instrumental',  label: 'Instrumental' },
+    { key: 'nom_plural',    label: 'Plural' },
+    { key: 'adjectives',    label: 'Adjectives' },
+    { key: 'pronouns',      label: 'Pronouns' },
+    { key: 'present_tense', label: 'Present Tense' },
+    { key: 'past_tense',    label: 'Past Tense' },
+    { key: 'future_tense',  label: 'Future Tense' },
+    { key: 'modals',        label: 'Modal Verbs' },
+    { key: 'reflexive',     label: 'Reflexive Verbs' },
+    { key: 'numerals',      label: 'Numerals' },
+    { key: 'time_date',     label: 'Time & Date' },
+    { key: 'negation',      label: 'Negation' },
+    { key: 'possessive',    label: 'Possessives' },
     { key: 'uz_este',       label: 'Už / Ešte' },
   ],
   thematic: [
-    { key: 'daily_routine',    label: 'Denná rutina' },
-    { key: 'food_drink',       label: 'Jedlo a nápoje' },
-    { key: 'transport_travel', label: 'Doprava' },
-    { key: 'home_apartment',   label: 'Domov a byt' },
-    { key: 'university_work',  label: 'Škola a práca' },
-    { key: 'family_people',    label: 'Rodina' },
-    { key: 'shopping',         label: 'Nakupovanie' },
-    { key: 'weather',          label: 'Počasie' },
-    { key: 'health',           label: 'Zdravie' },
-    { key: 'free_time',        label: 'Voľný čas' },
-    { key: 'social',           label: 'Sociálne situácie' },
-    { key: 'directions',       label: 'Orientácia' },
+    { key: 'daily_routine',    label: 'Daily Routine' },
+    { key: 'food_drink',       label: 'Food & Drink' },
+    { key: 'transport_travel', label: 'Transport & Travel' },
+    { key: 'home_apartment',   label: 'Home & Apartment' },
+    { key: 'university_work',  label: 'School & Work' },
+    { key: 'family_people',    label: 'Family' },
+    { key: 'shopping',         label: 'Shopping' },
+    { key: 'weather',          label: 'Weather' },
+    { key: 'health',           label: 'Health' },
+    { key: 'free_time',        label: 'Free Time' },
+    { key: 'social',           label: 'Social Situations' },
+    { key: 'directions',       label: 'Directions' },
+    { key: 'colours',          label: 'Colours' },
+    { key: 'clothing',         label: 'Clothing' },
+    { key: 'professions',      label: 'Professions' },
+    { key: 'countries',        label: 'Countries' },
   ],
 };
 
@@ -291,9 +299,10 @@ function countFilteredPool(bankKey) {
   const tagIndex = TOPIC_TAGS_INDEX[bankKey];
   if (!tagIndex) return null;
   if (activeFilters.size === 0) return tagIndex.length;
-  const n = tagIndex.filter(tags => tags.some(t => activeFilters.has(t))).length;
-  return n > 0 ? n : tagIndex.length; // mirror getExercise fallback
+  return tagIndex.filter(tags => tags.some(t => activeFilters.has(t))).length;
 }
+
+const SESSION_SIZE = 8;
 
 function getExercise(type) {
   const bankKey = bankKeyFor(type);
@@ -311,10 +320,32 @@ function getExercise(type) {
     // else fall back to full pool so the app never gets stuck
   }
 
-  // Pick an unused exercise within the eligible set, then reset
+  // Flat question banks: pick SESSION_SIZE individual questions per session
+  if (type === 'cases' || type === 'translate') {
+    let unused = eligible.filter(i => !usedIndices[bankKey].has(i));
+    if (unused.length < SESSION_SIZE) {
+      // Refill: reset used flags for this eligible set only
+      for (const i of eligible) usedIndices[bankKey].delete(i);
+      unused = eligible;
+    }
+    // Fisher-Yates pick of SESSION_SIZE without replacement
+    const available = [...unused];
+    const picked = [];
+    for (let n = 0; n < SESSION_SIZE && available.length > 0; n++) {
+      const j = Math.floor(Math.random() * available.length);
+      picked.push(available.splice(j, 1)[0]);
+    }
+    for (const i of picked) usedIndices[bankKey].add(i);
+    saveState();
+    const questions = picked.map(i => pool[i]);
+    return type === 'cases'
+      ? { questions }
+      : { sentences: questions };
+  }
+
+  // Single-unit exercises (gapfill, story): pick one unused item
   let unused = eligible.filter(i => !usedIndices[bankKey].has(i));
   if (unused.length === 0) {
-    // Only clear the used flags for this eligible set
     for (const i of eligible) usedIndices[bankKey].delete(i);
     unused = eligible;
   }
@@ -468,10 +499,10 @@ function renderHome(app) {
     const total = BANK_META[key] || EXERCISE_BANK[key]?.length || 0;
     if (hasFilters) {
       if (poolN === null) {
-        // Bank not loaded yet — show loading indicator
         btn.appendChild(h('p', { className: 'pool-count full' }, '… loading'));
+      } else if (poolN === 0) {
+        btn.appendChild(h('p', { className: 'pool-count full' }, `0 matching (will use all)`));
       } else if (poolN === total) {
-        // Filters matched nothing useful — fell back to full pool
         btn.appendChild(h('p', { className: 'pool-count full' }, `${total} exercises (all)`));
       } else {
         btn.appendChild(h('p', { className: 'pool-count filtered' }, `${poolN} / ${total} matching`));
@@ -579,7 +610,7 @@ function renderTranslate(el, data) {
     const s = data.sentences[current];
 
     el.appendChild(h('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' } },
-      h('h2', { style: { fontSize: '20px' } }, data.theme),
+      h('h2', { style: { fontSize: '20px' } }, s.theme || data.theme || 'Translation'),
       h('span', { className: 'progress' }, `${current + 1} / ${data.sentences.length}`)
     ));
 

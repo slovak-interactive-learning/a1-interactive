@@ -15,7 +15,7 @@ import re
 import argparse
 from pathlib import Path
 
-BANK_DIR = Path(__file__).parent / "bank"
+BANK_DIR = Path(__file__).parent.parent / "bank"
 
 # ─────────────────────────────────────────────────────────────────
 # TAXONOMY
@@ -24,8 +24,6 @@ BANK_DIR = Path(__file__).parent / "bank"
 GRAMMAR_TAGS = [
     "nominative",
     "accusative",
-    "genitive",
-    "dative",
     "locative",
     "instrumental",
     "nom_plural",
@@ -56,6 +54,10 @@ THEMATIC_TAGS = [
     "free_time",
     "social",
     "directions",
+    "colours",
+    "clothing",
+    "professions",
+    "countries",
 ]
 
 ALL_TAGS = GRAMMAR_TAGS + THEMATIC_TAGS
@@ -68,8 +70,6 @@ ALL_TAGS = GRAMMAR_TAGS + THEMATIC_TAGS
 GRAMMAR_KEYWORD_RULES = [
     # Each rule: (tag, [keywords/phrases that signal this tag])
     ("accusative",    ["accusative", "akuzatív", "akuzativ"]),
-    ("genitive",      ["genitive", "genitív", "genitiv", "genitive plural", "numeral + gen"]),
-    ("dative",        ["dative", "datív", "dativ"]),
     ("locative",      ["locative", "lokál", "lokal", "lokativ", "locatív"]),
     ("instrumental",  ["instrumental", "inštrumentál", "inštrumental"]),
     ("nom_plural",    ["nominative plural", "nom_plural", "nom. pl", "nominatív pl",
@@ -152,6 +152,30 @@ THEMATIC_KEYWORD_RULES = [
                             "navigate", "smer", "ulica", "kde je",
                             "orientácia", "left", "right", "straight",
                             "town centre", "city centre"]),
+    ("colours",            ["colour", "color", "colors", "colours", "farba", "farby",
+                            "červen", "modr", "zelen", "žlt", "biel", "čiern",
+                            "oran", "fialov", "hnedý", "sivý", "ružov",
+                            "svetl", "tmav", "jasn", "bled",
+                            "what colour", "aká farba"]),
+    ("clothing",           ["clothes", "clothing", "oblečenie", "sveter", "sukňa",
+                            "tričko", "nohavice", "topánky", "kabát", "košeľa",
+                            "šaty", "bunda", "čižmy", "tenisky", "blúzka",
+                            "džínsy", "rukavice", "čiapka", "šál", "oblek",
+                            "outfit", "wearing", "dressed", "fitting room",
+                            "size", "fashion", "obliecť", "nosiť"]),
+    ("professions",        ["profession", "job title", "lekár", "učiteľ", "inžinier",
+                            "programátor", "novinár", "predavač", "herec", "pilot",
+                            "what do you do", "čo robíte", "čo ste",
+                            "pracuje ako", "works as", "career", "occupation",
+                            "architect", "lawyer", "nurse", "doctor", "teacher",
+                            "engineer", "journalist", "actor", "musician"]),
+    ("countries",          ["country", "countries", "nationality", "nationalities",
+                            "kde ste z", "odkiaľ", "z ktorej krajiny",
+                            "slovensko", "nemecko", "taliansko", "francúzsko",
+                            "španielsko", "rakúsko", "maďarsko", "česko",
+                            "slovak", "german", "italian", "french", "spanish",
+                            "nemec", "nemka", "talian", "francúz", "erasmus",
+                            "international", "foreign student", "home country"]),
 ]
 
 
@@ -205,14 +229,13 @@ DRILL_CATEGORY_TO_TAG = {
 
 def tag_drill(exercise: dict) -> list[str]:
     tags = set()
-    for q in exercise.get("questions", []):
-        cat = q.get("category", "")
-        if cat in DRILL_CATEGORY_TO_TAG:
-            tags.add(DRILL_CATEGORY_TO_TAG[cat])
-        # Also parse explanation text for extra context
-        explanation = q.get("explanation", "")
-        if explanation:
-            tags |= grammar_tags_from_text(explanation)
+    # Drills are individual question objects (not grouped)
+    cat = exercise.get("category", "")
+    if cat in DRILL_CATEGORY_TO_TAG:
+        tags.add(DRILL_CATEGORY_TO_TAG[cat])
+    explanation = exercise.get("explanation", "")
+    if explanation:
+        tags |= grammar_tags_from_text(explanation)
     return sorted(tags)
 
 
@@ -224,14 +247,13 @@ def tag_translate(exercise: dict) -> list[str]:
     if theme:
         tags |= thematic_tags_from_text(theme)
 
-    # Grammar tags from per-sentence focus fields and hints
-    for sentence in exercise.get("sentences", []):
-        focus = sentence.get("focus", "")
-        hint = sentence.get("hint", "")
-        if focus:
-            tags |= grammar_tags_from_text(focus)
-        if hint:
-            tags |= grammar_tags_from_text(hint)
+    # Grammar tags from focus and hint fields (flat format)
+    focus = exercise.get("focus", "")
+    hint = exercise.get("hint", "")
+    if focus:
+        tags |= grammar_tags_from_text(focus)
+    if hint:
+        tags |= grammar_tags_from_text(hint)
 
     return sorted(tags)
 
