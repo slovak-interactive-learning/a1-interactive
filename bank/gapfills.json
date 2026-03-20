@@ -1,79 +1,5 @@
 [
   {
-    "scenario": "Pripravujem sa na skúšku zo slovenčiny",
-    "scenarioEn": "Preparing for a Slovak exam",
-    "text": "Zajtra mám skúšku zo slovenčiny, preto sa veľmi učím. Ráno si sadnem k stolu a opakujem slovíčka. Učím sa gramatiku a snažím sa pochopiť pravidlá. Občas si robím prestávku a dám si kávu. Verím si, že skúšku zvládnem dobre.",
-    "textEn": "Tomorrow I have a Slovak exam, so I am studying hard. In the morning I will sit down at the table and review vocabulary. I am learning grammar and trying to understand the rules. Sometimes I take a break and have a coffee. I believe in myself that I will handle the exam well.",
-    "gaps": [
-      {
-        "position": "sa veľmi učím",
-        "correct": "sa veľmi učím",
-        "options": [
-          "veľmi sa učím si",
-          "sa veľmi učím",
-          "veľmi učím sa",
-          "si veľmi učím"
-        ],
-        "hint": "reflexive 'sa' word order"
-      },
-      {
-        "position": "si sadnem",
-        "correct": "si sadnem",
-        "options": [
-          "sa sadnem",
-          "sadnem si",
-          "si sedniem",
-          "sadám si"
-        ],
-        "hint": "reflexive 'si' vs 'sa'"
-      },
-      {
-        "position": "Učím sa",
-        "correct": "Učím sa",
-        "options": [
-          "Sa učím",
-          "Učím si",
-          "Naučím sa",
-          "Učím sa"
-        ],
-        "hint": "reflexive sa sentence position"
-      },
-      {
-        "position": "snažím sa",
-        "correct": "snažím sa",
-        "options": [
-          "sa snažím",
-          "snažím si",
-          "snaží sa",
-          "snažím sa"
-        ],
-        "hint": "reflexive verb snažiť sa"
-      },
-      {
-        "position": "si robím",
-        "correct": "si robím",
-        "options": [
-          "sa robím",
-          "robím si",
-          "si urobím",
-          "si robím"
-        ],
-        "hint": "reflexive 'si' dative meaning"
-      },
-      {
-        "position": "Verím si",
-        "correct": "Verím si",
-        "options": [
-          "Verím sa",
-          "Si verím",
-          "Veril si",
-          "Verím si"
-        ],
-        "hint": "reflexive 'si' with veriť"
-      }
-    ]
-  },
-  {
     "scenario": "opisovanie počasia tento týždeň",
     "scenarioEn": "describing the weather this week",
     "text": "Tento týždeň je veľmi chladné počasie. Vonku musím nosiť teplý kabát každý deň. Nechcem chodiť von, keď prší. Môžeme zostať doma a pozerať filmy. Zajtra chce byť teplejšie, tak sa teším.",
@@ -145,80 +71,11 @@
         ],
         "hint": "infinitive after môcť"
       }
-    ]
-  },
-  {
-    "scenario": "víkendový výlet do hôr",
-    "scenarioEn": "a weekend trip to the mountains",
-    "text": "Minulý víkend sme išli s priateľmi do hôr. Ubytovali sme sa v malom hoteli pri lese. Ráno sme chodili na túry a obdivovali krásnu prírodu. Večer sme sedeli pred krbom a rozprávali sa o zážitkoch. Bol to výborný víkend za mestom.",
-    "textEn": "Last weekend we went with friends to the mountains. We stayed in a small hotel near the forest. In the morning we went on hikes and admired the beautiful nature. In the evening we sat in front of the fireplace and talked about experiences. It was an excellent weekend outside the city.",
-    "gaps": [
-      {
-        "position": "s priateľmi",
-        "correct": "s priateľmi",
-        "options": [
-          "pre priateľov",
-          "s priateľmi",
-          "od priateľov",
-          "pri priateľoch"
-        ],
-        "hint": "preposition s + instrumental plural"
-      },
-      {
-        "position": "do hôr",
-        "correct": "do hôr",
-        "options": [
-          "v horách",
-          "na hory",
-          "do hôr",
-          "pri horách"
-        ],
-        "hint": "preposition do + genitive plural"
-      },
-      {
-        "position": "v malom hoteli",
-        "correct": "v malom hoteli",
-        "options": [
-          "na malý hotel",
-          "do malého hotela",
-          "v malom hoteli",
-          "za malým hotelom"
-        ],
-        "hint": "preposition v + locative singular"
-      },
-      {
-        "position": "na túry",
-        "correct": "na túry",
-        "options": [
-          "na túry",
-          "do túr",
-          "v túrach",
-          "za túrami"
-        ],
-        "hint": "preposition na + accusative plural"
-      },
-      {
-        "position": "pred krbom",
-        "correct": "pred krbom",
-        "options": [
-          "za krbom",
-          "pred krbom",
-          "pri krbe",
-          "na krbe"
-        ],
-        "hint": "preposition pred + instrumental singular"
-      },
-      {
-        "position": "o zážitkoch",
-        "correct": "o zážitkoch",
-        "options": [
-          "na zážitky",
-          "o zážitkoch",
-          "zo zážitkov",
-          "za zážitkami"
-        ],
-        "hint": "preposition o + locative plural"
-      }
+    ],
+    "tags": [
+      "modals",
+      "negation",
+      "weather"
     ]
   },
   {
@@ -239,8 +96,8 @@
         "hint": "irregular verb ísť, 1st plural"
       },
       {
-        "position": "vstávame",
-        "correct": "vstávame",
+        "position": "Vstávame",
+        "correct": "Vstávame",
         "options": [
           "vstávam",
           "vstávajú",
@@ -293,154 +150,10 @@
         ],
         "hint": "irregular verb jesť, 1st plural"
       }
-    ]
-  },
-  {
-    "scenario": "Johanna píše email domov",
-    "scenarioEn": "Johanna writing an email home",
-    "text": "Johanna sedí pri svojom stole a píše email rodičom. Píše o svojom živote v novom meste. Hovorí o kamarátoch a svojej izbe. Je veľmi spokojná so svojím životom tu. Rodičia sa tešia na jej správu.",
-    "textEn": "Johanna sits at her desk and writes an email to her parents. She writes about her life in the new city. She talks about her friends and her room. She is very happy with her life here. Her parents look forward to her message.",
-    "gaps": [
-      {
-        "position": "rodičom",
-        "correct": "rodičom",
-        "options": [
-          "rodičov",
-          "rodičia",
-          "rodičmi",
-          "rodičom"
-        ],
-        "hint": "dative plural – recipients"
-      },
-      {
-        "position": "svojom živote",
-        "correct": "svojom živote",
-        "options": [
-          "svojho života",
-          "svoj život",
-          "svojím životom",
-          "svojom živote"
-        ],
-        "hint": "locative sg – about life"
-      },
-      {
-        "position": "novom meste",
-        "correct": "novom meste",
-        "options": [
-          "nové mesto",
-          "nového mesta",
-          "novým mestom",
-          "novom meste"
-        ],
-        "hint": "locative sg – adjective+noun"
-      },
-      {
-        "position": "kamarátoch",
-        "correct": "kamarátoch",
-        "options": [
-          "kamarátov",
-          "kamarátmi",
-          "kamarátom",
-          "kamarátoch"
-        ],
-        "hint": "locative plural – o + noun"
-      },
-      {
-        "position": "svojím životom",
-        "correct": "svojím životom",
-        "options": [
-          "svojho života",
-          "svojom živote",
-          "svoj život",
-          "svojím životom"
-        ],
-        "hint": "instrumental sg – spokojná so"
-      },
-      {
-        "position": "jej správu",
-        "correct": "jej správu",
-        "options": [
-          "jej správy",
-          "jej správe",
-          "jej správou",
-          "jej správu"
-        ],
-        "hint": "accusative sg – direct object"
-      }
-    ]
-  },
-  {
-    "scenario": "Johanna's morning at the dormitory",
-    "scenarioEn": "Johanna's morning routine at the student dormitory",
-    "text": "Johanna býva v internáte blízko univerzity. Ráno vstáva o siedmej hodine a ide do kúpeľne. Raňajkuje s kamarátkami v jedálni na prízemí. Pred vyučovaním si balí tašku a pije kávu.",
-    "textEn": "Johanna lives in a dormitory near the university. In the morning she gets up at seven o'clock and goes to the bathroom. She has breakfast with her friends in the canteen on the ground floor. Before class she packs her bag and drinks coffee.",
-    "gaps": [
-      {
-        "position": "v internáte",
-        "correct": "v internáte",
-        "options": [
-          "na internát",
-          "do internátu",
-          "v internáte",
-          "s internátom"
-        ],
-        "hint": "locative with 'v'"
-      },
-      {
-        "position": "o siedmej",
-        "correct": "o siedmej",
-        "options": [
-          "na siedmu",
-          "o siedmej",
-          "v siedmej",
-          "za siedmu"
-        ],
-        "hint": "time expression with 'o'"
-      },
-      {
-        "position": "do kúpeľne",
-        "correct": "do kúpeľne",
-        "options": [
-          "do kúpeľne",
-          "v kúpeľni",
-          "na kúpeľňu",
-          "z kúpeľne"
-        ],
-        "hint": "direction with 'do' + genitive"
-      },
-      {
-        "position": "s kamarátkami",
-        "correct": "s kamarátkami",
-        "options": [
-          "za kamarátkami",
-          "s kamarátkami",
-          "od kamiará tok",
-          "na kamarátky"
-        ],
-        "hint": "instrumental with 's'"
-      },
-      {
-        "position": "v jedálni",
-        "correct": "v jedálni",
-        "options": [
-          "do jedálne",
-          "v jedálni",
-          "na jedáleň",
-          "z jedálne"
-        ],
-        "hint": "locative with 'v'"
-      },
-      {
-        "position": "Pred vyučovaním",
-        "correct": "Pred vyučovaním",
-        "options": [
-          "Za vyučovanie",
-          "Po vyučovaní",
-          "Pred vyučovaním",
-          "Na vyučovanie"
-        ],
-        "hint": "instrumental with 'pred'"
-      }
+    ],
+    "tags": [
+      "free_time",
+      "transport_travel"
     ]
   },
   {
@@ -515,80 +228,15 @@
         ],
         "hint": "adjective agreement, nominative plural"
       }
-    ]
-  },
-  {
-    "scenario": "návšteva u lekára",
-    "scenarioEn": "a visit to the doctor",
-    "text": "Dnes ráno som čakal v čakárni dve hodiny. V čakárni bolo päť pacientov. Lekár mi predpísal tri lieky. Musím ich užívať štyri dni. Sestra mi zmerala teplotu dvakrát.",
-    "textEn": "This morning I waited in the waiting room for two hours. There were five patients in the waiting room. The doctor prescribed me three medicines. I have to take them for four days. The nurse took my temperature twice.",
-    "gaps": [
-      {
-        "position": "dve hodiny",
-        "correct": "dve hodiny",
-        "options": [
-          "dvoch hodín",
-          "dve hodiny",
-          "dva hodiny",
-          "dvom hodinám"
-        ],
-        "hint": "numeral 2 + feminine noun"
-      },
-      {
-        "position": "päť pacientov",
-        "correct": "päť pacientov",
-        "options": [
-          "päť pacientov",
-          "piati pacienti",
-          "päť pacient",
-          "piatich pacienty"
-        ],
-        "hint": "numeral 5+ genitive plural"
-      },
-      {
-        "position": "tri lieky",
-        "correct": "tri lieky",
-        "options": [
-          "troch liekov",
-          "tri lieky",
-          "troma liekmi",
-          "tri liek"
-        ],
-        "hint": "numeral 2-4 accusative plural"
-      },
-      {
-        "position": "štyri dni",
-        "correct": "štyri dni",
-        "options": [
-          "päť dní",
-          "štyri dní",
-          "štyri dni",
-          "štyrom dňom"
-        ],
-        "hint": "numeral 2-4 accusative plural"
-      },
-      {
-        "position": "päť pacientov",
-        "correct": "päť pacientov",
-        "options": [
-          "päť pacientov",
-          "piati pacienti",
-          "päť pacienty",
-          "pätich pacientov"
-        ],
-        "hint": "numeral 5+ genitive plural"
-      },
-      {
-        "position": "dve hodiny",
-        "correct": "dve hodiny",
-        "options": [
-          "dve hodiny",
-          "dvoch hodín",
-          "dvom hodinám",
-          "dve hodín"
-        ],
-        "hint": "numeral 2 feminine accusative"
-      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "food_drink",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "social"
     ]
   },
   {
@@ -663,6 +311,11 @@
         ],
         "hint": "irregular verb jesť, 3rd pl"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "modals",
+      "reflexive"
     ]
   },
   {
@@ -737,154 +390,10 @@
         ],
         "hint": "time of day expression"
       }
-    ]
-  },
-  {
-    "scenario": "Marianna varí večeru pre priateľov",
-    "scenarioEn": "Marianna cooking dinner for friends",
-    "text": "Marianna varí večeru pre svojich priateľov. V kuchyni pracuje s nožom a panvicou. Pripravuje polievku so zeleninou a kuracie mäso. Priateľom sa páči vôňa z kuchyne. Sedia pri stole a čakajú s radosťou.",
-    "textEn": "Marianna is cooking dinner for her friends. In the kitchen she works with a knife and a pan. She is preparing soup with vegetables and chicken meat. The friends like the smell from the kitchen. They sit at the table and wait with joy.",
-    "gaps": [
-      {
-        "position": "večeru",
-        "correct": "večeru",
-        "options": [
-          "večera",
-          "večeru",
-          "večerou",
-          "večere"
-        ],
-        "hint": "accusative singular feminine noun"
-      },
-      {
-        "position": "svojich priateľov",
-        "correct": "svojich priateľov",
-        "options": [
-          "svojich priateľov",
-          "svoje priateľov",
-          "svojimi priateľmi",
-          "svojich priateľoch"
-        ],
-        "hint": "accusative plural after pre"
-      },
-      {
-        "position": "s nožom",
-        "correct": "s nožom",
-        "options": [
-          "s nožom",
-          "s nožom",
-          "s nožovi",
-          "s nož"
-        ],
-        "hint": "instrumental singular masculine noun"
-      },
-      {
-        "position": "so zeleninou",
-        "correct": "so zeleninou",
-        "options": [
-          "so zeleninou",
-          "so zeleniny",
-          "so zelenine",
-          "so zeleninou"
-        ],
-        "hint": "instrumental singular feminine noun"
-      },
-      {
-        "position": "z kuchyne",
-        "correct": "z kuchyne",
-        "options": [
-          "z kuchyňa",
-          "z kuchyni",
-          "z kuchyne",
-          "z kuchyňou"
-        ],
-        "hint": "genitive singular feminine noun"
-      },
-      {
-        "position": "s radosťou",
-        "correct": "s radosťou",
-        "options": [
-          "s radosťou",
-          "s radosti",
-          "s radosť",
-          "s radostí"
-        ],
-        "hint": "instrumental singular feminine noun"
-      }
-    ]
-  },
-  {
-    "scenario": "návšteva u lekára",
-    "scenarioEn": "a visit to the doctor",
-    "text": "Ráno som šiel k lekárovi s vysokou horúčkou. Lekár sa ma spýtal na moje problémy a prezrel ma. Napísal mi recept na lieky a odporučil mi odpočinok. Celý deň som ležal v posteli a pil čaj. Cítil som sa lepšie až večer.",
-    "textEn": "In the morning I went to the doctor with a high fever. The doctor asked me about my problems and examined me. He wrote me a prescription for medicine and recommended rest. I lay in bed all day and drank tea. I felt better only in the evening.",
-    "gaps": [
-      {
-        "position": "lekárovi",
-        "correct": "lekárovi",
-        "options": [
-          "lekára",
-          "lekárom",
-          "lekárovi",
-          "lekár"
-        ],
-        "hint": "dative after k"
-      },
-      {
-        "position": "vysokou horúčkou",
-        "correct": "vysokou horúčkou",
-        "options": [
-          "vysoká horúčka",
-          "vysokej horúčky",
-          "vysokú horúčku",
-          "vysokou horúčkou"
-        ],
-        "hint": "instrumental with s"
-      },
-      {
-        "position": "moje problémy",
-        "correct": "moje problémy",
-        "options": [
-          "mojich problémov",
-          "moje problémy",
-          "mojimi problémami",
-          "mojim problémom"
-        ],
-        "hint": "accusative plural after na"
-      },
-      {
-        "position": "lieky",
-        "correct": "lieky",
-        "options": [
-          "liekoch",
-          "liekmi",
-          "liekov",
-          "lieky"
-        ],
-        "hint": "accusative plural after na"
-      },
-      {
-        "position": "v posteli",
-        "correct": "v posteli",
-        "options": [
-          "v postel",
-          "v postelu",
-          "v posteľou",
-          "v posteli"
-        ],
-        "hint": "locative after v"
-      },
-      {
-        "position": "čaj",
-        "correct": "čaj",
-        "options": [
-          "čajom",
-          "čaji",
-          "čaju",
-          "čaj"
-        ],
-        "hint": "accusative singular direct object"
-      }
+    ],
+    "tags": [
+      "locative",
+      "time_date"
     ]
   },
   {
@@ -959,6 +468,13 @@
         ],
         "hint": "time expression with past"
       }
+    ],
+    "tags": [
+      "countries",
+      "past_tense",
+      "time_date",
+      "university_work",
+      "uz_este"
     ]
   },
   {
@@ -1033,80 +549,14 @@
         ],
         "hint": "feminine adjective accusative singular"
       }
-    ]
-  },
-  {
-    "scenario": "Zuzana a Johanna v kaviarni",
-    "scenarioEn": "Zuzana and Johanna at a café",
-    "text": "Zuzana a Johanna sa stretnú v kaviarni o pol jedenástej. Johanna príde o štvrť na jedenásť, teda skôr. Kaviareň sa otvorí o deviatej ráno. Odídu domov o pol druhej poobede. Nabudúce sa stretnú o štvrtej.",
-    "textEn": "Zuzana and Johanna will meet at a café at half past ten. Johanna will come at a quarter to eleven, so earlier. The café opens at nine in the morning. They will leave for home at half past one in the afternoon. Next time they will meet at four o'clock.",
-    "gaps": [
-      {
-        "position": "pol jedenástej",
-        "correct": "pol jedenástej",
-        "options": [
-          "pol jedenásta",
-          "pol jedenáste",
-          "pol jedenástou",
-          "pol jedenástej"
-        ],
-        "hint": "time expression: pol + genitive"
-      },
-      {
-        "position": "štvrť na jedenásť",
-        "correct": "štvrť na jedenásť",
-        "options": [
-          "štvrť jedenástej",
-          "štvrť o jedenástej",
-          "štvrtina jedenásť",
-          "štvrť na jedenásť"
-        ],
-        "hint": "quarter to: štvrť na + accusative"
-      },
-      {
-        "position": "o deviatej",
-        "correct": "o deviatej",
-        "options": [
-          "o deviata",
-          "o deviate",
-          "o deviatou",
-          "o deviatej"
-        ],
-        "hint": "time: o + locative ordinal"
-      },
-      {
-        "position": "o pol druhej",
-        "correct": "o pol druhej",
-        "options": [
-          "o pol druhá",
-          "o pol druhú",
-          "o pol druhom",
-          "o pol druhej"
-        ],
-        "hint": "half past: o pol + genitive"
-      },
-      {
-        "position": "poobede",
-        "correct": "poobede",
-        "options": [
-          "popoludní",
-          "ráno",
-          "dopoludnia",
-          "poobede"
-        ],
-        "hint": "time of day expression"
-      },
-      {
-        "position": "o štvrtej",
-        "correct": "o štvrtej",
-        "options": [
-          "o štvrtá",
-          "o štvrtú",
-          "o štvrtom",
-          "o štvrtej"
-        ],
-        "hint": "time: o + locative ordinal"
-      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "locative",
+      "nominative",
+      "weather"
     ]
   },
   {
@@ -1181,80 +631,14 @@
         ],
         "hint": "locative singular after na"
       }
-    ]
-  },
-  {
-    "scenario": "Nakupovanie narodeninového darčeka",
-    "scenarioEn": "Shopping for a birthday present",
-    "text": "Zajtra má moja sestra narodeniny. Idem do obchodu kúpiť jej darček. Chcem kúpiť knihu o varení. Zaplatím za darček pätnásť eur. Potom pôjdem s darčekom domov.",
-    "textEn": "Tomorrow is my sister's birthday. I'm going to the store to buy her a present. I want to buy a book about cooking. I will pay fifteen euros for the present. Then I will go home with the present.",
-    "gaps": [
-      {
-        "position": "do obchodu",
-        "correct": "do obchodu",
-        "options": [
-          "v obchode",
-          "na obchod",
-          "do obchodu",
-          "z obchodu"
-        ],
-        "hint": "preposition + genitive case"
-      },
-      {
-        "position": "o varení",
-        "correct": "o varení",
-        "options": [
-          "o varenie",
-          "na varenie",
-          "o varení",
-          "pri varení"
-        ],
-        "hint": "preposition o + locative"
-      },
-      {
-        "position": "za darček",
-        "correct": "za darček",
-        "options": [
-          "za darčeka",
-          "pre darček",
-          "za darček",
-          "od darčeka"
-        ],
-        "hint": "preposition za + accusative"
-      },
-      {
-        "position": "pätnásť eur",
-        "correct": "pätnásť eur",
-        "options": [
-          "pätnásť eurá",
-          "pätnásť euro",
-          "pätnásť eura",
-          "pätnásť eur"
-        ],
-        "hint": "numeral + genitive plural"
-      },
-      {
-        "position": "s darčekom",
-        "correct": "s darčekom",
-        "options": [
-          "so darček",
-          "s darčeka",
-          "pri darčeku",
-          "s darčekom"
-        ],
-        "hint": "preposition s + instrumental"
-      },
-      {
-        "position": "do obchodu kúpiť",
-        "correct": "do obchodu",
-        "options": [
-          "na obchod",
-          "do obchod",
-          "do obchodu",
-          "pri obchode"
-        ],
-        "hint": "preposition do + genitive"
-      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "countries",
+      "instrumental",
+      "locative",
+      "university_work"
     ]
   },
   {
@@ -1329,6 +713,13 @@
         ],
         "hint": "past reflexive verb masculine"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "health",
+      "past_tense",
+      "reflexive"
     ]
   },
   {
@@ -1403,6 +794,11 @@
         ],
         "hint": "nič in accusative context"
       }
+    ],
+    "tags": [
+      "accusative",
+      "home_apartment",
+      "negation"
     ]
   },
   {
@@ -1477,80 +873,13 @@
         ],
         "hint": "past tense, female subject"
       }
-    ]
-  },
-  {
-    "scenario": "Róbertov prvý deň v novej firme",
-    "scenarioEn": "Róbert's first day at a new company",
-    "text": "Dnes ráno prišiel Róbert do novej firmy. Predstavil sa kolegom a hovoril s riaditeľom o práci. Sedel pri stole pred počítačom a písal správy. Na obede bol so spolupracovníkmi v reštaurácii. Prvý deň v novej práci mu prešiel rýchlo.",
-    "textEn": "This morning Róbert arrived at the new company. He introduced himself to his colleagues and spoke with the director about work. He sat at the desk in front of the computer and wrote messages. At lunch he was with his coworkers in a restaurant. His first day at the new job passed quickly.",
-    "gaps": [
-      {
-        "position": "do novej firmy",
-        "correct": "do novej firmy",
-        "options": [
-          "v novej firme",
-          "na novú firmu",
-          "do novej firmy",
-          "za novú firmu"
-        ],
-        "hint": "movement toward place, genitive"
-      },
-      {
-        "position": "s riaditeľom",
-        "correct": "s riaditeľom",
-        "options": [
-          "s riaditeľa",
-          "o riaditeľovi",
-          "s riaditeľom",
-          "za riaditeľa"
-        ],
-        "hint": "with someone, instrumental"
-      },
-      {
-        "position": "o práci",
-        "correct": "o práci",
-        "options": [
-          "o prácu",
-          "na prácu",
-          "o práci",
-          "pri práce"
-        ],
-        "hint": "about something, locative"
-      },
-      {
-        "position": "pred počítačom",
-        "correct": "pred počítačom",
-        "options": [
-          "pred počítač",
-          "za počítačom",
-          "pred počítačom",
-          "pri počítači"
-        ],
-        "hint": "in front of, instrumental"
-      },
-      {
-        "position": "so spolupracovníkmi",
-        "correct": "so spolupracovníkmi",
-        "options": [
-          "so spolupracovníkov",
-          "so spolupracovníkmi",
-          "k spolupracovníkom",
-          "na spolupracovníkov"
-        ],
-        "hint": "with people, instrumental plural"
-      },
-      {
-        "position": "v reštaurácii",
-        "correct": "v reštaurácii",
-        "options": [
-          "do reštaurácie",
-          "v reštaurácii",
-          "na reštauráciu",
-          "pri reštaurácii"
-        ],
-        "hint": "location inside, locative"
-      }
+    ],
+    "tags": [
+      "negation",
+      "past_tense",
+      "reflexive",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -1625,6 +954,11 @@
         ],
         "hint": "regular verb, 3rd sg present"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "modals",
+      "shopping"
     ]
   },
   {
@@ -1674,12 +1008,13 @@
         "hint": "reflexive si with modal"
       },
       {
-        "position": "si vyzliecť",
-        "correct": "si vyzliecť",
+        "position": "vyzliecť",
+        "correct": "vyzliecť",
         "options": [
-          "sa vyzliecť",
-          "si vyzliekol",
-          "si obliecť"
+          "obliecť",
+          "vyzliecť",
+          "prezliecť",
+          "odobliecť"
         ],
         "hint": "reflexive si with infinitive"
       },
@@ -1693,6 +1028,14 @@
         ],
         "hint": "reflexive sa, verb starať sa"
       }
+    ],
+    "tags": [
+      "health",
+      "modals",
+      "past_tense",
+      "professions",
+      "reflexive",
+      "social"
     ]
   },
   {
@@ -1767,12 +1110,19 @@
         ],
         "hint": "double negation accusative"
       }
+    ],
+    "tags": [
+      "accusative",
+      "home_apartment",
+      "negation",
+      "past_tense",
+      "shopping"
     ]
   },
   {
     "scenario": "Johanna's morning at the dormitory",
     "scenarioEn": "Johanna's morning routine at the student dormitory",
-    "text": "Johanna sa ráno zobudí o siedmej hodine. Rýchlo vstane a ide do kúpeľne. Umyje si zuby a osprchovuje sa. Potom si oblečie čisté oblečenie a zje raňajky. Ona bývа na internáte so svojou kamarátkou.",
+    "text": "Johanna sa ráno zobudí o siedmej hodine. Rýchlo vstane a ide do kúpeľne. Umyje si zuby a osprchovuje sa. Potom si oblečie čisté oblečenie a zje raňajky. Ona býva na internáte so svojou kamarátkou.",
     "textEn": "Johanna wakes up in the morning at seven o'clock. She quickly gets up and goes to the bathroom. She brushes her teeth and showers. Then she puts on clean clothes and eats breakfast. She lives in the dormitory with her friend.",
     "gaps": [
       {
@@ -1841,6 +1191,11 @@
         ],
         "hint": "3rd person singular imperfective"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "home_apartment",
+      "reflexive"
     ]
   },
   {
@@ -1915,6 +1270,13 @@
         ],
         "hint": "reflexive sa, third singular"
       }
+    ],
+    "tags": [
+      "family_people",
+      "future_tense",
+      "past_tense",
+      "reflexive",
+      "weather"
     ]
   },
   {
@@ -1989,228 +1351,15 @@
         ],
         "hint": "adjective agreement, masculine nominative"
       }
-    ]
-  },
-  {
-    "scenario": "Marianna varí večeru pre priateľov",
-    "scenarioEn": "Marianna cooking dinner for friends",
-    "text": "Marianna varí večeru pre svojich priateľov. Pomáha jej jej kamarátka Zuzka. Marianna hovorí o nich s láskou. Varenie ju veľmi baví. Priateľov pozýva k sebe domov každý piatok.",
-    "textEn": "Marianna is cooking dinner for her friends. Her friend Zuzka helps her. Marianna speaks about them with love. Cooking pleases her a lot. She invites her friends to her place every Friday.",
-    "gaps": [
-      {
-        "position": "jej",
-        "correct": "jej",
-        "options": [
-          "ho",
-          "jej",
-          "mu",
-          "ju"
-        ],
-        "hint": "dative pronoun: helps her"
-      },
-      {
-        "position": "o nich",
-        "correct": "o nich",
-        "options": [
-          "o nás",
-          "o nich",
-          "o ňom",
-          "o vás"
-        ],
-        "hint": "locative plural pronoun"
-      },
-      {
-        "position": "s láskou",
-        "correct": "s láskou",
-        "options": [
-          "s láska",
-          "s láske",
-          "s láskou",
-          "s láskam"
-        ],
-        "hint": "instrumental singular noun"
-      },
-      {
-        "position": "ju",
-        "correct": "ju",
-        "options": [
-          "jej",
-          "ho",
-          "mu",
-          "ju"
-        ],
-        "hint": "accusative pronoun: pleases her"
-      },
-      {
-        "position": "svojich",
-        "correct": "svojich",
-        "options": [
-          "svoje",
-          "svojho",
-          "svojich",
-          "svojím"
-        ],
-        "hint": "possessive genitive plural"
-      },
-      {
-        "position": "k sebe",
-        "correct": "k sebe",
-        "options": [
-          "k nemu",
-          "k sebe",
-          "k nej",
-          "k nim"
-        ],
-        "hint": "reflexive locative pronoun"
-      }
-    ]
-  },
-  {
-    "scenario": "Mišova denná rutina na univerzite",
-    "scenarioEn": "Mišo's daily routine at university",
-    "text": "Mišo chodí na univerzitu každý deň autobusom. Na prednáške sedí vedľa svojho kamaráta Petra. Po prednáške píše poznámky v zošite. Poobede číta zaujímavú knihu v knižnici. Večer sa rozpráva so spolužiakmi o skúškach.",
-    "textEn": "Mišo goes to university every day by bus. At the lecture he sits next to his friend Peter. After the lecture he writes notes in a notebook. In the afternoon he reads an interesting book in the library. In the evening he talks with classmates about exams.",
-    "gaps": [
-      {
-        "position": "autobusom",
-        "correct": "autobusom",
-        "options": [
-          "autobuse",
-          "autobus",
-          "autobusa",
-          "autobusom"
-        ],
-        "hint": "instrumental singular, means of transport"
-      },
-      {
-        "position": "prednáške",
-        "correct": "prednáške",
-        "options": [
-          "prednášku",
-          "prednáška",
-          "prednášky",
-          "prednáške"
-        ],
-        "hint": "locative singular after na"
-      },
-      {
-        "position": "kamaráta",
-        "correct": "kamaráta",
-        "options": [
-          "kamarátom",
-          "kamarátovi",
-          "kamarát",
-          "kamaráta"
-        ],
-        "hint": "genitive after vedľa"
-      },
-      {
-        "position": "zaujímavú knihu",
-        "correct": "zaujímavú knihu",
-        "options": [
-          "zaujímavej knihy",
-          "zaujímavá kniha",
-          "zaujímavou knihou",
-          "zaujímavú knihu"
-        ],
-        "hint": "accusative singular feminine noun"
-      },
-      {
-        "position": "knižnici",
-        "correct": "knižnici",
-        "options": [
-          "knižnicu",
-          "knižnica",
-          "knižnice",
-          "knižnici"
-        ],
-        "hint": "locative singular after v"
-      },
-      {
-        "position": "spolužiakmi",
-        "correct": "spolužiakmi",
-        "options": [
-          "spolužiakov",
-          "spolužiaci",
-          "spolužiakoch",
-          "spolužiakmi"
-        ],
-        "hint": "instrumental plural after so"
-      }
-    ]
-  },
-  {
-    "scenario": "daždivá sobota v Bratislave",
-    "scenarioEn": "a rainy Saturday in Bratislava",
-    "text": "Dnes je daždivá sobota v Bratislave. Ráno som sa pozrela z okna a videla som šedé nebo. Rozhodla som sa zostať doma s knihou. Celý deň som čítala a pila horúci čaj. Bola som spokojná s týmto pokojným dňom.",
-    "textEn": "Today is a rainy Saturday in Bratislava. In the morning I looked out the window and saw a grey sky. I decided to stay home with a book. All day I read and drank hot tea. I was satisfied with this peaceful day.",
-    "gaps": [
-      {
-        "position": "v Bratislave",
-        "correct": "v Bratislave",
-        "options": [
-          "v Bratislava",
-          "v Bratislavou",
-          "v Bratislave",
-          "v Bratislavu"
-        ],
-        "hint": "locative singular, city name"
-      },
-      {
-        "position": "z okna",
-        "correct": "z okna",
-        "options": [
-          "z okno",
-          "z oknom",
-          "z okne",
-          "z okna"
-        ],
-        "hint": "genitive singular, neuter noun"
-      },
-      {
-        "position": "s knihou",
-        "correct": "s knihou",
-        "options": [
-          "s kniha",
-          "s knihe",
-          "s knihou",
-          "s knihu"
-        ],
-        "hint": "instrumental singular, feminine noun"
-      },
-      {
-        "position": "šedé nebo",
-        "correct": "šedé nebo",
-        "options": [
-          "šedého neba",
-          "šedému nebu",
-          "šedé nebo",
-          "šedým nebom"
-        ],
-        "hint": "accusative singular, neuter adjective+noun"
-      },
-      {
-        "position": "horúci čaj",
-        "correct": "horúci čaj",
-        "options": [
-          "horúceho čaju",
-          "horúcim čajom",
-          "horúci čaj",
-          "horúcom čaji"
-        ],
-        "hint": "accusative singular, masculine adjective+noun"
-      },
-      {
-        "position": "s týmto pokojným dňom",
-        "correct": "s týmto pokojným dňom",
-        "options": [
-          "s týmto pokojným dňom",
-          "s týmto pokojný deň",
-          "s týmto pokojnom dni",
-          "s týmto pokojného dňa"
-        ],
-        "hint": "instrumental singular, demonstrative+adjective+noun"
-      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "free_time",
+      "health",
+      "instrumental",
+      "nominative"
     ]
   },
   {
@@ -2285,6 +1434,15 @@
         ],
         "hint": "preposition pred + instrumental"
       }
+    ],
+    "tags": [
+      "accusative",
+      "family_people",
+      "instrumental",
+      "locative",
+      "social",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -2359,80 +1517,12 @@
         ],
         "hint": "reflexive sa position"
       }
-    ]
-  },
-  {
-    "scenario": "Róbert sa sťahuje do nového bytu",
-    "scenarioEn": "Róbert moving to a new flat",
-    "text": "Róbert sa sťahuje do nového, malého bytu v centre mesta. Starý byt bol veľký, ale nový je malý. Ulica je tichá, nie hlučná. Róbert je šťastný, nie smutný. Nové susedstvo je pekné a priateľské.",
-    "textEn": "Róbert is moving into a new, small flat in the city centre. The old flat was big, but the new one is small. The street is quiet, not noisy. Róbert is happy, not sad. The new neighbourhood is nice and friendly.",
-    "gaps": [
-      {
-        "position": "malého",
-        "correct": "malého",
-        "options": [
-          "malý",
-          "malú",
-          "malé",
-          "malého"
-        ],
-        "hint": "adjective opposite, genitive masculine"
-      },
-      {
-        "position": "Starý",
-        "correct": "Starý",
-        "options": [
-          "Staré",
-          "Starú",
-          "Starého",
-          "Starý"
-        ],
-        "hint": "adjective opposite, nominative masculine"
-      },
-      {
-        "position": "veľký",
-        "correct": "veľký",
-        "options": [
-          "veľká",
-          "veľké",
-          "veľkého",
-          "veľký"
-        ],
-        "hint": "adjective opposite, nominative masculine"
-      },
-      {
-        "position": "malý",
-        "correct": "malý",
-        "options": [
-          "malá",
-          "malé",
-          "malého",
-          "malý"
-        ],
-        "hint": "adjective opposite, nominative masculine"
-      },
-      {
-        "position": "tichá",
-        "correct": "tichá",
-        "options": [
-          "tiché",
-          "tichý",
-          "tichého",
-          "tichá"
-        ],
-        "hint": "adjective opposite, nominative feminine"
-      },
-      {
-        "position": "šťastný",
-        "correct": "šťastný",
-        "options": [
-          "šťastná",
-          "šťastné",
-          "šťastného",
-          "šťastný"
-        ],
-        "hint": "adjective opposite, nominative masculine"
-      }
+    ],
+    "tags": [
+      "daily_routine",
+      "present_tense",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -2507,6 +1597,18 @@
         ],
         "hint": "adjective, accusative plural neuter"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "instrumental",
+      "locative",
+      "nominative",
+      "possessive",
+      "pronouns",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -2581,6 +1683,10 @@
         ],
         "hint": "past tense, perfective verb"
       }
+    ],
+    "tags": [
+      "past_tense",
+      "reflexive"
     ]
   },
   {
@@ -2655,6 +1761,11 @@
         ],
         "hint": "irregular verb spať, 3rd sg"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -2708,8 +1819,8 @@
         "hint": "perfective present as future"
       },
       {
-        "position": "vráti sa",
-        "correct": "vráti sa",
+        "position": "sa vráti",
+        "correct": "sa vráti",
         "options": [
           "vrátila sa",
           "vracia sa",
@@ -2729,6 +1840,11 @@
         ],
         "hint": "budem + infinitive future"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "future_tense",
+      "home_apartment"
     ]
   },
   {
@@ -2803,228 +1919,12 @@
         ],
         "hint": "past tense, perfective verb"
       }
-    ]
-  },
-  {
-    "scenario": "describing classmates and their nationalities",
-    "scenarioEn": "Describing classmates and their nationalities",
-    "text": "V našej triede nie sú žiadni cudzinci. Nikto z nás nehovorí po čínsky. Moja spolužiačka nikdy nechodí neskoro. Nepoznám nikoho z Talianska. Nemáme žiadne problémy s komunikáciou.",
-    "textEn": "In our class there are no foreigners. None of us speaks Chinese. My classmate never comes late. I don't know anyone from Italy. We have no problems with communication.",
-    "gaps": [
-      {
-        "position": "žiadni",
-        "correct": "žiadni",
-        "options": [
-          "žiadne",
-          "nijakí",
-          "žiadni",
-          "žiadna"
-        ],
-        "hint": "double negation: nie sú žiadni"
-      },
-      {
-        "position": "Nikto",
-        "correct": "Nikto",
-        "options": [
-          "Nič",
-          "Nikdy",
-          "Nikto",
-          "Nikoho"
-        ],
-        "hint": "double negation subject form"
-      },
-      {
-        "position": "nehovorí",
-        "correct": "nehovorí",
-        "options": [
-          "hovorí",
-          "nehovoríme",
-          "nehovoril",
-          "nehovorí"
-        ],
-        "hint": "double negation: nikto + ne-"
-      },
-      {
-        "position": "nikdy",
-        "correct": "nikdy",
-        "options": [
-          "niekedy",
-          "nikto",
-          "vždy",
-          "nikdy"
-        ],
-        "hint": "double negation: never"
-      },
-      {
-        "position": "nikoho",
-        "correct": "nikoho",
-        "options": [
-          "nikto",
-          "nič",
-          "niekoho",
-          "nikoho"
-        ],
-        "hint": "double negation: genitive form"
-      },
-      {
-        "position": "žiadne",
-        "correct": "žiadne",
-        "options": [
-          "žiadni",
-          "nijaké",
-          "žiadne",
-          "žiadna"
-        ],
-        "hint": "double negation: nemáme žiadne"
-      }
-    ]
-  },
-  {
-    "scenario": "čakanie na oneskorený vlak",
-    "scenarioEn": "waiting for a delayed train",
-    "text": "Stojím na nástupišti a čakám na môj vlak. Vlak má hodinovú meškanie a ja som z toho nervózny. Hovorím so svojou kamarátkou o tomto probléme. Ona je so mnou na stanici a pomáha mi. Nakoniec vlak príde a my naň nastúpime.",
-    "textEn": "I am standing on the platform and waiting for my train. The train is an hour late and I am nervous about it. I am talking with my friend about this problem. She is with me at the station and is helping me. Finally the train arrives and we board it.",
-    "gaps": [
-      {
-        "position": "so mnou",
-        "correct": "so mnou",
-        "options": [
-          "so mne",
-          "so mi",
-          "so mňa",
-          "so mnou"
-        ],
-        "hint": "pronoun instrumental case"
-      },
-      {
-        "position": "na nástupišti",
-        "correct": "na nástupišti",
-        "options": [
-          "na nástupište",
-          "na nástupiště",
-          "na nástupišťa",
-          "na nástupišti"
-        ],
-        "hint": "noun locative case"
-      },
-      {
-        "position": "so svojou",
-        "correct": "so svojou",
-        "options": [
-          "so svojím",
-          "so svoju",
-          "so svoj",
-          "so svojou"
-        ],
-        "hint": "possessive pronoun instrumental feminine"
-      },
-      {
-        "position": "o tomto",
-        "correct": "o tomto",
-        "options": [
-          "o tento",
-          "o tomto",
-          "o tejto",
-          "o tomuto"
-        ],
-        "hint": "demonstrative pronoun locative neuter"
-      },
-      {
-        "position": "mi",
-        "correct": "mi",
-        "options": [
-          "ma",
-          "me",
-          "mňa",
-          "mi"
-        ],
-        "hint": "pronoun dative short form"
-      },
-      {
-        "position": "naň",
-        "correct": "naň",
-        "options": [
-          "naňho",
-          "naňom",
-          "naním",
-          "naň"
-        ],
-        "hint": "pronoun accusative with preposition"
-      }
-    ]
-  },
-  {
-    "scenario": "Mišova denná rutina na univerzite",
-    "scenarioEn": "Mišo's daily routine at university",
-    "text": "Mišo chodí na univerzitu každý deň autobusom. Má prednášky s dobrými profesormi ráno. Po prednáškach ide do knižnice učiť sa. Obeduje v školskej jedálni so spolužiakmi. Večer sa vracia domov unavený.",
-    "textEn": "Mišo goes to university every day by bus. He has lectures with good professors in the morning. After lectures he goes to the library to study. He has lunch in the school canteen with classmates. In the evening he returns home tired.",
-    "gaps": [
-      {
-        "position": "autobusom",
-        "correct": "autobusom",
-        "options": [
-          "autobus",
-          "autobuse",
-          "autobusu",
-          "autobusom"
-        ],
-        "hint": "instrumental sg, means of transport"
-      },
-      {
-        "position": "dobrými",
-        "correct": "dobrými",
-        "options": [
-          "dobré",
-          "dobrých",
-          "dobrý",
-          "dobrými"
-        ],
-        "hint": "instrumental pl adjective agreement"
-      },
-      {
-        "position": "prednáškach",
-        "correct": "prednáškach",
-        "options": [
-          "prednášky",
-          "prednášku",
-          "prednáškam",
-          "prednáškach"
-        ],
-        "hint": "locative pl after 'po'"
-      },
-      {
-        "position": "knižnice",
-        "correct": "knižnice",
-        "options": [
-          "knižnica",
-          "knižnici",
-          "knižníc",
-          "knižnice"
-        ],
-        "hint": "genitive sg after 'do'"
-      },
-      {
-        "position": "spolužiakmi",
-        "correct": "spolužiakmi",
-        "options": [
-          "spolužiakov",
-          "spolužiaci",
-          "spolužiakom",
-          "spolužiakmi"
-        ],
-        "hint": "instrumental pl noun"
-      },
-      {
-        "position": "vracia",
-        "correct": "vracia",
-        "options": [
-          "vraci",
-          "vracal",
-          "vráti",
-          "vracia"
-        ],
-        "hint": "reflexive verb present tense"
-      }
+    ],
+    "tags": [
+      "daily_routine",
+      "past_tense",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -3099,6 +1999,12 @@
         ],
         "hint": "ešte + negative past tense"
       }
+    ],
+    "tags": [
+      "past_tense",
+      "present_tense",
+      "university_work",
+      "uz_este"
     ]
   },
   {
@@ -3173,6 +2079,15 @@
         ],
         "hint": "reflexive possessive, accusative plural"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "possessive",
+      "pronouns",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -3247,6 +2162,10 @@
         ],
         "hint": "budem + infinitive, imperfective"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "home_apartment"
     ]
   },
   {
@@ -3321,6 +2240,11 @@
         ],
         "hint": "3rd person sg, irregular chcieť"
       }
+    ],
+    "tags": [
+      "family_people",
+      "modals",
+      "weather"
     ]
   },
   {
@@ -3395,6 +2319,14 @@
         ],
         "hint": "reflexive verb present tense"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "future_tense",
+      "health",
+      "present_tense",
+      "reflexive"
     ]
   },
   {
@@ -3469,80 +2401,11 @@
         ],
         "hint": "double negation: nikdy + ne-"
       }
-    ]
-  },
-  {
-    "scenario": "Róbert sa sťahuje do nového bytu",
-    "scenarioEn": "Róbert moving to a new flat",
-    "text": "Róbert sa sťahuje do nového bytu. Má veľa krabíc s oblečením a nábytkom. Nový byt je v peknom meste. Je spokojný so svojím novým bytom. Zavolal kamarátov na pomoc so sťahovaním.",
-    "textEn": "Róbert is moving to a new flat. He has many boxes with clothes and furniture. The new flat is in a nice city. He is satisfied with his new flat. He called friends to help with the move.",
-    "gaps": [
-      {
-        "position": "nového bytu",
-        "correct": "nového bytu",
-        "options": [
-          "nový byt",
-          "novému bytu",
-          "nového bytu",
-          "novom byte"
-        ],
-        "hint": "genitive after preposition do"
-      },
-      {
-        "position": "s oblečením a nábytkom",
-        "correct": "s oblečením a nábytkom",
-        "options": [
-          "s oblečenie a nábytok",
-          "s oblečením a nábytkom",
-          "z oblečenia a nábytku",
-          "od oblečenia a nábytka"
-        ],
-        "hint": "instrumental plural after s"
-      },
-      {
-        "position": "v peknom meste",
-        "correct": "v peknom meste",
-        "options": [
-          "v pekné mesto",
-          "v pekného mesta",
-          "v peknom meste",
-          "v peknej meste"
-        ],
-        "hint": "locative after v"
-      },
-      {
-        "position": "so svojím novým bytom",
-        "correct": "so svojím novým bytom",
-        "options": [
-          "so svojím novým bytom",
-          "so svojho nového bytu",
-          "so svojom novom byte",
-          "so svojí nový byt"
-        ],
-        "hint": "instrumental after so"
-      },
-      {
-        "position": "kamarátov",
-        "correct": "kamarátov",
-        "options": [
-          "kamaráti",
-          "kamarátom",
-          "kamarátov",
-          "kamarátoch"
-        ],
-        "hint": "accusative plural, animate"
-      },
-      {
-        "position": "na pomoc",
-        "correct": "na pomoc",
-        "options": [
-          "na pomoci",
-          "na pomoc",
-          "na pomocou",
-          "na pomocí"
-        ],
-        "hint": "accusative after na, purpose"
-      }
+    ],
+    "tags": [
+      "free_time",
+      "negation",
+      "transport_travel"
     ]
   },
   {
@@ -3596,17 +2459,6 @@
         "hint": "reflexive sa verb placement"
       },
       {
-        "position": "se rozhodne",
-        "correct": "sa rozhodne",
-        "options": [
-          "si rozhodne",
-          "sa rozhodla",
-          "sa rozhoduje",
-          "sa rozhodne"
-        ],
-        "hint": "reflexive sa perfective verb"
-      },
-      {
         "position": "sa rozhodne",
         "correct": "sa rozhodne",
         "options": [
@@ -3617,6 +2469,12 @@
         ],
         "hint": "reflexive sa future meaning"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "pronouns",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -3691,6 +2549,11 @@
         ],
         "hint": "locative singular, preposition o"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -3765,228 +2628,12 @@
         ],
         "hint": "present tense, 1st person plural"
       }
-    ]
-  },
-  {
-    "scenario": "víkend v dedine u starých rodičov",
-    "scenarioEn": "weekend at the grandparents' village",
-    "text": "Cez víkend sme išli do dediny k starým rodičom. Bývajú v malej dedine za mestom. S babičkou sme varili polievku a piekli koláče. Večer sme sedeli pred domom a rozprávali sa. Bolo nám tam veľmi dobre.",
-    "textEn": "Over the weekend we went to the village to our grandparents. They live in a small village outside the town. With grandma we cooked soup and baked cakes. In the evening we sat in front of the house and talked. We felt very good there.",
-    "gaps": [
-      {
-        "position": "do dediny",
-        "correct": "do dediny",
-        "options": [
-          "v dedine",
-          "do dediny",
-          "na dedinu",
-          "z dediny"
-        ],
-        "hint": "direction, genitive after 'do'"
-      },
-      {
-        "position": "k starým rodičom",
-        "correct": "k starým rodičom",
-        "options": [
-          "k starých rodičov",
-          "k starým rodičom",
-          "u starých rodičov",
-          "od starých rodičov"
-        ],
-        "hint": "dative after 'k'"
-      },
-      {
-        "position": "v malej dedine",
-        "correct": "v malej dedine",
-        "options": [
-          "v malej dedine",
-          "v malú dedinu",
-          "na malej dedine",
-          "do malej dediny"
-        ],
-        "hint": "locative after 'v'"
-      },
-      {
-        "position": "za mestom",
-        "correct": "za mestom",
-        "options": [
-          "za mestom",
-          "za mesto",
-          "pred mestom",
-          "z mesta"
-        ],
-        "hint": "instrumental after 'za'"
-      },
-      {
-        "position": "S babičkou",
-        "correct": "S babičkou",
-        "options": [
-          "S babičkou",
-          "S babičke",
-          "U babičky",
-          "Od babičky"
-        ],
-        "hint": "instrumental after 's'"
-      },
-      {
-        "position": "pred domom",
-        "correct": "pred domom",
-        "options": [
-          "pred domom",
-          "pred dom",
-          "za domom",
-          "pri dome"
-        ],
-        "hint": "instrumental after 'pred'"
-      }
-    ]
-  },
-  {
-    "scenario": "Marianna varí večeru pre priateľov",
-    "scenarioEn": "Marianna cooking dinner for friends",
-    "text": "Marianna varí večeru v kuchyni pre svojich priateľov. Ide do obchodu pre čerstvú zeleninu a mäso. Varí polievku s cesnakom a mrkvou. Pred večerou prestrie stôl pre šiestich hostí. Priatelia prídu o siedmej hodine večer.",
-    "textEn": "Marianna is cooking dinner in the kitchen for her friends. She goes to the store for fresh vegetables and meat. She cooks soup with garlic and carrots. Before dinner she sets the table for six guests. The friends will come at seven o'clock in the evening.",
-    "gaps": [
-      {
-        "position": "v kuchyni",
-        "correct": "v kuchyni",
-        "options": [
-          "na kuchyňu",
-          "do kuchyne",
-          "v kuchyni",
-          "s kuchyňou"
-        ],
-        "hint": "v + locative singular"
-      },
-      {
-        "position": "do obchodu",
-        "correct": "do obchodu",
-        "options": [
-          "do obchodu",
-          "v obchode",
-          "na obchod",
-          "z obchodu"
-        ],
-        "hint": "do + genitive singular"
-      },
-      {
-        "position": "s cesnakom",
-        "correct": "s cesnakom",
-        "options": [
-          "z cesnaku",
-          "s cesnakom",
-          "na cesnak",
-          "o cesnaku"
-        ],
-        "hint": "s + instrumental singular"
-      },
-      {
-        "position": "Pred večerou",
-        "correct": "Pred večerou",
-        "options": [
-          "Po večeri",
-          "Za večerou",
-          "Pred večerou",
-          "Pri večeri"
-        ],
-        "hint": "pred + instrumental singular"
-      },
-      {
-        "position": "pre šiestich hostí",
-        "correct": "pre šiestich hostí",
-        "options": [
-          "pre šiestich hostí",
-          "o šiestich hostiach",
-          "so šiestimi hosťami",
-          "na šiestich hostí"
-        ],
-        "hint": "pre + genitive plural"
-      },
-      {
-        "position": "o siedmej hodine",
-        "correct": "o siedmej hodine",
-        "options": [
-          "na siedmu hodinu",
-          "v siedmej hodine",
-          "o siedmej hodine",
-          "za siedmu hodinu"
-        ],
-        "hint": "o + locative, time expression"
-      }
-    ]
-  },
-  {
-    "scenario": "Zuzana opisuje svoj nový byt",
-    "scenarioEn": "Zuzana describing her new apartment",
-    "text": "Môj nový byt je krásny. Každý deň vstávam o siedmej ráno. Na obed idem domov o pol jednej. Večer sa vraciam domov štvrť na osem. Spím do pol ôsmej cez víkend.",
-    "textEn": "My new apartment is beautiful. Every day I get up at seven in the morning. I go home for lunch at half past twelve. In the evening I come home at quarter to eight. I sleep until half past seven on weekends.",
-    "gaps": [
-      {
-        "position": "o siedmej",
-        "correct": "o siedmej",
-        "options": [
-          "o sedem",
-          "o siedmej",
-          "siedmej ráno",
-          "na siedmu"
-        ],
-        "hint": "time expression: o + locative"
-      },
-      {
-        "position": "pol jednej",
-        "correct": "pol jednej",
-        "options": [
-          "pol jedna",
-          "pol jednu",
-          "pol jednej",
-          "polovina jednej"
-        ],
-        "hint": "half past: pol + genitive"
-      },
-      {
-        "position": "štvrť na osem",
-        "correct": "štvrť na osem",
-        "options": [
-          "štvrť ôsmej",
-          "štvrť osem",
-          "o štvrť osem",
-          "štvrť na osem"
-        ],
-        "hint": "quarter to: štvrť na + accusative"
-      },
-      {
-        "position": "vraciam",
-        "correct": "vraciam",
-        "options": [
-          "vrátim",
-          "vraciam",
-          "vracia",
-          "vracíme"
-        ],
-        "hint": "reflexive verb present tense"
-      },
-      {
-        "position": "pol ôsmej",
-        "correct": "pol ôsmej",
-        "options": [
-          "pol osem",
-          "pol ôsmej",
-          "pol ôsmu",
-          "polovina ôsmej"
-        ],
-        "hint": "half past: pol + genitive"
-      },
-      {
-        "position": "do",
-        "correct": "do",
-        "options": [
-          "od",
-          "do",
-          "na",
-          "po"
-        ],
-        "hint": "preposition: until (genitive)"
-      }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "health",
+      "present_tense"
     ]
   },
   {
@@ -4061,6 +2708,12 @@
         ],
         "hint": "budem + infinitive future"
       }
+    ],
+    "tags": [
+      "family_people",
+      "future_tense",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -4135,6 +2788,13 @@
         ],
         "hint": "future time expression"
       }
+    ],
+    "tags": [
+      "countries",
+      "future_tense",
+      "reflexive",
+      "time_date",
+      "university_work"
     ]
   },
   {
@@ -4209,6 +2869,16 @@
         ],
         "hint": "už with nominative plural"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "health",
+      "negation",
+      "nom_plural",
+      "nominative",
+      "past_tense",
+      "uz_este"
     ]
   },
   {
@@ -4283,6 +2953,11 @@
         ],
         "hint": "perfective present = future"
       }
+    ],
+    "tags": [
+      "free_time",
+      "future_tense",
+      "transport_travel"
     ]
   },
   {
@@ -4347,8 +3022,8 @@
         "hint": "past tense piť plural"
       },
       {
-        "position": "vrátili sa",
-        "correct": "vrátili sa",
+        "position": "sa vrátili",
+        "correct": "sa vrátili",
         "options": [
           "vrátili sa",
           "vrátime sa",
@@ -4357,6 +3032,12 @@
         ],
         "hint": "reflexive past tense vrátiť sa"
       }
+    ],
+    "tags": [
+      "free_time",
+      "past_tense",
+      "reflexive",
+      "transport_travel"
     ]
   },
   {
@@ -4431,6 +3112,13 @@
         ],
         "hint": "double negation: nowhere + ne-"
       }
+    ],
+    "tags": [
+      "accusative",
+      "family_people",
+      "negation",
+      "past_tense",
+      "weather"
     ]
   },
   {
@@ -4505,6 +3193,12 @@
         ],
         "hint": "past tense irregular ísť, female"
       }
+    ],
+    "tags": [
+      "countries",
+      "past_tense",
+      "reflexive",
+      "university_work"
     ]
   },
   {
@@ -4579,6 +3273,13 @@
         ],
         "hint": "adjective gender agreement, feminine"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "countries",
+      "nominative",
+      "university_work"
     ]
   },
   {
@@ -4653,6 +3354,13 @@
         ],
         "hint": "reflexive verb, 3rd plural"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "modals",
+      "present_tense",
+      "reflexive",
+      "social"
     ]
   },
   {
@@ -4716,80 +3424,11 @@
         ],
         "hint": "tešiť sa reflexive verb"
       }
-    ]
-  },
-  {
-    "scenario": "opisovanie počasia tento týždeň",
-    "scenarioEn": "describing the weather this week",
-    "text": "Tento týždeň je veľmi chladno. Vonku prší a fúka silný vietor. V noci je teplota pod nulou. Ráno idem do práce s dáždnikom. Dúfam, že cez víkend bude slnečno.",
-    "textEn": "This week it is very cold. Outside it is raining and a strong wind is blowing. At night the temperature is below zero. In the morning I go to work with an umbrella. I hope that over the weekend it will be sunny.",
-    "gaps": [
-      {
-        "position": "V noci",
-        "correct": "V noci",
-        "options": [
-          "Na noci",
-          "V noc",
-          "V nocu",
-          "V noci"
-        ],
-        "hint": "preposition v + locative sg"
-      },
-      {
-        "position": "do práce",
-        "correct": "do práce",
-        "options": [
-          "v práci",
-          "na prácu",
-          "z práce",
-          "do práce"
-        ],
-        "hint": "preposition do + genitive sg"
-      },
-      {
-        "position": "s dáždnikom",
-        "correct": "s dáždnikom",
-        "options": [
-          "s dáždnika",
-          "z dáždnikom",
-          "s dáždnik",
-          "s dáždnikom"
-        ],
-        "hint": "preposition s + instrumental sg"
-      },
-      {
-        "position": "cez víkend",
-        "correct": "cez víkend",
-        "options": [
-          "na víkende",
-          "o víkende",
-          "za víkendom",
-          "cez víkend"
-        ],
-        "hint": "preposition cez + accusative sg"
-      },
-      {
-        "position": "pod nulou",
-        "correct": "pod nulou",
-        "options": [
-          "pod nulu",
-          "pod nuly",
-          "pred nulou",
-          "pod nulou"
-        ],
-        "hint": "preposition pod + instrumental sg"
-      },
-      {
-        "position": "Vonku",
-        "correct": "Vonku",
-        "options": [
-          "Von",
-          "Vvonku",
-          "Vonkaj",
-          "Vonku"
-        ],
-        "hint": "adverb of place outside"
-      }
+    ],
+    "tags": [
+      "home_apartment",
+      "reflexive",
+      "shopping"
     ]
   },
   {
@@ -4843,8 +3482,8 @@
         "hint": "past tense feminine auxiliary"
       },
       {
-        "position": "sa potešila",
-        "correct": "sa potešila",
+        "position": "potešila",
+        "correct": "potešila",
         "options": [
           "sa potešil",
           "sa tešila",
@@ -4854,8 +3493,8 @@
         "hint": "past tense reflexive feminine"
       },
       {
-        "position": "sme sa bavili",
-        "correct": "sme sa bavili",
+        "position": "bavili",
+        "correct": "bavili",
         "options": [
           "sme bavili",
           "sa bavili",
@@ -4864,6 +3503,12 @@
         ],
         "hint": "past tense plural reflexive"
       }
+    ],
+    "tags": [
+      "family_people",
+      "past_tense",
+      "reflexive",
+      "social"
     ]
   },
   {
@@ -4938,80 +3583,13 @@
         ],
         "hint": "už + past plural"
       }
-    ]
-  },
-  {
-    "scenario": "Róbert sa sťahuje do nového bytu",
-    "scenarioEn": "Róbert moving to a new flat",
-    "text": "Róbert sa sťahuje do nového bytu. Jeho nový byt je veľký a svetlý. Má svoje vlastné izby a modernú kuchyňu. Pomáhajú mu jeho dobrí kamaráti. Róbert je so svojím novým bytom veľmi spokojný.",
-    "textEn": "Róbert is moving to a new flat. His new flat is big and bright. It has its own rooms and a modern kitchen. His good friends are helping him. Róbert is very happy with his new flat.",
-    "gaps": [
-      {
-        "position": "nového",
-        "correct": "nového",
-        "options": [
-          "nový",
-          "novému",
-          "nové",
-          "nového"
-        ],
-        "hint": "adjective genitive masculine singular"
-      },
-      {
-        "position": "Jeho",
-        "correct": "Jeho",
-        "options": [
-          "Jej",
-          "Ich",
-          "Môj",
-          "Jeho"
-        ],
-        "hint": "3rd person masculine possessive"
-      },
-      {
-        "position": "svoje",
-        "correct": "svoje",
-        "options": [
-          "svoju",
-          "svojho",
-          "svojej",
-          "svoje"
-        ],
-        "hint": "reflexive possessive accusative plural"
-      },
-      {
-        "position": "modernú",
-        "correct": "modernú",
-        "options": [
-          "moderná",
-          "modernej",
-          "moderné",
-          "modernú"
-        ],
-        "hint": "adjective accusative feminine singular"
-      },
-      {
-        "position": "dobrí",
-        "correct": "dobrí",
-        "options": [
-          "dobré",
-          "dobrých",
-          "dobrým",
-          "dobrí"
-        ],
-        "hint": "adjective nominative masculine animate plural"
-      },
-      {
-        "position": "svojím",
-        "correct": "svojím",
-        "options": [
-          "svojho",
-          "svojom",
-          "svoj",
-          "svojím"
-        ],
-        "hint": "reflexive possessive instrumental masculine"
-      }
+    ],
+    "tags": [
+      "food_drink",
+      "negation",
+      "past_tense",
+      "social",
+      "uz_este"
     ]
   },
   {
@@ -5086,6 +3664,16 @@
         ],
         "hint": "nominative plural, predicate adjective"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "food_drink",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "present_tense",
+      "social"
     ]
   },
   {
@@ -5160,302 +3748,11 @@
         ],
         "hint": "perfective past, plural"
       }
-    ]
-  },
-  {
-    "scenario": "a cinema evening that goes wrong",
-    "scenarioEn": "A cinema evening that goes wrong",
-    "text": "Kúpili sme päť lístkov na film o siedmej hodine. V kine boli len dve voľné miesta v prvom rade. Traja kamaráti museli stáť celý film. Po filme sme čakali dve hodiny na autobus. Bola to skutočne zlá noc pre šesť ľudí.",
-    "textEn": "We bought five tickets for a film at seven o'clock. In the cinema there were only two free seats in the first row. Three friends had to stand through the whole film. After the film we waited two hours for the bus. It was truly a bad night for six people.",
-    "gaps": [
-      {
-        "position": "päť lístkov",
-        "correct": "päť lístkov",
-        "options": [
-          "päť lístky",
-          "päť lístok",
-          "päť lístkami",
-          "päť lístkov"
-        ],
-        "hint": "5+ numeral + genitive plural"
-      },
-      {
-        "position": "dve voľné miesta",
-        "correct": "dve voľné miesta",
-        "options": [
-          "dva voľné miesta",
-          "dve voľných miest",
-          "dvoch voľných miest",
-          "dve voľné miesta"
-        ],
-        "hint": "2-4 numeral + nominative plural"
-      },
-      {
-        "position": "Traja kamaráti",
-        "correct": "Traja kamaráti",
-        "options": [
-          "Tri kamaráti",
-          "Traja kamarátov",
-          "Troch kamarátov",
-          "Traja kamaráti"
-        ],
-        "hint": "2-4 masculine animate nominative"
-      },
-      {
-        "position": "celý film",
-        "correct": "celý film",
-        "options": [
-          "celého filmu",
-          "celý filmy",
-          "celom filme",
-          "celý film"
-        ],
-        "hint": "accusative singular masculine"
-      },
-      {
-        "position": "dve hodiny",
-        "correct": "dve hodiny",
-        "options": [
-          "dva hodiny",
-          "dvoch hodín",
-          "dve hodín",
-          "dve hodiny"
-        ],
-        "hint": "2-4 numeral + feminine noun"
-      },
-      {
-        "position": "šesť ľudí",
-        "correct": "šesť ľudí",
-        "options": [
-          "šesť ľudia",
-          "šesť ľuďom",
-          "šesť ľudov",
-          "šesť ľudí"
-        ],
-        "hint": "5+ numeral + genitive plural"
-      }
-    ]
-  },
-  {
-    "scenario": "Róbert sa sťahuje do nového bytu",
-    "scenarioEn": "Róbert moving to a new flat",
-    "text": "Róbert sa sťahuje do nového bytu v centre mesta. Pomáha mu kamarát s veľkými krabicami. Nový byt je pred parkom a vedľa obchodu. Róbert je rád, že býva v modernom byte. Večer sa posadí za stôl a odpočíva.",
-    "textEn": "Róbert is moving into a new flat in the city centre. A friend helps him with big boxes. The new flat is in front of the park and next to the shop. Róbert is glad that he lives in a modern flat. In the evening he sits down at the table and rests.",
-    "gaps": [
-      {
-        "position": "do nového bytu",
-        "correct": "do nového bytu",
-        "options": [
-          "v novom byte",
-          "na nový byt",
-          "do nového bytu",
-          "z nového bytu"
-        ],
-        "hint": "do + genitive, direction"
-      },
-      {
-        "position": "v centre mesta",
-        "correct": "v centre mesta",
-        "options": [
-          "do centra mesta",
-          "na centre mesta",
-          "v centre mesta",
-          "z centra mesta"
-        ],
-        "hint": "v + locative, location"
-      },
-      {
-        "position": "s veľkými krabicami",
-        "correct": "s veľkými krabicami",
-        "options": [
-          "z veľkých krabíc",
-          "s veľkými krabicami",
-          "na veľké krabice",
-          "v veľkých krabiciach"
-        ],
-        "hint": "s + instrumental, accompaniment"
-      },
-      {
-        "position": "pred parkom",
-        "correct": "pred parkom",
-        "options": [
-          "pred parkom",
-          "do parku",
-          "za parkom",
-          "na parku"
-        ],
-        "hint": "pred + instrumental, position"
-      },
-      {
-        "position": "v modernom byte",
-        "correct": "v modernom byte",
-        "options": [
-          "do moderného bytu",
-          "v modernom byte",
-          "na modernom byte",
-          "z moderného bytu"
-        ],
-        "hint": "v + locative, location"
-      },
-      {
-        "position": "za stôl",
-        "correct": "za stôl",
-        "options": [
-          "za stolom",
-          "na stole",
-          "za stôl",
-          "pred stôl"
-        ],
-        "hint": "za + accusative, movement direction"
-      }
-    ]
-  },
-  {
-    "scenario": "Johanna píše email domov",
-    "scenarioEn": "Johanna writing an email home",
-    "text": "Johanna sedí pri stole a píše email svojej rodine. Opisuje svojmu kamarátovi nové mesto a pekné miesta. V emaily píše o škole a o svojich učiteľoch. Rodičom hovorí, že sa jej tu páči. Pošle email večer pred spaním.",
-    "textEn": "Johanna sits at the table and writes an email to her family. She describes the new city and nice places to her friend. In the email she writes about school and her teachers. She tells her parents that she likes it here. She will send the email in the evening before going to sleep.",
-    "gaps": [
-      {
-        "position": "pri stole",
-        "correct": "pri stole",
-        "options": [
-          "na stôl",
-          "pri stole",
-          "zo stola",
-          "od stola"
-        ],
-        "hint": "locative case, preposition pri"
-      },
-      {
-        "position": "svojej rodine",
-        "correct": "svojej rodine",
-        "options": [
-          "svojej rodine",
-          "svoju rodinu",
-          "svojou rodinou",
-          "svojej rodiny"
-        ],
-        "hint": "dative case, addressee"
-      },
-      {
-        "position": "svojmu kamarátovi",
-        "correct": "svojmu kamarátovi",
-        "options": [
-          "svojho kamaráta",
-          "svojmu kamarátovi",
-          "svojím kamarátom",
-          "svojom kamarátovi"
-        ],
-        "hint": "dative case, to friend"
-      },
-      {
-        "position": "o škole",
-        "correct": "o škole",
-        "options": [
-          "o škole",
-          "o školu",
-          "o školy",
-          "zo školy"
-        ],
-        "hint": "locative case, preposition o"
-      },
-      {
-        "position": "Rodičom",
-        "correct": "Rodičom",
-        "options": [
-          "Rodičom",
-          "Rodičov",
-          "Rodičmi",
-          "Rodičia"
-        ],
-        "hint": "dative plural, telling parents"
-      },
-      {
-        "position": "Pošle",
-        "correct": "Pošle",
-        "options": [
-          "Posiela",
-          "Poslala",
-          "Pošle",
-          "Posielať"
-        ],
-        "hint": "perfective future tense"
-      }
-    ]
-  },
-  {
-    "scenario": "Johannino ráno na internáte",
-    "scenarioEn": "Johanna's morning at the dormitory",
-    "text": "Johanna býva na veľkom internáte v centre mesta. Jej izba je malá, ale útulná. Ráno vstáva skoro a ide do spoločnej kúpeľne. Potom si dáva teplú kávu a čerstvý chlieb. Je unavená, ale šťastná, že má dobrých spolubývajúcich.",
-    "textEn": "Johanna lives in a big dormitory in the city centre. Her room is small but cosy. In the morning she gets up early and goes to the shared bathroom. Then she has a warm coffee and fresh bread. She is tired but happy that she has good roommates.",
-    "gaps": [
-      {
-        "position": "veľkom",
-        "correct": "veľkom",
-        "options": [
-          "veľký",
-          "veľká",
-          "veľkého",
-          "veľkom"
-        ],
-        "hint": "adjective locative masculine agreement"
-      },
-      {
-        "position": "malá",
-        "correct": "malá",
-        "options": [
-          "malý",
-          "malé",
-          "malých",
-          "malá"
-        ],
-        "hint": "adjective nominative feminine agreement"
-      },
-      {
-        "position": "teplú",
-        "correct": "teplú",
-        "options": [
-          "teplá",
-          "teplé",
-          "teplého",
-          "teplú"
-        ],
-        "hint": "adjective accusative feminine agreement"
-      },
-      {
-        "position": "čerstvý",
-        "correct": "čerstvý",
-        "options": [
-          "čerstvého",
-          "čerstvú",
-          "čerstvé",
-          "čerstvý"
-        ],
-        "hint": "adjective accusative masculine inanimate"
-      },
-      {
-        "position": "unavená",
-        "correct": "unavená",
-        "options": [
-          "unavený",
-          "unavené",
-          "unavených",
-          "unavená"
-        ],
-        "hint": "adjective nominative feminine predicate"
-      },
-      {
-        "position": "dobrých",
-        "correct": "dobrých",
-        "options": [
-          "dobré",
-          "dobrí",
-          "dobrým",
-          "dobrých"
-        ],
-        "hint": "adjective genitive plural agreement"
-      }
+    ],
+    "tags": [
+      "food_drink",
+      "past_tense",
+      "social"
     ]
   },
   {
@@ -5530,154 +3827,16 @@
         ],
         "hint": "nominative masculine adjective+noun"
       }
-    ]
-  },
-  {
-    "scenario": "Nakupovanie darčeka k narodeninám",
-    "scenarioEn": "Shopping for a birthday present",
-    "text": "Zajtra má moja kamarátka Zuzka narodeniny. Chcem jej kúpiť pekný darček. Išiel som s ním do obchodu. Premýšľal som o nej celý deň. Nakoniec som ju stretol pri pokladni a prezradil som jej všetko.",
-    "textEn": "Tomorrow my friend Zuzka has her birthday. I want to buy her a nice present. I went to the store with him. I thought about her all day. In the end I met her at the checkout and told her everything.",
-    "gaps": [
-      {
-        "position": "jej",
-        "correct": "jej",
-        "options": [
-          "ho",
-          "jej",
-          "mu",
-          "ju"
-        ],
-        "hint": "dative pronoun, feminine singular"
-      },
-      {
-        "position": "ním",
-        "correct": "ním",
-        "options": [
-          "neho",
-          "nich",
-          "ním",
-          "nami"
-        ],
-        "hint": "instrumental pronoun, masculine singular"
-      },
-      {
-        "position": "nej",
-        "correct": "nej",
-        "options": [
-          "nich",
-          "nej",
-          "ňou",
-          "jej"
-        ],
-        "hint": "locative pronoun, feminine singular"
-      },
-      {
-        "position": "ju",
-        "correct": "ju",
-        "options": [
-          "jej",
-          "ho",
-          "ja",
-          "ju"
-        ],
-        "hint": "accusative pronoun, feminine singular"
-      },
-      {
-        "position": "som",
-        "correct": "som",
-        "options": [
-          "sme",
-          "som",
-          "si",
-          "ste"
-        ],
-        "hint": "past tense auxiliary, first person"
-      },
-      {
-        "position": "pekný",
-        "correct": "pekný",
-        "options": [
-          "pekná",
-          "pekné",
-          "pekným",
-          "pekný"
-        ],
-        "hint": "adjective agreement, masculine accusative"
-      }
-    ]
-  },
-  {
-    "scenario": "opisovanie počasia tento týždeň",
-    "scenarioEn": "describing the weather this week",
-    "text": "Tento týždeň je počasie veľmi premenlivé. V pondelok bolo slnko a obloha bola čistá. V utorok prišiel silný dážď s vetrom. Dnes chodíme do práce v teplých kabátoch. Zajtra čakáme príjemné počasie s teplým slnkom.",
-    "textEn": "This week the weather is very changeable. On Monday there was sun and the sky was clear. On Tuesday a strong rain came with wind. Today we go to work in warm coats. Tomorrow we expect pleasant weather with warm sunshine.",
-    "gaps": [
-      {
-        "position": "slnkom",
-        "correct": "slnkom",
-        "options": [
-          "slnko",
-          "slnka",
-          "slnku",
-          "slnkom"
-        ],
-        "hint": "instrumental singular, noun"
-      },
-      {
-        "position": "teplých kabátoch",
-        "correct": "teplých kabátoch",
-        "options": [
-          "teplé kabáty",
-          "teplými kabátmi",
-          "teplých kabátov",
-          "teplých kabátoch"
-        ],
-        "hint": "locative plural, adjective+noun"
-      },
-      {
-        "position": "do práce",
-        "correct": "do práce",
-        "options": [
-          "v práci",
-          "na prácu",
-          "pri práci",
-          "do práce"
-        ],
-        "hint": "genitive after 'do'"
-      },
-      {
-        "position": "silný dážď",
-        "correct": "silný dážď",
-        "options": [
-          "silného dažďa",
-          "silnom daždi",
-          "silným dažďom",
-          "silný dážď"
-        ],
-        "hint": "accusative singular, adjective+noun"
-      },
-      {
-        "position": "vetrom",
-        "correct": "vetrom",
-        "options": [
-          "vietor",
-          "vetra",
-          "vetru",
-          "vetrom"
-        ],
-        "hint": "instrumental singular, noun"
-      },
-      {
-        "position": "príjemné počasie",
-        "correct": "príjemné počasie",
-        "options": [
-          "príjemného počasia",
-          "príjemnom počasí",
-          "príjemným počasím",
-          "príjemné počasie"
-        ],
-        "hint": "accusative singular, adjective+noun"
-      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "nominative",
+      "past_tense",
+      "present_tense",
+      "time_date",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -5752,6 +3911,11 @@
         ],
         "hint": "perfective past feminine singular"
       }
+    ],
+    "tags": [
+      "free_time",
+      "negation",
+      "past_tense"
     ]
   },
   {
@@ -5826,154 +3990,11 @@
         ],
         "hint": "future tense budem+infinitive"
       }
-    ]
-  },
-  {
-    "scenario": "Zuzana a Johanna v kaviarni",
-    "scenarioEn": "Zuzana and Johanna at a café",
-    "text": "Zuzana a Johanna sedia v kaviarni. Zuzana objedná pre ne dve kávy. Johanna hovorí s ňou o svojej práci. Čašník prinesie im koláč a oni sú veľmi rady. Potom idú domov spolu s kamarátkou.",
-    "textEn": "Zuzana and Johanna are sitting in a café. Zuzana orders two coffees for them. Johanna talks with her about her work. The waiter brings them a cake and they are very happy. Then they go home together with a friend.",
-    "gaps": [
-      {
-        "position": "v kaviarni",
-        "correct": "v kaviarni",
-        "options": [
-          "do kaviarne",
-          "v kaviarni",
-          "z kaviarne",
-          "o kaviarni"
-        ],
-        "hint": "locative case, location"
-      },
-      {
-        "position": "pre ne",
-        "correct": "pre ne",
-        "options": [
-          "pre nich",
-          "pre ne",
-          "pre nimi",
-          "pre nás"
-        ],
-        "hint": "accusative pronoun, 3rd pl"
-      },
-      {
-        "position": "s ňou",
-        "correct": "s ňou",
-        "options": [
-          "s jej",
-          "s ňou",
-          "s ona",
-          "s jej ňou"
-        ],
-        "hint": "instrumental pronoun, 3rd sg f"
-      },
-      {
-        "position": "o svojej práci",
-        "correct": "o svojej práci",
-        "options": [
-          "o svojej práce",
-          "o svoju prácu",
-          "o svojej práci",
-          "o svojou prácou"
-        ],
-        "hint": "locative, possessive adjective"
-      },
-      {
-        "position": "im",
-        "correct": "im",
-        "options": [
-          "ich",
-          "im",
-          "ich ich",
-          "nimi"
-        ],
-        "hint": "dative pronoun, 3rd pl"
-      },
-      {
-        "position": "spolu s kamarátkou",
-        "correct": "spolu s kamarátkou",
-        "options": [
-          "spolu s kamarátka",
-          "spolu s kamarátkou",
-          "spolu o kamarátke",
-          "spolu kamarátky"
-        ],
-        "hint": "instrumental case, noun"
-      }
-    ]
-  },
-  {
-    "scenario": "Carlo objednáva obed v jedálni",
-    "scenarioEn": "Carlo ordering lunch at the canteen",
-    "text": "Carlo ide dnes do jedálne na obed. Čašníčka sa ho pýta, čo si dá. Carlo si vyberie polievku a hovorí jej o svojich preferenciách. Ona mu prinesie polievku so syrom. Carlo je spokojný s ňou a ďakuje jej.",
-    "textEn": "Carlo goes to the canteen today for lunch. The waitress asks him what he will have. Carlo chooses soup and tells her about his preferences. She brings him soup with cheese. Carlo is satisfied with it and thanks her.",
-    "gaps": [
-      {
-        "position": "ho",
-        "correct": "ho",
-        "options": [
-          "mu",
-          "jeho",
-          "on",
-          "ho"
-        ],
-        "hint": "accusative pronoun, 3rd person masculine"
-      },
-      {
-        "position": "jej",
-        "correct": "jej",
-        "options": [
-          "ju",
-          "ona",
-          "jej",
-          "jej"
-        ],
-        "hint": "dative pronoun, 3rd person feminine"
-      },
-      {
-        "position": "mu",
-        "correct": "mu",
-        "options": [
-          "ho",
-          "on",
-          "jeho",
-          "mu"
-        ],
-        "hint": "dative pronoun, 3rd person masculine"
-      },
-      {
-        "position": "so syrom",
-        "correct": "so syrom",
-        "options": [
-          "so syra",
-          "so syr",
-          "so syre",
-          "so syrom"
-        ],
-        "hint": "instrumental case, noun"
-      },
-      {
-        "position": "s ňou",
-        "correct": "s ňou",
-        "options": [
-          "s nej",
-          "s ju",
-          "s ona",
-          "s ňou"
-        ],
-        "hint": "instrumental pronoun, 3rd person feminine"
-      },
-      {
-        "position": "jej",
-        "correct": "jej",
-        "options": [
-          "ju",
-          "ona",
-          "nej",
-          "jej"
-        ],
-        "hint": "dative pronoun, 3rd person feminine"
-      }
+    ],
+    "tags": [
+      "future_tense",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -6048,6 +4069,13 @@
         ],
         "hint": "future perfective: ísť irregular"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "food_drink",
+      "future_tense",
+      "present_tense",
+      "transport_travel"
     ]
   },
   {
@@ -6122,6 +4150,14 @@
         ],
         "hint": "instrumental, feminine noun"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "possessive"
     ]
   },
   {
@@ -6196,80 +4232,11 @@
         ],
         "hint": "past tense feminine with auxiliary"
       }
-    ]
-  },
-  {
-    "scenario": "opisovanie spolužiakov a ich národností",
-    "scenarioEn": "describing classmates and their nationalities",
-    "text": "Moja trieda začína o ôsmej ráno. Prestávka je o pol desiatej. Obed máme štvrť na jednu. Angličan Tom chodí na slovenčinu o siedmej večer. Poľka Marta príde na hodinu o pol štvrtej.",
-    "textEn": "My class starts at eight in the morning. The break is at half past nine. We have lunch at a quarter to one. The Englishman Tom goes to Slovak class at seven in the evening. The Polish girl Marta will come to the lesson at half past three.",
-    "gaps": [
-      {
-        "position": "o ôsmej",
-        "correct": "o ôsmej",
-        "options": [
-          "o ôsme",
-          "o ôsmej",
-          "na ôsmu",
-          "o ôsmom"
-        ],
-        "hint": "time expression, locative hour"
-      },
-      {
-        "position": "pol desiatej",
-        "correct": "pol desiatej",
-        "options": [
-          "pol desiatej",
-          "pol desiate",
-          "pol desiata",
-          "pol desiatou"
-        ],
-        "hint": "half past, genitive form"
-      },
-      {
-        "position": "štvrť na jednu",
-        "correct": "štvrť na jednu",
-        "options": [
-          "štvrť na jednu",
-          "štvrť na jedna",
-          "štvrť jednej",
-          "štvrť do jednej"
-        ],
-        "hint": "quarter to, accusative"
-      },
-      {
-        "position": "o siedmej",
-        "correct": "o siedmej",
-        "options": [
-          "o siedmej",
-          "o sedem",
-          "o siedme",
-          "na siedmu"
-        ],
-        "hint": "time expression, locative hour"
-      },
-      {
-        "position": "večer",
-        "correct": "večer",
-        "options": [
-          "večer",
-          "večera",
-          "večerom",
-          "ráno"
-        ],
-        "hint": "time of day adverb"
-      },
-      {
-        "position": "o pol štvrtej",
-        "correct": "o pol štvrtej",
-        "options": [
-          "o pol štvrtej",
-          "o pol štyri",
-          "o pol štvrtou",
-          "na pol štvrtej"
-        ],
-        "hint": "half past, genitive form"
-      }
+    ],
+    "tags": [
+      "home_apartment",
+      "modals",
+      "past_tense"
     ]
   },
   {
@@ -6344,80 +4311,12 @@
         ],
         "hint": "negative pronoun subject form"
       }
-    ]
-  },
-  {
-    "scenario": "víkend v dedine u starých rodičov",
-    "scenarioEn": "weekend at the grandparents' village",
-    "text": "Minulý víkend som navštívil starých rodičov na dedine. Starý otec mal v záhrade päť veľkých stromov. Babička upiekla štyri chutné koláče pre celú rodinu. Na lúke sme videli dve malé jahňatá. Strávili sme tam tri krásne dni a bolo nám veľmi dobre.",
-    "textEn": "Last weekend I visited my grandparents in the village. Grandpa had five big trees in the garden. Grandma baked four tasty cakes for the whole family. In the meadow we saw two small lambs. We spent three beautiful days there and felt very well.",
-    "gaps": [
-      {
-        "position": "päť veľkých stromov",
-        "correct": "päť veľkých stromov",
-        "options": [
-          "päť veľké stromy",
-          "päť veľkých stromov",
-          "päť veľkí stromy",
-          "päť veľký strom"
-        ],
-        "hint": "5+ numeral: genitive plural"
-      },
-      {
-        "position": "štyri chutné koláče",
-        "correct": "štyri chutné koláče",
-        "options": [
-          "štyri chutných koláčov",
-          "štyri chutné koláče",
-          "štyri chutný koláč",
-          "štyri chutní koláči"
-        ],
-        "hint": "2-4 numeral: nominative plural"
-      },
-      {
-        "position": "dve malé jahňatá",
-        "correct": "dve malé jahňatá",
-        "options": [
-          "dvoch malých jahňiat",
-          "dve malé jahňatá",
-          "dva malý jahňa",
-          "dve malých jahňiat"
-        ],
-        "hint": "2 numeral: nominative plural neuter"
-      },
-      {
-        "position": "tri krásne dni",
-        "correct": "tri krásne dni",
-        "options": [
-          "tri krásnych dní",
-          "troch krásnych dní",
-          "tri krásne dni",
-          "tri krásny deň"
-        ],
-        "hint": "2-4 numeral: nominative plural"
-      },
-      {
-        "position": "päť veľkých",
-        "correct": "päť veľkých stromov",
-        "options": [
-          "päť veľkých stromov",
-          "päť veľké stromy",
-          "päť veľkí stromy",
-          "päť veľký strom"
-        ],
-        "hint": "5+ numeral: genitive plural adjective"
-      },
-      {
-        "position": "štyri chutné",
-        "correct": "štyri chutné koláče",
-        "options": [
-          "štyri chutné koláče",
-          "štyri chutných koláčov",
-          "štyri chutný koláč",
-          "štyri chutní koláči"
-        ],
-        "hint": "2-4 numeral: accusative plural"
-      }
+    ],
+    "tags": [
+      "food_drink",
+      "negation",
+      "pronouns",
+      "transport_travel"
     ]
   },
   {
@@ -6492,228 +4391,11 @@
         ],
         "hint": "infinitive after chcieť"
       }
-    ]
-  },
-  {
-    "scenario": "Róbert's first day at a new company",
-    "scenarioEn": "Róbert's first day at a new company",
-    "text": "Róbert nastúpil do novej práce. Prvý deň prišiel do kancelárie o ôsmej ráno. Obedoval so šéfom o pol druhej. Popoludní mal poradu od štvrť na tri do piatej. Domov odišiel o šiestej večer, unavený ale spokojný.",
-    "textEn": "Róbert started a new job. On the first day he arrived at the office at eight in the morning. He had lunch with his boss at half past one. In the afternoon he had a meeting from quarter to three until five. He left for home at six in the evening, tired but satisfied.",
-    "gaps": [
-      {
-        "position": "o ôsmej",
-        "correct": "o ôsmej",
-        "options": [
-          "o ôsma",
-          "o ôsme",
-          "v ôsmej",
-          "o ôsmej"
-        ],
-        "hint": "time expression, locative hour"
-      },
-      {
-        "position": "o pol druhej",
-        "correct": "o pol druhej",
-        "options": [
-          "o pol druhá",
-          "na pol druhej",
-          "o pol druhú",
-          "o pol druhej"
-        ],
-        "hint": "half past, time expression"
-      },
-      {
-        "position": "od štvrť na tri",
-        "correct": "od štvrť na tri",
-        "options": [
-          "od štvrť na troch",
-          "od štvrtina tri",
-          "od štvrť o tri",
-          "od štvrť na tri"
-        ],
-        "hint": "quarter past, time expression"
-      },
-      {
-        "position": "do piatej",
-        "correct": "do piatej",
-        "options": [
-          "do piata",
-          "na piatu",
-          "o piatej",
-          "do piatej"
-        ],
-        "hint": "until five, genitive time"
-      },
-      {
-        "position": "o šiestej",
-        "correct": "o šiestej",
-        "options": [
-          "o šiesta",
-          "na šiestej",
-          "v šiestej",
-          "o šiestej"
-        ],
-        "hint": "at six, locative hour"
-      },
-      {
-        "position": "večer",
-        "correct": "večer",
-        "options": [
-          "večera",
-          "večere",
-          "večerom",
-          "večer"
-        ],
-        "hint": "time of day adverb"
-      }
-    ]
-  },
-  {
-    "scenario": "Mišo kupuje nábytok do svojej izby",
-    "scenarioEn": "Mišo buying furniture for his room",
-    "text": "Mišo chce zariadiť svoju novú izbu. Kúpil dve stoličky a jeden stôl. V obchode videl päť obrazov na stenu. Vzal tiež tri police na knihy. Celkovo minul sto dvadsať eur.",
-    "textEn": "Mišo wants to furnish his new room. He bought two chairs and one table. In the shop he saw five pictures for the wall. He also took three shelves for books. In total he spent one hundred and twenty euros.",
-    "gaps": [
-      {
-        "position": "dve stoličky",
-        "correct": "dve stoličky",
-        "options": [
-          "dva stoličky",
-          "dvoch stoličiek",
-          "dve stoličky",
-          "dvom stoličkám"
-        ],
-        "hint": "numeral 2 + feminine noun"
-      },
-      {
-        "position": "jeden stôl",
-        "correct": "jeden stôl",
-        "options": [
-          "jedna stôl",
-          "jedného stola",
-          "jeden stôl",
-          "jednu stôl"
-        ],
-        "hint": "numeral 1 + masculine noun"
-      },
-      {
-        "position": "päť obrazov",
-        "correct": "päť obrazov",
-        "options": [
-          "päť obrazy",
-          "päť obraz",
-          "päť obrazov",
-          "päť obrazov"
-        ],
-        "hint": "numeral 5+ genitive plural"
-      },
-      {
-        "position": "tri police",
-        "correct": "tri police",
-        "options": [
-          "tri políc",
-          "tri polica",
-          "tri policu",
-          "tri police"
-        ],
-        "hint": "numeral 3 + feminine noun"
-      },
-      {
-        "position": "sto dvadsať eur",
-        "correct": "sto dvadsať eur",
-        "options": [
-          "sto dvadsať eurá",
-          "sto dvadsať eury",
-          "sto dvadsať euro",
-          "sto dvadsať eur"
-        ],
-        "hint": "numeral 5+ genitive plural"
-      },
-      {
-        "position": "jeden stôl",
-        "correct": "jeden stôl",
-        "options": [
-          "jedného stola",
-          "jedna stôl",
-          "jeden stôl",
-          "jednu stôl"
-        ],
-        "hint": "numeral 1 masculine nominative"
-      }
-    ]
-  },
-  {
-    "scenario": "víkend v dedine u starých rodičov",
-    "scenarioEn": "weekend at the grandparents' village",
-    "text": "Cez víkend sme išli k starým rodičom na dedinu. Babička varila polievku s čerstvou zeleninou. Dedko nás vzal do záhrady a ukázal nám stromy. Hrali sme sa s malým psom pred domom. Boli sme veľmi spokojní s celým víkendom.",
-    "textEn": "During the weekend we went to our grandparents' village. Grandma cooked soup with fresh vegetables. Grandpa took us to the garden and showed us the trees. We played with a small dog in front of the house. We were very happy with the whole weekend.",
-    "gaps": [
-      {
-        "position": "starým rodičom",
-        "correct": "starým rodičom",
-        "options": [
-          "starí rodičia",
-          "starých rodičov",
-          "starými rodičmi",
-          "starým rodičom"
-        ],
-        "hint": "dative plural adjective+noun"
-      },
-      {
-        "position": "čerstvou zeleninou",
-        "correct": "čerstvou zeleninou",
-        "options": [
-          "čerstvá zelenina",
-          "čerstvej zeleniny",
-          "čerstvú zeleninu",
-          "čerstvou zeleninou"
-        ],
-        "hint": "instrumental singular noun+adjective"
-      },
-      {
-        "position": "do záhrady",
-        "correct": "do záhrady",
-        "options": [
-          "v záhrade",
-          "záhradu",
-          "zo záhrady",
-          "do záhrady"
-        ],
-        "hint": "genitive after preposition do"
-      },
-      {
-        "position": "malým psom",
-        "correct": "malým psom",
-        "options": [
-          "malý pes",
-          "malého psa",
-          "malú psu",
-          "malým psom"
-        ],
-        "hint": "instrumental singular with s"
-      },
-      {
-        "position": "pred domom",
-        "correct": "pred domom",
-        "options": [
-          "pred doma",
-          "pred dome",
-          "pred domu",
-          "pred domom"
-        ],
-        "hint": "instrumental after pred"
-      },
-      {
-        "position": "celým víkendom",
-        "correct": "celým víkendom",
-        "options": [
-          "celý víkend",
-          "celého víkendu",
-          "celom víkende",
-          "celým víkendom"
-        ],
-        "hint": "instrumental singular adjective+noun"
-      }
+    ],
+    "tags": [
+      "home_apartment",
+      "modals",
+      "present_tense"
     ]
   },
   {
@@ -6788,6 +4470,14 @@
         ],
         "hint": "adjective accusative singular feminine"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "locative",
+      "nominative",
+      "possessive",
+      "pronouns"
     ]
   },
   {
@@ -6862,6 +4552,13 @@
         ],
         "hint": "instrumental plural, with others"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "home_apartment",
+      "instrumental",
+      "locative"
     ]
   },
   {
@@ -6936,6 +4633,10 @@
         ],
         "hint": "adjective opposite, feminine agreement"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "home_apartment"
     ]
   },
   {
@@ -7010,302 +4711,12 @@
         ],
         "hint": "musieť + perfective infinitive"
       }
-    ]
-  },
-  {
-    "scenario": "plánovanie oslávy menín",
-    "scenarioEn": "planning a name day celebration",
-    "text": "Zajtra má moja sestra meniny. Chcem jej kúpiť krásne kvety a sladkú tortu. Oslavu organizujeme v našom byte s priateľmi. Budeme spievať, tancovať a rozprávať sa do noci. Teším sa na túto radostnú oslavu s celou rodinou.",
-    "textEn": "Tomorrow is my sister's name day. I want to buy her beautiful flowers and a sweet cake. We are organizing the celebration in our apartment with friends. We will sing, dance and talk until night. I am looking forward to this joyful celebration with the whole family.",
-    "gaps": [
-      {
-        "position": "krásne kvety",
-        "correct": "krásne kvety",
-        "options": [
-          "krásnych kvetov",
-          "krásne kvety",
-          "krásnym kvetom",
-          "krásnimi kvetmi"
-        ],
-        "hint": "accusative plural masculine inanimate"
-      },
-      {
-        "position": "sladkú tortu",
-        "correct": "sladkú tortu",
-        "options": [
-          "sladká torta",
-          "sladkej torty",
-          "sladkou tortou",
-          "sladkú tortu"
-        ],
-        "hint": "accusative singular feminine noun"
-      },
-      {
-        "position": "v našom byte",
-        "correct": "v našom byte",
-        "options": [
-          "v našom byte",
-          "v náš byt",
-          "v našom dome",
-          "v našemu bytu"
-        ],
-        "hint": "locative singular with v"
-      },
-      {
-        "position": "s priateľmi",
-        "correct": "s priateľmi",
-        "options": [
-          "s priateľmi",
-          "s priateľov",
-          "s priateľom",
-          "s priatelia"
-        ],
-        "hint": "instrumental plural with s"
-      },
-      {
-        "position": "do noci",
-        "correct": "do noci",
-        "options": [
-          "do noci",
-          "v noci",
-          "na noc",
-          "pre noc"
-        ],
-        "hint": "genitive with do preposition"
-      },
-      {
-        "position": "s celou rodinou",
-        "correct": "s celou rodinou",
-        "options": [
-          "s celou rodinou",
-          "s celá rodina",
-          "s celej rodiny",
-          "s celou sestrou"
-        ],
-        "hint": "instrumental singular feminine with s"
-      }
-    ]
-  },
-  {
-    "scenario": "Maja hľadá brigádu",
-    "scenarioEn": "Maja looking for a part-time job",
-    "text": "Maja hľadá brigádu v meste. Zaujíma sa o prácu v kaviarni. Hovorí s kamarátkou o svojich plánoch. Chce pracovať pred vyučovaním, ráno. Pôjde do práce po škole.",
-    "textEn": "Maja is looking for a part-time job in the city. She is interested in working in a café. She talks with a friend about her plans. She wants to work before classes, in the morning. She will go to work after school.",
-    "gaps": [
-      {
-        "position": "v meste",
-        "correct": "v meste",
-        "options": [
-          "na mesto",
-          "v meste",
-          "do mesta",
-          "v mesto"
-        ],
-        "hint": "locative after 'v'"
-      },
-      {
-        "position": "o prácu",
-        "correct": "o prácu",
-        "options": [
-          "o práci",
-          "na prácu",
-          "o prácu",
-          "s prácou"
-        ],
-        "hint": "accusative after 'o' (interest)"
-      },
-      {
-        "position": "v kaviarni",
-        "correct": "v kaviarni",
-        "options": [
-          "do kaviarne",
-          "v kaviarni",
-          "na kaviarni",
-          "v kaviareň"
-        ],
-        "hint": "locative after 'v'"
-      },
-      {
-        "position": "s kamarátkou",
-        "correct": "s kamarátkou",
-        "options": [
-          "s kamarátka",
-          "na kamarátku",
-          "s kamarátkou",
-          "o kamarátke"
-        ],
-        "hint": "instrumental after 's'"
-      },
-      {
-        "position": "pred vyučovaním",
-        "correct": "pred vyučovaním",
-        "options": [
-          "pred vyučovanie",
-          "po vyučovaní",
-          "pred vyučovaním",
-          "za vyučovania"
-        ],
-        "hint": "instrumental after 'pred'"
-      },
-      {
-        "position": "do práce",
-        "correct": "do práce",
-        "options": [
-          "do práce",
-          "v práci",
-          "na prácu",
-          "za prácou"
-        ],
-        "hint": "genitive after 'do'"
-      }
-    ]
-  },
-  {
-    "scenario": "opisovanie počasia tento týždeň",
-    "scenarioEn": "describing the weather this week",
-    "text": "Dnes ráno o ôsmej hodine prší. Poobede od pol druhej svieti slnko. Zajtra ráno bude hmlisto od štvrť na sedem. V stredu o polnoci bude snežiť. Cez víkend od pol šiestej ráno bude teplo.",
-    "textEn": "This morning it is raining at eight o'clock. In the afternoon from half past one the sun shines. Tomorrow morning it will be foggy from a quarter to seven. On Wednesday at midnight it will snow. Over the weekend from half past five in the morning it will be warm.",
-    "gaps": [
-      {
-        "position": "o ôsmej",
-        "correct": "o ôsmej",
-        "options": [
-          "o ôsme",
-          "o ôsmej",
-          "na ôsmu",
-          "v ôsmej"
-        ],
-        "hint": "time expression locative hour"
-      },
-      {
-        "position": "pol druhej",
-        "correct": "pol druhej",
-        "options": [
-          "pol druhá",
-          "pol druhej",
-          "pol druhú",
-          "pol druhého"
-        ],
-        "hint": "half past time genitive"
-      },
-      {
-        "position": "štvrť na sedem",
-        "correct": "štvrť na sedem",
-        "options": [
-          "štvrť na siedmu",
-          "štvrť pre sedem",
-          "štvrť na sedem",
-          "štvrť po siedmej"
-        ],
-        "hint": "quarter to time expression"
-      },
-      {
-        "position": "o polnoci",
-        "correct": "o polnoci",
-        "options": [
-          "o polnoc",
-          "o polnoci",
-          "v polnoc",
-          "na polnoci"
-        ],
-        "hint": "midnight locative time"
-      },
-      {
-        "position": "pol šiestej",
-        "correct": "pol šiestej",
-        "options": [
-          "pol šiesta",
-          "pol šiestej",
-          "pol šiestu",
-          "pol šiestého"
-        ],
-        "hint": "half past time genitive"
-      },
-      {
-        "position": "od pol druhej",
-        "correct": "od pol druhej",
-        "options": [
-          "od pol druhej",
-          "od pol druhú",
-          "po pol druhej",
-          "z pol druhej"
-        ],
-        "hint": "from preposition time expression"
-      }
-    ]
-  },
-  {
-    "scenario": "Mišo kupuje nábytok do svojej izby",
-    "scenarioEn": "Mišo buying furniture for his room",
-    "text": "Mišo chce zariadiť svoju novú izbu. Ide do veľkého obchodu s nábytkom. Kúpi si bielu posteľ a malý stôl. Jeho nová izba bude veľmi pekná. Mišo je so svojím novým nábytkom spokojný.",
-    "textEn": "Mišo wants to furnish his new room. He goes to a big furniture store. He buys a white bed and a small table. His new room will be very nice. Mišo is happy with his new furniture.",
-    "gaps": [
-      {
-        "position": "svoju",
-        "correct": "svoju",
-        "options": [
-          "svoje",
-          "svoja",
-          "svojej",
-          "svoju"
-        ],
-        "hint": "possessive reflexive, accusative feminine"
-      },
-      {
-        "position": "novú",
-        "correct": "novú",
-        "options": [
-          "nová",
-          "nové",
-          "novej",
-          "novú"
-        ],
-        "hint": "adjective accusative feminine singular"
-      },
-      {
-        "position": "veľkého",
-        "correct": "veľkého",
-        "options": [
-          "veľký",
-          "veľkej",
-          "veľké",
-          "veľkého"
-        ],
-        "hint": "adjective genitive masculine singular"
-      },
-      {
-        "position": "bielu",
-        "correct": "bielu",
-        "options": [
-          "biely",
-          "bielej",
-          "biele",
-          "bielu"
-        ],
-        "hint": "adjective accusative feminine singular"
-      },
-      {
-        "position": "malý",
-        "correct": "malý",
-        "options": [
-          "malého",
-          "malé",
-          "malej",
-          "malý"
-        ],
-        "hint": "adjective accusative masculine inanimate"
-      },
-      {
-        "position": "svojím",
-        "correct": "svojím",
-        "options": [
-          "svojho",
-          "svoje",
-          "svojej",
-          "svojím"
-        ],
-        "hint": "possessive reflexive, instrumental masculine"
-      }
+    ],
+    "tags": [
+      "free_time",
+      "modals",
+      "negation",
+      "past_tense"
     ]
   },
   {
@@ -7380,6 +4791,2819 @@
         ],
         "hint": "infinitive after modal chcieť"
       }
+    ],
+    "tags": [
+      "future_tense",
+      "modals",
+      "university_work"
+    ]
+  },
+  {
+    "scenario": "Carlo opisuje farby vo svojom novom byte",
+    "scenarioEn": "Carlo describes the colours in his new apartment",
+    "text": "Môj nový byt je veľmi pekný. Tá biela stena je jasná a čistá. Ten modrý strop je pokojný. Tá červená pohovka je pohodlná. Tie žlté záclony sú svetlé a krásne.",
+    "textEn": "My new apartment is very nice. That white wall is bright and clean. That blue ceiling is calm. That red sofa is comfortable. Those yellow curtains are light and beautiful.",
+    "gaps": [
+      {
+        "position": "Tá biela stena",
+        "correct": "Tá biela stena",
+        "options": [
+          "Ten biely stena",
+          "Tá biela stenu",
+          "Tie biele stena",
+          "Tá biela stena"
+        ],
+        "hint": "feminine demonstrative + colour + noun"
+      },
+      {
+        "position": "Ten modrý strop",
+        "correct": "Ten modrý strop",
+        "options": [
+          "Tá modrá strop",
+          "Ten modrú strop",
+          "Tie modré strop",
+          "Ten modrý strop"
+        ],
+        "hint": "masculine demonstrative + colour + noun"
+      },
+      {
+        "position": "Tá červená pohovka",
+        "correct": "Tá červená pohovka",
+        "options": [
+          "Ten červený pohovka",
+          "Tá červenú pohovka",
+          "Tie červené pohovka",
+          "Tá červená pohovka"
+        ],
+        "hint": "feminine demonstrative + colour + noun"
+      },
+      {
+        "position": "Tie žlté záclony",
+        "correct": "Tie žlté záclony",
+        "options": [
+          "Tá žltá záclony",
+          "Ten žltý záclony",
+          "Tie žltá záclony",
+          "Tie žlté záclony"
+        ],
+        "hint": "plural demonstrative + colour + noun"
+      },
+      {
+        "position": "pokojný",
+        "correct": "pokojný",
+        "options": [
+          "pokojná",
+          "pokojné",
+          "pokojní",
+          "pokojný"
+        ],
+        "hint": "masculine adjective predicate agreement"
+      },
+      {
+        "position": "pohodlná",
+        "correct": "pohodlná",
+        "options": [
+          "pohodlný",
+          "pohodlné",
+          "pohodlní",
+          "pohodlná"
+        ],
+        "hint": "feminine adjective predicate agreement"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "colours",
+      "home_apartment",
+      "pronouns",
+      "transport_travel"
+    ]
+  },
+  {
+    "scenario": "Zuzana vysvetľuje priateľke farby slovenskej národnej vlajky",
+    "scenarioEn": "Zuzana explains the colours of the Slovak national flag to a friend",
+    "text": "Zuzana vysvetľuje priateľke našu vlajku. Vlajka má bielu, modrú a červenú farbu. Zuzana ukazuje biely pruh hore. Potom ukazuje modrý znak uprostred. Červený pruh je dole na vlajke.",
+    "textEn": "Zuzana is explaining their flag to a friend. The flag has white, blue and red colour. Zuzana points to the white stripe at the top. Then she points to the blue emblem in the middle. The red stripe is at the bottom of the flag.",
+    "gaps": [
+      {
+        "position": "našu vlajku",
+        "correct": "našu",
+        "options": [
+          "naša",
+          "naším",
+          "našej",
+          "našu"
+        ],
+        "hint": "accusative feminine possessive pronoun"
+      },
+      {
+        "position": "bielu, modrú a červenú farbu",
+        "correct": "bielu",
+        "options": [
+          "biely",
+          "bielej",
+          "biele",
+          "bielu"
+        ],
+        "hint": "accusative feminine colour adjective"
+      },
+      {
+        "position": "bielu, modrú a červenú farbu",
+        "correct": "modrú",
+        "options": [
+          "modrý",
+          "modrej",
+          "modré",
+          "modrú"
+        ],
+        "hint": "accusative feminine colour adjective"
+      },
+      {
+        "position": "bielu, modrú a červenú farbu",
+        "correct": "červenú",
+        "options": [
+          "červený",
+          "červenej",
+          "červené",
+          "červenú"
+        ],
+        "hint": "accusative feminine colour adjective"
+      },
+      {
+        "position": "biely pruh",
+        "correct": "biely",
+        "options": [
+          "biela",
+          "bielej",
+          "biele",
+          "biely"
+        ],
+        "hint": "accusative masculine colour adjective"
+      },
+      {
+        "position": "modrý znak",
+        "correct": "modrý",
+        "options": [
+          "modrá",
+          "modré",
+          "modrej",
+          "modrý"
+        ],
+        "hint": "accusative masculine colour adjective"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "colours",
+      "countries",
+      "possessive",
+      "pronouns",
+      "social"
+    ]
+  },
+  {
+    "scenario": "Johanna vyberá oblečenie v obchode a pýta sa na farby",
+    "scenarioEn": "Johanna is choosing clothes in a shop and asks about colours",
+    "text": "Johanna je v obchode a vyberá oblečenie. Chce kúpiť červenú sukňu a modrý sveter. Pýta sa predavačky: 'Máte zelenú bundu?' Predavačka hovorí: 'Áno, máme aj žltú košeľu.' Johanna si vyberá bielu blúzku a je spokojná.",
+    "textEn": "Johanna is in a shop and is choosing clothes. She wants to buy a red skirt and a blue sweater. She asks the shop assistant: 'Do you have a green jacket?' The shop assistant says: 'Yes, we also have a yellow shirt.' Johanna chooses a white blouse and is happy.",
+    "gaps": [
+      {
+        "position": "červenú sukňu",
+        "correct": "červenú sukňu",
+        "options": [
+          "červená sukňa",
+          "červeného sukňu",
+          "červenú sukňu",
+          "červené sukni"
+        ],
+        "hint": "accusative feminine colour adjective + noun"
+      },
+      {
+        "position": "modrý sveter",
+        "correct": "modrý sveter",
+        "options": [
+          "modré sveter",
+          "modrý sveter",
+          "modrého svetra",
+          "modrá sveter"
+        ],
+        "hint": "accusative masculine inanimate adjective + noun"
+      },
+      {
+        "position": "zelenú bundu",
+        "correct": "zelenú bundu",
+        "options": [
+          "zelená bunda",
+          "zelenú bundu",
+          "zelené bundu",
+          "zelenej bunde"
+        ],
+        "hint": "accusative feminine colour adjective + noun"
+      },
+      {
+        "position": "žltú košeľu",
+        "correct": "žltú košeľu",
+        "options": [
+          "žltá košeľa",
+          "žltej košele",
+          "žltú košeľu",
+          "žlté košeľu"
+        ],
+        "hint": "accusative feminine colour adjective + noun"
+      },
+      {
+        "position": "bielu blúzku",
+        "correct": "bielu blúzku",
+        "options": [
+          "biela blúzka",
+          "bielu blúzku",
+          "bielej blúzky",
+          "biele blúzku"
+        ],
+        "hint": "accusative feminine colour adjective + noun"
+      },
+      {
+        "position": "Chce kúpiť",
+        "correct": "Chce kúpiť",
+        "options": [
+          "Chcem kúpiť",
+          "Chcú kúpiť",
+          "Chce kúpiť",
+          "Chceš kúpiť"
+        ],
+        "hint": "3rd person singular modal verb"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "clothing",
+      "colours",
+      "modals",
+      "shopping"
+    ]
+  },
+  {
+    "scenario": "Zuzana vysvetľuje priateľke farby slovenskej národnej vlajky",
+    "scenarioEn": "Zuzana explains the colours of the Slovak national flag to a friend",
+    "text": "Slovenská vlajka má tri farby. Biely pruh je hore, modrý pruh je v strede a červený pruh je dole. Uprostred vlajky je slovenský znak. Znak je biely, modrý a červený. Zuzana hovorí, že vlajka je krásna.",
+    "textEn": "The Slovak flag has three colours. The white stripe is at the top, the blue stripe is in the middle, and the red stripe is at the bottom. In the middle of the flag is the Slovak coat of arms. The coat of arms is white, blue, and red. Zuzana says that the flag is beautiful.",
+    "gaps": [
+      {
+        "position": "Biely pruh",
+        "correct": "Biely",
+        "options": [
+          "Bielý",
+          "Biela",
+          "Biele",
+          "Biely"
+        ],
+        "hint": "adjective attribute, masculine noun"
+      },
+      {
+        "position": "modrý pruh",
+        "correct": "modrý",
+        "options": [
+          "modré",
+          "modrá",
+          "modrých",
+          "modrý"
+        ],
+        "hint": "adjective attribute, masculine noun"
+      },
+      {
+        "position": "červený pruh",
+        "correct": "červený",
+        "options": [
+          "červená",
+          "červené",
+          "červeným",
+          "červený"
+        ],
+        "hint": "adjective attribute, masculine noun"
+      },
+      {
+        "position": "slovenský znak",
+        "correct": "slovenský",
+        "options": [
+          "slovenská",
+          "slovenské",
+          "slovenskom",
+          "slovenský"
+        ],
+        "hint": "adjective attribute, masculine noun"
+      },
+      {
+        "position": "Znak je biely",
+        "correct": "biely",
+        "options": [
+          "biela",
+          "biele",
+          "bielom",
+          "biely"
+        ],
+        "hint": "adjective predicate, masculine subject"
+      },
+      {
+        "position": "vlajka je krásna",
+        "correct": "krásna",
+        "options": [
+          "krásny",
+          "krásne",
+          "krásnej",
+          "krásna"
+        ],
+        "hint": "adjective predicate, feminine subject"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "colours",
+      "countries",
+      "social"
+    ]
+  },
+  {
+    "scenario": "Róbert packs a bag for a conference and describes what he is taking",
+    "scenarioEn": "Róbert packs a bag for a conference and describes what he is taking",
+    "text": "Róbert balí tašku na konferenciu. Berie nový čierny oblek a bielu košeľu. Má tiež čisté biele tričko a modrú kravatu. Berie pohodlné topánky a teplý sveter. Taška je plná, ale Róbert je spokojný.",
+    "textEn": "Róbert is packing a bag for a conference. He is taking a new black suit and a white shirt. He also has a clean white T-shirt and a blue tie. He is taking comfortable shoes and a warm sweater. The bag is full, but Róbert is satisfied.",
+    "gaps": [
+      {
+        "position": "nový čierny oblek",
+        "correct": "nový",
+        "options": [
+          "nová",
+          "nové",
+          "nového",
+          "nový"
+        ],
+        "hint": "masculine adjective nominative singular"
+      },
+      {
+        "position": "bielu košeľu",
+        "correct": "bielu",
+        "options": [
+          "biela",
+          "biele",
+          "bielou",
+          "bielu"
+        ],
+        "hint": "feminine adjective accusative singular"
+      },
+      {
+        "position": "čisté biele tričko",
+        "correct": "čisté",
+        "options": [
+          "čistý",
+          "čistá",
+          "čistých",
+          "čisté"
+        ],
+        "hint": "neuter adjective accusative singular"
+      },
+      {
+        "position": "modrú kravatu",
+        "correct": "modrú",
+        "options": [
+          "modrá",
+          "modré",
+          "modrou",
+          "modrú"
+        ],
+        "hint": "feminine adjective accusative singular"
+      },
+      {
+        "position": "pohodlné topánky",
+        "correct": "pohodlné",
+        "options": [
+          "pohodlný",
+          "pohodlná",
+          "pohodlných",
+          "pohodlné"
+        ],
+        "hint": "plural adjective accusative plural"
+      },
+      {
+        "position": "teplý sveter",
+        "correct": "teplý",
+        "options": [
+          "teplá",
+          "teplé",
+          "teplého",
+          "teplý"
+        ],
+        "hint": "masculine adjective accusative singular"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "nominative"
+    ]
+  },
+  {
+    "scenario": "Johanna skúša oblečenie v obchode a rozpráva s predavačkou",
+    "scenarioEn": "Johanna is trying on clothes in a shop and talking to the shop assistant",
+    "text": "Johanna si skúša červené šaty v obchode. Predavačka sa pýta: \"Ako vám sedí?\" Johanna hovorí, že zvyčajne nosí veľkosť S. Tieto šaty sú pekné, ale Johanna si chce kúpiť aj modrú blúzku. Ona tu často kupuje oblečenie.",
+    "textEn": "Johanna is trying on a red dress in the shop. The shop assistant asks: 'How does it fit you?' Johanna says that she usually wears size S. These clothes are nice, but Johanna also wants to buy a blue blouse. She often buys clothes here.",
+    "gaps": [
+      {
+        "position": "si skúša",
+        "correct": "skúša",
+        "options": [
+          "skúšajú",
+          "skúšate",
+          "skúšam",
+          "skúša"
+        ],
+        "hint": "present tense, 3rd person singular"
+      },
+      {
+        "position": "červené šaty",
+        "correct": "červené",
+        "options": [
+          "červený",
+          "červená",
+          "červeného",
+          "červené"
+        ],
+        "hint": "adjective agreeing with šaty plural"
+      },
+      {
+        "position": "zvyčajne nosí",
+        "correct": "nosí",
+        "options": [
+          "nosím",
+          "nosia",
+          "nosíte",
+          "nosí"
+        ],
+        "hint": "present tense, 3rd person singular"
+      },
+      {
+        "position": "veľkosť S",
+        "correct": "veľkosť",
+        "options": [
+          "veľkosti",
+          "veľkosťou",
+          "veľkosťami",
+          "veľkosť"
+        ],
+        "hint": "accusative singular, feminine noun"
+      },
+      {
+        "position": "si chce kúpiť",
+        "correct": "kúpiť",
+        "options": [
+          "kúpi",
+          "kúpim",
+          "kúpila",
+          "kúpiť"
+        ],
+        "hint": "infinitive after modal chcieť"
+      },
+      {
+        "position": "často kupuje",
+        "correct": "kupuje",
+        "options": [
+          "kupujem",
+          "kupujú",
+          "kupujete",
+          "kupuje"
+        ],
+        "hint": "present tense, 3rd person singular"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "clothing",
+      "modals",
+      "present_tense",
+      "professions",
+      "shopping"
+    ]
+  },
+  {
+    "scenario": "Róbert packs a bag for a conference and describes what he is taking",
+    "scenarioEn": "Róbert packs a bag for a conference and describes what he is taking",
+    "text": "Róbert balí tašku na konferenciu. Berie nový oblek a bielu košeľu. Má tmavé nohavice a čierne topánky. Tiež berie modrú kravatu a sivý sveter. Je dobre pripravený na konferenciu.",
+    "textEn": "Róbert is packing a bag for a conference. He is taking a new suit and a white shirt. He has dark trousers and black shoes. He is also taking a blue tie and a grey sweater. He is well prepared for the conference.",
+    "gaps": [
+      {
+        "position": "nový oblek",
+        "correct": "nový",
+        "options": [
+          "nová",
+          "nové",
+          "nového",
+          "nový"
+        ],
+        "hint": "masculine adjective nominative singular"
+      },
+      {
+        "position": "bielu košeľu",
+        "correct": "bielu",
+        "options": [
+          "biela",
+          "biele",
+          "biely",
+          "bielu"
+        ],
+        "hint": "feminine adjective accusative singular"
+      },
+      {
+        "position": "tmavé nohavice",
+        "correct": "tmavé",
+        "options": [
+          "tmavá",
+          "tmavý",
+          "tmavého",
+          "tmavé"
+        ],
+        "hint": "plural adjective nominative plural"
+      },
+      {
+        "position": "čierne topánky",
+        "correct": "čierne",
+        "options": [
+          "čierna",
+          "čierny",
+          "čiernych",
+          "čierne"
+        ],
+        "hint": "plural adjective nominative plural"
+      },
+      {
+        "position": "modrú kravatu",
+        "correct": "modrú",
+        "options": [
+          "modrá",
+          "modré",
+          "modrý",
+          "modrú"
+        ],
+        "hint": "feminine adjective accusative singular"
+      },
+      {
+        "position": "sivý sveter",
+        "correct": "sivý",
+        "options": [
+          "sivá",
+          "sivé",
+          "sivého",
+          "sivý"
+        ],
+        "hint": "masculine adjective nominative singular"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "nom_plural",
+      "nominative"
+    ]
+  },
+  {
+    "scenario": "Róbert balí tašku na konferenciu a opisuje, čo berie so sebou",
+    "scenarioEn": "Róbert packs a bag for a conference and describes what he is taking",
+    "text": "Róbert si oblečie košeľu a oblek. Do tašky nosí notebook a dokumenty. Kupuje nové pero v obchode. Skúša si kravatu pred zrkadlom. Taška je ťažká, ale Róbert je pripravený.",
+    "textEn": "Róbert puts on a shirt and a suit. He carries a notebook and documents in his bag. He buys a new pen at the shop. He tries on a tie in front of the mirror. The bag is heavy, but Róbert is ready.",
+    "gaps": [
+      {
+        "position": "si oblečie",
+        "correct": "si oblečie",
+        "options": [
+          "si obliekal",
+          "si oblečie",
+          "sa oblečie",
+          "si obliekam"
+        ],
+        "hint": "obliecť si, future perfective 3sg"
+      },
+      {
+        "position": "nosí",
+        "correct": "nosí",
+        "options": [
+          "nesiete",
+          "nosím",
+          "nosí",
+          "nosia"
+        ],
+        "hint": "nosiť, present tense 3sg"
+      },
+      {
+        "position": "Kupuje",
+        "correct": "Kupuje",
+        "options": [
+          "Kupujete",
+          "Kupujem",
+          "Kupujú",
+          "Kupuje"
+        ],
+        "hint": "kupovať, present tense 3sg"
+      },
+      {
+        "position": "Skúša si",
+        "correct": "Skúša si",
+        "options": [
+          "Skúšam si",
+          "Skúšate si",
+          "Skúšajú si",
+          "Skúša si"
+        ],
+        "hint": "skúšať si, present tense 3sg"
+      },
+      {
+        "position": "ťažká",
+        "correct": "ťažká",
+        "options": [
+          "ťažké",
+          "ťažký",
+          "ťažkí",
+          "ťažká"
+        ],
+        "hint": "adjective, feminine nominative sg"
+      },
+      {
+        "position": "pripravený",
+        "correct": "pripravený",
+        "options": [
+          "pripravená",
+          "pripravené",
+          "pripravení",
+          "pripravený"
+        ],
+        "hint": "adjective, masculine nominative sg"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "future_tense",
+      "nominative",
+      "present_tense"
+    ]
+  },
+  {
+    "scenario": "Zuzana opisuje, čo robia rôzni členovia rodiny v práci",
+    "scenarioEn": "Zuzana describes what various family members do for work",
+    "text": "Môj otec je lekár a pracuje v nemocnici. Moja mama je učiteľka a učí malé deti. Môj brat je programátor a pracuje doma. Moja sestra je predavačka v obchode. Ja som študentka a chcem byť herečka.",
+    "textEn": "My father is a doctor and works in a hospital. My mother is a teacher and teaches small children. My brother is a programmer and works at home. My sister is a shop assistant in a store. I am a student and I want to be an actress.",
+    "gaps": [
+      {
+        "position": "je lekár",
+        "correct": "lekár",
+        "options": [
+          "lekárka",
+          "lekára",
+          "lekárom",
+          "lekár"
+        ],
+        "hint": "profession, masculine gender"
+      },
+      {
+        "position": "je učiteľka",
+        "correct": "učiteľka",
+        "options": [
+          "učiteľ",
+          "učiteľku",
+          "učiteľkou",
+          "učiteľka"
+        ],
+        "hint": "profession, feminine gender"
+      },
+      {
+        "position": "je programátor",
+        "correct": "programátor",
+        "options": [
+          "programátorka",
+          "programátora",
+          "programátorom",
+          "programátor"
+        ],
+        "hint": "profession, masculine gender"
+      },
+      {
+        "position": "je predavačka",
+        "correct": "predavačka",
+        "options": [
+          "predavač",
+          "predavačku",
+          "predavačom",
+          "predavačka"
+        ],
+        "hint": "profession, feminine gender"
+      },
+      {
+        "position": "som študentka",
+        "correct": "študentka",
+        "options": [
+          "študent",
+          "študentku",
+          "študentkou",
+          "študentka"
+        ],
+        "hint": "profession, feminine, first person"
+      },
+      {
+        "position": "byť herečka",
+        "correct": "herečka",
+        "options": [
+          "herec",
+          "herečku",
+          "herečkou",
+          "herečka"
+        ],
+        "hint": "profession, feminine, infinitive byť"
+      }
+    ],
+    "tags": [
+      "family_people",
+      "university_work"
+    ]
+  },
+  {
+    "scenario": "Carlo asks classmates about their future career plans",
+    "scenarioEn": "Carlo asks classmates about their future career plans",
+    "text": "Carlo sa pýta spolužiakov: Čo chcete robiť v budúcnosti? Marta hovorí, že chce učiť malé deti. Tomáš hovorí, že chce liečiť ľudí ako doktor. Jana chce predávať oblečenie v obchode. Carlo chce pracovať v banke.",
+    "textEn": "Carlo asks his classmates: What do you want to do in the future? Marta says she wants to teach young children. Tomáš says he wants to treat people as a doctor. Jana wants to sell clothes in a shop. Carlo wants to work in a bank.",
+    "gaps": [
+      {
+        "position": "chcete robiť",
+        "correct": "robiť",
+        "options": [
+          "robíte",
+          "robíš",
+          "robili",
+          "robiť"
+        ],
+        "hint": "infinitive after modal chcieť"
+      },
+      {
+        "position": "chce učiť",
+        "correct": "učiť",
+        "options": [
+          "učí",
+          "učíš",
+          "učili",
+          "učiť"
+        ],
+        "hint": "infinitive after modal chcieť"
+      },
+      {
+        "position": "chce liečiť",
+        "correct": "liečiť",
+        "options": [
+          "lieči",
+          "liečiš",
+          "liečili",
+          "liečiť"
+        ],
+        "hint": "infinitive after modal chcieť"
+      },
+      {
+        "position": "chce predávať",
+        "correct": "predávať",
+        "options": [
+          "predáva",
+          "predávali",
+          "predávaš",
+          "predávať"
+        ],
+        "hint": "infinitive after modal chcieť"
+      },
+      {
+        "position": "chce pracovať",
+        "correct": "pracovať",
+        "options": [
+          "pracuje",
+          "pracoval",
+          "pracuješ",
+          "pracovať"
+        ],
+        "hint": "infinitive after modal chcieť"
+      },
+      {
+        "position": "sa pýta",
+        "correct": "pýta",
+        "options": [
+          "pýtam",
+          "pýtaš",
+          "pýtajú",
+          "pýta"
+        ],
+        "hint": "reflexive verb 3rd person singular"
+      }
+    ],
+    "tags": [
+      "modals",
+      "professions",
+      "reflexive",
+      "transport_travel",
+      "university_work"
+    ]
+  },
+  {
+    "scenario": "Carlo sa pýta spolužiakov na ich budúce kariérne plány",
+    "scenarioEn": "Carlo asks classmates about their future career plans",
+    "text": "Carlo sa pýta spolužiakov: „Čo chcete byť?\" Zuzana hovorí, že chce byť lekárkou. Mišo chce byť učiteľom. Róbert chce byť inžinierom. Carlo sa usmeje a povie: „Ja chcem byť rád kdekoľvek!\"",
+    "textEn": "Carlo asks his classmates: \"What do you want to be?\" Zuzana says she wants to be a doctor. Mišo wants to be a teacher. Róbert wants to be an engineer. Carlo smiles and says: \"I just want to be happy anywhere!\"",
+    "gaps": [
+      {
+        "position": "Čo chcete",
+        "correct": "Čo chcete",
+        "options": [
+          "Kde pracujete",
+          "Ako sa voláte",
+          "Čo robíte",
+          "Čo chcete"
+        ],
+        "hint": "question form, want future"
+      },
+      {
+        "position": "byť",
+        "correct": "byť",
+        "options": [
+          "bývať",
+          "býval",
+          "bol",
+          "byť"
+        ],
+        "hint": "infinitive, to be"
+      },
+      {
+        "position": "chce byť",
+        "correct": "chce byť",
+        "options": [
+          "chcel byť",
+          "chcú byť",
+          "môže byť",
+          "chce byť"
+        ],
+        "hint": "3rd person singular modal"
+      },
+      {
+        "position": "učiteľom",
+        "correct": "učiteľom",
+        "options": [
+          "učiteľ",
+          "učiteľa",
+          "učitelia",
+          "učiteľom"
+        ],
+        "hint": "instrumental case, noun"
+      },
+      {
+        "position": "inžinierom",
+        "correct": "inžinierom",
+        "options": [
+          "inžinier",
+          "inžinieri",
+          "inžiniera",
+          "inžinierom"
+        ],
+        "hint": "instrumental case, profession"
+      },
+      {
+        "position": "rád",
+        "correct": "rád",
+        "options": [
+          "rada",
+          "radi",
+          "radšej",
+          "rád"
+        ],
+        "hint": "male adjective, happy"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "future_tense",
+      "instrumental",
+      "modals",
+      "professions",
+      "transport_travel",
+      "university_work"
+    ]
+  },
+  {
+    "scenario": "Johanna sa predstavuje a hovorí o svojej profesii na konferencii v Bratislave",
+    "scenarioEn": "Johanna introduces herself and her profession at a conference in Bratislava",
+    "text": "Volám sa Johanna a som z Nemecka. Pracujem ako lekárka a liečim pacientov každý deň. Robím výskum o nových liekoch. Učím aj mladých lekárov na univerzite. Rada predávam svoje knihy na konferenciách.",
+    "textEn": "My name is Johanna and I am from Germany. I work as a doctor and I treat patients every day. I do research on new medicines. I also teach young doctors at the university. I like selling my books at conferences.",
+    "gaps": [
+      {
+        "position": "Pracujem ako lekárka",
+        "correct": "Pracujem",
+        "options": [
+          "Pracujete",
+          "Pracuje",
+          "Pracujú",
+          "Pracujem"
+        ],
+        "hint": "present tense: pracovať, 1st person sg"
+      },
+      {
+        "position": "liečim pacientov každý deň",
+        "correct": "liečim",
+        "options": [
+          "lieči",
+          "liečíte",
+          "liečia",
+          "liečim"
+        ],
+        "hint": "present tense: liečiť, 1st person sg"
+      },
+      {
+        "position": "Robím výskum o nových liekoch",
+        "correct": "Robím",
+        "options": [
+          "Robíte",
+          "Robí",
+          "Robia",
+          "Robím"
+        ],
+        "hint": "present tense: robiť, 1st person sg"
+      },
+      {
+        "position": "Učím aj mladých lekárov",
+        "correct": "Učím",
+        "options": [
+          "Učí",
+          "Učíte",
+          "Učia",
+          "Učím"
+        ],
+        "hint": "present tense: učiť, 1st person sg"
+      },
+      {
+        "position": "predávam svoje knihy",
+        "correct": "predávam",
+        "options": [
+          "predáva",
+          "predávate",
+          "predávajú",
+          "predávam"
+        ],
+        "hint": "present tense: predávať, 1st person sg"
+      },
+      {
+        "position": "som z Nemecka",
+        "correct": "som",
+        "options": [
+          "sme",
+          "si",
+          "sú",
+          "som"
+        ],
+        "hint": "present tense: byť, 1st person sg"
+      }
+    ],
+    "tags": [
+      "family_people",
+      "present_tense",
+      "professions"
+    ]
+  },
+  {
+    "scenario": "Zuzana vypĺňa formulár s otázkami o národnosti a krajine narodenia",
+    "scenarioEn": "Zuzana fills in a form asking for nationality and country of birth",
+    "text": "Zuzana vypĺňa formulár. Ona je Slovenka a jej priateľka Anna je Nemka. Ich kamarát Marco je Talian a jeho sestra Sofia je Talianka. Priateľ Zuzan menom Pierre je Francúz a jeho mama je Francúzka.",
+    "textEn": "Zuzana is filling in a form. She is Slovak and her friend Anna is German. Their friend Marco is Italian and his sister Sofia is Italian. Zuzana's friend named Pierre is French and his mother is French.",
+    "gaps": [
+      {
+        "position": "Ona je Slovenka",
+        "correct": "Slovenka",
+        "options": [
+          "Slovenko",
+          "Slovenk",
+          "Slovenkа",
+          "Slovenka"
+        ],
+        "hint": "female nationality noun, Slovak"
+      },
+      {
+        "position": "Anna je Nemka",
+        "correct": "Nemka",
+        "options": [
+          "Nemec",
+          "Nemkyňa",
+          "Nemko",
+          "Nemka"
+        ],
+        "hint": "female nationality noun, German"
+      },
+      {
+        "position": "Marco je Talian",
+        "correct": "Talian",
+        "options": [
+          "Talianka",
+          "Taliano",
+          "Talianec",
+          "Talian"
+        ],
+        "hint": "male nationality noun, Italian"
+      },
+      {
+        "position": "sestra Sofia je Talianka",
+        "correct": "Talianka",
+        "options": [
+          "Talian",
+          "Talianca",
+          "Talianko",
+          "Talianka"
+        ],
+        "hint": "female nationality noun, Italian"
+      },
+      {
+        "position": "Pierre je Francúz",
+        "correct": "Francúz",
+        "options": [
+          "Francúzka",
+          "Francúzec",
+          "Francúzo",
+          "Francúz"
+        ],
+        "hint": "male nationality noun, French"
+      },
+      {
+        "position": "jeho mama je Francúzka",
+        "correct": "Francúzka",
+        "options": [
+          "Francúz",
+          "Francúzko",
+          "Francúzkyňa",
+          "Francúzka"
+        ],
+        "hint": "female nationality noun, French"
+      }
+    ],
+    "tags": [
+      "countries",
+      "health"
+    ]
+  },
+  {
+    "scenario": "Študenti na medzinárodnej konferencii hovoria, odkiaľ pochádzajú",
+    "scenarioEn": "Students at an international conference say where they come from",
+    "text": "Na konferencii sú študenti z rôznych krajín. Jana je slovenská študentka a hovorí po slovensky. Thomas je nemecký študent a rozumie po anglicky. Mia je talianska študentka a spieva talianske piesne. Všetci sú veľmi priateľskí a radi sa rozprávajú.",
+    "textEn": "At the conference there are students from various countries. Jana is a Slovak student and speaks Slovak. Thomas is a German student and understands English. Mia is an Italian student and sings Italian songs. They are all very friendly and like to chat.",
+    "gaps": [
+      {
+        "position": "slovenská študentka",
+        "correct": "slovenská",
+        "options": [
+          "slovenské",
+          "slovenský",
+          "slovenská",
+          "slovenskí"
+        ],
+        "hint": "nationality adjective, feminine nominative singular"
+      },
+      {
+        "position": "hovorí po slovensky",
+        "correct": "slovensky",
+        "options": [
+          "slovenská",
+          "slovenský",
+          "slovensky",
+          "slovenské"
+        ],
+        "hint": "adverb from nationality adjective"
+      },
+      {
+        "position": "nemecký študent",
+        "correct": "nemecký",
+        "options": [
+          "nemecká",
+          "nemecké",
+          "nemeckí",
+          "nemecký"
+        ],
+        "hint": "nationality adjective, masculine nominative singular"
+      },
+      {
+        "position": "talianska študentka",
+        "correct": "talianska",
+        "options": [
+          "taliansky",
+          "talianske",
+          "talianskí",
+          "talianska"
+        ],
+        "hint": "nationality adjective, feminine nominative singular"
+      },
+      {
+        "position": "talianske piesne",
+        "correct": "talianske",
+        "options": [
+          "talianská",
+          "talianska",
+          "taliansky",
+          "talianske"
+        ],
+        "hint": "nationality adjective, feminine nominative plural"
+      },
+      {
+        "position": "veľmi priateľskí",
+        "correct": "priateľskí",
+        "options": [
+          "priateľský",
+          "priateľská",
+          "priateľské",
+          "priateľskí"
+        ],
+        "hint": "adjective, masculine animate nominative plural"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "countries",
+      "nom_plural",
+      "nominative"
+    ]
+  },
+  {
+    "scenario": "Carlo vysvetľuje rozdiel medzi Talianskom a Slovenskom dieťaťu",
+    "scenarioEn": "Carlo explains the difference between Italy and Slovakia to a child",
+    "text": "Volám sa Carlo. Som taliansky chlapec, ale bývam na Slovensku. Talianska jedla sú veľmi chutné. Slovenská príroda je krásna. Mám rád taliansku pizzu aj slovenský chlieb.",
+    "textEn": "My name is Carlo. I am an Italian boy, but I live in Slovakia. Italian food is very tasty. Slovak nature is beautiful. I like Italian pizza and also Slovak bread.",
+    "gaps": [
+      {
+        "position": "taliansky chlapec",
+        "correct": "taliansky",
+        "options": [
+          "talianska",
+          "taliansku",
+          "talianské",
+          "taliansky"
+        ],
+        "hint": "masculine nominative singular adjective"
+      },
+      {
+        "position": "Talianska jedla",
+        "correct": "Talianska",
+        "options": [
+          "Taliansky",
+          "Taliansku",
+          "Talianske",
+          "Talianska"
+        ],
+        "hint": "neuter nominative plural adjective"
+      },
+      {
+        "position": "Slovenská príroda",
+        "correct": "Slovenská",
+        "options": [
+          "Slovenský",
+          "Slovenskú",
+          "Slovenské",
+          "Slovenská"
+        ],
+        "hint": "feminine nominative singular adjective"
+      },
+      {
+        "position": "taliansku pizzu",
+        "correct": "taliansku",
+        "options": [
+          "talianska",
+          "taliansky",
+          "talianské",
+          "taliansku"
+        ],
+        "hint": "feminine accusative singular adjective"
+      },
+      {
+        "position": "slovenský chlieb",
+        "correct": "slovenský",
+        "options": [
+          "slovenská",
+          "slovenskú",
+          "slovenské",
+          "slovenský"
+        ],
+        "hint": "masculine accusative singular adjective"
+      },
+      {
+        "position": "na Slovensku",
+        "correct": "Slovensku",
+        "options": [
+          "Slovensko",
+          "Slovenska",
+          "Slovenská",
+          "Slovensku"
+        ],
+        "hint": "locative singular noun"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "countries",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "transport_travel"
+    ]
+  },
+  {
+    "scenario": "Carlo vysvetľuje rozdiel medzi Talianskom a Slovenskom dieťaťu",
+    "scenarioEn": "Carlo explains the difference between Italy and Slovakia to a child",
+    "text": "Volám sa Carlo a bývam v Taliansku. Taliansko je veľká krajina na juhu Európy. Slovensko je malá, ale krásna krajina. Na Slovensku sú vysoké hory a chladné zimy. V Taliansku je more a teplo celý rok.",
+    "textEn": "My name is Carlo and I live in Italy. Italy is a large country in the south of Europe. Slovakia is a small but beautiful country. In Slovakia there are high mountains and cold winters. In Italy there is a sea and it is warm all year.",
+    "gaps": [
+      {
+        "position": "v Taliansku",
+        "correct": "v Taliansku",
+        "options": [
+          "v Taliansko",
+          "na Taliansku",
+          "v Talianska",
+          "v Taliansku"
+        ],
+        "hint": "locative: v + country name"
+      },
+      {
+        "position": "na juhu Európy",
+        "correct": "na juhu Európy",
+        "options": [
+          "v juhu Európy",
+          "na juh Európy",
+          "na juhe Európy",
+          "na juhu Európy"
+        ],
+        "hint": "locative: na juhu"
+      },
+      {
+        "position": "Na Slovensku",
+        "correct": "Na Slovensku",
+        "options": [
+          "V Slovensku",
+          "Na Slovensko",
+          "Na Slovenska",
+          "Na Slovensku"
+        ],
+        "hint": "locative: na Slovensku"
+      },
+      {
+        "position": "vysoké hory",
+        "correct": "vysoké hory",
+        "options": [
+          "vysoká hora",
+          "vysokých hôr",
+          "vysokú horu",
+          "vysoké hory"
+        ],
+        "hint": "nominative plural adjective+noun"
+      },
+      {
+        "position": "chladné zimy",
+        "correct": "chladné zimy",
+        "options": [
+          "chladná zima",
+          "chladnú zimu",
+          "chladných zím",
+          "chladné zimy"
+        ],
+        "hint": "nominative plural adjective+noun"
+      },
+      {
+        "position": "V Taliansku je more",
+        "correct": "V Taliansku",
+        "options": [
+          "Na Taliansku",
+          "V Talianske",
+          "V Taliansko",
+          "V Taliansku"
+        ],
+        "hint": "locative: v + country name"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "countries",
+      "locative",
+      "nom_plural",
+      "nominative",
+      "transport_travel"
+    ]
+  },
+  {
+    "scenario": "Johanna porovnáva svoju rannú rutinu v Nemecku a na Slovensku",
+    "scenarioEn": "Johanna compares her morning routine in Germany to her routine in Slovakia",
+    "text": "V Nemecku vstávam o šiestej, ale na Slovensku vstávam o siedmej. Každé ráno sa umývam a obliekam sa. Tu raňajkujem chlieb s maslom, doma jem jogurt. Na Slovensku odchádzam do školy pešo. Moja ranná rutina je tu iná.",
+    "textEn": "In Germany I get up at six, but in Slovakia I get up at seven. Every morning I wash myself and get dressed. Here I have bread with butter for breakfast, at home I eat yogurt. In Slovakia I walk to school. My morning routine here is different.",
+    "gaps": [
+      {
+        "position": "vstávam o šiestej",
+        "correct": "vstávam",
+        "options": [
+          "vstávate",
+          "vstávam",
+          "vstávajú",
+          "vstával"
+        ],
+        "hint": "present tense, 1st person singular"
+      },
+      {
+        "position": "sa umývam a obliekam",
+        "correct": "umývam",
+        "options": [
+          "umývaš",
+          "umývame",
+          "umývam",
+          "umývajú"
+        ],
+        "hint": "reflexive verb, 1st person singular"
+      },
+      {
+        "position": "sa umývam a obliekam sa",
+        "correct": "obliekam sa",
+        "options": [
+          "obliekam sa",
+          "oblieka sa",
+          "obliekate sa",
+          "obliekajú sa"
+        ],
+        "hint": "reflexive verb, 1st person singular"
+      },
+      {
+        "position": "Tu raňajkujem chlieb",
+        "correct": "raňajkujem",
+        "options": [
+          "raňajkuje",
+          "raňajkujeme",
+          "raňajkuješ",
+          "raňajkujem"
+        ],
+        "hint": "present tense, 1st person singular"
+      },
+      {
+        "position": "Na Slovensku odchádzam do školy",
+        "correct": "odchádzam",
+        "options": [
+          "odchádzaš",
+          "odchádzajú",
+          "odchádza",
+          "odchádzam"
+        ],
+        "hint": "present tense, 1st person singular"
+      },
+      {
+        "position": "doma jem jogurt",
+        "correct": "jem",
+        "options": [
+          "jeme",
+          "jedia",
+          "ješ",
+          "jem"
+        ],
+        "hint": "irregular verb jesť, 1st person singular"
+      }
+    ],
+    "tags": [
+      "countries",
+      "daily_routine",
+      "present_tense",
+      "reflexive"
+    ]
+  },
+  {
+    "scenario": "Carlo explains his evening wind-down routine to his flatmate",
+    "scenarioEn": "Carlo explains his evening wind-down routine to his flatmate",
+    "text": "Večer sa najprv osprchuje a potom sa oblieka do pyžama. Potom sa trochu učí slovenčinu. Pripravuje si veci na zajtra a číta knihu. O desiatej sa ukladá spať. Takto sa každý večer relaxuje.",
+    "textEn": "In the evening he first showers and then gets dressed in pyjamas. Then he studies Slovak a little. He prepares his things for tomorrow and reads a book. At ten he settles down to sleep. This is how he relaxes every evening.",
+    "gaps": [
+      {
+        "position": "sa oblieka",
+        "correct": "oblieka",
+        "options": [
+          "obliekam",
+          "oblieka",
+          "obliekajú",
+          "obliekate"
+        ],
+        "hint": "reflexive verb 3rd person sg"
+      },
+      {
+        "position": "sa trochu učí",
+        "correct": "učí",
+        "options": [
+          "učím",
+          "učíte",
+          "učia",
+          "učí"
+        ],
+        "hint": "reflexive verb 3rd person sg"
+      },
+      {
+        "position": "Pripravuje si",
+        "correct": "Pripravuje",
+        "options": [
+          "Pripravujem",
+          "Pripravujete",
+          "Pripravujú",
+          "Pripravuje"
+        ],
+        "hint": "reflexive verb 3rd person sg"
+      },
+      {
+        "position": "sa ukladá",
+        "correct": "ukladá",
+        "options": [
+          "ukladám",
+          "ukladáš",
+          "ukladajú",
+          "ukladá"
+        ],
+        "hint": "reflexive verb 3rd person sg"
+      },
+      {
+        "position": "sa každý večer",
+        "correct": "každý",
+        "options": [
+          "každého",
+          "každom",
+          "každému",
+          "každý"
+        ],
+        "hint": "adjective nominative masculine sg"
+      },
+      {
+        "position": "sa najprv osprchuje",
+        "correct": "osprchuje",
+        "options": [
+          "osprchujeme",
+          "osprchujú",
+          "osprchuje",
+          "osprchuješ"
+        ],
+        "hint": "perfective verb 3rd person sg"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "home_apartment",
+      "nominative",
+      "reflexive",
+      "transport_travel",
+      "weather"
+    ]
+  },
+  {
+    "scenario": "Zuzana's unusual Sunday routine — no alarm, slow breakfast",
+    "scenarioEn": "Zuzana's unusual Sunday routine — no alarm, slow breakfast",
+    "text": "V nedeľu sa Zuzana nebudí budíkom. Pomaly sa oblieka a pripravuje raňajky. Ráno sa učí nové slovenské slová. Potom si varí kávu a číta knihu. Nedeľa je jej obľúbený deň.",
+    "textEn": "On Sunday Zuzana does not wake up with an alarm. She slowly gets dressed and prepares breakfast. In the morning she learns new Slovak words. Then she makes herself coffee and reads a book. Sunday is her favourite day.",
+    "gaps": [
+      {
+        "position": "sa Zuzana nebudí",
+        "correct": "nebudí",
+        "options": [
+          "nebudím",
+          "nebudíš",
+          "nebudia",
+          "nebudí"
+        ],
+        "hint": "3rd person sg reflexive verb"
+      },
+      {
+        "position": "Pomaly sa oblieka",
+        "correct": "oblieka",
+        "options": [
+          "obliekam",
+          "obliekajú",
+          "obliekaš",
+          "oblieka"
+        ],
+        "hint": "3rd person sg, obliekať sa"
+      },
+      {
+        "position": "pripravuje raňajky",
+        "correct": "pripravuje",
+        "options": [
+          "pripravujem",
+          "pripravujú",
+          "pripravuješ",
+          "pripravuje"
+        ],
+        "hint": "3rd person sg present tense"
+      },
+      {
+        "position": "sa učí nové",
+        "correct": "učí",
+        "options": [
+          "učím",
+          "učíš",
+          "učia",
+          "učí"
+        ],
+        "hint": "3rd person sg, učiť sa"
+      },
+      {
+        "position": "slovenské slová",
+        "correct": "slovenské",
+        "options": [
+          "slovenský",
+          "slovenská",
+          "slovenských",
+          "slovenské"
+        ],
+        "hint": "adjective agreeing with slová"
+      },
+      {
+        "position": "si varí kávu",
+        "correct": "varí",
+        "options": [
+          "varíš",
+          "varím",
+          "varia",
+          "varí"
+        ],
+        "hint": "3rd person sg reflexive si"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "daily_routine",
+      "food_drink",
+      "present_tense",
+      "reflexive",
+      "weather"
+    ]
+  },
+  {
+    "scenario": "Johanna compares her morning routine in Germany to her routine in Slovakia",
+    "scenarioEn": "Johanna compares her morning routine in Germany to her routine in Slovakia",
+    "text": "V Nemecku vstávam o šiestej ráno. Na Slovensku vstávam o pol siedmej. Tu raňajkujem o štvrť na osem. V Nemecku chodím do práce o siedmej. Tu chodím do práce o ôsmej hodine.",
+    "textEn": "In Germany I get up at six in the morning. In Slovakia I get up at half past six. Here I have breakfast at quarter past seven. In Germany I go to work at seven. Here I go to work at eight o'clock.",
+    "gaps": [
+      {
+        "position": "o šiestej ráno",
+        "correct": "o šiestej",
+        "options": [
+          "o šiesta",
+          "na šiestej",
+          "o šiestej",
+          "do šiestej"
+        ],
+        "hint": "time expression with 'o'"
+      },
+      {
+        "position": "o pol siedmej",
+        "correct": "o pol siedmej",
+        "options": [
+          "o pol sedem",
+          "na pol siedmej",
+          "o pol siedmej",
+          "o pol siedma"
+        ],
+        "hint": "half past with 'o pol'"
+      },
+      {
+        "position": "o štvrť na osem",
+        "correct": "o štvrť na osem",
+        "options": [
+          "o štvrtina osem",
+          "štvrť po siedmej",
+          "o štvrť na sedem",
+          "o štvrť na osem"
+        ],
+        "hint": "quarter past time expression"
+      },
+      {
+        "position": "o siedmej",
+        "correct": "o siedmej",
+        "options": [
+          "o sedem",
+          "na siedmej",
+          "o siedmej",
+          "do siedmej"
+        ],
+        "hint": "time expression locative"
+      },
+      {
+        "position": "o ôsmej hodine",
+        "correct": "o ôsmej hodine",
+        "options": [
+          "o ôsma hodina",
+          "na ôsmej hodine",
+          "o ôsmej hodinu",
+          "o ôsmej hodine"
+        ],
+        "hint": "time with 'hodine' locative"
+      },
+      {
+        "position": "Na Slovensku",
+        "correct": "Na Slovensku",
+        "options": [
+          "V Slovensku",
+          "Do Slovenska",
+          "Na Slovensku",
+          "So Slovenskom"
+        ],
+        "hint": "location preposition Slovakia"
+      }
+    ],
+    "tags": [
+      "countries",
+      "daily_routine",
+      "locative",
+      "time_date"
+    ]
+  },
+  {
+    "scenario": "students at a language class conjugate common group I-IV verbs",
+    "scenarioEn": "students at a language class conjugate common group I-IV verbs",
+    "text": "V jazykovej triede sa učíme slovenčinu. Ja hovorím pomaly, ale ty hovoríš rýchlo. Náš učiteľ hovorí veľmi dobre po slovensky. My hovoríme každý deň nové slová. Vy hovoríte so spolužiakmi a oni hovoria spolu.",
+    "textEn": "In the language classroom we are learning Slovak. I speak slowly, but you speak quickly. Our teacher speaks Slovak very well. We speak new words every day. You speak with classmates and they speak together.",
+    "gaps": [
+      {
+        "position": "hovorím pomaly",
+        "correct": "hovorím",
+        "options": [
+          "hovoríme",
+          "hovoria",
+          "hovoríš",
+          "hovorím"
+        ],
+        "hint": "group II, ja form"
+      },
+      {
+        "position": "ty hovoríš rýchlo",
+        "correct": "hovoríš",
+        "options": [
+          "hovorím",
+          "hovorí",
+          "hovoríte",
+          "hovoríš"
+        ],
+        "hint": "group II, ty form"
+      },
+      {
+        "position": "učiteľ hovorí veľmi",
+        "correct": "hovorí",
+        "options": [
+          "hovoríš",
+          "hovoria",
+          "hovoríme",
+          "hovorí"
+        ],
+        "hint": "group II, on form"
+      },
+      {
+        "position": "My hovoríme každý",
+        "correct": "hovoríme",
+        "options": [
+          "hovorím",
+          "hovoríte",
+          "hovoria",
+          "hovoríme"
+        ],
+        "hint": "group II, my form"
+      },
+      {
+        "position": "Vy hovoríte so",
+        "correct": "hovoríte",
+        "options": [
+          "hovoríme",
+          "hovorím",
+          "hovoria",
+          "hovoríte"
+        ],
+        "hint": "group II, vy form"
+      },
+      {
+        "position": "oni hovoria spolu",
+        "correct": "hovoria",
+        "options": [
+          "hovoríte",
+          "hovorí",
+          "hovoríme",
+          "hovoria"
+        ],
+        "hint": "group II, oni form"
+      }
+    ],
+    "tags": [
+      "university_work"
+    ]
+  },
+  {
+    "scenario": "Johanna introduces herself using volať sa and talks about what she studies",
+    "scenarioEn": "Johanna introduces herself using volať sa and talks about what she studies",
+    "text": "Volám sa Johanna a hovorím po slovensky trochu. Študujem na univerzite a hovoríme so spolužiakmi po anglicky. Moja profesorka hovorí po francúzsky veľmi dobre. Hovoríte vy po nemecky? Moji spolužiaci hovoria aj po španielsky.",
+    "textEn": "My name is Johanna and I speak Slovak a little. I study at university and we speak with classmates in English. My professor speaks French very well. Do you speak German? My classmates also speak Spanish.",
+    "gaps": [
+      {
+        "position": "hovorím po slovensky",
+        "correct": "hovorím",
+        "options": [
+          "hovorí",
+          "hovoria",
+          "hovoríme",
+          "hovorím"
+        ],
+        "hint": "group II, 1st person singular"
+      },
+      {
+        "position": "hovoríme so spolužiakmi",
+        "correct": "hovoríme",
+        "options": [
+          "hovoríte",
+          "hovorím",
+          "hovoríš",
+          "hovoríme"
+        ],
+        "hint": "group II, 1st person plural"
+      },
+      {
+        "position": "profesorka hovorí po francúzsky",
+        "correct": "hovorí",
+        "options": [
+          "hovoria",
+          "hovoríš",
+          "hovorím",
+          "hovorí"
+        ],
+        "hint": "group II, 3rd person singular"
+      },
+      {
+        "position": "Hovoríte vy po nemecky",
+        "correct": "Hovoríte",
+        "options": [
+          "Hovoríme",
+          "Hovoria",
+          "Hovorím",
+          "Hovoríte"
+        ],
+        "hint": "group II, 2nd person plural"
+      },
+      {
+        "position": "spolužiaci hovoria aj",
+        "correct": "hovoria",
+        "options": [
+          "hovorí",
+          "hovoríme",
+          "hovoríš",
+          "hovoria"
+        ],
+        "hint": "group II, 3rd person plural"
+      },
+      {
+        "position": "hovorím po slovensky trochu",
+        "correct": "hovorím",
+        "options": [
+          "hovoríš",
+          "hovorí",
+          "hovoríte",
+          "hovorím"
+        ],
+        "hint": "group II, 1st person singular"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "scenario": "Carlo struggles to understand Slovak and practises the verbs hovoriť and rozumieť",
+    "scenarioEn": "Carlo struggles to understand Slovak and practises the verbs hovoriť and rozumieť",
+    "text": "Carlo študuje slovenčinu každý deň. Nerozumie dobre, ale veľa cvičí. Jeho kamaráti tiež študujú slovenčinu s ním. Carlo a Jana študujú spolu v škole. Ty tiež študuješ slovenčinu? My všetci študujeme nový jazyk pomaly.",
+    "textEn": "Carlo studies Slovak every day. He does not understand well, but he practises a lot. His friends also study Slovak with him. Carlo and Jana study together at school. Do you also study Slovak? We all study a new language slowly.",
+    "gaps": [
+      {
+        "position": "Carlo študuje slovenčinu každý deň.",
+        "correct": "študuje",
+        "options": [
+          "študujeme",
+          "študujem",
+          "študujú",
+          "študuje"
+        ],
+        "hint": "3rd person singular, group III"
+      },
+      {
+        "position": "Jeho kamaráti tiež študujú slovenčinu s ním.",
+        "correct": "študujú",
+        "options": [
+          "študuje",
+          "študujete",
+          "študujú",
+          "študuješ"
+        ],
+        "hint": "3rd person plural, group III"
+      },
+      {
+        "position": "Carlo a Jana študujú spolu v škole.",
+        "correct": "študujú",
+        "options": [
+          "študujeme",
+          "študuješ",
+          "študuje",
+          "študujú"
+        ],
+        "hint": "3rd person plural, two subjects"
+      },
+      {
+        "position": "Ty tiež študuješ slovenčinu?",
+        "correct": "študuješ",
+        "options": [
+          "študujem",
+          "študujete",
+          "študujú",
+          "študuješ"
+        ],
+        "hint": "2nd person singular, group III"
+      },
+      {
+        "position": "My všetci študujeme nový jazyk pomaly.",
+        "correct": "študujeme",
+        "options": [
+          "študujú",
+          "študuješ",
+          "študujete",
+          "študujeme"
+        ],
+        "hint": "1st person plural, group III"
+      },
+      {
+        "position": "Carlo študuje slovenčinu každý deň.",
+        "correct": "študujem",
+        "options": [
+          "študujem",
+          "študuje",
+          "študujete",
+          "študujú"
+        ],
+        "hint": "1st person singular, group III"
+      }
+    ],
+    "tags": [
+      "countries",
+      "transport_travel"
+    ]
+  },
+  {
+    "scenario": "Zuzana describes everyday life in Bratislava using žiť",
+    "scenarioEn": "Zuzana describes everyday life in Bratislava using the verb žiť (to live)",
+    "text": "Ja žijem v Bratislave a mám rada toto mesto. Moja rodina tiež žije tu a nesieme spolu nákupy domov. Môj brat nežije tu, ale navštevuje nás. My žijeme aktívny život a nesieme zodpovednosť za náš dom.",
+    "textEn": "I live in Bratislava and I like this city. My family also lives here and we carry groceries home together. My brother does not live here, but he visits us. We live an active life and we carry responsibility for our home.",
+    "gaps": [
+      {
+        "position": "žijem v Bratislave",
+        "correct": "žijem",
+        "options": [
+          "žije",
+          "žijeme",
+          "žijú",
+          "žijem"
+        ],
+        "hint": "žiť group VI, ja"
+      },
+      {
+        "position": "tiež žije tu",
+        "correct": "žije",
+        "options": [
+          "žijem",
+          "žijete",
+          "žijú",
+          "žije"
+        ],
+        "hint": "žiť group VI, ona"
+      },
+      {
+        "position": "nesieme spolu nákupy",
+        "correct": "nesieme",
+        "options": [
+          "nesú",
+          "nesieš",
+          "nesiete",
+          "nesieme"
+        ],
+        "hint": "niesť group VII, my"
+      },
+      {
+        "position": "nežije tu",
+        "correct": "nežije",
+        "options": [
+          "nežijem",
+          "nežijeme",
+          "nežijú",
+          "nežije"
+        ],
+        "hint": "žiť group VI, negation on"
+      },
+      {
+        "position": "žijeme aktívny život",
+        "correct": "žijeme",
+        "options": [
+          "žijem",
+          "žijete",
+          "žije",
+          "žijeme"
+        ],
+        "hint": "žiť group VI, my"
+      },
+      {
+        "position": "nesieme zodpovednosť",
+        "correct": "nesieme",
+        "options": [
+          "nesiete",
+          "nesú",
+          "nesieš",
+          "nesieme"
+        ],
+        "hint": "niesť group VII, my"
+      }
+    ],
+    "tags": [
+      "family_people",
+      "negation"
+    ]
+  },
+  {
+    "scenario": "Zuzana describes everyday life in Bratislava using žiť",
+    "scenarioEn": "Zuzana describes everyday life in Bratislava using the verb žiť",
+    "text": "Zuzana žije v Bratislave so svojou rodinou. Každý deň chodí do práce autom. Včera pozvala kamarátku na večeru domov. Zajtra pozve aj svojho brata. Veľmi rada žije v tomto krásnom meste.",
+    "textEn": "Zuzana lives in Bratislava with her family. Every day she goes to work by car. Yesterday she invited her friend over for dinner. Tomorrow she will invite her brother too. She really loves living in this beautiful city.",
+    "gaps": [
+      {
+        "position": "žije v Bratislave",
+        "correct": "žije",
+        "options": [
+          "žijú",
+          "žijem",
+          "žijete",
+          "žije"
+        ],
+        "hint": "žiť, 3rd person singular"
+      },
+      {
+        "position": "chodí do práce",
+        "correct": "chodí",
+        "options": [
+          "chodím",
+          "chodia",
+          "chodíš",
+          "chodí"
+        ],
+        "hint": "chodiť, 3rd person singular"
+      },
+      {
+        "position": "pozvala kamarátku",
+        "correct": "pozvala",
+        "options": [
+          "pozvali",
+          "pozval",
+          "pozvem",
+          "pozvala"
+        ],
+        "hint": "pozvať, past tense feminine"
+      },
+      {
+        "position": "na večeru domov",
+        "correct": "večeru",
+        "options": [
+          "večera",
+          "večerou",
+          "večere",
+          "večeru"
+        ],
+        "hint": "večera, accusative singular"
+      },
+      {
+        "position": "pozve aj svojho",
+        "correct": "pozve",
+        "options": [
+          "pozvem",
+          "pozveš",
+          "pozvú",
+          "pozve"
+        ],
+        "hint": "pozvať, future 3rd singular"
+      },
+      {
+        "position": "krásnom meste",
+        "correct": "krásnom",
+        "options": [
+          "krásny",
+          "krásna",
+          "krásne",
+          "krásnom"
+        ],
+        "hint": "krásny, locative singular adjective"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "future_tense",
+      "locative",
+      "past_tense"
+    ]
+  },
+  {
+    "scenario": "Johanna describes meeting an old friend she hadn't seen in years",
+    "scenarioEn": "Johanna describes meeting an old friend she hadn't seen in years",
+    "text": "Včera som sa stretla so starou kamarátkou Luckou. Dlho som ju nevidela, možno tri roky. Stretli sme sa v kaviarni a veľa sme rozprávali. Lucka vyzerá dobre a je stále veselá. Teraz ju vidím každý týždeň.",
+    "textEn": "Yesterday I met my old friend Lucka. I hadn't seen her for a long time, maybe three years. We met in a café and talked a lot. Lucka looks good and is still cheerful. Now I see her every week.",
+    "gaps": [
+      {
+        "position": "som sa stretla",
+        "correct": "stretla",
+        "options": [
+          "stretol",
+          "stretli",
+          "stretnúť",
+          "stretla"
+        ],
+        "hint": "past tense, female subject"
+      },
+      {
+        "position": "som ju nevidela",
+        "correct": "nevidela",
+        "options": [
+          "nevidel",
+          "nevideli",
+          "nevidím",
+          "nevidela"
+        ],
+        "hint": "vidieť past, female negative"
+      },
+      {
+        "position": "Stretli sme sa",
+        "correct": "Stretli",
+        "options": [
+          "Stretla",
+          "Stretol",
+          "Stretnúť",
+          "Stretli"
+        ],
+        "hint": "past tense, plural subject"
+      },
+      {
+        "position": "veľa sme rozprávali",
+        "correct": "rozprávali",
+        "options": [
+          "rozprával",
+          "rozprávala",
+          "rozprávať",
+          "rozprávali"
+        ],
+        "hint": "past tense, plural subject"
+      },
+      {
+        "position": "Teraz ju vidím",
+        "correct": "vidím",
+        "options": [
+          "vidí",
+          "vidíš",
+          "vidieť",
+          "vidím"
+        ],
+        "hint": "group X, first person singular"
+      },
+      {
+        "position": "vidím každý týždeň",
+        "correct": "každý",
+        "options": [
+          "každá",
+          "každé",
+          "každú",
+          "každý"
+        ],
+        "hint": "adjective, masculine accusative"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "past_tense",
+      "social"
+    ]
+  },
+  {
+    "scenario": "Mišo tells Carlo about a strange night — he couldn't sleep and saw something odd",
+    "scenarioEn": "Mišo tells Carlo about a strange night — he couldn't sleep and saw something odd",
+    "text": "Včera v noci som nemohol spať. Videl som čudnú vec za oknom. Myslím, že tam stál niekto vysoký. Ráno som sa stretol so susedom a rozprával som mu o tom. Carlo, ty vždy všetko vidíš!",
+    "textEn": "Yesterday at night I couldn't sleep. I saw a strange thing outside the window. I think someone tall was standing there. In the morning I met the neighbour and told him about it. Carlo, you always see everything!",
+    "gaps": [
+      {
+        "position": "som nemohol spať",
+        "correct": "nemohol",
+        "options": [
+          "nemohla",
+          "nemôžem",
+          "nevedel",
+          "nemohol"
+        ],
+        "hint": "past tense modal, masculine"
+      },
+      {
+        "position": "Videl som čudnú vec",
+        "correct": "Videl",
+        "options": [
+          "Videla",
+          "Vidím",
+          "Videli",
+          "Videl"
+        ],
+        "hint": "past tense, vidieť, masculine"
+      },
+      {
+        "position": "tam stál niekto vysoký",
+        "correct": "stál",
+        "options": [
+          "stojí",
+          "stáli",
+          "stála",
+          "stál"
+        ],
+        "hint": "past tense, stáť, masculine"
+      },
+      {
+        "position": "som sa stretol so susedom",
+        "correct": "stretol",
+        "options": [
+          "stretla",
+          "stretneme",
+          "stretli",
+          "stretol"
+        ],
+        "hint": "past tense, stretnúť sa, masculine"
+      },
+      {
+        "position": "rozprával som mu o tom",
+        "correct": "rozprával",
+        "options": [
+          "rozprávala",
+          "rozprávali",
+          "rozprávam",
+          "rozprával"
+        ],
+        "hint": "past tense, rozprávať, masculine"
+      },
+      {
+        "position": "vždy všetko vidíš",
+        "correct": "vidíš",
+        "options": [
+          "vidím",
+          "vidí",
+          "vidíme",
+          "vidíš"
+        ],
+        "hint": "group X vidieť, ty form"
+      }
+    ],
+    "tags": [
+      "modals",
+      "past_tense",
+      "transport_travel"
+    ]
+  },
+  {
+    "scenario": "Johanna vysvetľuje prenajímateľovi, že nikto neprišiel a nič sa nestalo",
+    "scenarioEn": "Johanna explains to her landlord that nobody came and nothing happened",
+    "text": "Johanna hovorí: Pán Novák, nikto neprišiel a nič sa nestalo. Neviem, prečo ste znepokojený. Nemám žiadne správy o probléme. Nechcem vás strašiť, ale nemôžem nič sľúbiť. Všetko je v poriadku.",
+    "textEn": "Johanna says: Mr. Novák, nobody came and nothing happened. I do not know why you are worried. I have no news about a problem. I do not want to scare you, but I cannot promise anything. Everything is fine.",
+    "gaps": [
+      {
+        "position": "Neviem",
+        "correct": "Neviem",
+        "options": [
+          "Viem",
+          "Nevedel",
+          "Nevedia",
+          "Neviem"
+        ],
+        "hint": "negation of vedieť, 1st person"
+      },
+      {
+        "position": "Nemám",
+        "correct": "Nemám",
+        "options": [
+          "Mám",
+          "Nemáme",
+          "Nemáš",
+          "Nemám"
+        ],
+        "hint": "negation of mať, 1st person"
+      },
+      {
+        "position": "Nechcem",
+        "correct": "Nechcem",
+        "options": [
+          "Chcem",
+          "Nechceme",
+          "Nechceš",
+          "Nechcem"
+        ],
+        "hint": "negation of chcieť, 1st person"
+      },
+      {
+        "position": "nemôžem",
+        "correct": "nemôžem",
+        "options": [
+          "môžem",
+          "nemôže",
+          "nemôžete",
+          "nemôžem"
+        ],
+        "hint": "negation of môcť, 1st person"
+      },
+      {
+        "position": "nikto",
+        "correct": "nikto",
+        "options": [
+          "niekto",
+          "nič",
+          "nikoho",
+          "nikto"
+        ],
+        "hint": "nobody, double negation"
+      },
+      {
+        "position": "nič",
+        "correct": "nič",
+        "options": [
+          "niečo",
+          "nikto",
+          "všetko",
+          "nič"
+        ],
+        "hint": "nothing, double negation"
+      }
+    ],
+    "tags": [
+      "modals",
+      "negation"
+    ]
+  },
+  {
+    "scenario": "Johanna vysvetľuje prenajímateľovi, že nikto neprišiel a nič sa nestalo",
+    "scenarioEn": "Johanna explains to her landlord that nobody came and nothing happened",
+    "text": "Johanna hovorí prenajímateľovi: Nikto neprišiel a nič sa nestalo. Ja nič neviem. Nemám žiadne správy. Nikto nevolal a nič nechcel. Nemôžem vám povedať viac.",
+    "textEn": "Johanna tells the landlord: Nobody came and nothing happened. I don't know anything. I have no news. Nobody called and nobody wanted anything. I cannot tell you more.",
+    "gaps": [
+      {
+        "position": "Nikto neprišiel",
+        "correct": "neprišiel",
+        "options": [
+          "prišiel",
+          "príde",
+          "neprišla",
+          "neprišiel"
+        ],
+        "hint": "past tense negative verb"
+      },
+      {
+        "position": "nič sa nestalo",
+        "correct": "nestalo",
+        "options": [
+          "stalo",
+          "nestala",
+          "nestali",
+          "nestalo"
+        ],
+        "hint": "reflexive past tense negative"
+      },
+      {
+        "position": "nič neviem",
+        "correct": "neviem",
+        "options": [
+          "viem",
+          "nevedia",
+          "nevedel",
+          "neviem"
+        ],
+        "hint": "negation of vedieť present"
+      },
+      {
+        "position": "Nemám žiadne správy",
+        "correct": "Nemám",
+        "options": [
+          "Mám",
+          "Nemáme",
+          "Nemáš",
+          "Nemám"
+        ],
+        "hint": "negation of mať present"
+      },
+      {
+        "position": "nič nechcel",
+        "correct": "nechcel",
+        "options": [
+          "chcel",
+          "nechcela",
+          "nechceli",
+          "nechcel"
+        ],
+        "hint": "past tense negative chcieť"
+      },
+      {
+        "position": "Nemôžem vám povedať",
+        "correct": "Nemôžem",
+        "options": [
+          "Môžem",
+          "Nemôžeš",
+          "Nemôžeme",
+          "Nemôžem"
+        ],
+        "hint": "negation of môcť present"
+      }
+    ],
+    "tags": [
+      "modals",
+      "negation",
+      "past_tense",
+      "reflexive"
+    ]
+  },
+  {
+    "scenario": "Johanna vysvetľuje svojmu prenajímateľovi, že nikto neprišiel a nič sa nestalo",
+    "scenarioEn": "Johanna explains to her landlord that nobody came and nothing happened",
+    "text": "Johanna hovorí prenajímateľovi: Nikto neprišiel a nič sa nestalo. Neviem, čo sa stalo. Nemám žiadne informácie. Nechcem robiť problémy. Nemôžem vám pomôcť viac.",
+    "textEn": "Johanna says to the landlord: Nobody came and nothing happened. I do not know what happened. I have no information. I do not want to make problems. I cannot help you more.",
+    "gaps": [
+      {
+        "position": "Nikto neprišiel",
+        "correct": "neprišiel",
+        "options": [
+          "prišiel",
+          "neišiel",
+          "prichádzal",
+          "neprišiel"
+        ],
+        "hint": "past tense negation, ísť"
+      },
+      {
+        "position": "nič sa nestalo",
+        "correct": "nestalo",
+        "options": [
+          "stalo",
+          "nestálo",
+          "nestali",
+          "nestalo"
+        ],
+        "hint": "past tense negation, stať sa"
+      },
+      {
+        "position": "Neviem, čo sa stalo",
+        "correct": "Neviem",
+        "options": [
+          "Viem",
+          "Nevedia",
+          "Nevedel",
+          "Neviem"
+        ],
+        "hint": "present tense negation, vedieť"
+      },
+      {
+        "position": "Nemám žiadne informácie",
+        "correct": "Nemám",
+        "options": [
+          "Mám",
+          "Nemáme",
+          "Nemali",
+          "Nemám"
+        ],
+        "hint": "present tense negation, mať"
+      },
+      {
+        "position": "Nechcem robiť problémy",
+        "correct": "Nechcem",
+        "options": [
+          "Chcem",
+          "Nechceme",
+          "Nechcel",
+          "Nechcem"
+        ],
+        "hint": "present tense negation, chcieť"
+      },
+      {
+        "position": "Nemôžem vám pomôcť viac",
+        "correct": "Nemôžem",
+        "options": [
+          "Môžem",
+          "Nemôžeme",
+          "Nemohol",
+          "Nemôžem"
+        ],
+        "hint": "present tense negation, môcť"
+      }
+    ],
+    "tags": [
+      "modals",
+      "negation",
+      "past_tense",
+      "present_tense"
+    ]
+  },
+  {
+    "scenario": "Róbert opisuje svoj týždenný rozvrh — ktoré dni pracuje a v koľkých hodinách",
+    "scenarioEn": "Róbert describes his weekly schedule — which days he works and at what times",
+    "text": "Róbert pracuje v pondelok, stredu a piatok. Ráno začína o štvrť na osem. Na obed má prestávku o pol jednej. Popoludní končí o štvrť na šesť. V utorok a štvrtok nepracuje.",
+    "textEn": "Róbert works on Monday, Wednesday and Friday. In the morning he starts at quarter past seven. At lunch he has a break at half past twelve. In the afternoon he finishes at quarter to six. On Tuesday and Thursday he does not work.",
+    "gaps": [
+      {
+        "position": "štvrť na osem",
+        "correct": "štvrť na osem",
+        "options": [
+          "pol ôsmej",
+          "štvrť na osem",
+          "štvrť na siedmu",
+          "pol siedmej"
+        ],
+        "hint": "quarter past seven expression"
+      },
+      {
+        "position": "pol jednej",
+        "correct": "pol jednej",
+        "options": [
+          "pol jednej",
+          "štvrť na jedna",
+          "pol jedna",
+          "štvrť na jednu"
+        ],
+        "hint": "half past twelve expression"
+      },
+      {
+        "position": "štvrť na šesť",
+        "correct": "štvrť na šesť",
+        "options": [
+          "pol šiestej",
+          "štvrť na päť",
+          "štvrť na šesť",
+          "pol piata"
+        ],
+        "hint": "quarter to six expression"
+      },
+      {
+        "position": "v pondelok",
+        "correct": "v pondelok",
+        "options": [
+          "v pondelku",
+          "na pondelok",
+          "v pondelok",
+          "po pondelku"
+        ],
+        "hint": "locative day of week"
+      },
+      {
+        "position": "začína",
+        "correct": "začína",
+        "options": [
+          "začínam",
+          "začínajú",
+          "začína",
+          "začínate"
+        ],
+        "hint": "present tense third person"
+      },
+      {
+        "position": "nepracuje",
+        "correct": "nepracuje",
+        "options": [
+          "nepracujem",
+          "nepracujú",
+          "nepracujete",
+          "nepracuje"
+        ],
+        "hint": "negation third person singular"
+      }
+    ],
+    "tags": [
+      "locative",
+      "negation",
+      "present_tense",
+      "university_work"
+    ]
+  },
+  {
+    "scenario": "Róbert opisuje svoj týždenný rozvrh — ktoré dni pracuje a v akom čase",
+    "scenarioEn": "Róbert describes his weekly schedule — which days he works and at what times",
+    "text": "Róbert pracuje päť dní v týždni. V pondelok a v utorok pracuje od ôsmej do štvrtej. V stredu a vo štvrtok pracuje od deviatej do piatej. V piatok pracuje od siedmej do tretej. Cez víkend nepracuje a oddychuje doma.",
+    "textEn": "Róbert works five days a week. On Monday and Tuesday he works from eight to four. On Wednesday and Thursday he works from nine to five. On Friday he works from seven to three. On the weekend he does not work and rests at home.",
+    "gaps": [
+      {
+        "position": "od ôsmej do štvrtej",
+        "correct": "od ôsmej do štvrtej",
+        "options": [
+          "od ôsma do štvrtá",
+          "od ôsmej do štvrtej",
+          "od ôsme do štvrté",
+          "od ôsmemu do štvrtemu"
+        ],
+        "hint": "od + genitive time expression"
+      },
+      {
+        "position": "od deviatej do piatej",
+        "correct": "od deviatej do piatej",
+        "options": [
+          "od deviatej do piatej",
+          "od deviata do piata",
+          "od deviate do piate",
+          "od deviatemu do piatemu"
+        ],
+        "hint": "od + genitive time expression"
+      },
+      {
+        "position": "od siedmej do tretej",
+        "correct": "od siedmej do tretej",
+        "options": [
+          "od siedma do tretia",
+          "od siedme do tretie",
+          "od siedmej do tretej",
+          "od siedmemu do tretiemu"
+        ],
+        "hint": "od + genitive time expression"
+      },
+      {
+        "position": "päť dní v týždni",
+        "correct": "päť dní v týždni",
+        "options": [
+          "päť dní v týždni",
+          "päť deň v týždeň",
+          "päť dne v týždeň",
+          "päť dni v týždeň"
+        ],
+        "hint": "numeral 5+ with noun"
+      },
+      {
+        "position": "Cez víkend",
+        "correct": "Cez víkend",
+        "options": [
+          "Na víkend",
+          "Cez víkend",
+          "V víkend",
+          "Po víkend"
+        ],
+        "hint": "time expression: during weekend"
+      },
+      {
+        "position": "nepracuje a oddychuje",
+        "correct": "nepracuje a oddychuje",
+        "options": [
+          "nepracuje a oddychuje",
+          "nepracuje a oddychovať",
+          "nie pracuje a oddychuje",
+          "nepracoval a oddychuje"
+        ],
+        "hint": "present tense double negation"
+      }
+    ],
+    "tags": [
+      "negation",
+      "numerals",
+      "present_tense",
+      "time_date",
+      "university_work"
+    ]
+  },
+  {
+    "scenario": "Zuzana checks the train timetable and tells Mišo when they need to leave",
+    "scenarioEn": "Zuzana checks the train timetable and tells Mišo when they need to leave",
+    "text": "Zuzana pozerá na cestovný poriadok vlakov. Vlak ide od deviatej do jedenástej. Mišo, musíme ísť od ôsmej. Prestup je od desiatej do desiatej pätnásť. Oni idú od stanice o deviatej hodine.",
+    "textEn": "Zuzana is looking at the train timetable. The train goes from nine to eleven. Mišo, we need to leave from eight. The transfer is from ten to ten fifteen. They go from the station at nine o'clock.",
+    "gaps": [
+      {
+        "position": "od deviatej do jedenástej",
+        "correct": "od deviatej do jedenástej",
+        "options": [
+          "od deviata do jedenásť",
+          "z deviatej na jedenástej",
+          "od deviatej do jedenástej",
+          "od deväť do jedenásť"
+        ],
+        "hint": "od + ordinal time + do + ordinal time"
+      },
+      {
+        "position": "od ôsmej",
+        "correct": "od ôsmej",
+        "options": [
+          "od ôsma",
+          "z ôsmej",
+          "od ôsmy",
+          "od ôsmej"
+        ],
+        "hint": "od + feminine ordinal genitive-style form"
+      },
+      {
+        "position": "od desiatej do desiatej pätnásť",
+        "correct": "od desiatej do desiatej pätnásť",
+        "options": [
+          "od desiata do desiata pätnásť",
+          "z desiatej na desiatej pätnásť",
+          "od desiatej do desiatej pätnásť",
+          "od deväť do desať pätnásť"
+        ],
+        "hint": "od + do + time range"
+      },
+      {
+        "position": "musíme ísť",
+        "correct": "musíme ísť",
+        "options": [
+          "musím ísť",
+          "musíte ísť",
+          "musíme ísť",
+          "museli ísť"
+        ],
+        "hint": "modal verb first person plural"
+      },
+      {
+        "position": "pozerá na",
+        "correct": "pozerá na",
+        "options": [
+          "pozerám na",
+          "pozeráme na",
+          "pozerá na",
+          "pozerali na"
+        ],
+        "hint": "third person singular present"
+      },
+      {
+        "position": "od stanice",
+        "correct": "od stanice",
+        "options": [
+          "z stanice",
+          "na stanicu",
+          "od stanice",
+          "pri stanici"
+        ],
+        "hint": "od + noun, departure point"
+      }
+    ],
+    "tags": [
+      "modals",
+      "numerals",
+      "transport_travel",
+      "university_work",
+      "weather"
+    ]
+  },
+  {
+    "scenario": "Maja si dohodne návštevu u lekára — dohodnú dátum a čas",
+    "scenarioEn": "Maja makes a doctor's appointment — agreeing on a date and time",
+    "text": "Maja volá do ambulancie. Hovorí: „Chcem termín u lekára.“ Sestra sa pýta: „Kedy môžete prísť?“ Maja odpovedá: „V utorok piateho.“ „O desiatej ráno?“ „Áno, dobre.“ Maja je spokojná.",
+    "textEn": "Maja calls the clinic. She says: \"I want an appointment with the doctor.\" The nurse asks: \"When can you come?\" Maja replies: \"On Tuesday the fifth.\" \"At ten in the morning?\" \"Yes, fine.\" Maja is happy.",
+    "gaps": [
+      {
+        "position": "Kedy",
+        "correct": "Kedy",
+        "options": [
+          "Kde",
+          "Kedy",
+          "Koľko",
+          "Ktorá"
+        ],
+        "hint": "question word for time"
+      },
+      {
+        "position": "V utorok",
+        "correct": "V utorok",
+        "options": [
+          "Na utorok",
+          "V utorok",
+          "Po utorok",
+          "Pri utorok"
+        ],
+        "hint": "day of week, locative"
+      },
+      {
+        "position": "piateho",
+        "correct": "piateho",
+        "options": [
+          "piaty",
+          "piate",
+          "piateho",
+          "piatom"
+        ],
+        "hint": "date ordinal form"
+      },
+      {
+        "position": "O desiatej",
+        "correct": "O desiatej",
+        "options": [
+          "Na desiatej",
+          "O desiatej",
+          "Pri desiatej",
+          "Do desiatej"
+        ],
+        "hint": "time expression o'clock"
+      },
+      {
+        "position": "ráno",
+        "correct": "ráno",
+        "options": [
+          "večer",
+          "ráno",
+          "noc",
+          "poludnie"
+        ],
+        "hint": "time of day"
+      },
+      {
+        "position": "spokojná",
+        "correct": "spokojná",
+        "options": [
+          "spokojný",
+          "spokojné",
+          "spokojná",
+          "spokojní"
+        ],
+        "hint": "adjective feminine form"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "health",
+      "locative",
+      "numerals",
+      "professions",
+      "time_date"
+    ]
+  },
+  {
+    "scenario": "Carlo asks about opening hours of a shop and a museum in Bratislava",
+    "scenarioEn": "Carlo asks about opening hours of a shop and a museum in Bratislava",
+    "text": "Carlo je v Bratislave. Pýta sa: Kedy otvára obchod? Obchod otvára o ôsmej ráno a zatvára o siedmej večer. Kedy je múzeum otvorené? Múzeum je otvorené od pondelka do piatku.",
+    "textEn": "Carlo is in Bratislava. He asks: When does the shop open? The shop opens at eight in the morning and closes at seven in the evening. When is the museum open? The museum is open from Monday to Friday.",
+    "gaps": [
+      {
+        "position": "Kedy otvára obchod",
+        "correct": "Kedy",
+        "options": [
+          "Ktorý",
+          "Kde",
+          "Ako",
+          "Kedy"
+        ],
+        "hint": "question word for time"
+      },
+      {
+        "position": "o ôsmej ráno",
+        "correct": "ôsmej",
+        "options": [
+          "osem",
+          "ôsma",
+          "ôsme",
+          "ôsmej"
+        ],
+        "hint": "time expression o + locative"
+      },
+      {
+        "position": "zatvára o siedmej večer",
+        "correct": "siedmej",
+        "options": [
+          "sedem",
+          "siedma",
+          "siedme",
+          "siedmej"
+        ],
+        "hint": "time expression o + locative"
+      },
+      {
+        "position": "Kedy je múzeum otvorené",
+        "correct": "Kedy",
+        "options": [
+          "Aké",
+          "Ktoré",
+          "Čo",
+          "Kedy"
+        ],
+        "hint": "question word when"
+      },
+      {
+        "position": "od pondelka",
+        "correct": "pondelka",
+        "options": [
+          "pondelok",
+          "pondelku",
+          "pondelkom",
+          "pondelka"
+        ],
+        "hint": "od + genitive day name"
+      },
+      {
+        "position": "do piatku",
+        "correct": "piatku",
+        "options": [
+          "piatok",
+          "piatkom",
+          "piatkovi",
+          "piatku"
+        ],
+        "hint": "do + genitive day name"
+      }
+    ],
+    "tags": [
+      "family_people",
+      "locative",
+      "shopping",
+      "time_date",
+      "transport_travel"
     ]
   }
 ]

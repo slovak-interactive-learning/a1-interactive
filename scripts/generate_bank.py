@@ -102,7 +102,7 @@ GRAMMAR_COMBOS = [
     ["adjective opposites", "locative (v + room/place)", "demonstrative (ten/tá/to)"],
     # Unit 4: nominative, numerals, professions
     ["nominative plural (masc animate -i/-ia)", "numeral 2-4 + nominative plural", "profession vocabulary"],
-    ["pluralia tantum (dvere/nožnice/okuliare)", "present tense (stáť→stojím)", "numeral 5+ genitive plural"],
+    ["pluralia tantum (dvere/nožnice/okuliare)", "present tense (stáť→stojím)", "numerals 2-4 with nominative plural"],
     # Unit 5: accusative, modals, shopping, colours
     ["accusative (direct object)", "modal chcieť + infinitive", "colour + noun (červenú sukňu, modrý sveter)"],
     ["accusative (after na/do/cez/pre)", "modal musieť + infinitive", "irregular ísť present (idem/ideš)"],
@@ -166,7 +166,7 @@ TRANSLATE_GRAMMAR_SETS = [
     ["present tense (irregular verb)", "accusative (direct object)", "instrumental (s + noun)", "locative (v/na + place)"],
     ["past tense (irregular)", "modal verb (musieť/môcť)", "future perfective", "double negation"],
     ["reflexive verb (sa/si)", "time expression (o koľkej)", "accusative (animate masc -a)", "instrumental (bare = tool/transport)"],
-    ["locative (o + topic)", "past tense (regular)", "numeral + genitive plural", "possessive adjective (môj/tvoj)"],
+    ["locative (o + topic)", "past tense (regular)", "numeral 2-4 + nominative plural", "possessive adjective (môj/tvoj)"],
     ["accusative (after na/do)", "instrumental (profession)", "present irregular (jesť/piť)", "word order emphasis"],
     ["future (budem + inf)", "locative (pronoun o ňom/nej)", "instrumental (nad/pod/pred/za)", "past (ísť→išiel)"],
     ["aspect pair (impf→pf)", "accusative (feminine -u)", "modal chcieť + infinitive", "nominative plural"],
@@ -176,7 +176,7 @@ TRANSLATE_GRAMMAR_SETS = [
     # Added for KK coverage:
     ["byť conjugation (som/si/je)", "nationality adjective", "possessive from name (-ov/-in)", "question (odkiaľ/kde)"],
     ["adjective opposites", "čí/aký/ktorý question", "demonstrative (ten/tá/to)", "direction (vpredu/vzadu)"],
-    ["numeral 2-4 + nom pl vs 5+ gen pl", "pluralia tantum", "present (stáť→stojím)", "profession"],
+    ["numeral 2-4 + nominative plural", "pluralia tantum", "present (stáť→stojím)", "profession"],
     ["colour + accusative noun", "modal môcť", "accusative (cez/pre)", "irregular ísť present"],
     ["už + past positive vs ešte ne- + past negative", "time (pol/štvrť/trištvrte)", "reflexive (začínať sa/končiť sa)", "locative (po + noun)"],
 ]
@@ -223,7 +223,7 @@ GAPFILL_GRAMMAR_FOCUSES = [
     "už/ešte with past tense",
     "double negation (nikto/nič/nikdy + ne-)",
     "adjective opposites and agreement (gender/number)",
-    "mix of all cases in one paragraph",
+    "mix of accusative, instrumental and locative in one paragraph",
 ]
 
 DRILL_STEMS_BY_CATEGORY = {
@@ -443,11 +443,11 @@ DRILL_STEMS_BY_CATEGORY = {
     ],
 }
 
-SYSTEM_PROMPT = """You generate Slovak language exercises for an A1-A2 learner (Krížom Krážom textbook).
+SYSTEM_PROMPT = """You generate Slovak language exercises for an A1 learner (Krížom Krážom A1 textbook).
 
-GRAMMAR KNOWN: Cases (nominative, accusative, instrumental, locative) in sg+pl with nouns, adjectives, pronouns. Present tense (groups I-X, irregulars: byť/jesť/piť/vedieť/chcieť/môcť/musieť/ísť/spať/vidieť/stáť/niesť). Past tense (regular + irregular: ísť→išiel, jesť→jedol, niesť→niesol, môcť→mohol). Future (budem+inf, perfective present). Modals, reflexive verbs, aspect basics, possessives, adjective opposites, numerals+agreement, double negation, word order, time expressions, dates.
+GRAMMAR KNOWN: Cases (nominative, accusative, instrumental, locative) in sg+pl with nouns, adjectives, pronouns. Present tense (groups I-X, irregulars: byť/jesť/piť/vedieť/chcieť/môcť/musieť/ísť/spať/vidieť/stáť/niesť). Past tense (regular + irregular: ísť→išiel, jesť→jedol, niesť→niesol, môcť→mohol). Future (budem+inf, perfective present). Modals, reflexive verbs, aspect basics, possessives, adjective opposites, numerals 1-4 + nominative plural, double negation, word order, time expressions, dates.
 
-CRITICAL: Use correct Slovak diacritics. Write natural Slovak. Output ONLY valid JSON."""
+CRITICAL: NEVER use genitive case or dative case — these are not taught at A1 level. Use correct Slovak diacritics. Write natural Slovak. Output ONLY valid JSON."""
 
 
 def make_story_prompt(scenario, grammar_combo, characters):
@@ -680,6 +680,26 @@ def load_progress(base_dir):
     return bank
 
 
+def flatten_translates(items):
+    """Convert any grouped translate objects {theme, sentences:[...]} to flat sentence objects."""
+    flat = []
+    for item in items:
+        if 'sentences' in item:
+            theme = item.get('theme', '')
+            for s in item['sentences']:
+                flat.append({
+                    'en':    s.get('en', ''),
+                    'sk':    s.get('sk', ''),
+                    'altSk': s.get('altSk', []),
+                    'hint':  s.get('hint', ''),
+                    'focus': s.get('focus', ''),
+                    'theme': theme,
+                })
+        else:
+            flat.append(item)
+    return flat
+
+
 def save_bank(bank, base_dir):
     base_dir.mkdir(parents=True, exist_ok=True)
     for key in BANK_KEYS:
@@ -755,7 +775,7 @@ def main():
         random.shuffle(all_combos)
         params = all_combos[:remaining]
         prompts = [make_translate_prompt(t, g) for t, g in params]
-        bank["translates"].extend(generate_parallel(client, prompts, "translate", args.workers))
+        bank["translates"].extend(flatten_translates(generate_parallel(client, prompts, "translate", args.workers)))
         save_bank(bank, base_dir)
 
     # ── GAPFILLS ──

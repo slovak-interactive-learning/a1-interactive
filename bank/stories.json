@@ -74,6 +74,16 @@
         "sk": "charitatívna akcia",
         "en": "charity event"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "home_apartment",
+      "locative",
+      "negation",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -151,6 +161,14 @@
         "sk": "ochutený",
         "en": "seasoned, flavoured"
       }
+    ],
+    "tags": [
+      "countries",
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "shopping",
+      "transport_travel"
     ]
   },
   {
@@ -228,6 +246,13 @@
         "sk": "sused",
         "en": "neighbour"
       }
+    ],
+    "tags": [
+      "home_apartment",
+      "past_tense",
+      "time_date",
+      "transport_travel",
+      "uz_este"
     ]
   },
   {
@@ -305,6 +330,19 @@
         "sk": "zápis",
         "en": "registration / enrolment"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "family_people",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "social",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -382,6 +420,17 @@
         "sk": "bubon",
         "en": "drum"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "countries",
+      "daily_routine",
+      "free_time",
+      "health",
+      "locative",
+      "possessive",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -459,83 +508,15 @@
         "sk": "jedálny lístok",
         "en": "menu"
       }
-    ]
-  },
-  {
-    "title": "Prvý deň v posilňovni",
-    "titleEn": "First Day at the Gym",
-    "sentences": [
-      {
-        "sk": "Carlo a Róbert prišli do novej posilňovne.",
-        "en": "Carlo and Róbert came to the new gym."
-      },
-      {
-        "sk": "Carlo: Vidíš toho trénera tam pri recepcii?",
-        "en": "Carlo: Do you see that trainer there by the reception?"
-      },
-      {
-        "sk": "Róbert: Áno, volá sa Martin. Je veľmi dobrý.",
-        "en": "Róbert: Yes, his name is Martin. He is very good."
-      },
-      {
-        "sk": "Carlo: Môžeme ho požiadať o pomoc?",
-        "en": "Carlo: Can we ask him for help?"
-      },
-      {
-        "sk": "Róbert zavolal trénera Martina k sebe.",
-        "en": "Róbert called trainer Martin over to him."
-      },
-      {
-        "sk": "Martin: Dobrý deň! Čo potrebujete kúpiť?",
-        "en": "Martin: Good day! What do you need to buy?"
-      },
-      {
-        "sk": "Carlo: Potrebujeme športové oblečenie a rukavice.",
-        "en": "Carlo: We need sports clothing and gloves."
-      },
-      {
-        "sk": "Martin ukázal im malý obchod vedľa šatne.",
-        "en": "Martin showed them the small shop next to the changing room."
-      },
-      {
-        "sk": "Róbert kúpil nové tenisky a tričko.",
-        "en": "Róbert bought new trainers and a t-shirt."
-      },
-      {
-        "sk": "Carlo: Môžem si vyskúšať aj tento box?",
-        "en": "Carlo: Can I also try this boxing?"
-      },
-      {
-        "sk": "Martin: Áno, môžeš! Najprv si oblečieš rukavice.",
-        "en": "Martin: Yes, you can! First you will put on the gloves."
-      },
-      {
-        "sk": "Carlo udrel boxovacie vrece veľmi silno.",
-        "en": "Carlo hit the punching bag very hard."
-      },
-      {
-        "sk": "Róbert sa smial a tlieskol priateľovi Carlovi.",
-        "en": "Róbert laughed and clapped for his friend Carlo."
-      },
-      {
-        "sk": "Carlo: Nemôžem uveriť, že je to tak ťažké!",
-        "en": "Carlo: I can't believe it's this hard!"
-      },
-      {
-        "sk": "Obaja chlapci sa dohodli prísť zajtra znova.",
-        "en": "Both guys agreed to come again tomorrow."
-      }
     ],
-    "grammarFocus": "Accusative animate masculine -a: 'trénera Martina' (sentence 5 & 2), 'priateľovi Carlovi' uses dative but 'toho trénera' (sentence 2) shows animate masc acc; môcť + infinitive: 'Môžeme ho požiadať' (s4), 'Môžem si vyskúšať' (s10), 'môžeš' + 'Nemôžem uveriť' (s11, s14); shopping vocabulary: 'kúpiť', 'obchod', 'tenisky', 'tričko', 'rukavice', 'oblečenie' (s6–s11)",
-    "newWords": [
-      {
-        "sk": "boxovacie vrece",
-        "en": "punching bag"
-      },
-      {
-        "sk": "tlieskať",
-        "en": "to clap / to applaud"
-      }
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "past_tense",
+      "present_tense",
+      "social",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -613,6 +594,14 @@
         "sk": "pokojne",
         "en": "peacefully, calmly"
       }
+    ],
+    "tags": [
+      "directions",
+      "home_apartment",
+      "locative",
+      "modals",
+      "negation",
+      "past_tense"
     ]
   },
   {
@@ -690,6 +679,13 @@
         "sk": "nabudúce",
         "en": "next time"
       }
+    ],
+    "tags": [
+      "directions",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "transport_travel"
     ]
   },
   {
@@ -767,6 +763,18 @@
         "sk": "vypredaný",
         "en": "sold out"
       }
+    ],
+    "tags": [
+      "directions",
+      "free_time",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "shopping",
+      "social",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -844,6 +852,17 @@
         "sk": "sľubujem",
         "en": "I promise"
       }
+    ],
+    "tags": [
+      "countries",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "professions",
+      "pronouns",
+      "transport_travel",
+      "university_work",
+      "uz_este"
     ]
   },
   {
@@ -921,6 +940,19 @@
         "sk": "voňala",
         "en": "it smelled / it was fragrant (past tense of voňať)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "daily_routine",
+      "health",
+      "home_apartment",
+      "possessive",
+      "pronouns",
+      "shopping",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -998,6 +1030,15 @@
         "sk": "výhľad",
         "en": "view, outlook"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -1075,6 +1116,15 @@
         "sk": "Nakoniec kúpim skvelú práčku a všetko bude dobré!",
         "en": "In the end I'll buy a great washing machine and everything will be fine!"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "future_tense",
+      "health",
+      "home_apartment",
+      "reflexive",
+      "shopping",
+      "social"
     ]
   },
   {
@@ -1152,6 +1202,15 @@
         "sk": "chodba",
         "en": "corridor, hallway"
       }
+    ],
+    "tags": [
+      "countries",
+      "daily_routine",
+      "free_time",
+      "home_apartment",
+      "locative",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -1229,6 +1288,16 @@
         "sk": "schovať",
         "en": "to hide (perfective)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "colours",
+      "free_time",
+      "home_apartment",
+      "modals",
+      "shopping",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -1306,6 +1375,18 @@
         "sk": "predavačka",
         "en": "shop assistant (female)"
       }
+    ],
+    "tags": [
+      "clothing",
+      "directions",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "shopping",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -1383,6 +1464,15 @@
         "sk": "výhľad",
         "en": "view, outlook"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "free_time",
+      "possessive",
+      "time_date",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -1460,6 +1550,15 @@
         "sk": "bezstarostný",
         "en": "carefree, worry-free"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "food_drink",
+      "free_time",
+      "possessive",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -1537,6 +1636,19 @@
         "sk": "čakáreň",
         "en": "waiting room"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "professions",
+      "time_date",
+      "transport_travel",
+      "university_work",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -1614,6 +1726,15 @@
         "sk": "vrecúško (cukru)",
         "en": "a small sachet/packet (of sugar)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "numerals",
+      "shopping",
+      "weather"
     ]
   },
   {
@@ -1691,6 +1812,20 @@
         "sk": "formulár",
         "en": "form / paperwork"
       }
+    ],
+    "tags": [
+      "countries",
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "social",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -1768,6 +1903,18 @@
         "sk": "suvenír",
         "en": "souvenir"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "free_time",
+      "health",
+      "past_tense",
+      "shopping",
+      "time_date",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -1845,6 +1992,16 @@
         "sk": "zčervenať",
         "en": "to turn red / to blush"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "health",
+      "home_apartment",
+      "locative",
+      "professions",
+      "pronouns",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -1922,6 +2079,15 @@
         "sk": "čuchať",
         "en": "to sniff"
       }
+    ],
+    "tags": [
+      "directions",
+      "health",
+      "home_apartment",
+      "locative",
+      "numerals",
+      "pronouns",
+      "social"
     ]
   },
   {
@@ -1999,6 +2165,18 @@
         "sk": "vybitá batéria",
         "en": "flat/dead battery"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "daily_routine",
+      "directions",
+      "family_people",
+      "home_apartment",
+      "locative",
+      "possessive",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -2076,6 +2254,13 @@
         "sk": "technik",
         "en": "technician"
       }
+    ],
+    "tags": [
+      "free_time",
+      "past_tense",
+      "reflexive",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -2153,83 +2338,16 @@
         "sk": "maslo",
         "en": "butter"
       }
-    ]
-  },
-  {
-    "title": "Nečakaná návšteva",
-    "titleEn": "An Unexpected Visit",
-    "grammarFocus": "pluralia tantum: 'dvere' (sentence 2), 'okuliare' (sentence 8), 'nožnice' (sentence 12); stáť→stojím/stojí (sentences 3, 6); numeral 5+ genitive plural: 'päť minút' (sentence 5), 'šesť rokov' (sentence 10)",
-    "sentences": [
-      {
-        "sk": "Mišo sedel doma a čítal knihu.",
-        "en": "Mišo was sitting at home and reading a book."
-      },
-      {
-        "sk": "Zrazu niekto zaklopal na dvere.",
-        "en": "Suddenly someone knocked on the door."
-      },
-      {
-        "sk": "Mišo vstal a myslel si: Kto tam stojí?",
-        "en": "Mišo got up and thought: Who is standing there?"
-      },
-      {
-        "sk": "Otvoril dvere a nevedel uveriť svojim očiam.",
-        "en": "He opened the door and couldn't believe his eyes."
-      },
-      {
-        "sk": "Carlo: Ahoj, kamarát! Čakal si ma päť minút?",
-        "en": "Carlo: Hi, friend! Did you wait for me five minutes?"
-      },
-      {
-        "sk": "Mišo: Carlo! Stojíš tu naozaj pred mojimi dverami!",
-        "en": "Mišo: Carlo! You are really standing here in front of my door!"
-      },
-      {
-        "sk": "Carlo: Áno, prišiel som ťa navštíviť!",
-        "en": "Carlo: Yes, I came to visit you!"
-      },
-      {
-        "sk": "Mišo: Ale kde máš svoje okuliare?",
-        "en": "Mišo: But where are your glasses?"
-      },
-      {
-        "sk": "Carlo: Zabudol som ich doma, som trochu slepý.",
-        "en": "Carlo: I forgot them at home, I'm a bit blind."
-      },
-      {
-        "sk": "Mišo: Nevideli sme sa šesť rokov, priateľ!",
-        "en": "Mišo: We haven't seen each other for six years, friend!"
-      },
-      {
-        "sk": "Carlo sa zasmial a objal Miša.",
-        "en": "Carlo laughed and hugged Mišo."
-      },
-      {
-        "sk": "Mišo: Počkaj, nájdem ti nožnice na obal.",
-        "en": "Mišo: Wait, I'll find you scissors for the packaging."
-      },
-      {
-        "sk": "Carlo priniesol tortu zabalenú v darčekovom papieri.",
-        "en": "Carlo had brought a cake wrapped in gift paper."
-      },
-      {
-        "sk": "Carlo: Kúpil som sedem kusov čokolády pre teba!",
-        "en": "Carlo: I bought seven pieces of chocolate for you!"
-      },
-      {
-        "sk": "Mišo: Toto je najlepší deň tohto roka!",
-        "en": "Mišo: This is the best day of this year!"
-      }
     ],
-    "newWords": [
-      {
-        "sk": "zaklopať (zaklopal)",
-        "en": "to knock (knocked)"
-      },
-      {
-        "sk": "navštíviť",
-        "en": "to visit"
-      }
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "directions",
+      "family_people",
+      "food_drink",
+      "modals",
+      "shopping",
+      "social"
     ]
   },
   {
@@ -2307,6 +2425,17 @@
         "sk": "prestávka (f.)",
         "en": "break, pause (at work/school)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -2384,6 +2513,17 @@
         "sk": "atmosféra",
         "en": "atmosphere"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "family_people",
+      "locative",
+      "modals",
+      "negation",
+      "past_tense",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -2461,6 +2601,16 @@
         "sk": "prázdny",
         "en": "empty"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "free_time",
+      "health",
+      "home_apartment",
+      "possessive",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -2538,6 +2688,17 @@
         "sk": "záložný kľúč",
         "en": "spare key"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "free_time",
+      "home_apartment",
+      "locative",
+      "negation",
+      "social",
+      "time_date",
+      "uz_este"
     ]
   },
   {
@@ -2615,6 +2776,14 @@
         "sk": "vankúš",
         "en": "pillow"
       }
+    ],
+    "tags": [
+      "family_people",
+      "free_time",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "transport_travel"
     ]
   },
   {
@@ -2692,6 +2861,15 @@
         "sk": "fontána (f)",
         "en": "fountain"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "food_drink",
+      "health",
+      "possessive",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -2769,6 +2947,15 @@
         "sk": "hosťka",
         "en": "(female) guest"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "countries",
+      "family_people",
+      "food_drink",
+      "health",
+      "social"
     ]
   },
   {
@@ -2846,6 +3033,14 @@
         "sk": "dave (dav)",
         "en": "crowd"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "clothing",
+      "modals",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -2923,6 +3118,16 @@
         "sk": "nabudúce",
         "en": "next time"
       }
+    ],
+    "tags": [
+      "accusative",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "present_tense",
+      "pronouns",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -3000,6 +3205,14 @@
         "sk": "jedálny lístok",
         "en": "menu"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "instrumental",
+      "social",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -3077,6 +3290,17 @@
         "sk": "výpadok prúdu",
         "en": "power cut"
       }
+    ],
+    "tags": [
+      "colours",
+      "free_time",
+      "home_apartment",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -3154,6 +3378,20 @@
         "sk": "stuha (f)",
         "en": "ribbon"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "colours",
+      "countries",
+      "family_people",
+      "free_time",
+      "health",
+      "home_apartment",
+      "locative",
+      "possessive",
+      "pronouns",
+      "social",
+      "weather"
     ]
   },
   {
@@ -3231,6 +3469,16 @@
         "sk": "rad",
         "en": "queue / line"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "home_apartment",
+      "numerals",
+      "past_tense",
+      "present_tense",
+      "time_date",
+      "university_work"
     ]
   },
   {
@@ -3308,6 +3556,12 @@
         "sk": "filter",
         "en": "filter (e.g. in a washing machine)"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "possessive",
+      "university_work"
     ]
   },
   {
@@ -3385,6 +3639,16 @@
         "sk": "index (m.)",
         "en": "grade record book (university student booklet)"
       }
+    ],
+    "tags": [
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "locative",
+      "time_date",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -3462,6 +3726,13 @@
         "sk": "nasledovať",
         "en": "to follow"
       }
+    ],
+    "tags": [
+      "countries",
+      "directions",
+      "health",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -3539,6 +3810,16 @@
         "sk": "poschodie",
         "en": "floor / storey"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "family_people",
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "shopping",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -3616,6 +3897,15 @@
         "sk": "škatuľa",
         "en": "box, carton"
       }
+    ],
+    "tags": [
+      "clothing",
+      "family_people",
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -3693,6 +3983,17 @@
         "sk": "chvejúci sa",
         "en": "trembling"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "free_time",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -3770,6 +4071,17 @@
         "sk": "súhlasil",
         "en": "he agreed (past tense of súhlasiť)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "shopping",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -3847,6 +4159,17 @@
         "sk": "police (f.)",
         "en": "shelf"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "daily_routine",
+      "health",
+      "home_apartment",
+      "locative",
+      "possessive",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -3924,6 +4247,19 @@
         "sk": "pôvodný",
         "en": "original"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "family_people",
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "shopping",
+      "time_date",
+      "uz_este",
+      "weather"
     ]
   },
   {
@@ -4001,6 +4337,14 @@
         "sk": "zapečatená",
         "en": "sealed"
       }
+    ],
+    "tags": [
+      "directions",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "university_work"
     ]
   },
   {
@@ -4078,6 +4422,14 @@
         "sk": "rozhádzané",
         "en": "scattered, strewn about"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "home_apartment",
+      "locative",
+      "possessive",
+      "transport_travel"
     ]
   },
   {
@@ -4155,83 +4507,14 @@
         "sk": "doklad totožnosti",
         "en": "identity document"
       }
-    ]
-  },
-  {
-    "title": "Kde sú dvere do konferenčnej sály?",
-    "titleEn": "Where Is the Door to the Conference Hall?",
-    "grammarFocus": "pluralia tantum: 'dvere' (sentence 3,13), 'okuliare' (sentence 7); present tense 'stojím/stojíte' (sentences 2,5); numeral 5+ genitive plural: 'päť poschodí' (sentence 4), 'šesť miestností' (sentence 10)",
-    "sentences": [
-      {
-        "sk": "Marianna stojí pri recepcii a čaká.",
-        "en": "Marianna is standing at the reception and waiting."
-      },
-      {
-        "sk": "Róbert: Dobrý deň, môžem vám pomôcť?",
-        "en": "Róbert: Good day, can I help you?"
-      },
-      {
-        "sk": "Marianna: Hľadám dvere do konferenčnej sály.",
-        "en": "Marianna: I am looking for the door to the conference hall."
-      },
-      {
-        "sk": "Róbert: Budova má päť poschodí.",
-        "en": "Róbert: The building has five floors."
-      },
-      {
-        "sk": "Róbert: Konferenčná sála je na treťom poschodí.",
-        "en": "Róbert: The conference hall is on the third floor."
-      },
-      {
-        "sk": "Marianna: Kde stojíte vy teraz?",
-        "en": "Marianna: Where are you standing right now?"
-      },
-      {
-        "sk": "Róbert: Stojím pri výťahu, poďte so mnou.",
-        "en": "Róbert: I am standing by the elevator, come with me."
-      },
-      {
-        "sk": "Marianna stratila okuliare a nevidela dobre.",
-        "en": "Marianna lost her glasses and couldn't see well."
-      },
-      {
-        "sk": "Róbert: Nevadí, ja vás odvediem.",
-        "en": "Róbert: No worries, I will escort you."
-      },
-      {
-        "sk": "Chodba má šesť miestností na každej strane.",
-        "en": "The corridor has six rooms on each side."
-      },
-      {
-        "sk": "Róbert: Tretie dvere vľavo sú konferenčná sála.",
-        "en": "Róbert: The third door on the left is the conference hall."
-      },
-      {
-        "sk": "Marianna: Ďakujem veľmi pekne, ste veľmi milý.",
-        "en": "Marianna: Thank you very much, you are very kind."
-      },
-      {
-        "sk": "Dvere do sály boli otvorené, ľudia čakali.",
-        "en": "The door to the hall was open, people were waiting."
-      },
-      {
-        "sk": "Marianna vstúpila dnu a usadila sa.",
-        "en": "Marianna entered and sat down."
-      },
-      {
-        "sk": "Róbert sa usmial a vrátil sa dole.",
-        "en": "Róbert smiled and went back downstairs."
-      }
     ],
-    "newWords": [
-      {
-        "sk": "výťah",
-        "en": "elevator / lift"
-      },
-      {
-        "sk": "chodba",
-        "en": "corridor / hallway"
-      }
+    "tags": [
+      "adjectives",
+      "countries",
+      "daily_routine",
+      "free_time",
+      "possessive",
+      "transport_travel"
     ]
   },
   {
@@ -4309,6 +4592,13 @@
         "sk": "odtiaľto",
         "en": "from here"
       }
+    ],
+    "tags": [
+      "countries",
+      "directions",
+      "food_drink",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -4386,6 +4676,18 @@
         "sk": "objatie",
         "en": "hug"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "social",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -4463,6 +4765,16 @@
         "sk": "upozornenie",
         "en": "warning / notice"
       }
+    ],
+    "tags": [
+      "directions",
+      "home_apartment",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -4540,6 +4852,17 @@
         "sk": "zoznam",
         "en": "list"
       }
+    ],
+    "tags": [
+      "accusative",
+      "directions",
+      "family_people",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "modals",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -4617,6 +4940,19 @@
         "sk": "koberec",
         "en": "carpet, rug"
       }
+    ],
+    "tags": [
+      "colours",
+      "directions",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "shopping",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -4694,6 +5030,15 @@
         "sk": "náhradné koleso (n)",
         "en": "spare wheel"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "daily_routine",
+      "home_apartment",
+      "modals",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -4771,6 +5116,17 @@
         "sk": "formulár",
         "en": "form (document to fill in)"
       }
+    ],
+    "tags": [
+      "countries",
+      "daily_routine",
+      "directions",
+      "family_people",
+      "free_time",
+      "health",
+      "shopping",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -4848,6 +5204,17 @@
         "sk": "zablahoželať (+ dat.)",
         "en": "to congratulate, to wish well"
       }
+    ],
+    "tags": [
+      "accusative",
+      "directions",
+      "family_people",
+      "free_time",
+      "health",
+      "modals",
+      "shopping",
+      "social",
+      "time_date"
     ]
   },
   {
@@ -4925,6 +5292,18 @@
         "sk": "spolubývajúci",
         "en": "roommate / housemate"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "countries",
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "free_time",
+      "home_apartment",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -5002,6 +5381,18 @@
         "sk": "pásy (m pl)",
         "en": "ribbons, strips"
       }
+    ],
+    "tags": [
+      "clothing",
+      "colours",
+      "daily_routine",
+      "directions",
+      "family_people",
+      "health",
+      "home_apartment",
+      "numerals",
+      "shopping",
+      "transport_travel"
     ]
   },
   {
@@ -5079,6 +5470,18 @@
         "sk": "darček",
         "en": "gift / present"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "family_people",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "locative",
+      "pronouns",
+      "shopping",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -5156,6 +5559,14 @@
         "sk": "sebavedomý",
         "en": "confident, self-assured"
       }
+    ],
+    "tags": [
+      "accusative",
+      "directions",
+      "home_apartment",
+      "modals",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -5233,6 +5644,15 @@
         "sk": "police (polica)",
         "en": "shelf (in a library or store)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "health",
+      "past_tense",
+      "shopping",
+      "time_date",
+      "university_work",
+      "uz_este"
     ]
   },
   {
@@ -5310,6 +5730,16 @@
         "sk": "správca",
         "en": "building manager / caretaker"
       }
+    ],
+    "tags": [
+      "directions",
+      "future_tense",
+      "health",
+      "home_apartment",
+      "numerals",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -5387,6 +5817,14 @@
         "sk": "postoj (m.) — správna poloha tela",
         "en": "stance / posture"
       }
+    ],
+    "tags": [
+      "free_time",
+      "health",
+      "instrumental",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -5464,6 +5902,18 @@
         "sk": "voňať",
         "en": "to smell (nice), to be fragrant"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "health",
+      "home_apartment",
+      "possessive",
+      "pronouns",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -5541,6 +5991,14 @@
         "sk": "drobné",
         "en": "small change / coins"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "food_drink",
+      "home_apartment",
+      "modals",
+      "shopping"
     ]
   },
   {
@@ -5618,6 +6076,16 @@
         "sk": "chodba (f)",
         "en": "hallway, corridor"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -5695,6 +6163,17 @@
         "sk": "nevesta",
         "en": "bride"
       }
+    ],
+    "tags": [
+      "directions",
+      "family_people",
+      "food_drink",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -5772,6 +6251,13 @@
         "sk": "tlačidlo",
         "en": "button"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "directions",
+      "health",
+      "modals"
     ]
   },
   {
@@ -5849,6 +6335,14 @@
         "sk": "neznámy",
         "en": "unknown/unfamiliar"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "home_apartment",
+      "possessive",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -5926,6 +6420,20 @@
         "sk": "perón",
         "en": "platform (at a train station)"
       }
+    ],
+    "tags": [
+      "accusative",
+      "clothing",
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "modals",
+      "professions",
+      "shopping",
+      "time_date",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -6003,6 +6511,14 @@
         "sk": "spolubývajúca",
         "en": "roommate / flatmate"
       }
+    ],
+    "tags": [
+      "countries",
+      "daily_routine",
+      "food_drink",
+      "home_apartment",
+      "social",
+      "university_work"
     ]
   },
   {
@@ -6080,6 +6596,16 @@
         "sk": "opravár (m.)",
         "en": "repairman, technician"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "daily_routine",
+      "health",
+      "modals",
+      "shopping",
+      "transport_travel",
+      "uz_este"
     ]
   },
   {
@@ -6157,6 +6683,14 @@
         "sk": "pokrčiť ramenami",
         "en": "to shrug one's shoulders"
       }
+    ],
+    "tags": [
+      "adjectives",
+      "directions",
+      "possessive",
+      "shopping",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -6234,6 +6768,17 @@
         "sk": "vybitá (batéria)",
         "en": "dead / flat (battery)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "home_apartment",
+      "locative",
+      "negation",
+      "social",
+      "time_date",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -6311,6 +6856,19 @@
         "sk": "guláš",
         "en": "goulash (meat stew)"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "family_people",
+      "food_drink",
+      "free_time",
+      "health",
+      "locative",
+      "numerals",
+      "possessive",
+      "pronouns",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -6388,6 +6946,17 @@
         "sk": "oblečenie",
         "en": "clothing / clothes"
       }
+    ],
+    "tags": [
+      "accusative",
+      "clothing",
+      "daily_routine",
+      "health",
+      "instrumental",
+      "present_tense",
+      "pronouns",
+      "shopping",
+      "social"
     ]
   },
   {
@@ -6465,6 +7034,17 @@
         "sk": "predajňa (f)",
         "en": "shop, store"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "family_people",
+      "home_apartment",
+      "modals",
+      "shopping",
+      "social",
+      "transport_travel",
+      "university_work"
     ]
   },
   {
@@ -6542,6 +7122,18 @@
         "sk": "batéria (f.)",
         "en": "battery"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "health",
+      "home_apartment",
+      "nom_plural",
+      "nominative",
+      "numerals",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -6619,6 +7211,15 @@
         "sk": "mračna",
         "en": "(rain) cloud"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "clothing",
+      "food_drink",
+      "home_apartment",
+      "modals",
+      "weather"
     ]
   },
   {
@@ -6696,6 +7297,18 @@
         "sk": "hodnotenie (n.)",
         "en": "evaluation, grade"
       }
+    ],
+    "tags": [
+      "countries",
+      "food_drink",
+      "health",
+      "home_apartment",
+      "locative",
+      "professions",
+      "time_date",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -6773,6 +7386,20 @@
         "sk": "spomienka",
         "en": "memory / souvenir"
       }
+    ],
+    "tags": [
+      "countries",
+      "directions",
+      "family_people",
+      "food_drink",
+      "home_apartment",
+      "instrumental",
+      "locative",
+      "past_tense",
+      "social",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -6850,6 +7477,16 @@
         "sk": "spokojný",
         "en": "satisfied / content"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "food_drink",
+      "future_tense",
+      "health",
+      "home_apartment",
+      "reflexive",
+      "shopping",
+      "transport_travel"
     ]
   },
   {
@@ -6927,6 +7564,15 @@
         "sk": "čašník",
         "en": "waiter"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "health",
+      "instrumental",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -7004,6 +7650,18 @@
         "sk": "sviečka",
         "en": "candle"
       }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "family_people",
+      "health",
+      "home_apartment",
+      "possessive",
+      "pronouns",
+      "shopping",
+      "social",
+      "transport_travel"
     ]
   },
   {
@@ -7081,6 +7739,17 @@
         "sk": "útulný",
         "en": "cosy, snug"
       }
+    ],
+    "tags": [
+      "colours",
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "instrumental",
+      "social",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -7158,6 +7827,11 @@
         "sk": "opravár (m.)",
         "en": "repairman, technician"
       }
+    ],
+    "tags": [
+      "countries",
+      "home_apartment",
+      "university_work"
     ]
   },
   {
@@ -7235,6 +7909,14 @@
         "sk": "posilňovňa (f.)",
         "en": "gym / fitness centre"
       }
+    ],
+    "tags": [
+      "directions",
+      "instrumental",
+      "pronouns",
+      "transport_travel",
+      "university_work",
+      "weather"
     ]
   },
   {
@@ -7312,6 +7994,18 @@
         "sk": "konferencia",
         "en": "conference"
       }
+    ],
+    "tags": [
+      "accusative",
+      "countries",
+      "food_drink",
+      "free_time",
+      "home_apartment",
+      "modals",
+      "social",
+      "time_date",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -7389,6 +8083,16 @@
         "sk": "predavač",
         "en": "vendor / seller"
       }
+    ],
+    "tags": [
+      "accusative",
+      "daily_routine",
+      "health",
+      "home_apartment",
+      "modals",
+      "shopping",
+      "time_date",
+      "transport_travel"
     ]
   },
   {
@@ -7466,6 +8170,16 @@
         "sk": "odvoz",
         "en": "pickup, transport (taking something away)"
       }
+    ],
+    "tags": [
+      "directions",
+      "free_time",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "transport_travel",
+      "weather"
     ]
   },
   {
@@ -7543,6 +8257,17 @@
         "sk": "čašník (m.)",
         "en": "waiter"
       }
+    ],
+    "tags": [
+      "daily_routine",
+      "directions",
+      "food_drink",
+      "free_time",
+      "health",
+      "locative",
+      "negation",
+      "time_date",
+      "weather"
     ]
   },
   {
@@ -7620,6 +8345,1045 @@
         "sk": "zachichotať sa (pf)",
         "en": "to chuckle, to giggle"
       }
+    ],
+    "tags": [
+      "colours",
+      "food_drink",
+      "free_time",
+      "health",
+      "home_apartment",
+      "past_tense",
+      "reflexive",
+      "shopping",
+      "social",
+      "transport_travel"
+    ]
+  },
+  {
+    "title": "Všetko je zlá farba!",
+    "titleEn": "Everything Is the Wrong Colour!",
+    "grammarFocus": "Adjective opposites (svetlý/tmavý, jasný/bledý) appear in sentences 3,5,8,11,13; colour+noun in accusative in sentences 2,6,9,12,14; demonstrative ten/tá/to in sentences 4,7,10,13,15",
+    "sentences": [
+      {
+        "sk": "Johanna a Mišo idú do obchodu s oblečením.",
+        "en": "Johanna and Mišo are going to a clothing store."
+      },
+      {
+        "sk": "Johanna hľadá modrú blúzku pre seba.",
+        "en": "Johanna is looking for a blue blouse for herself."
+      },
+      {
+        "sk": "Vidí svetlú blúzku, ale nechce svetlú farbu.",
+        "en": "She sees a light blouse, but she does not want a light colour."
+      },
+      {
+        "sk": "Hovorí: \"Tá blúzka je príliš svetlá!\"",
+        "en": "She says: \"That blouse is too light!\""
+      },
+      {
+        "sk": "Mišo ukazuje tmavú blúzku pri okne.",
+        "en": "Mišo points to a dark blouse near the window."
+      },
+      {
+        "sk": "Johanna berie tmavú blúzku a pozerá sa.",
+        "en": "Johanna takes the dark blouse and looks at it."
+      },
+      {
+        "sk": "\"Nie, ten odtieň je príliš tmavý,\" hovorí.",
+        "en": "\"No, that shade is too dark,\" she says."
+      },
+      {
+        "sk": "Mišo skúša zelené nohavice pre seba.",
+        "en": "Mišo tries on green trousers for himself."
+      },
+      {
+        "sk": "Predavačka prináša jasné zelené nohavice.",
+        "en": "The saleswoman brings bright green trousers."
+      },
+      {
+        "sk": "Mišo vraví: \"To je príliš jasná farba!\"",
+        "en": "Mišo says: \"That is too bright a colour!\""
+      },
+      {
+        "sk": "Hľadá bledé alebo tmavé nohavice namiesto toho.",
+        "en": "He looks for pale or dark trousers instead."
+      },
+      {
+        "sk": "Predavačka ukazuje bledú šedú košeľu Mišovi.",
+        "en": "The saleswoman shows Mišo a pale grey shirt."
+      },
+      {
+        "sk": "\"Ten sveter je pekný, ale príliš bledý!\"",
+        "en": "\"That sweater is nice, but too pale!\""
+      },
+      {
+        "sk": "Nakoniec Johanna kupuje červenú bundu a Mišo modrý sveter.",
+        "en": "Finally Johanna buys a red jacket and Mišo a blue sweater."
+      },
+      {
+        "sk": "\"To bolo ťažké nakupovanie!\" smejú sa obaja.",
+        "en": "\"That was difficult shopping!\" they both laugh."
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "predavačka",
+        "en": "saleswoman"
+      },
+      {
+        "sk": "odtieň",
+        "en": "shade (of colour)"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "clothing",
+      "colours",
+      "directions",
+      "pronouns",
+      "shopping",
+      "weather"
+    ]
+  },
+  {
+    "title": "Všetko má zlú farbu",
+    "titleEn": "Everything Is the Wrong Colour",
+    "grammarFocus": "Adjective opposites (svetlý/tmavý, jasný/bledý) appear in sentences 3,6,9,11,13; colour+noun in accusative in sentences 4,7,10,12,14; demonstratives (ten/tá/to) in sentences 5,8,11,13,15",
+    "sentences": [
+      {
+        "sk": "Johanna a Mišo idú nakupovať nové oblečenie.",
+        "en": "Johanna and Mišo are going shopping for new clothes."
+      },
+      {
+        "sk": "Sú v obchode s oblečením v centre mesta.",
+        "en": "They are in a clothes shop in the city centre."
+      },
+      {
+        "sk": "Johanna vidí svetlý sveter na poličke.",
+        "en": "Johanna sees a light-coloured sweater on the shelf."
+      },
+      {
+        "sk": "Mišo chce tmavú bundu, nie svetlú.",
+        "en": "Mišo wants a dark jacket, not a light one."
+      },
+      {
+        "sk": "Ten sveter je príliš bledý pre mňa.",
+        "en": "That sweater is too pale for me."
+      },
+      {
+        "sk": "Johanna hľadá jasný šál, nie tmavý.",
+        "en": "Johanna is looking for a bright scarf, not a dark one."
+      },
+      {
+        "sk": "Predavačka ukazuje červenú košeľu Mišovi.",
+        "en": "The shop assistant shows Mišo a red shirt."
+      },
+      {
+        "sk": "Tá košeľa je príliš jasná, hovorí Mišo.",
+        "en": "That shirt is too bright, says Mišo."
+      },
+      {
+        "sk": "Johanna skúša bledú sukňu pred zrkadlom.",
+        "en": "Johanna tries on a pale skirt in front of the mirror."
+      },
+      {
+        "sk": "Nie, nechcem bledú sukňu, chcem tmavú.",
+        "en": "No, I don't want a pale skirt, I want a dark one."
+      },
+      {
+        "sk": "To tmavé sako je veľmi pekné, myslí Johanna.",
+        "en": "That dark blazer is very nice, thinks Johanna."
+      },
+      {
+        "sk": "Mišo skúša modrú bundu pri okne.",
+        "en": "Mišo tries on a blue jacket by the window."
+      },
+      {
+        "sk": "Tá bunda je svetlá, nie tmavá, vraví Johanna.",
+        "en": "That jacket is light, not dark, says Johanna."
+      },
+      {
+        "sk": "Nakoniec Mišo kupuje čiernu bundu a je spokojný.",
+        "en": "Finally Mišo buys a black jacket and is happy."
+      },
+      {
+        "sk": "To bol veľmi dlhý deň v obchode!",
+        "en": "That was a very long day in the shop!"
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "predavačka",
+        "en": "shop assistant (female)"
+      },
+      {
+        "sk": "poličke (poličke = locative of polička)",
+        "en": "shelf"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "clothing",
+      "colours",
+      "directions",
+      "pronouns",
+      "shopping",
+      "transport_travel",
+      "weather"
+    ]
+  },
+  {
+    "title": "Prvý deň v práci",
+    "titleEn": "First Day at Work",
+    "grammarFocus": "Accusative of clothing nouns (nosím sukňu, blúzku, kabát): sentences 3,5,7,9. Colour adjective agreement with accusative nouns (modrú sukňu, čierne nohavice, bielu blúzku): sentences 5,7,9,11. Modal musieť + infinitive (musím vyzerať, musíš si obliecť): sentences 4,6,10,13.",
+    "sentences": [
+      {
+        "sk": "Johanna má zajtra prvý deň v novej práci.",
+        "en": "Johanna has her first day at a new job tomorrow."
+      },
+      {
+        "sk": "Ráno zavolá svoju kamarátku Zuzanu.",
+        "en": "In the morning she calls her friend Zuzana."
+      },
+      {
+        "sk": "„Zuzana, neviem, čo si obliecť!",
+        "en": "\"Zuzana, I don't know what to wear!\""
+      },
+      {
+        "sk": "„Musíš vyzerať profesionálne a elegantne.",
+        "en": "\"You must look professional and elegant.\""
+      },
+      {
+        "sk": "„Mám modrú sukňu a bielu blúzku.",
+        "en": "\"I have a blue skirt and a white blouse.\""
+      },
+      {
+        "sk": "„Musíš si obliecť tú modrú sukňu!",
+        "en": "\"You must put on that blue skirt!\""
+      },
+      {
+        "sk": "Johanna hľadá svoju bielu blúzku v skrini.",
+        "en": "Johanna looks for her white blouse in the wardrobe."
+      },
+      {
+        "sk": "Nájde aj čierny kabát za dverami.",
+        "en": "She also finds a black coat behind the door."
+      },
+      {
+        "sk": "„Oblečiem si čierny kabát aj bielu blúzku.",
+        "en": "\"I will put on the black coat and the white blouse too.\""
+      },
+      {
+        "sk": "„Musíš si vziať aj peknú kabelku!",
+        "en": "\"You must also take a nice handbag!\""
+      },
+      {
+        "sk": "Johanna vezme červenú kabelku zo stola.",
+        "en": "Johanna takes the red handbag from the table."
+      },
+      {
+        "sk": "„Som pripravená! Vyzerám dobre?",
+        "en": "\"I am ready! Do I look good?\""
+      },
+      {
+        "sk": "„Áno, ale musíš si ešte učesať vlasy!",
+        "en": "\"Yes, but you must still comb your hair!\""
+      },
+      {
+        "sk": "Johanna sa rýchlo učeše a ide von.",
+        "en": "Johanna quickly combs her hair and goes outside."
+      },
+      {
+        "sk": "Prvý deň v práci začína veľmi dobre.",
+        "en": "The first day at work starts very well."
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "elegantne",
+        "en": "elegantly / in an elegant way"
+      },
+      {
+        "sk": "skriňa",
+        "en": "wardrobe / closet"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "daily_routine",
+      "health",
+      "modals",
+      "professions",
+      "social",
+      "university_work"
+    ]
+  },
+  {
+    "title": "Prvý deň v novej práci",
+    "titleEn": "First Day at a New Job",
+    "grammarFocus": "Adjective opposites (dlhý/krátky) in sentences 3, 5, 9; accusative with 'pre koho' in sentences 7, 12; present tense clothing verbs (obliekať sa, nosiť, mať na sebe) in sentences 2, 4, 6, 8, 10, 13",
+    "sentences": [
+      {
+        "sk": "Johanna má zajtra prvý deň v novej práci.",
+        "en": "Johanna has her first day at a new job tomorrow."
+      },
+      {
+        "sk": "Ráno sa oblieká a nevie, čo si obliecť.",
+        "en": "In the morning she is getting dressed and doesn't know what to wear."
+      },
+      {
+        "sk": "Má dlhú modrú sukňu a krátku červenú sukňu.",
+        "en": "She has a long blue skirt and a short red skirt."
+      },
+      {
+        "sk": "Volá svoju kamarátku Zuzanu.",
+        "en": "She calls her friend Zuzana."
+      },
+      {
+        "sk": "„Mám nosiť dlhú sukňu alebo krátku sukňu?",
+        "en": "\"Should I wear the long skirt or the short skirt?\""
+      },
+      {
+        "sk": "Zuzana sa obliekla a ide k Johanne.",
+        "en": "Zuzana got dressed and is going to Johanna's place."
+      },
+      {
+        "sk": "„Toto oblečenie je pre teba, nie pre šéfa!",
+        "en": "\"This outfit is for you, not for the boss!\""
+      },
+      {
+        "sk": "Johanna má na sebe aj bielu košeľu.",
+        "en": "Johanna also has a white blouse on."
+      },
+      {
+        "sk": "Zuzana hovorí: „Biela košeľa a dlhá sukňa sú pekné.",
+        "en": "Zuzana says: \"The white blouse and long skirt look nice.\""
+      },
+      {
+        "sk": "Johanna si oblieka dlhú modrú sukňu a bielu košeľu.",
+        "en": "Johanna puts on the long blue skirt and white blouse."
+      },
+      {
+        "sk": "„Vyzeráš veľmi profesionálne!",
+        "en": "\"You look very professional!\""
+      },
+      {
+        "sk": "„Aký outfit je vhodný pre novú prácu?",
+        "en": "\"What outfit is suitable for a new job?\""
+      },
+      {
+        "sk": "Zuzana nosí krátke šaty, ale dnes má na sebe nohavice.",
+        "en": "Zuzana usually wears short dresses, but today she has trousers on."
+      },
+      {
+        "sk": "Johanna odchádza do práce s úsmevom.",
+        "en": "Johanna leaves for work with a smile."
+      },
+      {
+        "sk": "Prvý deň bol skvelý a všetci mali radi jej oblečenie.",
+        "en": "The first day was great and everyone liked her outfit."
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "oblečenie (n.)",
+        "en": "clothing, outfit"
+      },
+      {
+        "sk": "profesionálne (adv.)",
+        "en": "professionally, in a professional manner"
+      }
+    ],
+    "tags": [
+      "accusative",
+      "adjectives",
+      "clothing",
+      "daily_routine",
+      "present_tense",
+      "professions",
+      "social",
+      "university_work"
+    ]
+  },
+  {
+    "title": "Prvý deň v Slovensku",
+    "titleEn": "The First Day in Slovakia",
+    "grammarFocus": "Nominative plural of professions: sentences 3, 7, 11 (lekári, učitelia, predavači). Question Čo robíte?/Kde pracujete?: sentences 4, 5, 8, 9. Instrumental ako+profession: sentences 6, 10, 14.",
+    "sentences": [
+      {
+        "sk": "Carlo prišiel na Slovensko prvý raz.",
+        "en": "Carlo came to Slovakia for the first time."
+      },
+      {
+        "sk": "Johanna a Mišo čakali na neho na stanici.",
+        "en": "Johanna and Mišo waited for him at the station."
+      },
+      {
+        "sk": "Johanna povedala: „Tu pracujú mnohí lekári a učitelia.",
+        "en": "Johanna said: 'Many doctors and teachers work here.'"
+      },
+      {
+        "sk": "Carlo sa opýtal: „Čo robíte, Johanna?",
+        "en": "Carlo asked: 'What do you do, Johanna?'"
+      },
+      {
+        "sk": "„Kde pracujete?",
+        "en": "'Where do you work?'"
+      },
+      {
+        "sk": "„Pracujem ako učiteľka v škole.",
+        "en": "'I work as a teacher at a school.'"
+      },
+      {
+        "sk": "Mišo dodal: „V nemocnici pracujú dobrí lekári.",
+        "en": "Mišo added: 'Good doctors work in the hospital.'"
+      },
+      {
+        "sk": "Carlo sa spýtal Miša: „Čo robíte vy?",
+        "en": "Carlo asked Mišo: 'What do you do?'"
+      },
+      {
+        "sk": "„Kde pracujete, Mišo?",
+        "en": "'Where do you work, Mišo?'"
+      },
+      {
+        "sk": "„Pracujem ako kuchár v reštaurácii.",
+        "en": "'I work as a cook in a restaurant.'"
+      },
+      {
+        "sk": "V reštaurácii pracovali aj mladí predavači.",
+        "en": "Young salespeople also worked in the restaurant."
+      },
+      {
+        "sk": "Carlo bol veľmi prekvapený a šťastný.",
+        "en": "Carlo was very surprised and happy."
+      },
+      {
+        "sk": "Videl mnoho zaujímavých ľudí v meste.",
+        "en": "He saw many interesting people in the city."
+      },
+      {
+        "sk": "Chcel pracovať ako novinár na Slovensku.",
+        "en": "He wanted to work as a journalist in Slovakia."
+      },
+      {
+        "sk": "Johanna a Mišo mu pomohli spoznať Slovensko.",
+        "en": "Johanna and Mišo helped him get to know Slovakia."
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "prekvapený",
+        "en": "surprised"
+      },
+      {
+        "sk": "novinár",
+        "en": "journalist"
+      }
+    ],
+    "tags": [
+      "countries",
+      "food_drink",
+      "health",
+      "instrumental",
+      "nom_plural",
+      "nominative",
+      "professions",
+      "transport_travel",
+      "university_work"
+    ]
+  },
+  {
+    "title": "Deň kariéry na univerzite",
+    "titleEn": "Career Day at University",
+    "grammarFocus": "Profession with byť: sentences 1,3,5,8,11,13 — 'Chcem byť lekár/architekt'; Noun gender masc/fem profession pairs: sentences 5,8,11 — lekár/lekárka, učiteľ/učiteľka, architekt/architektka; Present tense pracovať/robiť: sentences 4,7,10,14 — 'Lekári pracujú v nemocnici', 'robím projekty'",
+    "sentences": [
+      {
+        "sk": "Dnes je deň kariéry na našej univerzite.",
+        "en": "Today is career day at our university."
+      },
+      {
+        "sk": "Mišo a Carlo sú nervózni pred prezentáciou.",
+        "en": "Mišo and Carlo are nervous before the presentation."
+      },
+      {
+        "sk": "Mišo hovorí prvý pred celou triedou.",
+        "en": "Mišo speaks first in front of the whole class."
+      },
+      {
+        "sk": "„Chcem byť lekár. Lekári pracujú v nemocnici.",
+        "en": "\"I want to be a doctor. Doctors work in a hospital.\""
+      },
+      {
+        "sk": "„Môj otec je lekár a moja mama je lekárka.",
+        "en": "\"My father is a doctor and my mother is also a doctor.\""
+      },
+      {
+        "sk": "Spolužiaci tlieskajú a Mišo sa červená.",
+        "en": "Classmates applaud and Mišo blushes."
+      },
+      {
+        "sk": "Teraz Carlo vstáva a ide k tabuli.",
+        "en": "Now Carlo stands up and goes to the board."
+      },
+      {
+        "sk": "„Ja chcem byť architekt,",
+        "en": "\"I want to be an architect,\" says Carlo."
+      },
+      {
+        "sk": "„Moja sestra je architektka v Taliansku.",
+        "en": "\"My sister is an architect in Italy.\""
+      },
+      {
+        "sk": "„Architekti robia krásne budovy a projekty.",
+        "en": "\"Architects make beautiful buildings and projects.\""
+      },
+      {
+        "sk": "Carlo ukazuje fotografie svojich obľúbených budov.",
+        "en": "Carlo shows photos of his favourite buildings."
+      },
+      {
+        "sk": "Profesorka pýta: „A kto chce byť učiteľ?",
+        "en": "The professor asks: \"And who wants to be a teacher?\""
+      },
+      {
+        "sk": "Jedna dievčina hovorí: „Ja chcem byť učiteľka!",
+        "en": "One girl says: \"I want to be a teacher!\""
+      },
+      {
+        "sk": "Mišo a Carlo veľa pracujú na svojich snoch.",
+        "en": "Mišo and Carlo work hard on their dreams."
+      },
+      {
+        "sk": "Deň kariéry bol zaujímavý a inšpiratívny pre všetkých.",
+        "en": "Career day was interesting and inspiring for everyone."
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "kariéra (ž.)",
+        "en": "career (noun, feminine)"
+      },
+      {
+        "sk": "inšpiratívny",
+        "en": "inspiring (adjective)"
+      }
+    ],
+    "tags": [
+      "family_people",
+      "health",
+      "present_tense",
+      "professions",
+      "transport_travel",
+      "university_work",
+      "weather"
+    ]
+  },
+  {
+    "title": "Kvíz z geografie",
+    "titleEn": "The Geography Quiz",
+    "grammarFocus": "byť+z+country in sentences 2,4,6,8; nationality nouns (Slovák/Slovak, Talian/Talianka, Francúz/Francúzka) in sentences 3,5,10,12; personal pronouns ja/ty/on/ona throughout",
+    "sentences": [
+      {
+        "sk": "Dnes je v škole kvíz z geografie.",
+        "en": "Today there is a geography quiz at school."
+      },
+      {
+        "sk": "Učiteľka hovorí: Mišo, ty si z Slovenska.",
+        "en": "The teacher says: Mišo, you are from Slovakia."
+      },
+      {
+        "sk": "Áno, ja som Slovák a som z Bratislavy.",
+        "en": "Yes, I am Slovak and I am from Bratislava."
+      },
+      {
+        "sk": "Carlo, ty si z Talianska, pravda?",
+        "en": "Carlo, you are from Italy, right?"
+      },
+      {
+        "sk": "Áno, ja som Talian a ona je Talianka.",
+        "en": "Yes, I am Italian and she is Italian."
+      },
+      {
+        "sk": "Učiteľka pýta: Aké je hlavné mesto Talianska?",
+        "en": "The teacher asks: What is the capital of Italy?"
+      },
+      {
+        "sk": "Carlo odpovedá rýchlo: Hlavné mesto je Rím.",
+        "en": "Carlo answers quickly: The capital is Rome."
+      },
+      {
+        "sk": "Mišo, on je z Francúzska.",
+        "en": "Mišo, he is from France."
+      },
+      {
+        "sk": "Mišo hovorí: On je Francúz a ona je Francúzka.",
+        "en": "Mišo says: He is French and she is French."
+      },
+      {
+        "sk": "Učiteľka sa pýta: Aké je hlavné mesto Francúzska?",
+        "en": "The teacher asks: What is the capital of France?"
+      },
+      {
+        "sk": "Ja viem! Hlavné mesto je Paríž.",
+        "en": "I know! The capital is Paris."
+      },
+      {
+        "sk": "Carlo hovorí: Ja som Talian, nie Francúz.",
+        "en": "Carlo says: I am Italian, not French."
+      },
+      {
+        "sk": "Ty si múdry, Mišo! hovorí učiteľka.",
+        "en": "You are clever, Mišo! says the teacher."
+      },
+      {
+        "sk": "Carlo a Mišo sú dobrí kamaráti.",
+        "en": "Carlo and Mišo are good friends."
+      },
+      {
+        "sk": "Kvíz je hotový a obaja sú šťastní.",
+        "en": "The quiz is finished and both are happy."
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "hlavné mesto",
+        "en": "capital city"
+      },
+      {
+        "sk": "odpovedať",
+        "en": "to answer"
+      }
+    ],
+    "tags": [
+      "countries",
+      "directions",
+      "family_people",
+      "professions",
+      "pronouns",
+      "social",
+      "transport_travel",
+      "university_work"
+    ]
+  },
+  {
+    "title": "Kvíz o krajinách",
+    "titleEn": "A Quiz About Countries",
+    "grammarFocus": "Nationality adjective agreement (sentences 3,7,10,12): e.g. 'taliansky študent', 'slovenská škola'; Locative v/na + country (sentences 5,8,11,14): e.g. 'v Taliansku', 'na Slovensku'; Questions Odkiaľ ste/Kde bývate (sentences 4,6,9,13)",
+    "sentences": [
+      {
+        "sk": "V jazykovej škole je dnes geografický kvíz.",
+        "en": "Today there is a geography quiz at the language school."
+      },
+      {
+        "sk": "Učiteľka hovorí: „Začíname! Pripravte sa!",
+        "en": "The teacher says: 'We are starting! Get ready!'"
+      },
+      {
+        "sk": "Mišo je slovenský študent a Carlo je taliansky študent.",
+        "en": "Mišo is a Slovak student and Carlo is an Italian student."
+      },
+      {
+        "sk": "Učiteľka sa pýta: „Carlo, odkiaľ ste?",
+        "en": "The teacher asks: 'Carlo, where are you from?'"
+      },
+      {
+        "sk": "Carlo odpovedá: „Bývam v Taliansku, v Ríme.",
+        "en": "Carlo answers: 'I live in Italy, in Rome.'"
+      },
+      {
+        "sk": "Mišo sa pýta: „Carlo, kde bývate teraz?",
+        "en": "Mišo asks: 'Carlo, where do you live now?'"
+      },
+      {
+        "sk": "Carlo hovorí: „Teraz bývam na Slovensku.",
+        "en": "Carlo says: 'Now I live in Slovakia.'"
+      },
+      {
+        "sk": "Učiteľka hovorí: „Výborne! Aké hlavné mesto je vo Francúzsku?",
+        "en": "The teacher says: 'Excellent! What is the capital city in France?'"
+      },
+      {
+        "sk": "Mišo odpovedá rýchlo: „Paríž je vo Francúzsku!",
+        "en": "Mišo answers quickly: 'Paris is in France!'"
+      },
+      {
+        "sk": "Carlo pozná francúzsku hlavnú mesto veľmi dobre.",
+        "en": "Carlo knows the French capital very well."
+      },
+      {
+        "sk": "Carlo hovorí: „Berlín je v Nemecku.",
+        "en": "Carlo says: 'Berlin is in Germany.'"
+      },
+      {
+        "sk": "Mišo hovorí: „Bratislava je slovenské hlavné mesto.",
+        "en": "Mišo says: 'Bratislava is the Slovak capital.'"
+      },
+      {
+        "sk": "Učiteľka sa pýta: „Kde bývate, keď ste v Bratislave?",
+        "en": "The teacher asks: 'Where do you live when you are in Bratislava?'"
+      },
+      {
+        "sk": "Obaja chlapci bývajú v Bratislave na internáte.",
+        "en": "Both boys live in Bratislava in a dormitory."
+      },
+      {
+        "sk": "Učiteľka hovorí: „Ste výborní! Kvíz je hotový.",
+        "en": "The teacher says: 'You are excellent! The quiz is finished.'"
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "hlavné mesto",
+        "en": "capital city"
+      },
+      {
+        "sk": "internát",
+        "en": "dormitory / student residence"
+      }
+    ],
+    "tags": [
+      "adjectives",
+      "countries",
+      "family_people",
+      "home_apartment",
+      "locative",
+      "professions",
+      "transport_travel",
+      "university_work"
+    ]
+  },
+  {
+    "title": "Carlo volá na linku pomoci",
+    "titleEn": "Carlo Calls the Help Line",
+    "grammarFocus": "volať sa all persons (S1,S3,S7,S10,S14); group II hovoriť/rozumieť (S2,S4,S5,S6,S8,S9,S11,S12); negation nerozumiem/nehovorím (S4,S5,S8,S9,S12)",
+    "sentences": [
+      {
+        "sk": "Carlo volá na linku pomoci.",
+        "en": "Carlo is calling the help line."
+      },
+      {
+        "sk": "Hovorí pomaly, lebo je nervózny.",
+        "en": "He speaks slowly because he is nervous."
+      },
+      {
+        "sk": "Telefón zvoní a Zuzana dvíha slúchadlo.",
+        "en": "The phone rings and Zuzana picks up the receiver."
+      },
+      {
+        "sk": "Zuzana hovorí: „Dobrý deň, volám sa Zuzana.",
+        "en": "Zuzana says: 'Good day, my name is Zuzana.'"
+      },
+      {
+        "sk": "Carlo hovorí: „Prepáčte, nerozumiem dobre po slovensky.",
+        "en": "Carlo says: 'Excuse me, I do not understand Slovak well.'"
+      },
+      {
+        "sk": "Zuzana hovorí pomaly a jasne.",
+        "en": "Zuzana speaks slowly and clearly."
+      },
+      {
+        "sk": "Carlo rozumie trochu, ale nie všetko.",
+        "en": "Carlo understands a little, but not everything."
+      },
+      {
+        "sk": "Volá sa Carlo a je z Talianska.",
+        "en": "His name is Carlo and he is from Italy."
+      },
+      {
+        "sk": "Hovorí: „Nehovorím dobre slovensky, iba trochu.",
+        "en": "He says: 'I do not speak Slovak well, only a little.'"
+      },
+      {
+        "sk": "Zuzana volá kolegyňu: „Maja, poď sem, prosím!",
+        "en": "Zuzana calls her colleague: 'Maja, come here, please!'"
+      },
+      {
+        "sk": "Maja sa volá Maja Kováčová.",
+        "en": "Her name is Maja Kováčová."
+      },
+      {
+        "sk": "Maja hovorí taliansky trochu.",
+        "en": "Maja speaks Italian a little."
+      },
+      {
+        "sk": "Carlo rozumie Maje a je šťastný.",
+        "en": "Carlo understands Maja and he is happy."
+      },
+      {
+        "sk": "Maja hovorí: „Ako sa voláš ty?",
+        "en": "Maja says: 'What is your name?'"
+      },
+      {
+        "sk": "Carlo odpovedá a smeje sa.",
+        "en": "Carlo answers and laughs."
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "slúchadlo",
+        "en": "receiver (telephone handset)"
+      },
+      {
+        "sk": "jasne",
+        "en": "clearly"
+      }
+    ],
+    "tags": [
+      "countries",
+      "negation",
+      "transport_travel",
+      "university_work"
+    ]
+  },
+  {
+    "title": "Carlo volá na linku pomoci",
+    "titleEn": "Carlo Calls the Help Line",
+    "grammarFocus": "volať sa (all persons) in sentences 1,3,5,8; group II hovoriť/rozumieť in sentences 2,4,6,7,9,10,11,12; negation nerozumiem/nehovorím in sentences 4,6,9,11",
+    "sentences": [
+      {
+        "sk": "Carlo volá na linku pomoci.",
+        "en": "Carlo is calling the help line."
+      },
+      {
+        "sk": "Hovorí po slovensky veľmi pomaly.",
+        "en": "He speaks Slovak very slowly."
+      },
+      {
+        "sk": "Žena hovorí: „Volám sa Zuzana.",
+        "en": "The woman says: 'My name is Zuzana.'"
+      },
+      {
+        "sk": "Carlo hovorí: „Nerozumiem vám dobre.",
+        "en": "Carlo says: 'I don't understand you well.'"
+      },
+      {
+        "sk": "Zuzana pýta sa: „Ako sa voláte?",
+        "en": "Zuzana asks: 'What is your name?'"
+      },
+      {
+        "sk": "Carlo odpovedá: „Volám sa Carlo. Nehovorím dobre po slovensky.",
+        "en": "Carlo answers: 'My name is Carlo. I don't speak Slovak well.'"
+      },
+      {
+        "sk": "Zuzana hovorí pomaly a zreteľne.",
+        "en": "Zuzana speaks slowly and clearly."
+      },
+      {
+        "sk": "Carlo teraz trochu rozumie.",
+        "en": "Carlo now understands a little."
+      },
+      {
+        "sk": "Potom hovorí iná žena: „Volám sa Maja.",
+        "en": "Then another woman speaks: 'My name is Maja.'"
+      },
+      {
+        "sk": "Maja hovorí po anglicky aj po slovensky.",
+        "en": "Maja speaks English and also Slovak."
+      },
+      {
+        "sk": "Carlo hovorí: „Teraz rozumiem lepšie!",
+        "en": "Carlo says: 'Now I understand better!'"
+      },
+      {
+        "sk": "Maja a Carlo hovoria spolu dlho.",
+        "en": "Maja and Carlo talk together for a long time."
+      },
+      {
+        "sk": "Carlo sa pýta: „Ako sa volá táto linka?",
+        "en": "Carlo asks: 'What is this line called?'"
+      },
+      {
+        "sk": "Maja odpovedá: „Volá sa Linka pomoci.",
+        "en": "Maja answers: 'It is called the Help Line.'"
+      },
+      {
+        "sk": "Carlo je šťastný a ďakuje Maje.",
+        "en": "Carlo is happy and thanks Maja."
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "linka pomoci",
+        "en": "help line / helpline"
+      },
+      {
+        "sk": "zreteľne",
+        "en": "clearly / distinctly"
+      }
+    ],
+    "tags": [
+      "countries",
+      "negation",
+      "transport_travel"
+    ]
+  },
+  {
+    "title": "Večera u Carla",
+    "titleEn": "Dinner at Carlo's Place",
+    "grammarFocus": "Group V (pozvať): pozve, pozveš, pozvú — appear in sentences 1,3,5; Group VI (žiť): žije, žijú — appear in sentences 2,7; Group VII (niesť): nesie, nesieš, nesú — appear in sentences 8,10,12",
+    "sentences": [
+      {
+        "sk": "Carlo pozve Róberta na večeru v piatok.",
+        "en": "Carlo will invite Róbert to dinner on Friday."
+      },
+      {
+        "sk": "Róbert žije blízko Carla, takže príde pešo.",
+        "en": "Róbert lives near Carlo, so he will come on foot."
+      },
+      {
+        "sk": "Carlo pozve aj svoju kamarátku Miu.",
+        "en": "Carlo will also invite his friend Mia."
+      },
+      {
+        "sk": "Mia býva ďaleko, ale chce prísť.",
+        "en": "Mia lives far away, but she wants to come."
+      },
+      {
+        "sk": "Carlo pozve celkom päť priateľov na večeru.",
+        "en": "Carlo will invite five friends in total to dinner."
+      },
+      {
+        "sk": "Róbert sa pýta: \"Čo mám priniesť?\"",
+        "en": "Róbert asks: \"What should I bring?\""
+      },
+      {
+        "sk": "Carlo žije sám, takže potrebuje veľa jedla.",
+        "en": "Carlo lives alone, so he needs a lot of food."
+      },
+      {
+        "sk": "Róbert nesie víno a čerstvý chlieb.",
+        "en": "Róbert brings wine and fresh bread."
+      },
+      {
+        "sk": "Carlo varí cestoviny s paradajkovou omáčkou.",
+        "en": "Carlo cooks pasta with tomato sauce."
+      },
+      {
+        "sk": "Mia nesie veľkú čokoládovú tortu.",
+        "en": "Mia brings a big chocolate cake."
+      },
+      {
+        "sk": "Priatelia prídu o siedmej hodine večer.",
+        "en": "The friends will come at seven o'clock in the evening."
+      },
+      {
+        "sk": "Všetci nesú niečo chutné pre Carla.",
+        "en": "Everyone brings something tasty for Carlo."
+      },
+      {
+        "sk": "Carlo je veľmi rád, lebo má dobrých priateľov.",
+        "en": "Carlo is very happy because he has good friends."
+      },
+      {
+        "sk": "Spolu jedia, pijú a veľa sa smejú.",
+        "en": "Together they eat, drink and laugh a lot."
+      },
+      {
+        "sk": "Róbert hovorí: \"Táto večera je úžasná!\"",
+        "en": "Róbert says: \"This dinner is amazing!\""
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "omáčka",
+        "en": "sauce"
+      },
+      {
+        "sk": "úžasný",
+        "en": "amazing, wonderful"
+      }
+    ],
+    "tags": [
+      "food_drink",
+      "health",
+      "social",
+      "transport_travel"
+    ]
+  },
+  {
+    "title": "Nočné dobrodružstvo na internáte",
+    "titleEn": "A Night Adventure at the Dormitory",
+    "grammarFocus": "spať (VIII): spím/spíš/spí — sentences 1,2,3; stretnúť sa (IX): stretnem/stretneš/stretne — sentences 5,6; vidieť (X): vidím/vidíš/vidí — sentences 9,10,11",
+    "sentences": [
+      {
+        "sk": "Je neskoro v noci a Johanna nespí.",
+        "en": "It is late at night and Johanna cannot sleep."
+      },
+      {
+        "sk": "Mišo tiež nespí a počúva hudbu.",
+        "en": "Mišo also cannot sleep and is listening to music."
+      },
+      {
+        "sk": "Johanna si myslí: Prečo vôbec spím tu?",
+        "en": "Johanna thinks: Why do I even sleep here?"
+      },
+      {
+        "sk": "Ona vstane a ide do kuchyne.",
+        "en": "She gets up and goes to the kitchen."
+      },
+      {
+        "sk": "Tam sa stretne s Mišom.",
+        "en": "There she meets Mišo."
+      },
+      {
+        "sk": "Stretnú sa pri chladničke o polnoci.",
+        "en": "They meet at the fridge at midnight."
+      },
+      {
+        "sk": "Johanna sa spýta: Ty tiež nespíš?",
+        "en": "Johanna asks: You also cannot sleep?"
+      },
+      {
+        "sk": "Mišo povie: Nie, vôbec nespím dnes.",
+        "en": "Mišo says: No, I cannot sleep at all today."
+      },
+      {
+        "sk": "Zrazu Johanna vidí niečo smiešne na stole.",
+        "en": "Suddenly Johanna sees something funny on the table."
+      },
+      {
+        "sk": "Vidí veľkú žabu vedľa tanierov.",
+        "en": "She sees a big frog next to the plates."
+      },
+      {
+        "sk": "Mišo tiež vidí žabu a začne sa smiať.",
+        "en": "Mišo also sees the frog and starts to laugh."
+      },
+      {
+        "sk": "Johanna kričí: To je žaba Tomáša!",
+        "en": "Johanna shouts: That is Tomáš's frog!"
+      },
+      {
+        "sk": "Mišo chytí žabu a nesie ju preč.",
+        "en": "Mišo catches the frog and carries it away."
+      },
+      {
+        "sk": "Obaja sa smejú a cítia sa dobre.",
+        "en": "Both laugh and feel good."
+      },
+      {
+        "sk": "Potom konečne idú spať spokojní.",
+        "en": "Then they finally go to sleep contentedly."
+      }
+    ],
+    "newWords": [
+      {
+        "sk": "chladnička",
+        "en": "fridge / refrigerator"
+      },
+      {
+        "sk": "smiešny",
+        "en": "funny / amusing"
+      }
+    ],
+    "tags": [
+      "free_time",
+      "home_apartment",
+      "transport_travel"
     ]
   }
 ]
